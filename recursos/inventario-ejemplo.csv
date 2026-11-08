@@ -1,0 +1,5 @@
+activo;tipo;ubicacion;cpu;ram_gib;disco_gib;sistema;rol;consumo_medido_w
+LAB-001;VM;laboratorio;2 vCPU;4;30;Debian 13;servicios;
+LAB-002;VM;laboratorio;2 vCPU;8;80;Windows 11 Pro;cliente;
+EQ-001;fisico-sintetico;aula;4 nucleos;16;512;Linux;puesto;65
+EQ-002;fisico-sintetico;aula;6 nucleos;16;512;Windows;puesto;80

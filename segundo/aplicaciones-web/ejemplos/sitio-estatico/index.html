@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ejemplo didáctico de documentación de un taller SMR con HTML y CSS locales.">
+  <title>Taller SMR · Plan de mantenimiento</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header>
+    <div class="contenedor">
+      <p class="marca">Taller SMR · Datos ficticios</p>
+      <h1>Plan de mantenimiento del aula</h1>
+      <p>Un ejemplo estático para estudiar estructura, accesibilidad y pruebas.</p>
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="#prioridades">Prioridades</a></li>
+          <li><a href="#inventario">Inventario</a></li>
+          <li><a href="#revision">Revisión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="contenido" class="contenedor" tabindex="-1">
+    <section id="prioridades" aria-labelledby="titulo-prioridades">
+      <h2 id="titulo-prioridades">La copia y la comprobación preceden a cualquier cambio</h2>
+      <div class="tarjetas">
+        <article>
+          <h3>1. Identificar</h3>
+          <p>Registrar equipo, síntoma y condiciones. No confundir una hipótesis con un diagnóstico confirmado.</p>
+        </article>
+        <article>
+          <h3>2. Conservar</h3>
+          <p>Crear una copia adecuada y comprobar que puede recuperarse antes de modificar datos.</p>
+        </article>
+        <article>
+          <h3>3. Verificar</h3>
+          <p>Repetir la prueba inicial y documentar el resultado después de cada cambio.</p>
+        </article>
+      </div>
+    </section>
+    <section id="inventario" aria-labelledby="titulo-inventario">
+      <h2 id="titulo-inventario">Inventario de ejemplo</h2>
+      <p id="nota-tabla">Las prioridades se expresan con palabras, además de cualquier color.</p>
+      <div class="tabla-contenedor" tabindex="0" role="region" aria-label="Inventario con desplazamiento horizontal si es necesario">
+        <table aria-describedby="nota-tabla">
+          <caption>Tres equipos sintéticos del aula de prácticas</caption>
+          <thead>
+            <tr><th scope="col">Código</th><th scope="col">Estado</th><th scope="col">Acción siguiente</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">PC-001</th><td>En revisión</td><td>Comprobar salida de vídeo</td></tr>
+            <tr><th scope="row">PC-002</th><td>Operativo</td><td>Ensayar restauración de una copia</td></tr>
+            <tr><th scope="row">PC-003</th><td>Mantenimiento pendiente</td><td>Programar ventana con el usuario</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="revision" aria-labelledby="titulo-revision">
+      <h2 id="titulo-revision">Comprobar la entrega</h2>
+      <ul>
+        <li>Recorrer enlaces con teclado y observar el foco.</li>
+        <li>Ampliar la página y reducir el ancho de la ventana.</li>
+        <li>Confirmar en la pestaña Red que todos los recursos son locales.</li>
+        <li>Revisar título, jerarquía y descripción de la tabla.</li>
+      </ul>
+      <details>
+        <summary>¿Este ejemplo envía datos a un servidor?</summary>
+        <p>No contiene formularios, analítica ni scripts. El servidor HTTP registra las peticiones según su configuración.</p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="contenedor">
+      <p>Material educativo de SMR. Las tareas y los equipos son ficticios.</p>
+      <p><a href="#contenido">Volver al contenido principal</a></p>
+    </div>
+  </footer>
+</body>
+</html>

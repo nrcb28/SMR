@@ -1,0 +1,32 @@
+# Credenciales y resultados privados del alumno
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+id_rsa*
+id_ed25519*
+evidencias-privadas/
+
+# Imágenes, discos y copias del laboratorio
+*.iso
+*.vdi
+*.vmdk
+*.qcow2
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.bak
+*.dump
+
+# Archivos temporales
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+~$*
+.~lock.*
+*.tmp

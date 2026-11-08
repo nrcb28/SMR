@@ -1,0 +1,32 @@
+{
+  "titulo": "Técnico en Sistemas Microinformáticos y Redes",
+  "codigo_madrid": "IFCM01",
+  "comunidad": "Madrid",
+  "fecha_revision": "2026-11-08",
+  "horas_totales": 2000,
+  "fuente_distribucion": "https://www.bocm.es/boletin/CM_Orden_BOCM/2024/11/15/BOCM-20241115-1.PDF#page=35",
+  "nota": "Carpetas y propuestas didácticas propias. El proyecto es transversal y su carpeta se ubica en segundo para agrupar la entrega. CMO no determina la optativa concreta del centro.",
+  "modulos": [
+    {"id": "0221", "codigo": "0221", "nombre": "Montaje y mantenimiento de equipos", "curso_tabla": 1, "horas": 200, "horas_semanales": 6, "carpeta": "primero/montaje-y-mantenimiento-de-equipos"},
+    {"id": "0222", "codigo": "0222", "nombre": "Sistemas operativos monopuesto", "curso_tabla": 1, "horas": 175, "horas_semanales": 5, "carpeta": "primero/sistemas-operativos-monopuesto"},
+    {"id": "0223", "codigo": "0223", "nombre": "Aplicaciones ofimáticas", "curso_tabla": 1, "horas": 235, "horas_semanales": 7, "carpeta": "primero/aplicaciones-ofimaticas"},
+    {"id": "0225", "codigo": "0225", "nombre": "Redes locales", "curso_tabla": 1, "horas": 240, "horas_semanales": 7, "carpeta": "primero/redes-locales"},
+    {"id": "1709", "codigo": "1709", "nombre": "Itinerario personal para la empleabilidad I", "curso_tabla": 1, "horas": 100, "horas_semanales": 3, "carpeta": "primero/itinerario-personal-para-la-empleabilidad-i"},
+    {"id": "CMO-1", "codigo": "CMO", "nombre": "Módulo profesional optativo de primero", "curso_tabla": 1, "horas": 50, "horas_semanales": 2, "carpeta": "primero/modulo-optativo"},
+    {"id": "0224", "codigo": "0224", "nombre": "Sistemas operativos en red", "curso_tabla": 2, "horas": 230, "horas_semanales": 7, "carpeta": "segundo/sistemas-operativos-en-red"},
+    {"id": "0226", "codigo": "0226", "nombre": "Seguridad informática", "curso_tabla": 2, "horas": 85, "horas_semanales": 3, "carpeta": "segundo/seguridad-informatica"},
+    {"id": "0227", "codigo": "0227", "nombre": "Servicios en red", "curso_tabla": 2, "horas": 230, "horas_semanales": 7, "carpeta": "segundo/servicios-en-red"},
+    {"id": "0228", "codigo": "0228", "nombre": "Aplicaciones web", "curso_tabla": 2, "horas": 135, "horas_semanales": 4, "carpeta": "segundo/aplicaciones-web"},
+    {"id": "0156", "codigo": "0156", "nombre": "Inglés profesional (GM)", "curso_tabla": 2, "horas": 50, "horas_semanales": 2, "carpeta": "segundo/ingles-profesional"},
+    {"id": "1710", "codigo": "1710", "nombre": "Itinerario personal para la empleabilidad II", "curso_tabla": 2, "horas": 70, "horas_semanales": 2, "carpeta": "segundo/itinerario-personal-para-la-empleabilidad-ii"},
+    {"id": "1664", "codigo": "1664", "nombre": "Digitalización aplicada a los sectores productivos (GM)", "curso_tabla": 2, "horas": 30, "horas_semanales": 1, "carpeta": "segundo/digitalizacion-aplicada-a-los-sectores-productivos"},
+    {"id": "1708", "codigo": "1708", "nombre": "Sostenibilidad aplicada al sistema productivo", "curso_tabla": 2, "horas": 30, "horas_semanales": 1, "carpeta": "segundo/sostenibilidad-aplicada-al-sistema-productivo"},
+    {"id": "CMO-2", "codigo": "CMO", "nombre": "Módulo profesional optativo de segundo", "curso_tabla": 2, "horas": 90, "horas_semanales": 3, "carpeta": "segundo/modulo-optativo"},
+    {"id": "1713", "codigo": "1713", "nombre": "Proyecto intermodular", "curso_tabla": null, "horas": 50, "horas_semanales": null, "carpeta": "segundo/proyecto-intermodular"}
+  ],
+  "historicos": [
+    {"codigo": "0229", "nombre": "Formación y orientación laboral", "carpeta": "plan-anterior/formacion-y-orientacion-laboral"},
+    {"codigo": "0230", "nombre": "Empresa e iniciativa emprendedora", "carpeta": "plan-anterior/empresa-e-iniciativa-emprendedora"},
+    {"codigo": "0231", "nombre": "Formación en centros de trabajo", "carpeta": "plan-anterior/formacion-en-centros-de-trabajo"}
+  ]
+}

@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+  --texto: #172337;
+  --fondo: #f4f7fb;
+  --enlace: #084d99;
+  --borde: #8092ab;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: auto; }
+body {
+  margin: 0;
+  color: var(--texto);
+  background: var(--fondo);
+  font: 1rem/1.65 system-ui, sans-serif;
+}
+.contenedor { width: min(100% - 2rem, 68rem); margin-inline: auto; }
+a { color: var(--enlace); text-underline-offset: .2em; }
+a:hover { text-decoration-thickness: .18em; }
+:focus-visible { outline: 3px solid #a23d00; outline-offset: 4px; }
+.salto {
+  position: absolute;
+  left: 1rem;
+  top: -10rem;
+  z-index: 1;
+  padding: .6rem 1rem;
+  background: white;
+}
+.salto:focus { top: 1rem; }
+header { background: #e1ebf7; padding-block: 2rem; border-bottom: 1px solid var(--borde); }
+.marca { font-weight: 700; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.7rem); line-height: 1.2; max-width: 24ch; }
+h2 { font-size: clamp(1.35rem, 3vw, 1.8rem); line-height: 1.35; }
+h3 { font-size: 1.2rem; }
+nav ul { display: flex; flex-wrap: wrap; gap: .8rem 1.5rem; padding: 0; list-style: none; }
+nav a { display: inline-block; padding: .35rem 0; }
+main { padding-block: 1rem 3rem; }
+section { margin-block: 2rem; scroll-margin-block-start: 1rem; }
+.tarjetas { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: 1rem; }
+article { border: 1px solid var(--borde); border-radius: .4rem; background: white; padding: 1rem; }
+article h3 { margin-top: 0; }
+.tabla-contenedor { overflow-x: auto; border: 1px solid var(--borde); background: white; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+caption { padding: .8rem; font-weight: 700; text-align: left; }
+th, td { padding: .7rem; vertical-align: top; border-top: 1px solid var(--borde); }
+thead th { background: #e1ebf7; }
+details { padding: 1rem; background: white; border: 1px solid var(--borde); }
+summary { cursor: pointer; font-weight: 700; }
+footer { padding-block: 1rem; background: #e1ebf7; border-top: 1px solid var(--borde); }
+@media print {
+  body { background: white; color: black; font-size: 11pt; }
+  .salto, nav, footer a { display: none; }
+  .contenedor { width: 100%; }
+  .tarjetas { display: block; }
+  article, table { break-inside: avoid; }
+  a { color: black; }
+}

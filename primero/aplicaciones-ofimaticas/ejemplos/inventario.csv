@@ -1,0 +1,9 @@
+codigo;descripcion;aula;unidades;precio_unitario;fecha_alta;estado
+EQ-001;Memoria DDR4 8 GB;Aula 1;4;25,00;2025-09-15;Operativo
+EQ-002;SSD SATA 500 GB;Aula 1;5;40,00;2025-10-01;Operativo
+EQ-003;Monitor 24 pulgadas;Aula 2;3;120,00;2025-09-20;Operativo
+EQ-004;Teclado USB;Aula 2;10;15,00;2025-09-20;Operativo
+EQ-005;Switch gestionable 8 puertos;Aula 1;2;90,00;2025-11-12;Operativo
+EQ-006;Portátil de prácticas;Aula 3;2;450,00;2026-01-10;En reparación
+EQ-007;Impresora láser;Aula 3;1;180,00;2025-12-04;Operativo
+EQ-008;SAI 900 VA;Aula 1;2;160,00;2026-02-02;Baja

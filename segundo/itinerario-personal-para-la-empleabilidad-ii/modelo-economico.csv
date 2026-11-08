@@ -1,0 +1,6 @@
+escenario;precio_sin_iva;coste_variable_unitario;coste_fijo_mensual;servicios_mes;horas_por_servicio;horas_facturables_disponibles;margen_unitario;equilibrio_servicios_enteros;resultado_mes
+base;60,00;18,00;2100,00;70;1,50;105,00;42,00;50;840,00
+menor_precio;54,00;18,00;2100,00;70;1,50;105,00;36,00;59;420,00
+mayor_variable;60,00;24,00;2100,00;70;1,50;105,00;36,00;59;420,00
+ambos;54,00;24,00;2100,00;70;1,50;105,00;30,00;70;0,00
+adverso;54,00;24,00;2250,00;70;1,50;105,00;30,00;75;-150,00
