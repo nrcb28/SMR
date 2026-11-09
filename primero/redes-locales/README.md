@@ -10,6 +10,10 @@ Esta asignatura explica cómo viajan los datos desde una aplicación hasta otro 
 2. [Configuración, observación y análisis](02-guia-tecnica.md): Linux, Windows, Wi-Fi, VLAN, routing y captura de paquetes.
 3. [Prácticas completas](03-practicas.md): cableado, VLSM, capturas y segmentación.
 4. [Diagnóstico, ejercicios y evaluación](04-diagnostico-y-evaluacion.md): método de trabajo, fallos frecuentes, preguntas y soluciones.
+5. [Direccionamiento y ejercicios avanzados](05-direccionamiento-y-ejercicios-avanzados.md): VLSM completo, revisión de solapamientos, sumarización, /31, /32 e IPv6 /56, /64 y /127.
+6. [Conmutación y diseño segmentado](06-conmutacion-y-diseno-segmentado.md): puertos, trunks, STP/RSTP, LACP, QoS y prueba de fallo controlado.
+7. [Ingeniería Wi-Fi y capacidad](07-ingenieria-wifi-y-capacidad.md): radiofrecuencia, dBm/SNR, tiempo de aire, canales, movilidad y estudio reproducible.
+8. [Análisis de protocolos y laboratorios](08-analisis-de-protocolos-y-laboratorios.md): secuencias sintéticas explicadas, TCP, ARP/ND, MTU, DNS/TLS e investigación por hipótesis.
 
 Consulta antes el [laboratorio común](../../docs/laboratorio.md). Continúa después con [Servicios en red](../../segundo/servicios-en-red/README.md) y vuelve al [índice general](../../README.md) para relacionar las asignaturas.
 
@@ -41,3 +45,7 @@ En el laboratorio común, `srv01` utiliza `192.168.56.10/24` y `cli01` utiliza `
 | 6. Operación | Incidencia reproducible y resolución | Una segunda persona puede repetir tus comprobaciones |
 
 No memorices únicamente salidas de comandos. Una captura y una tabla sólo sirven si puedes explicar qué hipótesis confirman, qué no demuestran y qué comprobarías después.
+
+## Profundización de la edición ampliada
+
+Los capítulos 5–8 desarrollan decisiones de diseño y operación que requieren relacionar varias capas. Realiza primero los cálculos sin configurar equipos, después el diseño de conmutación en una topología expresamente compatible, luego el estudio de radio y por último el análisis de evidencias. Cada bloque incluye una práctica adicional, problemas razonados y criterios propios de aceptación. Las secuencias de paquetes rotuladas sintéticas enseñan el mecanismo; no se presentan como capturas ejecutadas.

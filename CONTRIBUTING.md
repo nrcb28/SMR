@@ -11,6 +11,8 @@ Gracias por ayudar a mantener guías reproducibles y claras. Propón correccione
 5. Mantén enlaces relativos dentro del repositorio y una línea en blanco antes de listas y tablas.
 6. Ejecuta `python3 scripts/validar_documentacion.py` desde la raíz.
 
+Si añades o renombras documentos, actualiza el índice del módulo y regenera [INDICE.md](INDICE.md) mediante `python3 scripts/generar_indice.py`. Después comprueba `python3 scripts/generar_indice.py --check`. Conserva la distinción entre datos sintéticos, resultados esperados y pruebas que hayas ejecutado realmente.
+
 Los resultados que no hayas ejecutado deben identificarse como ejemplos o resultados esperados. Si has realizado una prueba, registra versión, entorno, pasos y evidencia mínima sanitizada. No atribuyas una rúbrica propia a la normativa oficial.
 
 ## Incidencias técnicas

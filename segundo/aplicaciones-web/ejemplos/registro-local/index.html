@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro local de incidencias · Laboratorio SMR</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+  <header>
+    <p class="etiqueta">Ejemplo educativo · Aplicaciones web</p>
+    <h1>Registro local de incidencias</h1>
+    <p>Practica etiquetas, validación, eventos y cambios del DOM con datos ficticios.</p>
+  </header>
+
+  <main id="contenido">
+    <section aria-labelledby="alcance-titulo">
+      <h2 id="alcance-titulo">Qué hace esta demostración</h2>
+      <p>No es un sistema de tickets real: no hay servidor de aplicación, cuentas ni almacenamiento persistente. Los registros sólo existen en esta vista y se pierden al recargar.</p>
+      <p>Utiliza códigos y síntomas inventados. No escribas nombres de personas, contraseñas ni información de equipos de una organización.</p>
+      <p id="estado-script">La información de referencia está disponible sin JavaScript. El simulador interactivo necesita que el script local se cargue correctamente.</p>
+      <noscript><p>JavaScript está desactivado. Puedes consultar la tabla y las instrucciones, pero el registro local permanece oculto.</p></noscript>
+    </section>
+
+    <section aria-labelledby="referencia-titulo">
+      <h2 id="referencia-titulo">Referencia estática</h2>
+      <div class="tabla-contenedor" tabindex="0" role="region" aria-label="Tabla de referencia desplazable si es necesario">
+        <table id="referencia">
+          <caption>Ejemplos sintéticos que el botón de vaciado no modifica</caption>
+          <thead>
+            <tr><th scope="col">Activo</th><th scope="col">Categoría</th><th scope="col">Síntoma de ejemplo</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>PC-001</td><td>Hardware</td><td>El monitor de prácticas no muestra imagen.</td></tr>
+            <tr><td>PC-002</td><td>Red</td><td>La VM de prueba no resuelve el nombre interno.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="interaccion" hidden aria-labelledby="simulador-titulo">
+      <h2 id="simulador-titulo">Simular un registro</h2>
+      <p>El código usa el formato <code>PC-001</code>. La descripción admite de 10 a 500 caracteres una vez retirados los espacios de los extremos. La categoría debe pertenecer a la lista del modelo.</p>
+
+      <div id="resumen-errores" class="resumen" tabindex="-1" aria-labelledby="errores-titulo" hidden>
+        <h3 id="errores-titulo">Revisa los datos indicados</h3>
+        <ul id="lista-errores"></ul>
+      </div>
+
+      <form id="registro" action="#" method="get">
+        <fieldset>
+          <legend>Datos sintéticos de la incidencia</legend>
+          <div class="campo">
+            <label for="codigo">Código del activo</label>
+            <p id="codigo-ayuda" class="ayuda">PC, guion y tres cifras. Los espacios de los extremos se retiran y las letras se convierten a mayúsculas.</p>
+            <input id="codigo" name="codigo" type="text" required maxlength="30" pattern="PC-[0-9]{3}" aria-describedby="codigo-ayuda" autocomplete="off" spellcheck="false">
+            <p id="codigo-error" class="error" hidden></p>
+          </div>
+          <div class="campo">
+            <label for="categoria">Categoría</label>
+            <p id="categoria-ayuda" class="ayuda">Selecciona una opción de esta lista de prácticas.</p>
+            <select id="categoria" name="categoria" required aria-describedby="categoria-ayuda">
+              <option value="">Elige una categoría</option>
+              <option value="Hardware">Hardware</option>
+              <option value="Software">Software</option>
+              <option value="Red">Red</option>
+              <option value="Impresión">Impresión</option>
+            </select>
+            <p id="categoria-error" class="error" hidden></p>
+          </div>
+          <div class="campo">
+            <label for="descripcion">Síntoma ficticio</label>
+            <p id="descripcion-ayuda" class="ayuda">Describe lo observado con 10 a 500 caracteres. No introduzcas información real o sensible.</p>
+            <textarea id="descripcion" name="descripcion" rows="4" required minlength="10" maxlength="500" aria-describedby="descripcion-ayuda"></textarea>
+            <p id="descripcion-error" class="error" hidden></p>
+          </div>
+        </fieldset>
+        <div class="acciones">
+          <button type="submit">Añadir a esta vista local</button>
+          <button type="reset" class="secundario">Restablecer campos</button>
+        </div>
+      </form>
+
+      <p id="estado" class="estado" role="status" aria-atomic="true">Todavía no has añadido registros a esta sesión.</p>
+      <div class="tabla-contenedor" tabindex="0" role="region" aria-label="Registros de la sesión, desplazables si es necesario">
+        <table id="registros">
+          <caption>Registros temporales de esta vista</caption>
+          <thead>
+            <tr><th scope="col">ID local</th><th scope="col">Activo</th><th scope="col">Categoría</th><th scope="col">Síntoma ficticio</th></tr>
+          </thead>
+          <tbody id="filas-locales"></tbody>
+        </table>
+      </div>
+      <p><button id="vaciar" type="button" class="secundario" disabled>Vaciar registros de esta sesión</button></p>
+    </section>
+
+    <section aria-labelledby="pruebas-titulo">
+      <h2 id="pruebas-titulo">Pruebas que puedes realizar</h2>
+      <ol>
+        <li>Abre sin JavaScript y comprueba que la referencia y las instrucciones conservan sentido.</li>
+        <li>Con JavaScript, intenta enviar un código inválido y usa el resumen de errores para corregirlo con teclado.</li>
+        <li>Introduce <code> pc-007 </code> y una descripción sintética de al menos diez caracteres; comprueba el código normalizado.</li>
+        <li>Incluye <code>&lt;dato&gt;</code> en el texto: debe mostrarse literalmente, sin convertirse en una etiqueta.</li>
+        <li>Añade dos registros para el mismo activo, vacía la sesión y comprueba que la referencia estática permanece.</li>
+        <li>Recarga: los registros locales no deben persistir. Prueba también foco visible, zoom y pantallas estrechas.</li>
+      </ol>
+      <p>Estas instrucciones definen expectativas. Registra por separado el navegador, versión y resultado real de tus pruebas. Este ejemplo no acredita conformidad completa con WCAG.</p>
+    </section>
+  </main>
+  <footer><p>SMR · Ejemplo local sin dependencias externas, persistencia ni backend.</p></footer>
+</body>
+</html>

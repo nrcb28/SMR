@@ -10,9 +10,17 @@ La guía recorre dos casos complementarios: un sitio estático que se puede insp
 2. [Guía técnica: sitio estático, WordPress, permisos y recuperación](02-guia-tecnica.md).
 3. [Cuatro prácticas con pruebas de aceptación](03-practicas.md).
 4. [Diagnóstico y evaluación con respuestas razonadas](04-diagnostico-y-evaluacion.md).
-5. [Sitio estático de ejemplo](ejemplos/sitio-estatico/index.html) y [hoja de estilos](ejemplos/sitio-estatico/estilos.css).
-6. [Servidor virtual de Nginx para el CMS](ejemplos/wp-aula.nginx.conf).
-7. [Mu-plugin de confianza CA exclusivo del laboratorio](ejemplos/smr-lab-ca.php), explicado con instalación, pruebas y retirada en la guía técnica.
+5. [Frontend progresivo: DOM, eventos, formularios y accesibilidad](05-frontend-progresivo-y-accesibilidad.md).
+6. [HTTP en operación: cachés, sesiones y controles](06-http-caches-sesiones-y-seguridad.md).
+7. [Operación del CMS: migración, copias y recuperación](07-operacion-migracion-y-recuperacion-cms.md).
+8. [Cuatro prácticas avanzadas y dieciséis casos resueltos](08-practicas-avanzadas-y-casos-resueltos.md).
+
+## Ejemplos inspeccionables
+
+- [Sitio estático inicial](ejemplos/sitio-estatico/index.html) y [hoja de estilos](ejemplos/sitio-estatico/estilos.css).
+- [Registro local con mejora progresiva](ejemplos/registro-local/index.html), [CSS](ejemplos/registro-local/estilos.css) y [JavaScript](ejemplos/registro-local/app.js): simulación en memoria, sin backend ni persistencia.
+- [Servidor virtual de Nginx para el CMS](ejemplos/wp-aula.nginx.conf).
+- [Mu-plugin de confianza CA exclusivo del laboratorio](ejemplos/smr-lab-ca.php), con instalación, pruebas y retirada explicadas en la guía técnica.
 
 ## Prerrequisitos y entorno
 
@@ -33,3 +41,7 @@ Los paquetes de Debian 13 proporcionan como referencia PHP 8.4 y MariaDB 11.8; c
 | Elegir una aplicación colaborativa | Permisos, exportación, costes y salida del servicio documentados |
 
 Estas evidencias y las rúbricas de las prácticas son propuestas educativas propias. No sustituyen la programación didáctica oficial. Vuelve al [índice general](../../README.md) para seguir el itinerario completo.
+
+## Ruta de profundización
+
+Tras completar el sitio estático y las prácticas base, estudia el capítulo 5 para relacionar HTML, reglas de entrada y DOM. Continúa con el 6 para interpretar HTTP y controles de aplicación, y utiliza el 7 sólo sobre un clon identificado del CMS. El capítulo 8 integra pruebas de frontend, caché, restauración y comunicación. Las comprobaciones de código y datos no sustituyen ensayar foco, anuncios, accesibilidad o continuidad en tu laboratorio; registra navegador, versiones y resultados realmente observados.

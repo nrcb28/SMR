@@ -69,3 +69,13 @@ Practica con tiempo medido y un estado inicial conocido. Lee la consigna complet
 Usa las preguntas con soluciones para comparar razonamientos, no únicamente respuestas. Cuando falles, registra si la causa fue conceptual, de lectura, de sintaxis, de entorno o de validación. Cada causa necesita un trabajo distinto: repetir comandos no corrige una comprensión equivocada del direccionamiento.
 
 Las rúbricas del repositorio son instrumentos de autoevaluación. Los instrumentos y criterios académicos concretos los publica el centro. El [proyecto intermodular](../segundo/proyecto-intermodular/README.md) permite reunir evidencias, y la [formación en empresa](formacion-en-empresa.md) exige adaptarlas a procedimientos y confidencialidad reales.
+
+## 7. Profundización y simulacros de la edición ampliada
+
+Cada asignatura técnica incorpora monografías que desarrollan temas concretos después de sus guías iniciales. En hardware profundiza en medición e integridad; en sistemas, en arranque, memoria, permisos y automatización; en redes, en direccionamiento, switching, Wi-Fi y análisis; en segundo, en directorios, seguridad, servicios y mantenimiento web. El [índice completo](../INDICE.md) enlaza cada capítulo y los índices de módulo indican sus dependencias.
+
+No necesitas leer todo el material avanzado antes de ejecutar una práctica básica. Selecciona el capítulo que responde al problema que estás resolviendo y vuelve al fundamento cuando te falte una dependencia. Una guía extensa debe permitir profundizar por capas, sin convertir una actividad inicial en una instalación innecesariamente compleja.
+
+El [cuaderno integrador](../cuaderno-integrador/README.md) propone cinco recorridos: cálculos técnicos, incidencias encadenadas, simulacro de primero, simulacro de segundo y entrega operativa. Resuelve los enunciados antes de leer soluciones. Después utiliza la explicación para identificar si tu dificultad fue conceptual, de unidades, de entorno, de interpretación o de comprobación.
+
+En los simulacros se evalúa cómo relacionas módulos: por qué un permiso necesita identidad y sesión, por qué un dominio necesita nombres y tiempo, o por qué una restauración necesita datos, metadatos y verificación desde cliente. El resultado importante es una conclusión defendible con evidencia, no el número de comandos ejecutados.

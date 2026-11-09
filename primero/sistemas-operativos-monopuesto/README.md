@@ -12,6 +12,12 @@ El trabajo se plantea como administración reproducible: observar el estado, pla
 | [02 · Guía técnica](02-guia-tecnica.md) | Instalación, administración Linux/Windows, paquetes, servicios y copias | Puesto instalado y mantenible |
 | [03 · Prácticas](03-practicas.md) | Instalación comparada, permisos y recuperación | Evidencias de configuración y restauración |
 | [04 · Diagnóstico y evaluación](04-diagnostico-y-evaluacion.md) | Casos, preguntas resueltas y comprobación final | Informe de incidencia verificable |
+| [05 · Arranque y recuperación](05-arranque-y-recuperacion.md) | UEFI/ESP, cargadores, kernel/initramfs, BCD, cifrado y entornos de rescate | Identificar etapa de fallo y preservar datos antes de reparar |
+| [06 · Procesos y memoria](06-procesos-memoria-y-observabilidad.md) | Tiempo de CPU/pared, estados, memoria virtual/residente, caché, swap y PSI | Línea temporal con métricas y diagnóstico proporcional |
+| [07 · Archivos y permisos efectivos](07-archivos-permisos-y-consistencia.md) | Inodos, enlaces, ACL/máscara, NTFS, espacio y consistencia | Explicar accesos permitidos/denegados y diferencias de contadores |
+| [08 · Automatización y taller resuelto](08-automatizacion-y-taller-resuelto.md) | Bash/PowerShell, manifiestos, bloqueo, tareas programadas y dieciséis problemas | Automatización comprobable con errores previstos y retirada |
+
+La ampliación 05–08 desarrolla administración por capas y añade prácticas de recuperación, observación temporal, ACL y programación. Los [ejemplos Bash](ejemplos/ampliacion/manifiesto.sh) y [PowerShell](ejemplos/ampliacion/manifiesto.ps1) son herramientas educativas de manifiestos para árboles sintéticos: no son un sistema de backup. Su contrato, alcance, ejecución y casos negativos se explican en el capítulo 08.
 
 Lee antes [Montaje y mantenimiento de equipos](../montaje-y-mantenimiento-de-equipos/README.md), especialmente firmware y almacenamiento. Utiliza el [laboratorio común](../../docs/laboratorio.md). Las prácticas de modificación se realizan en máquinas virtuales desechables, con datos ficticios, consola disponible y punto de recuperación.
 

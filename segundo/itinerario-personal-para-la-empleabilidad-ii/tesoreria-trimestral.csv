@@ -1,0 +1,4 @@
+mes;saldo_inicial;cobro_ventas_mes;cobro_pendiente;pagos_variables;pagos_fijos_caja;amortizacion;saldo_final;resultado;clientes_pendientes_final
+1;2000,00;2520,00;0,00;960,00;2320,00;80,00;1240,00;840,00;1680,00
+2;1240,00;2520,00;1680,00;960,00;2320,00;80,00;2160,00;840,00;1680,00
+3;2160,00;2520,00;1680,00;960,00;2320,00;80,00;3080,00;840,00;1680,00

@@ -1,0 +1,6 @@
+escenario;precio_d;variable_d;precio_m;variable_m;unidades_d;unidades_m;fijo_mensual;contribucion_total;resultado
+base;45,00;9,00;120,00;30,00;40;20;2400,00;3240,00;840,00
+precio_menos_10;40,50;9,00;108,00;30,00;40;20;2400,00;2820,00;420,00
+variable_mas_20;45,00;10,80;120,00;36,00;40;20;2400,00;3048,00;648,00
+ambos;40,50;10,80;108,00;36,00;40;20;2400,00;2628,00;228,00
+variable_supera_precio;45,00;48,00;120,00;130,00;40;20;2400,00;-320,00;-2720,00

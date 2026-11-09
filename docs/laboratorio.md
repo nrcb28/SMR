@@ -30,9 +30,13 @@ flowchart LR
 | `cli01` | Linux: 2 vCPU y 2–4 GiB; Windows: recursos compatibles, preferiblemente 8 GiB RAM y 80 GiB de disco | `192.168.56.20/24` en pruebas estáticas | Cliente que verifica acceso y resolución |
 | `dc01` opcional | Windows Server: 2–4 vCPU, 4–8 GiB RAM, 60 GiB o más | `192.168.56.11/24` | AD DS y su DNS; alternativa independiente Samba AD DC |
 | Cliente DHCP temporal | Según SO cliente | Rango propuesto `192.168.56.100–150` | Comprobar concesiones; sustituye o clona el cliente, con identidad propia |
+| `ns2` opcional | Debian ligero, según la práctica | `192.168.56.30/24` | DNS secundario en la ampliación de Servicios en red; dirección fuera del pool DHCP |
+| Reserva DHCP opcional | Dispositivo o cliente sintético del ejercicio | `192.168.56.50/24` | Reserva por identificador/MAC de laboratorio; no utiliza la dirección de `ns2` |
 | Anfitrión | Depende del equipo | Dirección de la red virtual si se utiliza host-only | Consola del hipervisor y acceso a las VMs |
 
 El servidor de dominio es un escenario separado. No instales simultáneamente en `srv01` BIND, el DNS interno de Samba AD y el DNS de Windows intentando usar la misma dirección y puerto. Las prácticas indican qué servicios deben estar activos. Si dispones de poca RAM, trabaja con dos VMs y realiza los escenarios de directorio en otra sesión.
+
+Las filas opcionales describen extensiones que sólo se activan en su práctica. Mantén un registro único de direcciones antes de añadir una VM o reserva: `.11` se reserva al directorio, `.30` al DNS secundario y `.50` a la reserva DHCP del ejercicio. Una dirección fuera del pool dinámico también puede entrar en conflicto con otra asignación estática si no se documenta.
 
 La red LAB es **host-only** o una red interna del hipervisor. Host-only permite acceder desde el anfitrión; una red interna puede aislar también ese acceso. Ninguna proporciona automáticamente un router. Si el anfitrión usa `192.168.56.1`, esa dirección no debe declararse puerta de enlace salvo que se haya configurado realmente como router. Las comunicaciones dentro de `/24` no necesitan gateway.
 

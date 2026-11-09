@@ -13,3 +13,7 @@ La modificación curricular madrileña de 2024 suprimió estos módulos e incorp
 Para el itinerario actual, consulta [IPE I](../primero/itinerario-personal-para-la-empleabilidad-i/README.md), [IPE II](../segundo/itinerario-personal-para-la-empleabilidad-ii/README.md) y la documentación de formación en empresa desde el [índice general](../README.md). La relación entre contenidos es orientativa; no establece equivalencias administrativas.
 
 Los casos usan datos ficticios. Cuando se estudia una relación laboral o un trámite actual, se consultan las fuentes vigentes, aunque la asignatura que sirve de referencia sea histórica. Una guía antigua no mantiene vigentes tipos de contrato, importes o procedimientos derogados.
+
+## Ampliación del archivo
+
+La ampliación añade [expedientes comparativos de FOL](formacion-y-orientacion-laboral/03-comparativas-y-expedientes-resueltos.md), una [auditoría de plan empresarial de EIE](empresa-e-iniciativa-emprendedora/03-revision-de-un-plan-empresarial.md) y una [revisión de evidencias de FCT](formacion-en-centros-de-trabajo/03-auditoria-de-evidencias-y-casos.md). Su finalidad es aprender a conservar conceptos útiles, actualizar fuentes y reconstruir decisiones. Las conexiones con IPE y formación en empresa son didácticas; la situación administrativa la resuelve el centro por su procedimiento.

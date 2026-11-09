@@ -10,7 +10,16 @@ Esta guía utiliza **LibreOffice** como entorno reproducible y explica equivalen
 2. [Guía técnica: Writer, Calc, Base, Impress y multimedia](02-guia-tecnica.md).
 3. [Cuatro prácticas completas con entregables](03-practicas.md).
 4. [Diagnóstico, evaluación y preguntas resueltas](04-diagnostico-y-evaluacion.md).
-5. [Datos de inventario sintéticos](ejemplos/inventario.csv), [destinatarios ficticios](ejemplos/destinatarios.csv), [modelo SQL del taller](ejemplos/taller.sql) y [consultas de referencia](ejemplos/consultas.sql).
+5. [Writer avanzado: documentos largos, revisión y publicación](05-documentos-largos-y-publicacion.md).
+6. [Calc avanzado: modelos trazables y calidad de datos](06-modelos-calc-y-calidad-de-datos.md).
+7. [Base avanzado: modelo relacional, consultas e integridad](07-base-modelado-consultas-y-transacciones.md).
+8. [Taller integrado, multimedia y quince problemas resueltos](08-taller-integrado-y-ejercicios-resueltos.md).
+
+## Archivos de ejemplo
+
+- [Inventario sintético](ejemplos/inventario.csv) y [destinatarios ficticios](ejemplos/destinatarios.csv).
+- [Esquema SQL del taller](ejemplos/taller.sql), [consultas iniciales](ejemplos/consultas.sql) y [consultas avanzadas de lectura](ejemplos/consultas-avanzadas.sql).
+- [Modelo de costes con ocho partidas](ejemplos/modelo-costes.csv), utilizado en la ampliación de Calc y en el taller integrado.
 
 ## Objetivos y evidencias
 
@@ -30,6 +39,8 @@ La tabla es una organización didáctica de este repositorio, no la reproducció
 Necesitas manejar carpetas y extensiones, distinguir un archivo original de una copia, conocer permisos de lectura/escritura y disponer de una carpeta de trabajo con copia de seguridad. Para Base se utiliza una base **Firebird incrustada nueva**, destinada únicamente a ejercicios; el SQL de los ejemplos no se debe importar sobre datos reales.
 
 Sigue primero los fundamentos y crea el informe de Writer. Continúa con el inventario de Calc, después con el taller relacional y termina con una presentación que explique tus resultados. Reserva una sesión final a abrir los archivos en otro perfil o equipo: la compatibilidad se comprueba, no se presume. Un PDF visualmente correcto puede haber perdido el orden de lectura y una hoja sin errores visibles puede contener importes almacenados como texto.
+
+Para profundizar, utiliza el capítulo 5 para convertir el informe en una plantilla revisable; el 6 para separar entradas, fórmulas, controles y escenarios; y el 7 para razonar sobre integridad, consultas y límites de las transacciones. El capítulo 8 reúne los productos y añade tres prácticas integradas y quince problemas con solución. Conserva los resultados iniciales para comparar qué mejora aporta cada ampliación.
 
 Consulta el [laboratorio común](../../docs/laboratorio.md) para preparar las máquinas y vuelve al [índice general](../../README.md) para relacionar este módulo con sistemas y aplicaciones web.
 

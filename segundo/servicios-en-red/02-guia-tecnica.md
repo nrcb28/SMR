@@ -215,14 +215,14 @@ Para aprender reservas, añade dentro de la subred un bloque `reservations` con 
 ~~~json
 "reservations": [
   {
-    "hw-address": "02:00:00:00:00:30",
-    "ip-address": "192.168.56.30",
+    "hw-address": "02:00:00:00:00:50",
+    "ip-address": "192.168.56.50",
     "hostname": "cli-reserva"
   }
 ]
 ~~~
 
-Este fragmento no es un archivo completo: exige una coma correcta entre propiedades y una MAC sustituida por la real. La IP reservada está dentro de la subred y fuera del pool dinámico. Comprueba la política de reservas de la versión instalada y posibles identificadores de cliente antes de explicar un fallo. El campo `hostname` no añade automáticamente un registro a BIND: DDNS requiere configuración adicional explícita.
+Este fragmento no es un archivo completo: exige una coma correcta entre propiedades y una MAC sustituida por la real. La IP reservada `.50` está dentro de la subred y fuera del pool dinámico; `.30` se conserva para `ns2` en la ampliación DNS. Si utilizaste `.30` en una sesión anterior, revisa y retira esa reserva o dirección del cliente antes de incorporar la secundaria, mediante un cambio controlado y sin borrar indiscriminadamente concesiones. Comprueba la política de reservas de la versión instalada y posibles identificadores de cliente antes de explicar un fallo. El campo `hostname` no añade automáticamente un registro a BIND: DDNS requiere configuración adicional explícita.
 
 **Recuperación:** detén el servicio antes de devolver el cliente a IP fija. Restaura su estado previo y el del hipervisor. No borres la base de concesiones para resolver cualquier incidencia; analiza primero su contenido y la configuración.
 

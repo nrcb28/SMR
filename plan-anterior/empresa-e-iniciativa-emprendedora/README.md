@@ -4,6 +4,7 @@
 
 - [Guía de proyecto, operaciones y números](01-guia.md).
 - [Casos y evaluación](02-practicas-y-evaluacion.md).
+- [Revisión técnica de un plan empresarial](03-revision-de-un-plan-empresarial.md): auditoría de supuestos, contribución, capacidad, subcontratación y caja.
 - [Situación curricular](../../docs/curriculo-madrid.md).
 - [Archivo del plan anterior](../README.md).
 

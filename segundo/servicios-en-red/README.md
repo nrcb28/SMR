@@ -11,6 +11,10 @@ El itinerario utiliza Debian 13 como servidor y Linux o Windows 11 Pro como clie
 3. [Prácticas completas](03-practicas.md): servicios aislados, integración, casos negativos y recuperación.
 4. [Diagnóstico y evaluación](04-diagnostico-y-evaluacion.md): síntomas, evidencias, problemas resueltos y preguntas.
 5. [Correo local: laboratorio de arquitectura](05-correo-local.md): SMTP y buzones dentro de una VM, sin retransmisión pública.
+6. [DNS: replicación y ciclo de cambio](06-dns-replicacion-y-ciclo-de-cambio.md): primaria/secundaria, TSIG, seriales, caché negativa, delegación y continuidad.
+7. [DHCP, doble pila y operación](07-dhcp-dual-stack-y-operacion.md): estados, T1/T2, reservas, capacidad, relay, RA y DHCPv6.
+8. [SSH, PKI y publicación web](08-ssh-pki-y-publicacion-web.md): configuración efectiva, SFTP limitado, rotación de certificados, proxy y control de solicitudes.
+9. [Correo, observabilidad y continuidad](09-correo-observabilidad-y-continuidad.md): SPF/DKIM/DMARC, indicadores, percentiles, alertas y restauración de dependencias.
 
 Antes de empezar, revisa [Redes locales](../../primero/redes-locales/README.md) y el [laboratorio común](../../docs/laboratorio.md). El [índice general](../../README.md) relaciona estos procedimientos con sistemas operativos y seguridad.
 
@@ -44,3 +48,7 @@ El hipervisor puede incorporar su propio servidor DHCP en host-only. Debe estar 
 Empieza por DNS con IP fija. Añade después DHCP y conserva una máquina con IP fija para administrar. Continúa con SSH y HTTPS. Por último integra los servicios y realiza la práctica de correo, que permanece local a una VM y no pretende entregar correo en Internet.
 
 Cada servicio requiere ficha de diseño, copia previa de configuración, validación de sintaxis, estado de proceso, puertos, prueba desde cliente, caso de rechazo y recuperación. Las rúbricas propuestas son didácticas; el centro define la evaluación oficial.
+
+## Ruta de profundización
+
+Los capítulos 6–9 incorporan operación y cambios controlados. Replica primero una zona con una segunda VM `.30`; estudia después el estado temporal de DHCP, la identidad y confianza de accesos, y finalmente indicadores y continuidad. Cada ampliación distingue datos sintéticos de pruebas reales y añade una práctica con aceptación y retorno. Conserva escenarios separados: DNS de servicios, dominio AD, CMS y correo loopback no se juntan sin revisar puertos, identidades y dependencias.

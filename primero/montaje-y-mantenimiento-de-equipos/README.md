@@ -12,6 +12,12 @@ Esta documentación desarrolla contenidos de estudio y prácticas propias; las p
 | [02 · Guía técnica](02-guia-tecnica.md) | Inventario, selección, montaje, primer arranque y mantenimiento | Orden de trabajo, inventario y acta de pruebas |
 | [03 · Prácticas](03-practicas.md) | Tres intervenciones completas y graduadas | Presupuesto, montaje verificado e informe de avería |
 | [04 · Diagnóstico y evaluación](04-diagnostico-y-evaluacion.md) | Árboles de decisión, métricas, preguntas y soluciones | Diagnóstico razonado y plan preventivo |
+| [05 · Medición y rendimiento](05-medicion-y-rendimiento.md) | Latencia, IOPS, caudal, CPU, memoria, enlaces PCIe, potencia y temperatura | Comparación controlada y dimensionamiento justificado |
+| [06 · Diagnóstico por subsistemas](06-diagnostico-por-subsistemas.md) | POST, ausencia de imagen, reinicios, memoria y detección de discos | Hipótesis separadas mediante pruebas y casos de taller |
+| [07 · Almacenamiento e integridad](07-almacenamiento-integridad-y-vida-util.md) | HDD, SSD, resistencia, telemetría NVMe, hashes y preservación | Informe de estado y decisión de recuperación o sustitución |
+| [08 · Periféricos y mantenimiento](08-perifericos-mantenimiento-y-casos.md) | USB, docks, pantallas, impresión, repuestos y planificación | Tres nuevas prácticas y plan documentado de mantenimiento |
+
+Los capítulos 05–08 amplían el itinerario con análisis de medidas, decisiones de taller y casos completos. Léelos después de dominar la instalación básica: su objetivo es explicar por qué una prueba aporta información y qué límites tiene, además de indicar el procedimiento. Incluyen ejercicios de cálculo, interpretación de telemetría y prácticas de USB, impresión y planificación de una flota.
 
 ## Antes de empezar
 

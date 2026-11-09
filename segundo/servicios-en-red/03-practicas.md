@@ -48,7 +48,7 @@ Entrega zonas, comandos, respuestas completas saneadas y explicación de bandera
 
 Incluye JSON validado, topología, configuración del hipervisor, concesión y captura pequeña. Debe existir una sola oferta del servidor previsto durante el caso controlado. Si aparecen ofertas inesperadas, el procedimiento correcto es detener Kea y revisar aislamiento antes de seguir.
 
-**Solución orientativa:** un cliente nuevo recibe una dirección dentro del pool y DNS `192.168.56.10`. La reserva puede proporcionar `.30` cuando su identificador coincide. La ausencia de opción routers es intencional porque no existe ese router en LAB.
+**Solución orientativa:** un cliente nuevo recibe una dirección dentro del pool y DNS `192.168.56.10`. La reserva puede proporcionar `.50` cuando su identificador coincide; `.30` queda disponible para la secundaria DNS del capítulo avanzado. La ausencia de opción routers es intencional porque no existe ese router en LAB.
 
 **Recuperación:** detén Kea, devuelve LAB al estado guardado y confirma que el cliente fijo vuelve a funcionar. No alteres el DHCP del router doméstico ni el de ninguna red ajena.
 

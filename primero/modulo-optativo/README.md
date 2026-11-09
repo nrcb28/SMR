@@ -6,6 +6,13 @@ El catálogo autonómico se regula mediante la [Orden 3536/2025](https://www.boc
 
 ## Propuesta de ampliación propia: documentar prácticas con Git
 
+### Itinerario ampliado
+
+1. [Manual de documentación versionada: revisión, ramas, conflictos y formatos](01-manual-de-documentacion-versionada.md).
+2. [Casos de revisión y rúbrica propia](02-casos-y-evaluacion.md).
+
+La introducción siguiente prepara el repositorio local. Los capítulos nuevos desarrollan el trabajo de autor y revisor, la coherencia entre versión y evidencia y la recuperación deliberada de una edición. Se conserva el carácter complementario de toda la propuesta.
+
 La siguiente actividad es material complementario, no una equivalencia ni un currículo oficial de optativa. Permite aprender a conservar versiones de apuntes y configuraciones saneadas. Se puede realizar en Linux o Git Bash; los comandos de shell indicados no se deben copiar directamente en PowerShell si su sintaxis es diferente.
 
 **Objetivo:** entregar un pequeño repositorio local con una guía, dos cambios justificados y un registro de revisión. No se requiere publicar en GitHub ni configurar claves.

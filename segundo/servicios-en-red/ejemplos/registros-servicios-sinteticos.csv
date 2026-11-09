@@ -1,0 +1,13 @@
+momento_utc;servicio;prueba;resultado;duracion_ms;nota
+2026-11-08T10:00:00Z;dns;A_srv01;correcto;10;dato_sintetico
+2026-11-08T10:01:00Z;dns;A_srv01;correcto;12;dato_sintetico
+2026-11-08T10:02:00Z;dns;A_srv01;correcto;13;dato_sintetico
+2026-11-08T10:03:00Z;dns;A_srv01;correcto;15;dato_sintetico
+2026-11-08T10:04:00Z;dns;A_srv01;correcto;16;dato_sintetico
+2026-11-08T10:05:00Z;dns;A_srv01;correcto;18;dato_sintetico
+2026-11-08T10:06:00Z;dns;A_srv01;correcto;20;dato_sintetico
+2026-11-08T10:07:00Z;dns;A_srv01;correcto;25;dato_sintetico
+2026-11-08T10:08:00Z;dns;A_srv01;correcto;40;dato_sintetico
+2026-11-08T10:09:00Z;dns;A_srv01;correcto;200;dato_sintetico
+2026-11-08T10:10:00Z;https;portada;HTTP_200;35;serie_distinta
+2026-11-08T10:11:00Z;correo_local;destino_externo;rechazo_esperado;5;prueba_negativa

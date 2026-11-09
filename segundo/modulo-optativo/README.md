@@ -4,6 +4,13 @@ La organización madrileña de SMR incluye en segundo una optativa de 90 horas d
 
 ## Propuesta propia: operación y soporte documentados
 
+### Itinerario ampliado
+
+1. [Operación y automatización controlada: planes, validación y fallo parcial](01-operacion-y-automatizacion-controlada.md).
+2. [Casos, métricas y evaluación del soporte](02-casos-metricas-y-evaluacion.md).
+
+Tras la introducción, profundiza en automatizaciones de lectura y planes sin ejecución. Los casos trabajan una alerta útil, conflictos de altas, media y mediana de respuesta y comunicación de una mitigación cuya causa aún no se conoce. Son actividades complementarias, sin atribución de currículo oficial.
+
 Este material es una ampliación opcional para practicar capacidades de SMR; no es una denominación oficial, una convalidación ni un sustituto de la optativa del centro. El objetivo es pasar de “resolver algo en mi equipo” a prestar un soporte que otra persona pueda revisar y continuar.
 
 ### Ciclo de una incidencia

@@ -53,3 +53,11 @@ Registra versión anterior/nueva, fuente del cambio y procedimiento afectado. Pa
 Para normativa, revisa texto publicado, correcciones y modificaciones, además de instrucciones de curso. Para importes, tipos de cotización y fiscalidad, utiliza datos oficiales del periodo; los casos numéricos del repositorio indican sus supuestos y no pretenden fijar valores legales vigentes.
 
 Una referencia inaccesible no demuestra que una norma haya sido derogada. Busca su publicación oficial, identificador y fecha. El enlace antiguo de la ficha IFCM01 devolvió 404 durante la preparación; la distribución se fundamenta en el BOCM y en las tablas horarias enlazadas por el portal oficial, evitando depender de esa ficha.
+
+## 6. Mantenimiento de la edición ampliada
+
+La [ampliación de noviembre de 2026](novedades-ampliacion.md) añade monografías y ejemplos sin eliminar el itinerario inicial. Los capítulos específicos enlazan documentación primaria de sus herramientas y distinguen estándares vigentes de referencias históricas que siguen apareciendo en implementaciones. Una sustitución de RFC no implica que todos los productos hayan incorporado ya cada cambio.
+
+El registro de laboratorio incorpora direcciones para extensiones opcionales y evita reutilizar la misma IP para DNS secundario y reserva DHCP. Cada topología alternativa de VLAN conserva su propio plan; no se traslada una puerta de enlace planificada a la LAB base si allí no existe un router.
+
+Después de añadir o renombrar un capítulo, actualiza el README de su asignatura y ejecuta `python3 scripts/generar_indice.py`. Comprueba el resultado con `--check` y después pasa el validador de documentación. El índice completo ayuda a localizar archivos; las explicaciones del módulo conservan el orden recomendado de aprendizaje.

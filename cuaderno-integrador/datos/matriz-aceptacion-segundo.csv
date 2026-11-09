@@ -1,0 +1,10 @@
+id;requisito;prueba;resultado_esperado;resultado_obtenido;evidencia
+R01;DNS del laboratorio;Consulta A normal y dirigida;Direccion prevista;;
+R02;Respuestas negativas;Nombre inexistente y tipo ausente;Estados interpretados segun zona;;
+R03;SSH;Contraste de host y autenticacion;Identidad correcta y acceso permitido;;
+R04;HTTPS;URL canonica con CA confiada;TLS valido y contenido esperado;;
+R05;Permisos;Editor lector y cuenta ajena;Permisos de la matriz respetados;;
+R06;Restauracion;Recuperar en otra ruta;Contenido y permisos contrastados;;
+R07;Objetivos de continuidad;Cronologia y punto recuperable;Comparacion correcta de RPO y tiempo;;
+R08;Operacion;Revision independiente del runbook;Pasos y retorno comprensibles;;
+R09;Comunicacion;Aviso y cierre en ingles;Impacto estado y tiempos claros;;

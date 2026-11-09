@@ -12,6 +12,10 @@ La seguridad se demuestra relacionando necesidades, riesgos, controles y pruebas
 | [02 · Guía técnica](02-guia-tecnica.md) | Inventario, actualización, SSH, nftables, TLS, registros, copias y respuesta. |
 | [03 · Prácticas](03-practicas.md) | Cuatro ejercicios de endurecimiento, filtrado, recuperación y gestión de incidentes. |
 | [04 · Diagnóstico y evaluación](04-diagnostico-y-evaluacion.md) | Casos razonados, pruebas, rúbrica y lista de cierre. |
+| [05 · Riesgos, BIA y diseño de controles](05-riesgos-bia-y-diseno-de-controles.md) | Dependencias, impacto, escenarios, riesgo residual, costes y taller completo de tratamiento. |
+| [06 · Hardening y cambios seguros](06-hardening-y-cambios-seguros.md) | Contrato de servicio, acceso administrativo, SSH, firewall acotado, matriz de flujos y retorno. |
+| [07 · Criptografía, copias y continuidad](07-criptografia-copias-y-continuidad.md) | Confianza, claves, TLS, separación de copias, restauración y ejercicios de RPO/RTO. |
+| [08 · Incidentes, privacidad y casos resueltos](08-incidentes-privacidad-y-casos-resueltos.md) | Cronología, contención, recuperación, AEPD/ENS, laboratorio reversible y quince problemas razonados. |
 
 ## Prerrequisitos y entorno
 
@@ -34,5 +38,11 @@ La práctica de firewall usa una VM dedicada o una instantánea preparada exclus
 Empieza por un servicio pequeño y documenta una línea base. Aplica un único cambio, valida el resultado y comprueba también qué acceso deja de funcionar. No aumentes privilegios o desactives controles como solución permanente a una incidencia. La explicación del fallo es parte del resultado técnico.
 
 Los ejemplos utilizan archivos ficticios y cuentas propias del laboratorio. Las pruebas se limitan a esos equipos. No necesitas malware, ataques a terceros ni datos personales reales para aprender estas competencias. Ningún bloque se presenta como ejecutado en tu instalación: deberás conservar las observaciones que obtengas.
+
+## Ruta avanzada
+
+Después de la base, desarrolla el caso de riesgos y BIA del capítulo 05. Utiliza ese diseño para justificar tres cambios acotados del 06, ensaya la continuidad del 07 y termina con el incidente reversible del 08. La secuencia añade cuatro actividades completas y un banco de quince problemas, con criterios propios de autoevaluación.
+
+No apliques el firewall avanzado al servidor compartido de servicios o directorio: se realiza en un clon específico de SSH/HTTPS y crea una tabla de ensayo propia que se retira desde consola. Los objetivos de recuperación, costes y puntuaciones del caso son supuestos didácticos que deben contrastarse con resultados reales.
 
 [Volver al repositorio](../../README.md)

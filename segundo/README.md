@@ -30,3 +30,9 @@ Fuente: [BOCM de 15/11/2024, página 44](https://www.bocm.es/boletin/CM_Orden_BO
 7. Entregar y defender una infraestructura completa siguiendo el [proyecto](proyecto-intermodular/README.md).
 
 La [formación en empresa](../docs/formacion-en-empresa.md) concreta con el centro y la entidad colaboradora qué resultados y actividades se desarrollan en cada entorno. Usa la [plantilla de memoria](../recursos/plantillas/memoria-practica.md) para conservar evidencias reproducibles.
+
+## Profundización y práctica integrada
+
+Los nuevos capítulos profundizan en directorios, GPO, permisos efectivos, DNS replicado, dual stack, PKI, hardening, recuperación, incidentes y mantenimiento web. Los módulos transversales añaden simulaciones y casos cuantitativos; el proyecto dispone de un cuaderno de requisitos y una memoria modelo con defensa.
+
+El [simulacro de segundo](../cuaderno-integrador/04-simulacro-segundo.md) reúne resolución, identidad, SSH, HTTPS, archivos, RPO/RTO y comunicación en inglés. Compleméntalo con los [casos de incidencias encadenadas](../cuaderno-integrador/02-incidencias-encadenadas.md) y la [guía de entrega y operación](../cuaderno-integrador/05-entrega-y-operacion.md). Usa el [índice completo](../INDICE.md) para localizar cada monografía.

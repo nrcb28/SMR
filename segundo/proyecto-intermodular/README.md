@@ -8,10 +8,14 @@ La referencia de 50 horas corresponde al trabajo autónomo del alumnado en el ma
 
 1. [Guía de diseño, arquitectura, presupuesto y planificación](01-guia.md).
 2. [Despliegue por fases, pruebas de aceptación, defensa y rúbrica](02-practicas-y-evaluacion.md).
+3. [Cuaderno de requisitos, trazabilidad, WBS, riesgos y coste de operación](03-cuaderno-de-requisitos-y-planificacion.md).
+4. [Memoria modelo, doce pruebas, recuperación y defensa razonada](04-memoria-modelo-y-defensa-tecnica.md).
 
 **Prerrequisitos:** montaje y mantenimiento, sistemas monopuesto y en red, redes locales, servicios, seguridad, ofimática y aplicaciones web. Los módulos transversales aportan comunicación, sostenibilidad, organización del trabajo y evaluación de la transformación digital.
 
 **Resultado esperado:** un conjunto de decisiones justificadas y evidencias que permitan a otro técnico mantener el sistema. Los comandos sin explicación, las capturas aisladas y una presentación comercial no sustituyen una memoria reproducible.
+
+La ampliación conecta cada requisito con una decisión, artefacto y prueba. Usa primero el cuaderno para fijar alcance y dependencias, y después la memoria modelo para preparar aceptación, recuperación y relevo. Las cronologías, presupuestos y resultados del modelo son sintéticos; completa tus propios resultados sin atribuir ejecución a las expectativas del ejemplo.
 
 ## Fuentes de organización
 

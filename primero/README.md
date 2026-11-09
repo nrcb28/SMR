@@ -25,3 +25,9 @@ La tabla semanal suma 30 horas. Las horas de currículo se reproducen de la orga
 6. Identificar los riesgos del puesto y justificar las medidas preventivas.
 
 El [proyecto intermodular](../segundo/proyecto-intermodular/README.md) puede comenzar reuniendo requisitos e inventario desde este curso; el centro fija su inicio conforme a las instrucciones aplicables. La [ruta de estudio](../docs/ruta-de-estudio.md) propone hitos didácticos; el calendario y la evaluación reales los establece el centro.
+
+## Profundización y práctica integrada
+
+Los índices de las cuatro asignaturas técnicas incluyen nuevas monografías de medición, diagnóstico, automatización, diseño de redes y tratamiento de documentos/datos. IPE I añade evaluación preventiva, relación laboral y desarrollo del portfolio. Las propuestas de optatividad se desarrollan en talleres complementarios, sin atribuirlos a una oferta oficial común.
+
+Después de las prácticas de módulo, utiliza el [simulacro completo de primero](../cuaderno-integrador/03-simulacro-primero.md): combina compatibilidad, usuarios y permisos, VLSM, presupuesto, prevención y memoria. Los [cálculos resueltos](../cuaderno-integrador/01-magnitudes-y-calculos-resueltos.md) ayudan a comprobar unidades y porcentajes. El [índice completo](../INDICE.md) enlaza todos los capítulos.

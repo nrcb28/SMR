@@ -1,0 +1,9 @@
+codigo;categoria;concepto;cantidad;precio_unitario;descuento;tasa_supuesta;escenario
+P-001;Equipos;Puesto compacto sintético;6;600,00;0,05;0,21;Base
+P-002;Pantallas;Monitor sintético;12;100,00;0,00;0,21;Base
+P-003;Accesorios;Teclado y ratón sintéticos;12;20,00;0,00;0,21;Base
+P-004;Red;Latiguillo sintético;12;5,00;0,00;0,21;Base
+P-005;Servicios;Instalación por paquete;1;150,00;0,00;0,21;Base
+P-006;Formación;Sesión de formación;1;80,00;0,00;0,21;Base
+P-007;Consumibles;Etiquetado y documentación;1;10,00;0,00;0,21;Base
+P-008;Repuestos;Lote de repuestos;1;119,00;0,10;0,21;Base

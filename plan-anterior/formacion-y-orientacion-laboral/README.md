@@ -4,6 +4,7 @@
 
 - [Guía de estudio histórico y conexión profesional](01-guia.md).
 - [Casos, evaluación y fuentes](02-practicas-y-evaluacion.md).
+- [Comparativas y expedientes resueltos](03-comparativas-y-expedientes-resueltos.md): revisión de materiales antiguos, condiciones comparables, contratos, prevención y nómina.
 - [Mapa curricular de Madrid](../../docs/curriculo-madrid.md).
 - [Archivo del plan anterior](../README.md).
 

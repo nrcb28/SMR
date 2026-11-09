@@ -4,6 +4,8 @@ Documentación técnica y práctica del ciclo de **Técnico en Sistemas Microinf
 
 **Referencia curricular:** plan madrileño adaptado a la nueva FP; Decreto 34/2009 modificado por el Decreto 102/2024, junto con el desarrollo de módulos transversales de 2025. Consulta y revisión de fuentes: **8 de noviembre de 2026**. La [guía del currículo](docs/curriculo-madrid.md) contiene los enlaces al BOCM, la distribución horaria y las particularidades del proyecto y la optatividad. Las guías y rúbricas de este repositorio son material didáctico propio.
 
+**Ampliación de 9 de noviembre de 2026:** nuevas monografías avanzadas en las ocho asignaturas técnicas, casos profesionales en IPE, talleres transversales y un cuaderno integrador con simulacros de primero y segundo. Consulta [qué se ha ampliado](docs/novedades-ampliacion.md) y el [índice completo de capítulos](INDICE.md) para acceder a todo el material.
+
 ## Empieza aquí
 
 1. Consulta el [mapa de asignaturas y horas](docs/curriculo-madrid.md).
@@ -11,6 +13,7 @@ Documentación técnica y práctica del ciclo de **Técnico en Sistemas Microinf
 3. Sigue la [ruta de aprendizaje](docs/ruta-de-estudio.md) y el índice de tu asignatura.
 4. Documenta cada práctica con la [plantilla de memoria](recursos/plantillas/memoria-practica.md) y la [ficha de incidencia](recursos/plantillas/incidencia.md).
 5. Integra lo aprendido en el [proyecto intermodular](segundo/proyecto-intermodular/README.md).
+6. Practica con el [cuaderno integrador y sus simulacros resueltos](cuaderno-integrador/README.md), y utiliza las monografías avanzadas para profundizar en los temas que necesites.
 
 Las explicaciones se pueden leer sin instalar software. Los ejercicios de instalación, permisos, redes y servicios se realizan en máquinas virtuales de laboratorio. Cada guía distingue el contexto y la finalidad de los comandos; los resultados mostrados como ejemplos son expectativas didácticas que debes contrastar en tu equipo.
 
@@ -49,12 +52,15 @@ Accede al [índice completo de segundo](segundo/README.md). La carpeta del proye
 | Recurso | Uso |
 | --- | --- |
 | [Laboratorio común](docs/laboratorio.md) | Máquinas, direccionamiento, nombres, aislamiento, instantáneas y verificación inicial |
+| [Índice completo](INDICE.md) | Acceso directo a cada capítulo, agrupado por asignatura y recurso |
+| [Cuaderno integrador](cuaderno-integrador/README.md) | Cálculos trabajados, incidencias encadenadas, simulacros y entrega técnica |
 | [Ruta de estudio](docs/ruta-de-estudio.md) | Dependencias entre asignaturas y progresión por hitos |
 | [Método de diagnóstico](docs/metodo-de-diagnostico.md) | Hipótesis, pruebas, causas y comprobación de la recuperación |
 | [Glosario técnico](docs/glosario.md) | Términos esenciales y distinciones que evitan errores |
 | [Recursos y plantillas](recursos/README.md) | Memorias, inventario, incidencias, pruebas de aceptación y scripts |
 | [Fuentes y mantenimiento](docs/fuentes-y-mantenimiento.md) | Normativa, documentación primaria, versiones y alcance de la revisión |
 | [Revisión de la entrega](docs/validacion.md) | Comprobaciones realizadas, correcciones y alcance de las pruebas |
+| [Ampliación de contenidos](docs/novedades-ampliacion.md) | Mapa de las nuevas monografías y formas de estudiarlas |
 | [Plan anterior](plan-anterior/README.md) | FOL, Empresa e iniciativa emprendedora y FCT, expresamente marcadas como históricas |
 
 ## Consultar y trabajar con el repositorio
@@ -65,6 +71,7 @@ GitHub permite leer todas las guías y descargar los archivos desde **Code → D
 git clone https://github.com/nrcb28/smr.git
 cd smr
 python3 scripts/validar_documentacion.py
+python3 scripts/generar_indice.py --check
 ```
 
 El validador comprueba estructura, archivos, enlaces locales y bloques de código; requiere Python 3.9 o posterior y utiliza únicamente su biblioteca estándar. No instala servicios ni cambia la configuración de tu equipo. Las comprobaciones de documentación no sustituyen las pruebas funcionales de las prácticas.

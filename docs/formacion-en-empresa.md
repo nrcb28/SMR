@@ -8,6 +8,8 @@ El marco estatal incluye la [Ley Orgánica 3/2022](https://www.boe.es/eli/es/lo/
 
 El material siguiente es una propuesta para prepararse, recoger evidencias y reflexionar sobre el aprendizaje. No sustituye el convenio, el plan, los protocolos de prevención ni las indicaciones de las tutorías.
 
+La ampliación [Casos, evidencias y progreso profesional](empresa-casos-avanzados.md) desarrolla ocho situaciones ficticias, una bitácora por competencias y criterios para preparar tutorías y relevo. Úsala después de esta guía para distinguir participación real, supervisión, confidencialidad y aprendizaje demostrable.
+
 ## 2. Preparación antes de incorporarse
 
 Confirma fechas, horarios, lugar, contacto de tutoría, tareas previstas y procedimiento para comunicar incidencias o ausencias. Debes conocer qué actividades puedes realizar, con qué supervisión y qué tareas quedan fuera de tu autorización. Una cuenta de acceso no equivale a permiso para modificar cualquier sistema al que técnicamente permita entrar.

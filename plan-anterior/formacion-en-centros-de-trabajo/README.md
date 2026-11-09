@@ -4,6 +4,7 @@
 
 - [Preparación, intervención y evidencias](01-guia.md).
 - [Simulaciones, seguimiento y evaluación](02-practicas-y-evaluacion.md).
+- [Auditoría de evidencias y casos de intervención](03-auditoria-de-evidencias-y-casos.md): accesos, soporte remoto, recuperación, participación y confidencialidad.
 - [Marco curricular](../../docs/curriculo-madrid.md).
 - [Índice del archivo histórico](../README.md).
 
