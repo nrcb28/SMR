@@ -50,3 +50,7 @@ Consulta el [laboratorio común](../../docs/laboratorio.md) para preparar las m�
 - [Ayuda de LibreOffice en español](https://help.libreoffice.org/latest/es/).
 - [Soporte oficial de Microsoft 365](https://support.microsoft.com/es-es/microsoft-365).
 - [Introducción a la accesibilidad de W3C](https://www.w3.org/WAI/fundamentals/accessibility-intro/es).
+
+## Itinerario por resultados de aprendizaje
+
+El [mapa de RA y criterios oficiales](09-alineacion-ra.md) identifica los 9 RA y sus 62 criterios, con paráfrasis didácticas, materiales, actividades y evidencias. Los [retos por RA](10-retos-por-ra.md) desarrollan las operaciones que debe poder demostrar el estudiante. Los [datos JSON](alineacion-ra.json) permiten revisar su trazabilidad. Una cobertura documental no acredita por sí sola la adquisición del RA.

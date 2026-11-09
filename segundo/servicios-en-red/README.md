@@ -15,6 +15,11 @@ El itinerario utiliza Debian 13 como servidor y Linux o Windows 11 Pro como clie
 7. [DHCP, doble pila y operación](07-dhcp-dual-stack-y-operacion.md): estados, T1/T2, reservas, capacidad, relay, RA y DHCPv6.
 8. [SSH, PKI y publicación web](08-ssh-pki-y-publicacion-web.md): configuración efectiva, SFTP limitado, rotación de certificados, proxy y control de solicitudes.
 9. [Correo, observabilidad y continuidad](09-correo-observabilidad-y-continuidad.md): SPF/DKIM/DMARC, indicadores, percentiles, alertas y restauración de dependencias.
+10. [Alineación con los RA y criterios oficiales](10-alineacion-ra.md): los ocho resultados y sus 63 criterios, con materiales, evidencias y aceptación didáctica.
+11. [Retos completos por RA](11-retos-por-ra.md): configuración dinámica, nombres, FTP, correo, web, acceso remoto, Wi-Fi y pasarela.
+12. [Complementos curriculares de implantación](12-complementos-curriculares-ra.md): caché recursiva, FTP activo/pasivo/anónimo aislado, IMAPS, escritorio remoto y pasarela/proxy con exterior simulado.
+
+El [JSON de alineación](alineacion-ra.json) conecta cada criterio con una actividad desarrollada y una evidencia concreta. El mapa describe material y actividades disponibles; no acredita adquisición del alumnado ni fija una ponderación oficial.
 
 Antes de empezar, revisa [Redes locales](../../primero/redes-locales/README.md) y el [laboratorio común](../../docs/laboratorio.md). El [índice general](../../README.md) relaciona estos procedimientos con sistemas operativos y seguridad.
 
@@ -45,10 +50,16 @@ El hipervisor puede incorporar su propio servidor DHCP en host-only. Debe estar 
 
 ## Secuencia y entregables
 
-Empieza por DNS con IP fija. Añade después DHCP y conserva una máquina con IP fija para administrar. Continúa con SSH y HTTPS. Por último integra los servicios y realiza la práctica de correo, que permanece local a una VM y no pretende entregar correo en Internet.
+Empieza por DNS con IP fija. Añade después DHCP y conserva una máquina con IP fija para administrar. Continúa con SSH y HTTPS. Por último integra los servicios y realiza la práctica base de correo, que permanece local a una VM y no pretende entregar correo en Internet. La ampliación por RA añade recogida IMAPS desde un cliente de LAB y envío a través de un túnel SSH, sin publicar SMTP ni habilitar retransmisión externa.
 
 Cada servicio requiere ficha de diseño, copia previa de configuración, validación de sintaxis, estado de proceso, puertos, prueba desde cliente, caso de rechazo y recuperación. Las rúbricas propuestas son didácticas; el centro define la evaluación oficial.
 
 ## Ruta de profundización
 
 Los capítulos 6–9 incorporan operación y cambios controlados. Replica primero una zona con una segunda VM `.30`; estudia después el estado temporal de DHCP, la identidad y confianza de accesos, y finalmente indicadores y continuidad. Cada ampliación distingue datos sintéticos de pruebas reales y añade una práctica con aceptación y retorno. Conserva escenarios separados: DNS de servicios, dominio AD, CMS y correo loopback no se juntan sin revisar puertos, identidades y dependencias.
+
+## Ruta por resultados de aprendizaje
+
+Consulta el capítulo 10 antes de elegir una práctica: RA1 corresponde a DHCP; RA2 a autoridad, caché y réplica DNS; RA3 a transferencia de ficheros; RA4 a correo y recogida remota; RA5 a servidores web; RA6 a acceso remoto CLI/gráfico; RA7 a AP y router inalámbrico; RA8 a pasarela y acceso entre redes. Los capítulos 11 y 12 desarrollan las operaciones que faltaban en el itinerario inicial y permiten registrar cada criterio con evidencia verificable.
+
+Una sesión SFTP no prueba los canales FTP activo/pasivo; un Maildir local no prueba recogida remota; un dibujo de router no demuestra radio ni una conexión real de operador. Los retos conservan esas diferencias y señalan qué es ejecución, observación, simulación o pendiente. Las pruebas de FTP se aíslan en `ftplab/.40`; la pasarela utiliza prefijos propios en otra topología y no introduce un gateway ficticio en la LAB base.

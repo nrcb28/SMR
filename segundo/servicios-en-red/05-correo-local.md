@@ -22,7 +22,7 @@ Crea un usuario exclusivamente para el buzón:
 sudo adduser --disabled-password --gecos "" labmail
 ~~~
 
-Si ya existe, inspecciónalo y elige otro nombre en vez de modificar una cuenta real. Esta cuenta no necesita acceso SSH. Un usuario de sistema y una dirección de correo son conceptos distintos, aunque esta configuración utilice usuarios locales como destinatarios.
+Si ya existe, inspecciónalo y elige otro nombre en vez de modificar una cuenta real. Esta cuenta no necesita acceso SSH. Un usuario de sistema y una dirección de correo son conceptos distintos, aunque esta configuración utilice usuarios locales como destinatarios. `--disabled-password` deja la contraseña bloqueada: eso permite el objetivo de entrega local de esta guía, pero no prepara una autenticación IMAPS con contraseña de sistema. La [ampliación IMAPS](12-complementos-curriculares-ra.md#cuenta-imaps) establece expresamente una credencial temporal por consola y excluye antes la cuenta del acceso SSH.
 
 ## 3. Configuración mínima
 

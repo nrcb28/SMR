@@ -1,0 +1,675 @@
+{
+  "modulo": "CMO-312",
+  "nombre": "Fundamentos de computación en la nube",
+  "carpeta": "optativas/CMO-312-fundamentos-computacion-nube",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-312; BOCM página 187 y siguientes; PDF páginas 170–172",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-312-fundamentos-computacion-nube/README.md",
+  "guia_retos": "optativas/CMO-312-fundamentos-computacion-nube/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Define qué es la computación en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han definido los diferentes modelos de computación en la nube.",
+          "actividad": "CMO-312-RA1-A1",
+          "evidencia": "Matriz de modelos y plan básico de adopción; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada alternativa asigna tareas a cliente/proveedor y conserva requisitos de datos y continuidad. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han descrito las ventajas de la computación en la nube frente a la computación en las instalaciones.",
+          "actividad": "CMO-312-RA1-A1",
+          "evidencia": "Matriz de modelos y plan básico de adopción; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada alternativa asigna tareas a cliente/proveedor y conserva requisitos de datos y continuidad. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido los servicios esenciales de la computación en la nube.",
+          "actividad": "CMO-312-RA1-A1",
+          "evidencia": "Matriz de modelos y plan básico de adopción; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada alternativa asigna tareas a cliente/proveedor y conserva requisitos de datos y continuidad. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha revisado el marco de adopción de la nube.",
+          "actividad": "CMO-312-RA1-A1",
+          "evidencia": "Matriz de modelos y plan básico de adopción; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada alternativa asigna tareas a cliente/proveedor y conserva requisitos de datos y continuidad. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA1-A1",
+          "titulo": "Comparar servicio en nube y servicio local",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Matriz de modelos y plan básico de adopción",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada alternativa asigna tareas a cliente/proveedor y conserva requisitos de datos y continuidad.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Describe la filosofía de precios en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han reconocido las características fundamentales de los precios.",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han indicado los factores que intervienen en el coste total de la propiedad (TCO).",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han utilizado servicios para estimar el coste del despliegue de una infraestructura en la nube.",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Hoja TCO, escenarios y captura saneada de estimación oficial si se usa»; criterio c.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han utilizado los servicios para presupuestar y analizar costes de una infraestructura en la nube.",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han descrito los diferentes planes de soporte de los proveedores de servicios en la nube.",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han identificado los elementos de optimización de costes de las máquinas virtuales en la nube.",
+          "actividad": "CMO-312-RA2-A1",
+          "evidencia": "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA2-A1",
+          "titulo": "Construir un presupuesto con hipótesis visibles",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Hoja TCO, escenarios y captura saneada de estimación oficial si se usa",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las partidas y unidades son reproducibles y los límites de la estimación aparecen expresamente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Identifica los componentes de la infraestructura en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado las diferencias entre regiones, zonas de disponibilidad y zonas de borde.",
+          "actividad": "CMO-312-RA3-A1",
+          "evidencia": "Mapa de infraestructura y clasificación de servicios; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diagrama distingue los tres ámbitos y no atribuye independencia a componentes compartidos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado las diferentes categorías y servicios en la nube.",
+          "actividad": "CMO-312-RA3-A1",
+          "evidencia": "Mapa de infraestructura y clasificación de servicios; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diagrama distingue los tres ámbitos y no atribuye independencia a componentes compartidos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA3-A1",
+          "titulo": "Situar regiones, zonas y borde",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra3",
+          "criterios": [
+            "a",
+            "b"
+          ],
+          "entregables": [
+            "Mapa de infraestructura y clasificación de servicios",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El diagrama distingue los tres ámbitos y no atribuye independencia a componentes compartidos.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Describe las medidas de seguridad y conformidad de la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha reconocido el modelo de responsabilidad compartida.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado las responsabilidades del cliente y del proveedor de servicios en la nube.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido las entidades que intervienen en el proceso de autenticación.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han descrito los diferentes tipos de credenciales de seguridad en la nube.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han creado usuarios, grupos y roles.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Matriz de responsabilidades, política y registro de acceso permitido/denegado»; criterio e.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se ha reconocido cómo proteger los datos en la nube.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han reconocido los diferentes programas de conformidad.",
+          "actividad": "CMO-312-RA4-A1",
+          "evidencia": "Matriz de responsabilidades, política y registro de acceso permitido/denegado; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA4-A1",
+          "titulo": "Preparar identidad y responsabilidad compartida",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Matriz de responsabilidades, política y registro de acceso permitido/denegado",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las identidades reales del ejercicio tienen permisos limitados y se distingue diseño de ejecución.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Crea una nube privada virtual.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han reconocido los conceptos básicos de redes.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han descrito las redes virtuales en la nube.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han diseñado arquitecturas básicas de redes privadas en la nube.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han indicado los pasos para desplegar una red privada en la nube.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha creado una red privada en la nube y se han agregado los componentes necesarios para personalizarla.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plan CIDR, inventario del sandbox y pruebas de rutas/controles»; criterio e.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han identificado los aspectos fundamentales de los servicios de nombres de dominio en la nube.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han reconocido los beneficios de utilizar redes de entrega de contenidos en la nube.",
+          "actividad": "CMO-312-RA5-A1",
+          "evidencia": "Plan CIDR, inventario del sandbox y pruebas de rutas/controles; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA5-A1",
+          "titulo": "Diseñar y crear una red privada virtual",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Plan CIDR, inventario del sandbox y pruebas de rutas/controles",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "La red real coincide con el diseño, no tiene solapamientos y sólo permite los trayectos previstos.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Describe los casos de uso de los diferentes servicios de computación en nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra6"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han descrito los diferentes servicios de cómputo en la nube.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Comparación de cómputo y acta de lanzamiento/retirada de VM; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado los casos de uso de las máquinas virtuales en la nube.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Comparación de cómputo y acta de lanzamiento/retirada de VM; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han lanzado máquinas virtuales en la nube.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Comparación de cómputo y acta de lanzamiento/retirada de VM»; criterio c.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han identificado los casos de uso de los servicios administrados de despliegue de aplicaciones web.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Comparación de cómputo y acta de lanzamiento/retirada de VM; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han identificado los casos de uso de los servicios de funciones sin servidor.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Comparación de cómputo y acta de lanzamiento/retirada de VM; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han identificado los casos de uso de los servicios de contenedorización en un clúster de servidores administrados.",
+          "actividad": "CMO-312-RA6-A1",
+          "evidencia": "Comparación de cómputo y acta de lanzamiento/retirada de VM; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA6-A1",
+          "titulo": "Elegir cómputo para una carga concreta",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Comparación de cómputo y acta de lanzamiento/retirada de VM",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se justifica cada caso de uso y la VM del sandbox responde sin accesos públicos innecesarios.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "enunciado_oficial": "Describe y diferencia los servicios de almacenamiento en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra7"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han diferenciado los tipos de servicios de almacenamiento en la nube.",
+          "actividad": "CMO-312-RA7-A1",
+          "evidencia": "Matriz de almacenamiento y política de recuperación/ciclo de vida; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han descrito los servicios de almacenamiento de objetos en la nube y se ha identificado sus funcionalidades.",
+          "actividad": "CMO-312-RA7-A1",
+          "evidencia": "Matriz de almacenamiento y política de recuperación/ciclo de vida; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han descrito los servicios de almacenamiento de bloques en la nube y se ha identificado sus funcionalidades.",
+          "actividad": "CMO-312-RA7-A1",
+          "evidencia": "Matriz de almacenamiento y política de recuperación/ciclo de vida; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han descrito los servicios de almacenamiento de ficheros en la nube y se ha identificado sus funcionalidades.",
+          "actividad": "CMO-312-RA7-A1",
+          "evidencia": "Matriz de almacenamiento y política de recuperación/ciclo de vida; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han identificado los servicios de archivado de datos en la nube y se han identificado sus funcionalidades.",
+          "actividad": "CMO-312-RA7-A1",
+          "evidencia": "Matriz de almacenamiento y política de recuperación/ciclo de vida; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA7-A1",
+          "titulo": "Relacionar almacenamiento y patrón de acceso",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra7",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Matriz de almacenamiento y política de recuperación/ciclo de vida",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada carga tiene interfaz y recuperación compatibles, con permisos y costes considerados.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado_oficial": "Describe, diferencia y despliega bases de datos administradas en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra8"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han descrito e identificado las funcionalidades de los servicios administrados de bases de datos relacionales.",
+          "actividad": "CMO-312-RA8-A1",
+          "evidencia": "Ficha de selección, inventario de base y transacción sintética verificada; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El servicio administrado se usa realmente desde el cliente previsto y respeta controles de acceso. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han descrito e identificado las funcionalidades de los servicios administrados de bases de datos NoSQL.",
+          "actividad": "CMO-312-RA8-A1",
+          "evidencia": "Ficha de selección, inventario de base y transacción sintética verificada; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El servicio administrado se usa realmente desde el cliente previsto y respeta controles de acceso. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han descrito e identificado las funcionalidades de los servicios administrados de bases de datos analíticas.",
+          "actividad": "CMO-312-RA8-A1",
+          "evidencia": "Ficha de selección, inventario de base y transacción sintética verificada; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El servicio administrado se usa realmente desde el cliente previsto y respeta controles de acceso. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han desplegado bases de datos relacionales administradas en la nube.",
+          "actividad": "CMO-312-RA8-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Ficha de selección, inventario de base y transacción sintética verificada»; criterio d.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA8-A1",
+          "titulo": "Desplegar una base de datos administrada",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra8",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Ficha de selección, inventario de base y transacción sintética verificada",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El servicio administrado se usa realmente desde el cliente previsto y respeta controles de acceso.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "enunciado_oficial": "Describe los principios arquitectónicos en la nube.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra9"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha descrito el marco de la buena arquitectura en la nube.",
+          "actividad": "CMO-312-RA9-A1",
+          "evidencia": "Informe de revisión arquitectónica y plan priorizado; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada decisión enlaza requisito, evidencia y consecuencia; se distingue disponibilidad de recuperación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado los seis pilares de la buena arquitectura y se han identificado los principios de diseño.",
+          "actividad": "CMO-312-RA9-A1",
+          "evidencia": "Informe de revisión arquitectónica y plan priorizado; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada decisión enlaza requisito, evidencia y consecuencia; se distingue disponibilidad de recuperación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha explicado la importancia de la fiabilidad y de la alta disponibilidad.",
+          "actividad": "CMO-312-RA9-A1",
+          "evidencia": "Informe de revisión arquitectónica y plan priorizado; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada decisión enlaza requisito, evidencia y consecuencia; se distingue disponibilidad de recuperación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han utilizado los servicios administrados para obtener recomendaciones arquitectónicas.",
+          "actividad": "CMO-312-RA9-A1",
+          "evidencia": "Informe de revisión arquitectónica y plan priorizado; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada decisión enlaza requisito, evidencia y consecuencia; se distingue disponibilidad de recuperación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA9-A1",
+          "titulo": "Revisar una arquitectura con criterios explícitos",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra9",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Informe de revisión arquitectónica y plan priorizado",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada decisión enlaza requisito, evidencia y consecuencia; se distingue disponibilidad de recuperación.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "enunciado_oficial": "Entiende los conceptos de balanceado de carga, autoescalado y monitorización para el diseño de arquitecturas elásticas.",
+      "materiales": [
+        "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra10"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha indicado cómo distribuir el tráfico entre diferentes máquinas virtuales utilizando balanceadores de carga.",
+          "actividad": "CMO-312-RA10-A1",
+          "evidencia": "Matriz de peticiones, métricas y política de escalado; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se demuestra balanceo, estado de destinos y reacción medida; el autoescalado real pendiente no se declara ejecutado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado los servicios de monitorización de recursos y aplicaciones en tiempo real.",
+          "actividad": "CMO-312-RA10-A1",
+          "evidencia": "Matriz de peticiones, métricas y política de escalado; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se demuestra balanceo, estado de destinos y reacción medida; el autoescalado real pendiente no se declara ejecutado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha indicado el funcionamiento de los servicios de escalado automático en respuesta a cambios en las cargas de trabajo.",
+          "actividad": "CMO-312-RA10-A1",
+          "evidencia": "Matriz de peticiones, métricas y política de escalado; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se demuestra balanceo, estado de destinos y reacción medida; el autoescalado real pendiente no se declara ejecutado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han realizado tareas de escalado y balanceo de carga para aumentar la elasticidad de una infraestructura.",
+          "actividad": "CMO-312-RA10-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Matriz de peticiones, métricas y política de escalado»; criterio d.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-312-RA10-A1",
+          "titulo": "Comprobar elasticidad, balanceo y señales",
+          "guia": "optativas/CMO-312-fundamentos-computacion-nube/README.md#ra10",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Matriz de peticiones, métricas y política de escalado",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se demuestra balanceo, estado de destinos y reacción medida; el autoescalado real pendiente no se declara ejecutado.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

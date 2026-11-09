@@ -1,0 +1,36 @@
+{
+  "fecha_descarga": "2026-11-09",
+  "nota": "Las huellas identifican los documentos consultados. Los originales se consultan en la fuente; no se incluyen PDF en el repositorio.",
+  "fuentes": [
+    {
+      "archivo_consultado": "rd-1691-2007.xml",
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2008-819",
+      "bytes": 182074,
+      "sha256": "23ca77f3d5683f88692153ceb7d5c87b4ad6ceb5c7cbb4641dcc8bb253da4b45"
+    },
+    {
+      "archivo_consultado": "rd-499-2024.xml",
+      "url": "https://www.boe.es/diario_boe/xml.php?id=BOE-A-2024-10684",
+      "bytes": 1051149,
+      "sha256": "9bb95e91a852c38f35eb955d5911a84c38318846b7c79c15f6544bf63e1b89c9"
+    },
+    {
+      "archivo_consultado": "transversales-3537-2025.pdf",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF",
+      "bytes": 708838,
+      "sha256": "60cb736cb6b42cba70badaaf17ae3ee7cc1288c14738e7650659b2c9f7180fa5"
+    },
+    {
+      "archivo_consultado": "optativas-3536-2025.pdf",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "bytes": 4365434,
+      "sha256": "b66ebf2b16caeadddec6ee73f8349c9580794b21da565efe85054765b1c79e24"
+    },
+    {
+      "archivo_consultado": "optativas-3822-2026.pdf",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "bytes": 1965181,
+      "sha256": "36f2cb8a39254d086fc8355b96258dfe2b9c8064787d3347f758a43c19540a2c"
+    }
+  ]
+}

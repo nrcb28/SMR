@@ -1,0 +1,393 @@
+{
+  "modulo": "CMO-311",
+  "nombre": "Informática aplicada a sistemas electrónicos (Robótica)",
+  "carpeta": "optativas/CMO-311-robotica",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-311; BOCM página 185 y siguientes; PDF páginas 168–170",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-311-robotica/README.md",
+  "guia_retos": "optativas/CMO-311-robotica/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Describe los fundamentos básicos de las señales eléctricas.",
+      "materiales": [
+        "optativas/CMO-311-robotica/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha descrito el significado de corriente, tensión, resistencia, potencia y energía.",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado señales continuas y alternas.",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han identificado señales periódicas y aleatorias.",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han descrito la amplitud, frecuencia y el periodo de una señal periódica.",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han identificado señales en tiempo continuo y discreto.",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se ha descrito la conversión analógico-digital (muestreo, cuantificación y codificación) examinando los conceptos básicos (frecuencia de muestreo y resolución).",
+          "actividad": "CMO-311-RA1-A1",
+          "evidencia": "Ficha de magnitudes, gráfica y cálculo de muestreo; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-311-RA1-A1",
+          "titulo": "Interpretar una señal antes de medirla",
+          "guia": "optativas/CMO-311-robotica/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Ficha de magnitudes, gráfica y cálculo de muestreo",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Todas las cifras tienen unidad y se distingue señal continua, discreta, rango y resolución.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Analiza, diseña, simula y mide circuitos electrónicos en continua.",
+      "materiales": [
+        "optativas/CMO-311-robotica/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado los distintos componentes discretos que forman parte de un circuito electrónico.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han descrito las características básicas y principios de los distintos componentes discretos.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han analizado y explicado circuitos electrónicos con componentes discretos.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han diseñado circuitos electrónicos con componentes discretos.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han empleado programas de simulación para comprobar cálculos y verificar el diseño de los circuitos electrónicos.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han realizado montajes y pruebas de funcionamiento de circuitos con componentes discretos con las herramientas e instrumentación adecuada.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Acta de observación física supervisada y datos de medida o funcionamiento; Esquema, cálculo, simulación y hoja de medición supervisada.",
+          "aceptacion": "La operación física del criterio es observada con seguridad y se relaciona con el diseño; una captura del simulador no la sustituye."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han identificado circuitos abiertos y cortocircuitos.",
+          "actividad": "CMO-311-RA2-A1",
+          "evidencia": "Esquema, cálculo, simulación y hoja de medición supervisada; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-311-RA2-A1",
+          "titulo": "Diseñar y verificar un circuito de baja tensión",
+          "guia": "optativas/CMO-311-robotica/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Esquema, cálculo, simulación y hoja de medición supervisada",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El montaje respeta límites del componente y separa cálculo, simulación y medición real; lo no ejecutado queda pendiente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Utiliza con destreza un entorno de programación de sistemas electrónicos digitales.",
+      "materiales": [
+        "optativas/CMO-311-robotica/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha utilizado con precisión el entorno de programación de un sistema electrónico.",
+          "actividad": "CMO-311-RA3-A1",
+          "evidencia": "Código del controlador, diagrama de estados y traza de entradas/salidas; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han desarrollado programas para controlar el funcionamiento de un sistema electrónico.",
+          "actividad": "CMO-311-RA3-A1",
+          "evidencia": "Código del controlador, diagrama de estados y traza de entradas/salidas; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han usado de manera adecuada comandos de control de ejecución (condicionales y bucles).",
+          "actividad": "CMO-311-RA3-A1",
+          "evidencia": "Código del controlador, diagrama de estados y traza de entradas/salidas; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han usado de manera adecuada constantes, variables y listas.",
+          "actividad": "CMO-311-RA3-A1",
+          "evidencia": "Código del controlador, diagrama de estados y traza de entradas/salidas; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha analizado el funcionamiento de un programa de un sistema electrónico.",
+          "actividad": "CMO-311-RA3-A1",
+          "evidencia": "Código del controlador, diagrama de estados y traza de entradas/salidas; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-311-RA3-A1",
+          "titulo": "Programar un controlador con estados",
+          "guia": "optativas/CMO-311-robotica/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Código del controlador, diagrama de estados y traza de entradas/salidas",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada transición prevista se reproduce y una entrada inválida lleva al estado de seguridad definido.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Utiliza software de diseño 3D e impresión 3D para la creación de objetos y prototipos.",
+      "materiales": [
+        "optativas/CMO-311-robotica/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha descrito el funcionamiento de un sistema de impresión 3D.",
+          "actividad": "CMO-311-RA4-A1",
+          "evidencia": "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han enumerado los distintos tipos de materiales usados en impresión 3D, así como las características de cada uno de ellos.",
+          "actividad": "CMO-311-RA4-A1",
+          "evidencia": "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha seleccionado el material adecuado de impresión 3D.",
+          "actividad": "CMO-311-RA4-A1",
+          "evidencia": "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha usado software de diseño adecuado para la creación de objetos y prototipos 3D.",
+          "actividad": "CMO-311-RA4-A1",
+          "evidencia": "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha usado software de impresión 3D y se han configurado sus parámetros para la impresión adecuada de objetos y prototipos 3D.",
+          "actividad": "CMO-311-RA4-A1",
+          "evidencia": "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-311-RA4-A1",
+          "titulo": "Diseñar una carcasa que se pueda fabricar",
+          "guia": "optativas/CMO-311-robotica/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Modelo editable, archivo de fabricación y ficha de parámetros/ajuste",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El diseño mantiene unidades, permite conectar y fijar la placa y justifica material y parámetros.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Desarrolla un proyecto para la creación de un prototipo de un sistema robótico funcional, respetando las fases de diseño, elaborando documentación técnica y presentando dicho proyecto.",
+      "materiales": [
+        "optativas/CMO-311-robotica/README.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han descrito las fases del proceso de un proyecto tecnológico.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han usado herramientas de gestión de proyectos.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha empleado el software adecuado para la generación de la documentación asociada al proceso tecnológico (elaboración de exposiciones, presupuestos...).",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha elaborado documentación técnica asociada a un proyecto tecnológico.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha desarrollado y seguido una planificación del proyecto.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se ha diseñado y creado un sistema robótico.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Acta de observación física supervisada y datos de medida o funcionamiento; Expediente del prototipo con planificación, versiones y vídeo o acta de demostración.",
+          "aceptacion": "La operación física del criterio es observada con seguridad y se relaciona con el diseño; una captura del simulador no la sustituye."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se ha presentado adecuadamente el proyecto de un sistema robótico.",
+          "actividad": "CMO-311-RA5-A1",
+          "evidencia": "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-311-RA5-A1",
+          "titulo": "Integrar un prototipo robótico demostrable",
+          "guia": "optativas/CMO-311-robotica/README.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Expediente del prototipo con planificación, versiones y vídeo o acta de demostración",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se verifica la función acotada, el comportamiento ante fallo y la correspondencia entre documentación y prototipo.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

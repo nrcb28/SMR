@@ -61,3 +61,11 @@ La [ampliación de noviembre de 2026](novedades-ampliacion.md) añade monografí
 El registro de laboratorio incorpora direcciones para extensiones opcionales y evita reutilizar la misma IP para DNS secundario y reserva DHCP. Cada topología alternativa de VLAN conserva su propio plan; no se traslada una puerta de enlace planificada a la LAB base si allí no existe un router.
 
 Después de añadir o renombrar un capítulo, actualiza el README de su asignatura y ejecuta `python3 scripts/generar_indice.py`. Comprueba el resultado con `--check` y después pasa el validador de documentación. El índice completo ayuda a localizar archivos; las explicaciones del módulo conservan el orden recomendado de aprendizaje.
+
+## 7. Mantenimiento de las alineaciones RA/CE
+
+Cada cambio curricular debe contrastarse con la norma y su desarrollo aplicable, conservando código, versión y localizador. La [guía de trabajo por RA](evaluacion-por-ra.md) explica la relación entre enunciado, criterio, actividad y evidencia. Las alineaciones locales se contrastan con [referentes-oficiales.json](../recursos/ra/referentes-oficiales.json); la coincidencia estructural no sustituye la revisión técnica del procedimiento.
+
+Después de modificar una alineación, ejecuta `python3 scripts/validar_ra.py` y regenera el mapa con `python3 scripts/generar_mapa_ra.py`. Su opción `--check` comprueba la actualización sin escribir. El generador actualiza una plantilla base de seguimiento, por lo que los registros personales se mantienen en copias separadas.
+
+El [catálogo optativo](../optativas/README.md) distingue los currículos, las variantes lingüísticas y las condiciones de oferta. Una futura ampliación de catálogo necesita actualizar su inventario y los referentes, junto con la guía correspondiente. No se deduce que un centro imparta una optativa sólo porque exista en la relación autonómica.

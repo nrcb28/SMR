@@ -16,6 +16,8 @@ El trabajo se plantea como administración reproducible: observar el estado, pla
 | [06 · Procesos y memoria](06-procesos-memoria-y-observabilidad.md) | Tiempo de CPU/pared, estados, memoria virtual/residente, caché, swap y PSI | Línea temporal con métricas y diagnóstico proporcional |
 | [07 · Archivos y permisos efectivos](07-archivos-permisos-y-consistencia.md) | Inodos, enlaces, ACL/máscara, NTFS, espacio y consistencia | Explicar accesos permitidos/denegados y diferencias de contadores |
 | [08 · Automatización y taller resuelto](08-automatizacion-y-taller-resuelto.md) | Bash/PowerShell, manifiestos, bloqueo, tareas programadas y dieciséis problemas | Automatización comprobable con errores previstos y retirada |
+| [09 · Alineación por RA](09-alineacion-ra.md) | Los 5 resultados y 41 criterios oficiales, vinculados a materiales y actividades | Identificar qué debe observarse en cada criterio |
+| [10 · Retos por RA](10-retos-por-ra.md) | Representación, archivos, instalación, configuración, administración y virtualización | Dossier ejecutado con comprobaciones y recuperación |
 
 La ampliación 05–08 desarrolla administración por capas y añade prácticas de recuperación, observación temporal, ACL y programación. Los [ejemplos Bash](ejemplos/ampliacion/manifiesto.sh) y [PowerShell](ejemplos/ampliacion/manifiesto.ps1) son herramientas educativas de manifiestos para árboles sintéticos: no son un sistema de backup. Su contrato, alcance, ejecución y casos negativos se explican en el capítulo 08.
 
@@ -39,6 +41,8 @@ Las rutas de menús cambian entre versiones. Aprende también el objeto que est�
 | Recuperar y documentar | Restaurar datos de prueba y resolver una incidencia sin cambios indiscriminados |
 
 Esta organización no inventa numeraciones de resultados de aprendizaje oficiales. Consulta el contexto curricular en el [inicio del repositorio](../../README.md).
+
+El [mapa de RA](09-alineacion-ra.md) conserva la numeración del referente oficial y diferencia los resúmenes didácticos de criterios de sus enunciados normativos. Los [retos](10-retos-por-ra.md) amplían representación y codificación, sistemas transaccionales y comparación práctica de virtualizadores. Consulta la [trazabilidad JSON](alineacion-ra.json) para relacionar los cinco RA y 41 CE con entregables y aceptación, dejando pendientes las pruebas que no hayas realizado.
 
 ## Fuentes primarias
 

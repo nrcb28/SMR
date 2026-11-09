@@ -1,0 +1,592 @@
+{
+  "modulo": "0156",
+  "nombre": "Inglés profesional (Grado Medio)",
+  "carpeta": "segundo/ingles-profesional",
+  "fuentes": [
+    {
+      "norma": "Orden 3537/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF",
+      "localizador": "Anexo II, módulo 0156, páginas impresas 264–267, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/ingles-profesional/05-alineacion-ra.md",
+  "guia_retos": "segundo/ingles-profesional/06-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Comprende información, de índole profesional y cotidiana, contenida en discursos orales sencillos, emitidos en lengua estándar, descifrando el contenido global del mensaje, y relacionándolo con los recursos lingüísticos correspondientes.",
+      "materiales": [
+        "segundo/ingles-profesional/01-guia.md",
+        "segundo/ingles-profesional/04-simulaciones-y-defensa.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Situar el mensaje oral en su contexto",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Ficha de canal, situación y destinatario",
+          "aceptacion": "Justifica contexto con señales realmente escuchadas o vistas"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar argumento y papeles de los interlocutores",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Mapa de roles y secuencia de llamada",
+          "aceptacion": "Distingue técnico, persona usuaria y propósito de sus turnos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Reconocer finalidad del mensaje oral",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Decisión de finalidad con frase de apoyo",
+          "aceptacion": "Diferencia informar, pedir, advertir y confirmar sin traducir todo"
+        },
+        {
+          "letra": "d",
+          "resumen": "Extraer datos específicos de una emisión estándar",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Notas de activo, hora, síntoma y condición",
+          "aceptacion": "Conserva datos críticos y marca lo que no ha podido confirmar"
+        },
+        {
+          "letra": "e",
+          "resumen": "Ordenar los componentes del mensaje",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Cronología de instrucciones",
+          "aceptacion": "La secuencia no altera dependencias ni condiciones de seguridad"
+        },
+        {
+          "letra": "f",
+          "resumen": "Resumir ideas principales de un discurso conocido",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Resumen oral o escrito de la escucha",
+          "aceptacion": "Conserva idea central, impacto y siguiente paso sin detalles inventados"
+        },
+        {
+          "letra": "g",
+          "resumen": "Reconocer instrucciones y tipo de respuesta",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Tabla instrucción-respuesta",
+          "aceptacion": "Distingue responder verbalmente, realizar una acción simulada y pedir aclaración"
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprender globalmente sin conocer cada elemento",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Registro de palabras desconocidas y sentido global",
+          "aceptacion": "Deduce el conjunto y señala incertidumbre sin bloquearse por cada término"
+        },
+        {
+          "letra": "i",
+          "resumen": "Interpretar entonación y apoyos visuales",
+          "actividad": "0156-RA1-A1",
+          "evidencia": "Comparación de dos versiones de una frase",
+          "aceptacion": "Explica cómo cambia el foco o intención con prosodia o gesto"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0156-RA1-A1",
+          "titulo": "Escuchar una llamada de soporte y discriminar intención",
+          "guia": "segundo/ingles-profesional/06-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Ficha de canal, situación y destinatario",
+            "Mapa de roles y secuencia de llamada",
+            "Decisión de finalidad con frase de apoyo",
+            "Notas de activo, hora, síntoma y condición",
+            "Cronología de instrucciones",
+            "Resumen oral o escrito de la escucha",
+            "Tabla instrucción-respuesta",
+            "Registro de palabras desconocidas y sentido global",
+            "Comparación de dos versiones de una frase"
+          ],
+          "comprobaciones": [
+            "Justifica contexto con señales realmente escuchadas o vistas",
+            "Distingue técnico, persona usuaria y propósito de sus turnos",
+            "Diferencia informar, pedir, advertir y confirmar sin traducir todo",
+            "Conserva datos críticos y marca lo que no ha podido confirmar",
+            "La secuencia no altera dependencias ni condiciones de seguridad",
+            "Conserva idea central, impacto y siguiente paso sin detalles inventados",
+            "Distingue responder verbalmente, realizar una acción simulada y pedir aclaración",
+            "Deduce el conjunto y señala incertidumbre sin bloquearse por cada término",
+            "Explica cómo cambia el foco o intención con prosodia o gesto"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Comprende información profesional contenida en textos escritos sencillos, analizando de forma comprensiva su contenido.",
+      "materiales": [
+        "segundo/ingles-profesional/03-documentacion-y-mensajes-tecnicos.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Elegir apoyos y diccionarios técnicos",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Registro de consulta y decisión léxica",
+          "aceptacion": "Selecciona apoyo pertinente y no copia una traducción sin comprobar contexto"
+        },
+        {
+          "letra": "b",
+          "resumen": "Leer textos claros en lengua estándar",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Anotación estructural de la nota técnica",
+          "aceptacion": "Identifica acción, condición y destinatario de forma comprensible"
+        },
+        {
+          "letra": "c",
+          "resumen": "Relacionar el texto con el sector profesional",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Ficha de tarea SMR asociada",
+          "aceptacion": "Vincula instrucciones y función real de soporte"
+        },
+        {
+          "letra": "d",
+          "resumen": "Reconocer ideas principales e información relevante",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Resumen de la nota",
+          "aceptacion": "Conserva objetivo y límites aunque queden palabras no esenciales"
+        },
+        {
+          "letra": "e",
+          "resumen": "Identificar términos, gramática y género discursivo",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Glosario contextual y anotación de estructuras",
+          "aceptacion": "Explica al menos un imperativo, condición y referencia temporal del texto"
+        },
+        {
+          "letra": "f",
+          "resumen": "Traducir con apoyos cuando sean necesarios",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Traducción breve comentada",
+          "aceptacion": "Mantiene sentido y condición sin introducir una obligación inexistente"
+        },
+        {
+          "letra": "g",
+          "resumen": "Interpretar un mensaje recibido por soporte telemático",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Lectura de un ticket o aviso digital",
+          "aceptacion": "Separa asunto, cuerpo, estado y acción solicitada"
+        },
+        {
+          "letra": "h",
+          "resumen": "Reconocer finalidad de textos profesionales",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Clasificación de aviso, petición y procedimiento",
+          "aceptacion": "Justifica finalidad por rasgos del texto"
+        },
+        {
+          "letra": "i",
+          "resumen": "Extraer detalles de textos en distintos soportes",
+          "actividad": "0156-RA2-A1",
+          "evidencia": "Tabla de datos y decisiones",
+          "aceptacion": "Cada dato tiene ubicación y no se confunde con una suposición"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0156-RA2-A1",
+          "titulo": "Leer una nota de mantenimiento y extraer decisiones",
+          "guia": "segundo/ingles-profesional/06-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Registro de consulta y decisión léxica",
+            "Anotación estructural de la nota técnica",
+            "Ficha de tarea SMR asociada",
+            "Resumen de la nota",
+            "Glosario contextual y anotación de estructuras",
+            "Traducción breve comentada",
+            "Lectura de un ticket o aviso digital",
+            "Clasificación de aviso, petición y procedimiento",
+            "Tabla de datos y decisiones"
+          ],
+          "comprobaciones": [
+            "Selecciona apoyo pertinente y no copia una traducción sin comprobar contexto",
+            "Identifica acción, condición y destinatario de forma comprensible",
+            "Vincula instrucciones y función real de soporte",
+            "Conserva objetivo y límites aunque queden palabras no esenciales",
+            "Explica al menos un imperativo, condición y referencia temporal del texto",
+            "Mantiene sentido y condición sin introducir una obligación inexistente",
+            "Separa asunto, cuerpo, estado y acción solicitada",
+            "Justifica finalidad por rasgos del texto",
+            "Cada dato tiene ubicación y no se confunde con una suposición"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Produce mensajes orales sencillos, claros y estructurados, participando como agente activo en conversaciones profesionales.",
+      "materiales": [
+        "segundo/ingles-profesional/04-simulaciones-y-defensa.md",
+        "segundo/ingles-profesional/03-documentacion-y-mensajes-tecnicos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Elegir registro oral apropiado",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Plan de interlocutores y fórmulas",
+          "aceptacion": "Adapta saludo, tratamiento y precisión al contexto"
+        },
+        {
+          "letra": "b",
+          "resumen": "Usar conectores y estrategias de interacción",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Diálogo con turnos y recapitulación",
+          "aceptacion": "Se entiende relación entre hechos, condiciones y siguientes pasos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Describir hechos imprevistos de la profesión",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Respuesta a una tarjeta de incidente",
+          "aceptacion": "Explica el cambio con frases claras sin inventar una causa"
+        },
+        {
+          "letra": "d",
+          "resumen": "Utilizar terminología profesional correcta",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Lista de términos usados en conversación",
+          "aceptacion": "Distingue reiniciar, restablecer, copia, contraseña y permiso según contexto"
+        },
+        {
+          "letra": "e",
+          "resumen": "Expresar opiniones, ideas y sentimientos",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Turno de preferencia o preocupación",
+          "aceptacion": "Formula la posición y su motivo con respeto"
+        },
+        {
+          "letra": "f",
+          "resumen": "Enumerar actividades de la tarea",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Lista oral de actuaciones",
+          "aceptacion": "Nombra acciones necesarias sin omitir una dependencia esencial"
+        },
+        {
+          "letra": "g",
+          "resumen": "Describir y secuenciar un proceso propio",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Explicación oral de un procedimiento",
+          "aceptacion": "Ordena preparación, cambio, validación y cierre"
+        },
+        {
+          "letra": "h",
+          "resumen": "Aceptar o rechazar propuestas con cortesía",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Respuesta a una petición no autorizada",
+          "aceptacion": "Da razón y alternativa sin prometer una acción insegura"
+        },
+        {
+          "letra": "i",
+          "resumen": "Intercambiar detalles con relativa fluidez",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Diálogo por voz o videollamada simulada",
+          "aceptacion": "Confirma datos y mantiene intercambio comprensible sin leer todos los turnos"
+        },
+        {
+          "letra": "j",
+          "resumen": "Realizar presentación breve preparada",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Exposición de una intervención",
+          "aceptacion": "Tiene objetivo, estructura, evidencias y cierre adecuados al público"
+        },
+        {
+          "letra": "k",
+          "resumen": "Hablar espontáneamente con formalidad adecuada",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Turno sin guion completo",
+          "aceptacion": "Adapta forma y contenido a una pregunta nueva"
+        },
+        {
+          "letra": "l",
+          "resumen": "Responder preguntas socioprofesionales o de entrevista",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Mini entrevista con evidencia técnica",
+          "aceptacion": "Atribuye experiencia con honestidad y responde al punto preguntado"
+        },
+        {
+          "letra": "m",
+          "resumen": "Pedir reformulación o aclaración cuando sea necesario",
+          "actividad": "0156-RA3-A1",
+          "evidencia": "Turno de aclaración y confirmación",
+          "aceptacion": "La pregunta resuelve una ambigüedad concreta antes de actuar"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0156-RA3-A1",
+          "titulo": "Operar un diálogo y una presentación espontánea",
+          "guia": "segundo/ingles-profesional/06-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m"
+          ],
+          "entregables": [
+            "Plan de interlocutores y fórmulas",
+            "Diálogo con turnos y recapitulación",
+            "Respuesta a una tarjeta de incidente",
+            "Lista de términos usados en conversación",
+            "Turno de preferencia o preocupación",
+            "Lista oral de actuaciones",
+            "Explicación oral de un procedimiento",
+            "Respuesta a una petición no autorizada",
+            "Diálogo por voz o videollamada simulada",
+            "Exposición de una intervención",
+            "Turno sin guion completo",
+            "Mini entrevista con evidencia técnica",
+            "Turno de aclaración y confirmación"
+          ],
+          "comprobaciones": [
+            "Adapta saludo, tratamiento y precisión al contexto",
+            "Se entiende relación entre hechos, condiciones y siguientes pasos",
+            "Explica el cambio con frases claras sin inventar una causa",
+            "Distingue reiniciar, restablecer, copia, contraseña y permiso según contexto",
+            "Formula la posición y su motivo con respeto",
+            "Nombra acciones necesarias sin omitir una dependencia esencial",
+            "Ordena preparación, cambio, validación y cierre",
+            "Da razón y alternativa sin prometer una acción insegura",
+            "Confirma datos y mantiene intercambio comprensible sin leer todos los turnos",
+            "Tiene objetivo, estructura, evidencias y cierre adecuados al público",
+            "Adapta forma y contenido a una pregunta nueva",
+            "Atribuye experiencia con honestidad y responde al punto preguntado",
+            "La pregunta resuelve una ambigüedad concreta antes de actuar"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Redacta textos sencillos en lengua estándar, relacionando las reglas gramaticales con la finalidad de los mismos.",
+      "materiales": [
+        "segundo/ingles-profesional/03-documentacion-y-mensajes-tecnicos.md",
+        "segundo/ingles-profesional/02-practicas-y-evaluacion.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Elegir estrategias, vocabulario y convenciones del género",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Plan de correo, nota y ticket",
+          "aceptacion": "La forma corresponde a propósito y destinatario"
+        },
+        {
+          "letra": "b",
+          "resumen": "Redactar textos breves cotidianos o profesionales",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Borradores del expediente",
+          "aceptacion": "Transmiten mensaje suficiente con terminología comprensible"
+        },
+        {
+          "letra": "c",
+          "resumen": "Organizar información con coherencia y cohesión",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Versión revisada y cambios anotados",
+          "aceptacion": "Distingue observación, acción y petición en orden lógico"
+        },
+        {
+          "letra": "d",
+          "resumen": "Resumir textos del entorno profesional",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Resumen de la nota de mantenimiento",
+          "aceptacion": "Conserva ideas centrales y evita detalles o causas no presentes"
+        },
+        {
+          "letra": "e",
+          "resumen": "Cumplimentar documentación de su campo",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Ticket con campos técnicos",
+          "aceptacion": "Contiene activo sintético, síntoma, pruebas y estado sin secretos"
+        },
+        {
+          "letra": "f",
+          "resumen": "Completar un texto con apoyo visual y claves",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Formulario apoyado en diagrama y banco de palabras",
+          "aceptacion": "Los campos coinciden con los datos del apoyo"
+        },
+        {
+          "letra": "g",
+          "resumen": "Utilizar fórmulas de cortesía del documento",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Saludo, petición y cierre revisados",
+          "aceptacion": "El tono resulta apropiado y no altera el contenido técnico"
+        },
+        {
+          "letra": "h",
+          "resumen": "Escribir correspondencia formal básica de gestión",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Solicitud o reclamación documentada",
+          "aceptacion": "Explica objeto, antecedente, solución pedida y cierre"
+        },
+        {
+          "letra": "i",
+          "resumen": "Tomar notas y mensajes con información sencilla",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Nota de relevo a partir de escucha",
+          "aceptacion": "Retiene datos críticos y separa incertidumbres"
+        },
+        {
+          "letra": "j",
+          "resumen": "Solicitar información por escrito",
+          "actividad": "0156-RA4-A1",
+          "evidencia": "Correo con preguntas concretas",
+          "aceptacion": "Cada pregunta obtiene un dato necesario y evita repetir información ya disponible"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0156-RA4-A1",
+          "titulo": "Redactar un expediente de comunicación profesional",
+          "guia": "segundo/ingles-profesional/06-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Plan de correo, nota y ticket",
+            "Borradores del expediente",
+            "Versión revisada y cambios anotados",
+            "Resumen de la nota de mantenimiento",
+            "Ticket con campos técnicos",
+            "Formulario apoyado en diagrama y banco de palabras",
+            "Saludo, petición y cierre revisados",
+            "Solicitud o reclamación documentada",
+            "Nota de relevo a partir de escucha",
+            "Correo con preguntas concretas"
+          ],
+          "comprobaciones": [
+            "La forma corresponde a propósito y destinatario",
+            "Transmiten mensaje suficiente con terminología comprensible",
+            "Distingue observación, acción y petición en orden lógico",
+            "Conserva ideas centrales y evita detalles o causas no presentes",
+            "Contiene activo sintético, síntoma, pruebas y estado sin secretos",
+            "Los campos coinciden con los datos del apoyo",
+            "El tono resulta apropiado y no altera el contenido técnico",
+            "Explica objeto, antecedente, solución pedida y cierre",
+            "Retiene datos críticos y separa incertidumbres",
+            "Cada pregunta obtiene un dato necesario y evita repetir información ya disponible"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Aplica actitudes y comportamientos profesionales en situaciones de comunicación, describiendo las relaciones típicas características del país de la lengua extranjera.",
+      "materiales": [
+        "segundo/ingles-profesional/01-guia.md",
+        "segundo/ingles-profesional/04-simulaciones-y-defensa.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Describir usos y costumbres de una comunidad concreta",
+          "actividad": "0156-RA5-A1",
+          "evidencia": "Ficha de contexto con fuentes",
+          "aceptacion": "No convierte una fuente institucional en regla universal de todas las personas"
+        },
+        {
+          "letra": "b",
+          "resumen": "Describir protocolos de relación social del contexto",
+          "actividad": "0156-RA5-A1",
+          "evidencia": "Plan de saludo, turnos y despedida",
+          "aceptacion": "Justifica pautas con contexto y preferencias del destinatario"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar valores y creencias en su contexto",
+          "actividad": "0156-RA5-A1",
+          "evidencia": "Comparación crítica de expectativas",
+          "aceptacion": "Separa fuente, interpretación y diversidad sin atribuir rasgos a una persona por nacionalidad"
+        },
+        {
+          "letra": "d",
+          "resumen": "Identificar aspectos socioprofesionales en textos",
+          "actividad": "0156-RA5-A1",
+          "evidencia": "Anotación de estilo, horario y responsabilidades",
+          "aceptacion": "Relaciona texto y práctica profesional con evidencia"
+        },
+        {
+          "letra": "e",
+          "resumen": "Aplicar pautas de relación en la comunicación",
+          "actividad": "0156-RA5-A1",
+          "evidencia": "Simulación con revisión del destinatario",
+          "aceptacion": "Adapta fecha, horario, cortesía y confirmación sin estereotipos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0156-RA5-A1",
+          "titulo": "Aplicar comunicación intercultural documentada",
+          "guia": "segundo/ingles-profesional/06-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Ficha de contexto con fuentes",
+            "Plan de saludo, turnos y despedida",
+            "Comparación crítica de expectativas",
+            "Anotación de estilo, horario y responsabilidades",
+            "Simulación con revisión del destinatario"
+          ],
+          "comprobaciones": [
+            "No convierte una fuente institucional en regla universal de todas las personas",
+            "Justifica pautas con contexto y preferencias del destinatario",
+            "Separa fuente, interpretación y diversidad sin atribuir rasgos a una persona por nacionalidad",
+            "Relaciona texto y práctica profesional con evidencia",
+            "Adapta fecha, horario, cortesía y confirmación sin estereotipos"
+          ]
+        }
+      ]
+    }
+  ]
+}

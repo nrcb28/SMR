@@ -1,0 +1,562 @@
+{
+  "modulo": "1709",
+  "nombre": "Itinerario personal para la empleabilidad I",
+  "carpeta": "primero/itinerario-personal-para-la-empleabilidad-i",
+  "fuentes": [
+    {
+      "norma": "Orden 3537/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF",
+      "localizador": "Anexo VII, módulo 1709, páginas impresas 287–291, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "primero/itinerario-personal-para-la-empleabilidad-i/07-alineacion-ra.md",
+  "guia_retos": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Adquiere las competencias necesarias para el desempeño de las funciones de nivel básico en Prevención de Riesgos Laborales.",
+      "materiales": [
+        "primero/itinerario-personal-para-la-empleabilidad-i/01-guia.md",
+        "primero/itinerario-personal-para-la-empleabilidad-i/04-evaluacion-preventiva-completa.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Relacionar condiciones de trabajo, cultura preventiva y riesgos del soporte",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Mapa tarea-exposición-daño del taller",
+          "aceptacion": "Cada tarea relevante se asocia a factor y daño plausible, sin confundir peligro y medida"
+        },
+        {
+          "letra": "b",
+          "resumen": "Clasificar daños profesionales del perfil",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Tabla de accidentes, enfermedades y otras alteraciones",
+          "aceptacion": "Clasificación razonada con fuente y límites, sin diagnosticar casos reales"
+        },
+        {
+          "letra": "c",
+          "resumen": "Seleccionar evaluación, prevención y protección",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Ficha de riesgo con medidas jerarquizadas",
+          "aceptacion": "La medida aborda origen o exposición y su eficacia tiene una comprobación"
+        },
+        {
+          "letra": "d",
+          "resumen": "Interpretar protocolos de emergencia",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Secuencia de aviso y evacuación de un supuesto",
+          "aceptacion": "Respeta el protocolo facilitado y señala quién actúa y cuándo se detiene la tarea"
+        },
+        {
+          "letra": "e",
+          "resumen": "Identificar derechos y deberes preventivos",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Ficha de responsabilidades de empresa y persona trabajadora",
+          "aceptacion": "Cada obligación se atribuye al sujeto y fuente apropiados"
+        },
+        {
+          "letra": "f",
+          "resumen": "Distinguir organización preventiva y representación",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Mapa de gestión y representación preventiva",
+          "aceptacion": "Diferencia servicio preventivo, participación y responsabilidades sin inventar una modalidad universal"
+        },
+        {
+          "letra": "g",
+          "resumen": "Valorar un plan y su secuencia de emergencia",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Revisión anotada de un plan ficticio",
+          "aceptacion": "Detecta omisiones y relaciona actuaciones con responsables y orden"
+        },
+        {
+          "letra": "h",
+          "resumen": "Explicar vigilancia de la salud y sus condiciones",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Nota sobre vigilancia y confidencialidad",
+          "aceptacion": "Distingue prevención, información necesaria y acceso restringido a datos de salud"
+        },
+        {
+          "letra": "i",
+          "resumen": "Identificar primeros auxilios y botiquín según formación",
+          "actividad": "1709-RA1-A1",
+          "evidencia": "Inventario didáctico y decisiones de aviso",
+          "aceptacion": "Reconoce actuación y límite competencial, sin realizar maniobras ni usar productos sobre personas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1709-RA1-A1",
+          "titulo": "Expediente preventivo de un taller de soporte",
+          "guia": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Mapa tarea-exposición-daño del taller",
+            "Tabla de accidentes, enfermedades y otras alteraciones",
+            "Ficha de riesgo con medidas jerarquizadas",
+            "Secuencia de aviso y evacuación de un supuesto",
+            "Ficha de responsabilidades de empresa y persona trabajadora",
+            "Mapa de gestión y representación preventiva",
+            "Revisión anotada de un plan ficticio",
+            "Nota sobre vigilancia y confidencialidad",
+            "Inventario didáctico y decisiones de aviso"
+          ],
+          "comprobaciones": [
+            "Cada tarea relevante se asocia a factor y daño plausible, sin confundir peligro y medida",
+            "Clasificación razonada con fuente y límites, sin diagnosticar casos reales",
+            "La medida aborda origen o exposición y su eficacia tiene una comprobación",
+            "Respeta el protocolo facilitado y señala quién actúa y cuándo se detiene la tarea",
+            "Cada obligación se atribuye al sujeto y fuente apropiados",
+            "Diferencia servicio preventivo, participación y responsabilidades sin inventar una modalidad universal",
+            "Detecta omisiones y relaciona actuaciones con responsables y orden",
+            "Distingue prevención, información necesaria y acceso restringido a datos de salud",
+            "Reconoce actuación y límite competencial, sin realizar maniobras ni usar productos sobre personas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Analiza sus condiciones laborales como persona trabajadora por cuenta ajena identificándolas en los principales tipos de cambios y vicisitudes relevantes que se pueden presentar en la relación laboral en la normativa laboral y especialmente en el convenio colectivo del sector.",
+      "materiales": [
+        "primero/itinerario-personal-para-la-empleabilidad-i/05-relacion-laboral-y-nomina-avanzada.md",
+        "primero/itinerario-personal-para-la-empleabilidad-i/02-casos-practicos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Interpretar derechos, obligaciones y convenio aplicable",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Ficha de convenio con ámbito y fecha",
+          "aceptacion": "Justifica aplicabilidad y separa condición pactada, norma y supuesto"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar modalidades y modelos oficiales de contratación",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Cuadro de alternativas contractuales",
+          "aceptacion": "Cita modelos oficiales y no confunde contrato nuevo y régimen transitorio"
+        },
+        {
+          "letra": "c",
+          "resumen": "Analizar nuevos entornos organizativos y derechos",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Caso de trabajo remoto y organización digital",
+          "aceptacion": "Identifica condiciones y derechos pertinentes sin suponer disponibilidad continua"
+        },
+        {
+          "letra": "d",
+          "resumen": "Distinguir modificación, suspensión y extinción",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Línea de decisiones para tres vicisitudes",
+          "aceptacion": "No confunde efectos temporales y fin de relación y registra datos faltantes"
+        },
+        {
+          "letra": "e",
+          "resumen": "Localizar recursos laborales para una vicisitud",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Mapa de orientación, consulta y reclamación",
+          "aceptacion": "Cada recurso tiene función, fuente y límite; no inventa plazos sin verificarlos"
+        },
+        {
+          "letra": "f",
+          "resumen": "Identificar componentes del recibo salarial",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Nómina sintética anotada",
+          "aceptacion": "Separa devengos, deducciones, bruto y líquido sin mezclar coste empresarial"
+        },
+        {
+          "letra": "g",
+          "resumen": "Determinar bases y cuotas en supuestos sencillos",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Hoja de bases y cuotas parametrizada",
+          "aceptacion": "Reconcilia operaciones y etiqueta tipos, topes y periodo como datos verificados o ficticios"
+        },
+        {
+          "letra": "h",
+          "resumen": "Explicar papel y contingencias de Seguridad Social",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Mapa contingencia-protección del supuesto",
+          "aceptacion": "Relaciona contingencia y cobertura sin presentar acceso automático"
+        },
+        {
+          "letra": "i",
+          "resumen": "Analizar prestaciones ligadas a suspensión y extinción",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Tabla comparativa de dos supuestos",
+          "aceptacion": "Distingue situación protegida, requisitos y dato que falta comprobar"
+        },
+        {
+          "letra": "j",
+          "resumen": "Analizar libertad sindical y representación",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Comparación de órganos y funciones",
+          "aceptacion": "Diferencia representación y afiliación y respeta la fuente legal"
+        },
+        {
+          "letra": "k",
+          "resumen": "Examinar conflicto colectivo y vías de solución",
+          "actividad": "1709-RA2-A1",
+          "evidencia": "Árbol de un conflicto ficticio",
+          "aceptacion": "Distingue negociación, mediación y otras vías sin convertirlo en asesoría individual"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1709-RA2-A1",
+          "titulo": "Expediente de relación laboral y protección social",
+          "guia": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "entregables": [
+            "Ficha de convenio con ámbito y fecha",
+            "Cuadro de alternativas contractuales",
+            "Caso de trabajo remoto y organización digital",
+            "Línea de decisiones para tres vicisitudes",
+            "Mapa de orientación, consulta y reclamación",
+            "Nómina sintética anotada",
+            "Hoja de bases y cuotas parametrizada",
+            "Mapa contingencia-protección del supuesto",
+            "Tabla comparativa de dos supuestos",
+            "Comparación de órganos y funciones",
+            "Árbol de un conflicto ficticio"
+          ],
+          "comprobaciones": [
+            "Justifica aplicabilidad y separa condición pactada, norma y supuesto",
+            "Cita modelos oficiales y no confunde contrato nuevo y régimen transitorio",
+            "Identifica condiciones y derechos pertinentes sin suponer disponibilidad continua",
+            "No confunde efectos temporales y fin de relación y registra datos faltantes",
+            "Cada recurso tiene función, fuente y límite; no inventa plazos sin verificarlos",
+            "Separa devengos, deducciones, bruto y líquido sin mezclar coste empresarial",
+            "Reconcilia operaciones y etiqueta tipos, topes y periodo como datos verificados o ficticios",
+            "Relaciona contingencia y cobertura sin presentar acceso automático",
+            "Distingue situación protegida, requisitos y dato que falta comprobar",
+            "Diferencia representación y afiliación y respeta la fuente legal",
+            "Distingue negociación, mediación y otras vías sin convertirlo en asesoría individual"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Distingue las características del sector productivo y define los puestos de trabajo relacionándolos con las competencias profesionales expresadas en el título.",
+      "materiales": [
+        "primero/itinerario-personal-para-la-empleabilidad-i/01-guia.md",
+        "primero/itinerario-personal-para-la-empleabilidad-i/06-aprendizaje-y-portfolio-tecnico.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Analizar empleo y requerimientos actuales del perfil",
+          "actividad": "1709-RA3-A1",
+          "evidencia": "Matriz de tres puestos y fuentes fechadas",
+          "aceptacion": "Extrae requisitos de fuentes identificadas y relaciona tareas con SMR"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar requisitos de mercado y función pública",
+          "actividad": "1709-RA3-A1",
+          "evidencia": "Comparación de oferta privada y convocatoria",
+          "aceptacion": "Distingue requisitos de acceso, selección y méritos sin asumir equivalencia"
+        },
+        {
+          "letra": "c",
+          "resumen": "Valorar actitudes, aptitudes y zona de desarrollo próximo",
+          "actividad": "1709-RA3-A1",
+          "evidencia": "Mapa tarea-autonomía-supervisión",
+          "aceptacion": "Aporta ejemplo técnico y social y separa lo observado de lo pendiente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1709-RA3-A1",
+          "titulo": "Mapa contrastado de puestos de SMR",
+          "guia": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Matriz de tres puestos y fuentes fechadas",
+            "Comparación de oferta privada y convocatoria",
+            "Mapa tarea-autonomía-supervisión"
+          ],
+          "comprobaciones": [
+            "Extrae requisitos de fuentes identificadas y relaciona tareas con SMR",
+            "Distingue requisitos de acceso, selección y méritos sin asumir equivalencia",
+            "Aporta ejemplo técnico y social y separa lo observado de lo pendiente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Analiza y evalúa su potencial profesional y sus intereses para guiarse en el proceso de autoorientación y elabora una hoja de ruta para la inserción profesional en base al análisis de las competencias, intereses y destrezas personales.",
+      "materiales": [
+        "primero/itinerario-personal-para-la-empleabilidad-i/06-aprendizaje-y-portfolio-tecnico.md",
+        "primero/itinerario-personal-para-la-empleabilidad-i/03-evaluacion.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer intereses, motivaciones, habilidades y destrezas",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Inventario personal saneado",
+          "aceptacion": "Cada afirmación relevante incluye ejemplo o señal de incertidumbre"
+        },
+        {
+          "letra": "b",
+          "resumen": "Relacionar cualidades con el perfil de SMR",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Matriz cualidad-tarea-evidencia",
+          "aceptacion": "Conecta la cualidad con una tarea concreta del título"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar competencias personales y sociales útiles",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Selección justificada de competencias",
+          "aceptacion": "Explica su valor con una situación de soporte y un comportamiento observable"
+        },
+        {
+          "letra": "d",
+          "resumen": "Definir preferencias y metas profesionales",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Comparación de dos rutas preferidas",
+          "aceptacion": "Expresa criterios propios y consecuencias de la elección"
+        },
+        {
+          "letra": "e",
+          "resumen": "Valorar autoestima en la búsqueda de empleo",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Reflexión sobre una devolución ficticia",
+          "aceptacion": "Distingue una crítica a la tarea de una etiqueta sobre la persona"
+        },
+        {
+          "letra": "f",
+          "resumen": "Analizar fortalezas, debilidades, amenazas y oportunidades",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "DAFO personal con acciones",
+          "aceptacion": "No confunde factores internos y externos y propone respuesta viable"
+        },
+        {
+          "letra": "g",
+          "resumen": "Contrastar expectativas y capacidades",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Tabla expectativa-requisito-brecha",
+          "aceptacion": "Reconoce una brecha y explica cómo comprobar progreso"
+        },
+        {
+          "letra": "h",
+          "resumen": "Valorar hitos con aprendizaje profesional",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Dos relatos breves de trayectoria",
+          "aceptacion": "Identifica tarea, papel propio y aprendizaje sin inflar experiencia"
+        },
+        {
+          "letra": "i",
+          "resumen": "Identificar itinerarios formativos del perfil",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Ficha de rutas y requisitos de acceso",
+          "aceptacion": "Consulta fuente oficial y no promete acceso o convalidación automática"
+        },
+        {
+          "letra": "j",
+          "resumen": "Formular objetivos personales y profesionales",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Objetivos con fecha y criterio observable",
+          "aceptacion": "El objetivo describe resultado y no sólo una actividad vaga"
+        },
+        {
+          "letra": "k",
+          "resumen": "Trazar un plan de mejora y refuerzo",
+          "actividad": "1709-RA4-A1",
+          "evidencia": "Calendario de acciones con revisión",
+          "aceptacion": "Cada acción atiende una brecha o fortaleza y tiene evidencia y alternativa"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1709-RA4-A1",
+          "titulo": "Decisión de orientación con evidencias",
+          "guia": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "entregables": [
+            "Inventario personal saneado",
+            "Matriz cualidad-tarea-evidencia",
+            "Selección justificada de competencias",
+            "Comparación de dos rutas preferidas",
+            "Reflexión sobre una devolución ficticia",
+            "DAFO personal con acciones",
+            "Tabla expectativa-requisito-brecha",
+            "Dos relatos breves de trayectoria",
+            "Ficha de rutas y requisitos de acceso",
+            "Objetivos con fecha y criterio observable",
+            "Calendario de acciones con revisión"
+          ],
+          "comprobaciones": [
+            "Cada afirmación relevante incluye ejemplo o señal de incertidumbre",
+            "Conecta la cualidad con una tarea concreta del título",
+            "Explica su valor con una situación de soporte y un comportamiento observable",
+            "Expresa criterios propios y consecuencias de la elección",
+            "Distingue una crítica a la tarea de una etiqueta sobre la persona",
+            "No confunde factores internos y externos y propone respuesta viable",
+            "Reconoce una brecha y explica cómo comprobar progreso",
+            "Identifica tarea, papel propio y aprendizaje sin inflar experiencia",
+            "Consulta fuente oficial y no promete acceso o convalidación automática",
+            "El objetivo describe resultado y no sólo una actividad vaga",
+            "Cada acción atiende una brecha o fortaleza y tiene evidencia y alternativa"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Aplica las estrategias para el aprendizaje autónomo reconociendo su valor profesionalizador, diseñando y optimizando su propio entorno de aprendizaje haciendo uso de las tecnologías digitales como herramientas de aprendizaje autónomo, siendo coherente con su identidad digital y sus propios objetivos profesionales planteados en su plan de desarrollo individual.",
+      "materiales": [
+        "primero/itinerario-personal-para-la-empleabilidad-i/06-aprendizaje-y-portfolio-tecnico.md",
+        "primero/itinerario-personal-para-la-empleabilidad-i/03-evaluacion.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Asumir responsabilidad y aprendizaje permanente",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Acuerdo personal de aprendizaje",
+          "aceptacion": "Explica qué depende de la persona y cómo revisará su progreso"
+        },
+        {
+          "letra": "b",
+          "resumen": "Entender empleabilidad como adaptación",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Caso de cambio de herramienta o requisito",
+          "aceptacion": "Distingue adaptación de acumular certificados sin evidencia"
+        },
+        {
+          "letra": "c",
+          "resumen": "Utilizar fuentes, herramientas y conexiones del entorno",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Mapa de recursos realmente usados",
+          "aceptacion": "Indica para qué sirve cada recurso y cómo comprueba su fiabilidad"
+        },
+        {
+          "letra": "d",
+          "resumen": "Aplicar competencia digital al entorno de aprendizaje",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Estructura local organizada y registro de uso",
+          "aceptacion": "Puede localizar versión, fuente y resultado de una actividad"
+        },
+        {
+          "letra": "e",
+          "resumen": "Analizar identidad digital e impacto profesional",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Auditoría privada de publicaciones ficticias",
+          "aceptacion": "Detecta exposición, autoría y coherencia sin divulgar datos reales"
+        },
+        {
+          "letra": "f",
+          "resumen": "Justificar el diseño por su utilidad profesional",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Decisión de diseño del entorno",
+          "aceptacion": "Relaciona recurso y tarea profesional y descarta al menos un recurso inadecuado"
+        },
+        {
+          "letra": "g",
+          "resumen": "Elaborar el plan individual de desarrollo",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Plan con objetivos y revisión",
+          "aceptacion": "Conecta el plan con las brechas y evidencias del RA4"
+        },
+        {
+          "letra": "h",
+          "resumen": "Aplicar herramientas de aprendizaje autónomo",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Ensayo antes/después de una tarea sintética",
+          "aceptacion": "Conserva versiones comparables y explica errores y uso de ayudas"
+        },
+        {
+          "letra": "i",
+          "resumen": "Diseñar un entorno que permita alcanzar el plan",
+          "actividad": "1709-RA5-A1",
+          "evidencia": "Mapa objetivo-recurso-actividad-evidencia",
+          "aceptacion": "Todos los objetivos seleccionados tienen apoyo y un mecanismo de seguimiento"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1709-RA5-A1",
+          "titulo": "Entorno personal de aprendizaje con ensayo de mejora",
+          "guia": "primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Acuerdo personal de aprendizaje",
+            "Caso de cambio de herramienta o requisito",
+            "Mapa de recursos realmente usados",
+            "Estructura local organizada y registro de uso",
+            "Auditoría privada de publicaciones ficticias",
+            "Decisión de diseño del entorno",
+            "Plan con objetivos y revisión",
+            "Ensayo antes/después de una tarea sintética",
+            "Mapa objetivo-recurso-actividad-evidencia"
+          ],
+          "comprobaciones": [
+            "Explica qué depende de la persona y cómo revisará su progreso",
+            "Distingue adaptación de acumular certificados sin evidencia",
+            "Indica para qué sirve cada recurso y cómo comprueba su fiabilidad",
+            "Puede localizar versión, fuente y resultado de una actividad",
+            "Detecta exposición, autoría y coherencia sin divulgar datos reales",
+            "Relaciona recurso y tarea profesional y descarta al menos un recurso inadecuado",
+            "Conecta el plan con las brechas y evidencias del RA4",
+            "Conserva versiones comparables y explica errores y uso de ayudas",
+            "Todos los objetivos seleccionados tienen apoyo y un mecanismo de seguimiento"
+          ]
+        }
+      ]
+    }
+  ]
+}

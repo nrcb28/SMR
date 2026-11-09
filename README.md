@@ -4,6 +4,10 @@ Documentación técnica y práctica del ciclo de **Técnico en Sistemas Microinf
 
 **Referencia curricular:** plan madrileño adaptado a la nueva FP; Decreto 34/2009 modificado por el Decreto 102/2024, junto con el desarrollo de módulos transversales de 2025. Consulta y revisión de fuentes: **8 de noviembre de 2026**. La [guía del currículo](docs/curriculo-madrid.md) contiene los enlaces al BOCM, la distribución horaria y las particularidades del proyecto y la optatividad. Las guías y rúbricas de este repositorio son material didáctico propio.
 
+**Edición por resultados de aprendizaje · 9 de noviembre de 2026:** [mapa completo de RA y criterios](docs/mapa-ra.md), [guía para estudiar y recoger evidencias por RA](docs/evaluacion-por-ra.md) y [catálogo de todas las optativas aplicables a SMR](optativas/README.md). Cada módulo relaciona los resultados oficiales con materiales, retos, entregables y comprobaciones. La matriz documental facilita preparar y revisar las prácticas; la evaluación académica corresponde al centro.
+
+Consulta el [detalle de la ampliación por RA](docs/novedades-ra-y-optativas.md): 83 RA y 640 criterios de la parte común, además de las guías de los 16 códigos optativos aplicables al contexto del ciclo en Madrid.
+
 **Ampliación de 9 de noviembre de 2026:** nuevas monografías avanzadas en las ocho asignaturas técnicas, casos profesionales en IPE, talleres transversales y un cuaderno integrador con simulacros de primero y segundo. Consulta [qué se ha ampliado](docs/novedades-ampliacion.md) y el [índice completo de capítulos](INDICE.md) para acceder a todo el material.
 
 ## Empieza aquí
@@ -14,6 +18,7 @@ Documentación técnica y práctica del ciclo de **Técnico en Sistemas Microinf
 4. Documenta cada práctica con la [plantilla de memoria](recursos/plantillas/memoria-practica.md) y la [ficha de incidencia](recursos/plantillas/incidencia.md).
 5. Integra lo aprendido en el [proyecto intermodular](segundo/proyecto-intermodular/README.md).
 6. Practica con el [cuaderno integrador y sus simulacros resueltos](cuaderno-integrador/README.md), y utiliza las monografías avanzadas para profundizar en los temas que necesites.
+7. Localiza el RA que estás trabajando en el [mapa curricular](docs/mapa-ra.md), realiza su reto y registra tus evidencias en una copia de la [plantilla por criterios](recursos/ra/plantilla-seguimiento-ce.csv).
 
 Las explicaciones se pueden leer sin instalar software. Los ejercicios de instalación, permisos, redes y servicios se realizan en máquinas virtuales de laboratorio. Cada guía distingue el contexto y la finalidad de los comandos; los resultados mostrados como ejemplos son expectativas didácticas que debes contrastar en tu equipo.
 
@@ -53,6 +58,9 @@ Accede al [índice completo de segundo](segundo/README.md). La carpeta del proye
 | --- | --- |
 | [Laboratorio común](docs/laboratorio.md) | Máquinas, direccionamiento, nombres, aislamiento, instantáneas y verificación inicial |
 | [Índice completo](INDICE.md) | Acceso directo a cada capítulo, agrupado por asignatura y recurso |
+| [Mapa de RA y CE](docs/mapa-ra.md) | Resultados oficiales, criterios, materiales y retos asociados de módulos comunes y optativos |
+| [Evaluación y evidencias por RA](docs/evaluacion-por-ra.md) | Cómo preparar una práctica, demostrar actuaciones y registrar pendientes |
+| [Todas las optativas aplicables](optativas/README.md) | Guías de los 16 códigos o variantes del catálogo madrileño aplicables a SMR |
 | [Cuaderno integrador](cuaderno-integrador/README.md) | Cálculos trabajados, incidencias encadenadas, simulacros y entrega técnica |
 | [Ruta de estudio](docs/ruta-de-estudio.md) | Dependencias entre asignaturas y progresión por hitos |
 | [Método de diagnóstico](docs/metodo-de-diagnostico.md) | Hipótesis, pruebas, causas y comprobación de la recuperación |
@@ -72,6 +80,8 @@ git clone https://github.com/nrcb28/smr.git
 cd smr
 python3 scripts/validar_documentacion.py
 python3 scripts/generar_indice.py --check
+python3 scripts/validar_ra.py
+python3 scripts/generar_mapa_ra.py --check
 ```
 
 El validador comprueba estructura, archivos, enlaces locales y bloques de código; requiere Python 3.9 o posterior y utiliza únicamente su biblioteca estándar. No instala servicios ni cambia la configuración de tu equipo. Las comprobaciones de documentación no sustituyen las pruebas funcionales de las prácticas.

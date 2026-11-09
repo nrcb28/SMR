@@ -1,0 +1,467 @@
+{
+  "modulo": "1664",
+  "nombre": "Digitalización aplicada a los sectores productivos (GM)",
+  "carpeta": "segundo/digitalizacion-aplicada-a-los-sectores-productivos",
+  "fuentes": [
+    {
+      "norma": "Orden 3537/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF#page=21",
+      "localizador": "Anexo IV, módulo 1664 (GM), BOCM páginas 277–279, PDF páginas 21–23",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/05-alineacion-ra.md",
+  "guia_retos": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Establece las diferencias entre la Economía Lineal (EL) y la Economía Circular (EC), identificando las ventajas de la EC en relación con el medioambiente y el desarrollo sostenible.",
+      "materiales": [
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/01-guia.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir etapas de economía lineal y circular",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Diagramas de los dos modelos desde compra hasta salida",
+          "aceptacion": "Cada etapa figura en el orden real y los retornos circulares tienen destino"
+        },
+        {
+          "letra": "b",
+          "resumen": "Analizar impactos por etapa",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Tabla de energía, materiales, transporte y datos por fase",
+          "aceptacion": "Se declara unidad funcional y se separan datos conocidos de hipótesis"
+        },
+        {
+          "letra": "c",
+          "resumen": "Explicar la función del reciclaje",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Ficha que diferencia reparación, reutilización y reciclaje",
+          "aceptacion": "No atribuye al reciclaje la eliminación de impactos anteriores"
+        },
+        {
+          "letra": "d",
+          "resumen": "Reconocer un proceso lineal real",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Ficha de proceso con organización, fecha y fuente verificable",
+          "aceptacion": "La secuencia se apoya en evidencia y no sólo en el taller ficticio"
+        },
+        {
+          "letra": "e",
+          "resumen": "Reconocer un proceso circular real",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Ficha de retorno y recuperación con fuente verificable",
+          "aceptacion": "Se identifica un bucle concreto y su límite de aplicación"
+        },
+        {
+          "letra": "f",
+          "resumen": "Comparar modelos con impacto y ODS",
+          "actividad": "1664-RA1-A1",
+          "evidencia": "Matriz comparativa y relación acción-meta ODS",
+          "aceptacion": "Se compara el mismo servicio y no se usa el icono ODS como evidencia de impacto"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1664-RA1-A1",
+          "titulo": "Comparar modelos lineal y circular con procesos reales",
+          "guia": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Diagramas de los dos modelos desde compra hasta salida",
+            "Tabla de energía, materiales, transporte y datos por fase",
+            "Ficha que diferencia reparación, reutilización y reciclaje",
+            "Ficha de proceso con organización, fecha y fuente verificable",
+            "Ficha de retorno y recuperación con fuente verificable",
+            "Matriz comparativa y relación acción-meta ODS"
+          ],
+          "comprobaciones": [
+            "Cada etapa figura en el orden real y los retornos circulares tienen destino",
+            "Se declara unidad funcional y se separan datos conocidos de hipótesis",
+            "No atribuye al reciclaje la eliminación de impactos anteriores",
+            "La secuencia se apoya en evidencia y no sólo en el taller ficticio",
+            "Se identifica un bucle concreto y su límite de aplicación",
+            "Se compara el mismo servicio y no se usa el icono ODS como evidencia de impacto"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Caracteriza los principales aspectos de la 4.ª Revolución Industrial indicando los cambios y las ventajas que se producen tanto desde el punto de vista de los clientes como de las empresas.",
+      "materiales": [
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/01-guia.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Situar sistemas ciberfísicos en la evolución industrial",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Línea temporal comentada y ficha de sistema ciberfísico",
+          "aceptacion": "Explica qué cambia entre control aislado y conexión con información"
+        },
+        {
+          "letra": "b",
+          "resumen": "Explicar el cambio de automatización",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Diagrama antes-después del registro y alerta del taller",
+          "aceptacion": "Distingue automatizar una operación de integrar etapas y personas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Relacionar hardware, software, IoT y comunicaciones",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Arquitectura de sensor, red, proceso y aplicación",
+          "aceptacion": "Cada componente tiene función, entrada, salida y dependencia identificadas"
+        },
+        {
+          "letra": "d",
+          "resumen": "Relacionar mundo físico y virtual",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Trazado de una lectura con fecha, unidad y calidad",
+          "aceptacion": "Se distingue valor físico, representación y decisión basada en él"
+        },
+        {
+          "letra": "e",
+          "resumen": "Analizar resultados de una migración 4.0",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Tabla de indicadores antes-después e hipótesis",
+          "aceptacion": "No atribuye causalidad ni ahorro real a cifras sintéticas"
+        },
+        {
+          "letra": "f",
+          "resumen": "Identificar ventajas para clientes y empresa",
+          "actividad": "1664-RA2-A1",
+          "evidencia": "Matriz de ventajas, costes y riesgos por interesado",
+          "aceptacion": "Incluye continuidad y calidad, no sólo reducción de tiempo"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1664-RA2-A1",
+          "titulo": "Trazar un evento ciberfísico del taller",
+          "guia": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Línea temporal comentada y ficha de sistema ciberfísico",
+            "Diagrama antes-después del registro y alerta del taller",
+            "Arquitectura de sensor, red, proceso y aplicación",
+            "Trazado de una lectura con fecha, unidad y calidad",
+            "Tabla de indicadores antes-después e hipótesis",
+            "Matriz de ventajas, costes y riesgos por interesado"
+          ],
+          "comprobaciones": [
+            "Explica qué cambia entre control aislado y conexión con información",
+            "Distingue automatizar una operación de integrar etapas y personas",
+            "Cada componente tiene función, entrada, salida y dependencia identificadas",
+            "Se distingue valor físico, representación y decisión basada en él",
+            "No atribuye causalidad ni ahorro real a cifras sintéticas",
+            "Incluye continuidad y calidad, no sólo reducción de tiempo"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Identifica la estructura de los sistemas basados en cloud o nube describiendo su tipología y campo de aplicación.",
+      "materiales": [
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/01-guia.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir niveles y tipos de nube",
+          "actividad": "1664-RA3-A1",
+          "evidencia": "Matriz de IaaS, PaaS, SaaS y modelos de despliegue",
+          "aceptacion": "No confunde responsabilidad del servicio con ubicación pública o privada"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar funciones de la nube",
+          "actividad": "1664-RA3-A1",
+          "evidencia": "Mapa de procesamiento, intercambio y ejecución de aplicaciones",
+          "aceptacion": "Cada función se asocia con datos y un responsable"
+        },
+        {
+          "letra": "c",
+          "resumen": "Relacionar edge y nube",
+          "actividad": "1664-RA3-A1",
+          "evidencia": "Diagrama de procesamiento local y remoto",
+          "aceptacion": "Justifica qué permanece cerca del origen y qué se envía"
+        },
+        {
+          "letra": "d",
+          "resumen": "Definir fog y mist en su contexto",
+          "actividad": "1664-RA3-A1",
+          "evidencia": "Diagrama de niveles intermedios con fuente y terminología",
+          "aceptacion": "Explica zonas de aplicación y reconoce variaciones de denominación"
+        },
+        {
+          "letra": "e",
+          "resumen": "Justificar ventajas de nube conectada",
+          "actividad": "1664-RA3-A1",
+          "evidencia": "Decisión con disponibilidad, latencia, exportación y coste",
+          "aceptacion": "Incluye límites de conectividad y recuperación además de ventajas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1664-RA3-A1",
+          "titulo": "Diseñar nube, borde y responsabilidades",
+          "guia": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Matriz de IaaS, PaaS, SaaS y modelos de despliegue",
+            "Mapa de procesamiento, intercambio y ejecución de aplicaciones",
+            "Diagrama de procesamiento local y remoto",
+            "Diagrama de niveles intermedios con fuente y terminología",
+            "Decisión con disponibilidad, latencia, exportación y coste"
+          ],
+          "comprobaciones": [
+            "No confunde responsabilidad del servicio con ubicación pública o privada",
+            "Cada función se asocia con datos y un responsable",
+            "Justifica qué permanece cerca del origen y qué se envía",
+            "Explica zonas de aplicación y reconoce variaciones de denominación",
+            "Incluye límites de conectividad y recuperación además de ventajas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Compara los sistemas de producción y prestación de servicios digitalizados con los sistemas clásicos identificando las mejoras introducidas.",
+      "materiales": [
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/01-guia.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer tecnologías habilitadoras actuales",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Inventario THD relacionado con requisitos del taller",
+          "aceptacion": "Cada tecnología se identifica por función y no por una marca comercial"
+        },
+        {
+          "letra": "b",
+          "resumen": "Describir aplicaciones de las THD",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Fichas de las tecnologías citadas por el criterio",
+          "aceptacion": "Se explica al menos un uso y una limitación de cada familia tratada"
+        },
+        {
+          "letra": "c",
+          "resumen": "Analizar productividad y eficiencia",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Indicadores con población, periodo y fórmula",
+          "aceptacion": "La comparación conserva la misma definición de tarea terminada"
+        },
+        {
+          "letra": "d",
+          "resumen": "Alinear unidades funcionales y objetivo",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Mapa recepción, diagnóstico, reparación y entrega",
+          "aceptacion": "Cada unidad aporta un dato o decisión al objetivo de servicio"
+        },
+        {
+          "letra": "e",
+          "resumen": "Relacionar implantación con costes y competitividad",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Caso de costes con inversión, operación y capacidad liberada",
+          "aceptacion": "Se separa ahorro efectivo de valoración del tiempo"
+        },
+        {
+          "letra": "f",
+          "resumen": "Relacionar tecnologías disruptivas con sectores",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Matriz tecnología, sector y aplicación concreta",
+          "aceptacion": "La aplicación se apoya en fuente o se declara propuesta razonada"
+        },
+        {
+          "letra": "g",
+          "resumen": "Definir almacenamiento no convencional y acceso",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Diseño de objetos, eventos o documentos y permisos",
+          "aceptacion": "Cada unidad accede sólo a los datos necesarios y existe exportación"
+        },
+        {
+          "letra": "h",
+          "resumen": "Describir mejoras globales y por etapa",
+          "actividad": "1664-RA4-A1",
+          "evidencia": "Comparativa de cada fase y del resultado final",
+          "aceptacion": "Incluye indicadores, dependencias y posibles efectos adversos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1664-RA4-A1",
+          "titulo": "Seleccionar THD por requisitos y efectos",
+          "guia": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Inventario THD relacionado con requisitos del taller",
+            "Fichas de las tecnologías citadas por el criterio",
+            "Indicadores con población, periodo y fórmula",
+            "Mapa recepción, diagnóstico, reparación y entrega",
+            "Caso de costes con inversión, operación y capacidad liberada",
+            "Matriz tecnología, sector y aplicación concreta",
+            "Diseño de objetos, eventos o documentos y permisos",
+            "Comparativa de cada fase y del resultado final"
+          ],
+          "comprobaciones": [
+            "Cada tecnología se identifica por función y no por una marca comercial",
+            "Se explica al menos un uso y una limitación de cada familia tratada",
+            "La comparación conserva la misma definición de tarea terminada",
+            "Cada unidad aporta un dato o decisión al objetivo de servicio",
+            "Se separa ahorro efectivo de valoración del tiempo",
+            "La aplicación se apoya en fuente o se declara propuesta razonada",
+            "Cada unidad accede sólo a los datos necesarios y existe exportación",
+            "Incluye indicadores, dependencias y posibles efectos adversos"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Elabora un plan de transformación de una empresa clásica del sector en el que se enmarca el título, basada en una EL, al concepto 4.0, determinando los cambios a introducir en las principales fases del sistema e indicando como afectaría a los recursos humanos.",
+      "materiales": [
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/01-guia.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md",
+        "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Representar la empresa clásica",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Diagrama de bloques del proceso inicial",
+          "aceptacion": "Incluye entradas, decisiones, salidas y personas"
+        },
+        {
+          "letra": "b",
+          "resumen": "Seleccionar etapas digitalizables",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Tabla de problemas y requisitos por etapa",
+          "aceptacion": "Se justifica la selección y también una etapa que no conviene automatizar"
+        },
+        {
+          "letra": "c",
+          "resumen": "Definir tecnologías por etapa",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Matriz requisito, tecnología y alternativa",
+          "aceptacion": "La elección responde a un requisito y una restricción comprobables"
+        },
+        {
+          "letra": "d",
+          "resumen": "Integrar etapas digitales y resto del sistema",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Esquema de interfaces y responsables",
+          "aceptacion": "Se especifican identificadores, formatos y tratamiento de fallo"
+        },
+        {
+          "letra": "e",
+          "resumen": "Representar el sistema digitalizado",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Diagrama final trazable al proceso inicial",
+          "aceptacion": "No desaparecen controles humanos ni etapas sin explicación"
+        },
+        {
+          "letra": "f",
+          "resumen": "Evaluar viabilidad y mejoras",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Informe de coste, mantenimiento, recuperación y métricas",
+          "aceptacion": "Las cifras reproducen sus supuestos y las mejoras tienen prueba"
+        },
+        {
+          "letra": "g",
+          "resumen": "Analizar producción y gestión de residuos",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Comparativa de piezas, retornos y salidas",
+          "aceptacion": "No se equipara digitalizar con reducir automáticamente el impacto"
+        },
+        {
+          "letra": "h",
+          "resumen": "Secuenciar transformación y recursos",
+          "actividad": "1664-RA5-A1",
+          "evidencia": "Plan por hitos, formación, responsables y retorno",
+          "aceptacion": "Cada fase tiene aceptación y tratamiento de datos y competencias humanas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1664-RA5-A1",
+          "titulo": "Planificar la transformación de un taller",
+          "guia": "segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Diagrama de bloques del proceso inicial",
+            "Tabla de problemas y requisitos por etapa",
+            "Matriz requisito, tecnología y alternativa",
+            "Esquema de interfaces y responsables",
+            "Diagrama final trazable al proceso inicial",
+            "Informe de coste, mantenimiento, recuperación y métricas",
+            "Comparativa de piezas, retornos y salidas",
+            "Plan por hitos, formación, responsables y retorno"
+          ],
+          "comprobaciones": [
+            "Incluye entradas, decisiones, salidas y personas",
+            "Se justifica la selección y también una etapa que no conviene automatizar",
+            "La elección responde a un requisito y una restricción comprobables",
+            "Se especifican identificadores, formatos y tratamiento de fallo",
+            "No desaparecen controles humanos ni etapas sin explicación",
+            "Las cifras reproducen sus supuestos y las mejoras tienen prueba",
+            "No se equipara digitalizar con reducir automáticamente el impacto",
+            "Cada fase tiene aceptación y tratamiento de datos y competencias humanas"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "modulo": "CMO-001F",
+  "nombre": "Habilidades comunicativas en lengua extranjera profesional · Francés",
+  "carpeta": "optativas/CMO-001F-frances-profesional",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, currículo CMO-001; inicio en página 34 del BOCM",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I que sustituye el catálogo de optatividad; módulos transversales, página 95 del BOCM",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-001F-frances-profesional/README.md",
+  "guia_retos": "optativas/CMO-001F-frances-profesional/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce y entiende el significado general de textos escritos sencillos relacionados con situaciones específicas de comunicación.",
+      "materiales": [
+        "optativas/CMO-001F-frances-profesional/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar la idea principal",
+          "actividad": "CMO-001F-RA1-A1",
+          "evidencia": "Resumen de una frase y asunto propuesto",
+          "aceptacion": "El resumen explica el propósito sin confundirlo con un detalle secundario"
+        },
+        {
+          "letra": "b",
+          "resumen": "Reconocer finalidad y formato",
+          "actividad": "CMO-001F-RA1-A1",
+          "evidencia": "Tabla emisor, destinatario, formato y finalidad",
+          "aceptacion": "La finalidad se apoya en un indicio concreto del texto"
+        },
+        {
+          "letra": "c",
+          "resumen": "Seleccionar información relevante",
+          "actividad": "CMO-001F-RA1-A1",
+          "evidencia": "Ficha de servicio, horario, impacto y acción",
+          "aceptacion": "Conserva los datos necesarios para decidir qué hacer y separa información accesoria"
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprender con autonomía un caso concreto",
+          "actividad": "CMO-001F-RA1-A1",
+          "evidencia": "Respuesta individual antes de comparar con el modelo",
+          "aceptacion": "La respuesta responde a las preguntas del caso sin añadir hechos no presentes"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001F-RA1-A1",
+          "titulo": "Leer un aviso de mantenimiento y decidir una acción",
+          "guia": "optativas/CMO-001F-frances-profesional/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Resumen de una frase y asunto propuesto",
+            "Tabla emisor, destinatario, formato y finalidad",
+            "Ficha de servicio, horario, impacto y acción",
+            "Respuesta individual antes de comparar con el modelo"
+          ],
+          "comprobaciones": [
+            "El resumen explica el propósito sin confundirlo con un detalle secundario",
+            "La finalidad se apoya en un indicio concreto del texto",
+            "Conserva los datos necesarios para decidir qué hacer y separa información accesoria",
+            "La respuesta responde a las preguntas del caso sin añadir hechos no presentes"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Entiende y deduce el sentido esencial de mensajes orales de extensión media y expresados en lengua estándar sobre temas cotidianos relacionados con el país de habla de la lengua extranjera y sus usos profesionales.",
+      "materiales": [
+        "optativas/CMO-001F-frances-profesional/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer el propósito de un mensaje oral",
+          "actividad": "CMO-001F-RA2-A1",
+          "evidencia": "Ficha de escucha con situación y finalidad",
+          "aceptacion": "El estudiante identifica para qué se comunica el mensaje escuchado"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar estrategias de comprensión global",
+          "actividad": "CMO-001F-RA2-A1",
+          "evidencia": "Notas de primera y segunda escucha",
+          "aceptacion": "Las notas muestran idea general y después detalles, sin depender de una transcripción visible"
+        },
+        {
+          "letra": "c",
+          "resumen": "Valorar la utilidad profesional de escuchar",
+          "actividad": "CMO-001F-RA2-A1",
+          "evidencia": "Explicación del error que evitaría comprender el aviso",
+          "aceptacion": "Relaciona comprensión y una decisión de soporte concreta"
+        },
+        {
+          "letra": "d",
+          "resumen": "Seguir indicaciones y responder adecuadamente",
+          "actividad": "CMO-001F-RA2-A1",
+          "evidencia": "Secuencia de acciones y petición de aclaración",
+          "aceptacion": "El orden y la respuesta respetan las instrucciones realmente escuchadas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001F-RA2-A1",
+          "titulo": "Escuchar instrucciones para comprobar una impresora",
+          "guia": "optativas/CMO-001F-frances-profesional/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Ficha de escucha con situación y finalidad",
+            "Notas de primera y segunda escucha",
+            "Explicación del error que evitaría comprender el aviso",
+            "Secuencia de acciones y petición de aclaración"
+          ],
+          "comprobaciones": [
+            "El estudiante identifica para qué se comunica el mensaje escuchado",
+            "Las notas muestran idea general y después detalles, sin depender de una transcripción visible",
+            "Relaciona comprensión y una decisión de soporte concreta",
+            "El orden y la respuesta respetan las instrucciones realmente escuchadas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Produce textos escritos sencillos en lengua estándar relacionados con situaciones cotidianas y usando recursos lingüísticos que se adecuan a situaciones de comunicación concretas.",
+      "materiales": [
+        "optativas/CMO-001F-frances-profesional/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Organizar el texto con coherencia",
+          "actividad": "CMO-001F-RA3-A1",
+          "evidencia": "Borrador con asunto, contexto, acción y cierre",
+          "aceptacion": "Las partes se conectan y el destinatario entiende qué debe hacer"
+        },
+        {
+          "letra": "b",
+          "resumen": "Usar vocabulario y estructuras pertinentes",
+          "actividad": "CMO-001F-RA3-A1",
+          "evidencia": "Versión revisada con terminología de soporte",
+          "aceptacion": "La terminología expresa el significado técnico del caso, sin traducción literal engañosa"
+        },
+        {
+          "letra": "c",
+          "resumen": "Tomar notas profesionales sencillas",
+          "actividad": "CMO-001F-RA3-A1",
+          "evidencia": "Notas iniciales del ticket antes de redactar",
+          "aceptacion": "Las notas conservan hechos y dudas sin convertir hipótesis en causas confirmadas"
+        },
+        {
+          "letra": "d",
+          "resumen": "Ajustar el registro a contexto e intención",
+          "actividad": "CMO-001F-RA3-A1",
+          "evidencia": "Comparación de borrador y versión final",
+          "aceptacion": "El tratamiento y el tono son consistentes con el destinatario y la finalidad"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001F-RA3-A1",
+          "titulo": "Escribir la actualización de un ticket",
+          "guia": "optativas/CMO-001F-frances-profesional/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Borrador con asunto, contexto, acción y cierre",
+            "Versión revisada con terminología de soporte",
+            "Notas iniciales del ticket antes de redactar",
+            "Comparación de borrador y versión final"
+          ],
+          "comprobaciones": [
+            "Las partes se conectan y el destinatario entiende qué debe hacer",
+            "La terminología expresa el significado técnico del caso, sin traducción literal engañosa",
+            "Las notas conservan hechos y dudas sin convertir hipótesis en causas confirmadas",
+            "El tratamiento y el tono son consistentes con el destinatario y la finalidad"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora mensajes orales expresando ideas de forma clara y organizada, y es capaz de participar activamente en conversaciones cotidianas en un puesto de trabajo.",
+      "materiales": [
+        "optativas/CMO-001F-frances-profesional/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Elegir estrategias para la interacción oral",
+          "actividad": "CMO-001F-RA4-A1",
+          "evidencia": "Registro del observador de preguntas y reformulaciones",
+          "aceptacion": "La persona solicita o proporciona aclaración cuando falta información"
+        },
+        {
+          "letra": "b",
+          "resumen": "Ajustar la forma del mensaje oral",
+          "actividad": "CMO-001F-RA4-A1",
+          "evidencia": "Lista de apertura, explicación, comprobación y cierre",
+          "aceptacion": "La estructura permite seguir la conversación y confirmar el siguiente paso"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar cortesía adecuada al contexto",
+          "actividad": "CMO-001F-RA4-A1",
+          "evidencia": "Observación de tratamiento, turnos y cierre",
+          "aceptacion": "El tratamiento acordado se mantiene y se respetan turnos sin generalizaciones culturales"
+        },
+        {
+          "letra": "d",
+          "resumen": "Utilizar terminología profesional con precisión",
+          "actividad": "CMO-001F-RA4-A1",
+          "evidencia": "Fragmentos o notas de términos usados durante la interacción",
+          "aceptacion": "Los términos identifican servicio, equipo, error y acción sin pedir secretos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001F-RA4-A1",
+          "titulo": "Mantener una conversación con información incompleta",
+          "guia": "optativas/CMO-001F-frances-profesional/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Registro del observador de preguntas y reformulaciones",
+            "Lista de apertura, explicación, comprobación y cierre",
+            "Observación de tratamiento, turnos y cierre",
+            "Fragmentos o notas de términos usados durante la interacción"
+          ],
+          "comprobaciones": [
+            "La persona solicita o proporciona aclaración cuando falta información",
+            "La estructura permite seguir la conversación y confirmar el siguiente paso",
+            "El tratamiento acordado se mantiene y se respetan turnos sin generalizaciones culturales",
+            "Los términos identifican servicio, equipo, error y acción sin pedir secretos"
+          ]
+        }
+      ]
+    }
+  ]
+}

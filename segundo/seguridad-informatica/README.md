@@ -46,3 +46,7 @@ Después de la base, desarrolla el caso de riesgos y BIA del capítulo 05. Utili
 No apliques el firewall avanzado al servidor compartido de servicios o directorio: se realiza en un clon específico de SSH/HTTPS y crea una tabla de ensayo propia que se retira desde consola. Los objetivos de recuperación, costes y puntuaciones del caso son supuestos didácticos que deben contrastarse con resultados reales.
 
 [Volver al repositorio](../../README.md)
+
+## Itinerario por resultados de aprendizaje
+
+El [mapa de RA y criterios oficiales](09-alineacion-ra.md) identifica los 5 RA y sus 39 criterios, con paráfrasis didácticas, materiales, actividades y evidencias. Los [retos por RA](10-retos-por-ra.md) desarrollan las operaciones que debe poder demostrar el estudiante. Los [datos JSON](alineacion-ra.json) permiten revisar su trazabilidad. Una cobertura documental no acredita por sí sola la adquisición del RA.

@@ -1,0 +1,261 @@
+{
+  "modulo": "CMO-002F",
+  "nombre": "Ampliación de lengua extranjera profesional · Francés",
+  "carpeta": "optativas/CMO-002F-ampliacion-frances",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, currículo CMO-002; inicio en página 36 del BOCM",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I que sustituye el catálogo de optatividad; módulos transversales, página 95 del BOCM",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-002F-ampliacion-frances/README.md",
+  "guia_retos": "optativas/CMO-002F-ampliacion-frances/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Identifica y comprende informaciones relativas al campo profesional objeto de estudio en diversas situaciones comunicativas orales planteadas (presencial, telefónica, videollamadas, etc.).",
+      "materiales": [
+        "optativas/CMO-002F-ampliacion-frances/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar elementos de una situación oral profesional",
+          "actividad": "CMO-002F-RA1-A1",
+          "evidencia": "Ficha de interlocutores, canal, objetivo y condiciones",
+          "aceptacion": "Los elementos corresponden al mensaje escuchado y no a suposiciones"
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir ideas principales y secundarias de un discurso profesional",
+          "actividad": "CMO-002F-RA1-A1",
+          "evidencia": "Notas jerarquizadas de la escucha",
+          "aceptacion": "La decisión principal y los detalles que la condicionan permanecen separados"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprender el sentido global con ruido de fondo",
+          "actividad": "CMO-002F-RA1-A1",
+          "evidencia": "Acta de escucha con condiciones del ambiente",
+          "aceptacion": "La escucha real conserva la idea global; si no se ensayó con ruido ese aspecto queda pendiente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002F-RA1-A1",
+          "titulo": "Escuchar una propuesta técnica con restricciones",
+          "guia": "optativas/CMO-002F-ampliacion-frances/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Ficha de interlocutores, canal, objetivo y condiciones",
+            "Notas jerarquizadas de la escucha",
+            "Acta de escucha con condiciones del ambiente"
+          ],
+          "comprobaciones": [
+            "Los elementos corresponden al mensaje escuchado y no a suposiciones",
+            "La decisión principal y los detalles que la condicionan permanecen separados",
+            "La escucha real conserva la idea global; si no se ensayó con ruido ese aspecto queda pendiente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Analiza e interpreta información profesional contenida en mensajes orales y escritos de cierta longitud y complejidad.",
+      "materiales": [
+        "optativas/CMO-002F-ampliacion-frances/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Leer de forma independiente adaptando la estrategia",
+          "actividad": "CMO-002F-RA2-A1",
+          "evidencia": "Notas de lectura rápida y análisis de detalle",
+          "aceptacion": "Se distingue exploración inicial de lectura precisa y se explica cuándo se usa cada una"
+        },
+        {
+          "letra": "b",
+          "resumen": "Interpretar el significado esencial en varios soportes",
+          "actividad": "CMO-002F-RA2-A1",
+          "evidencia": "Resumen del informe y del mensaje de seguimiento",
+          "aceptacion": "El resumen conserva las condiciones y excepciones relevantes de ambos formatos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Interpretar mensajes profesionales de mayor complejidad",
+          "actividad": "CMO-002F-RA2-A1",
+          "evidencia": "Comparación entre mensaje oral y documento escrito",
+          "aceptacion": "Se reconcilian diferencias sin omitir la limitación que afecta a la intervención"
+        },
+        {
+          "letra": "d",
+          "resumen": "Valorar contenido e importancia de información profesional",
+          "actividad": "CMO-002F-RA2-A1",
+          "evidencia": "Comentario crítico de la noticia o informe del caso",
+          "aceptacion": "Se identifica alcance, fuente y utilidad y se evita presentar una promesa como hecho probado"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002F-RA2-A1",
+          "titulo": "Reconciliar un informe escrito y una aclaración oral",
+          "guia": "optativas/CMO-002F-ampliacion-frances/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Notas de lectura rápida y análisis de detalle",
+            "Resumen del informe y del mensaje de seguimiento",
+            "Comparación entre mensaje oral y documento escrito",
+            "Comentario crítico de la noticia o informe del caso"
+          ],
+          "comprobaciones": [
+            "Se distingue exploración inicial de lectura precisa y se explica cuándo se usa cada una",
+            "El resumen conserva las condiciones y excepciones relevantes de ambos formatos",
+            "Se reconcilian diferencias sin omitir la limitación que afecta a la intervención",
+            "Se identifica alcance, fuente y utilidad y se evita presentar una promesa como hecho probado"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Emite argumentaciones orales originales, claras y coherentes, sobre informaciones profesionales conforme a una situación de comunicación concreta, a las normas de cortesía y al registro lingüístico del interlocutor.",
+      "materiales": [
+        "optativas/CMO-002F-ampliacion-frances/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer registro y puntos de vista de interlocutores",
+          "actividad": "CMO-002F-RA3-A1",
+          "evidencia": "Ficha de intereses, registro y argumentos de cada rol",
+          "aceptacion": "La argumentación responde al interlocutor y distingue hechos, preferencias e hipótesis"
+        },
+        {
+          "letra": "b",
+          "resumen": "Intervenir espontáneamente con fluidez adecuada",
+          "actividad": "CMO-002F-RA3-A1",
+          "evidencia": "Observación de una pregunta no conocida antes del ensayo",
+          "aceptacion": "Se responde al cambio de condiciones sin limitarse a leer un texto memorizado"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar cortesía en situaciones formales e informales",
+          "actividad": "CMO-002F-RA3-A1",
+          "evidencia": "Dos aperturas y cierres ensayados en su contexto",
+          "aceptacion": "El tratamiento es consistente y adecuado al escenario acordado"
+        },
+        {
+          "letra": "d",
+          "resumen": "Defender una propuesta con argumentos técnicos",
+          "actividad": "CMO-002F-RA3-A1",
+          "evidencia": "Intervención oral con dos razones y una limitación",
+          "aceptacion": "La decisión se apoya en datos del caso y terminología pertinente"
+        },
+        {
+          "letra": "e",
+          "resumen": "Pedir reformulación cuando sea necesario",
+          "actividad": "CMO-002F-RA3-A1",
+          "evidencia": "Interacción que incluye una petición real de aclaración",
+          "aceptacion": "La reformulación permite continuar y comprobar que el sentido se comprendió"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002F-RA3-A1",
+          "titulo": "Argumentar una decisión y responder a una objeción",
+          "guia": "optativas/CMO-002F-ampliacion-frances/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Ficha de intereses, registro y argumentos de cada rol",
+            "Observación de una pregunta no conocida antes del ensayo",
+            "Dos aperturas y cierres ensayados en su contexto",
+            "Intervención oral con dos razones y una limitación",
+            "Interacción que incluye una petición real de aclaración"
+          ],
+          "comprobaciones": [
+            "La argumentación responde al interlocutor y distingue hechos, preferencias e hipótesis",
+            "Se responde al cambio de condiciones sin limitarse a leer un texto memorizado",
+            "El tratamiento es consistente y adecuado al escenario acordado",
+            "La decisión se apoya en datos del caso y terminología pertinente",
+            "La reformulación permite continuar y comprobar que el sentido se comprendió"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora textos escritos adecuados a la profesión y al país de habla de la lengua extranjera, tales como cartas como cartas de presentación, CV, etc. Sirviéndose de un nivel de lengua adecuado a la situación de comunicación.",
+      "materiales": [
+        "optativas/CMO-002F-ampliacion-frances/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer usos de la comunidad profesional de destino",
+          "actividad": "CMO-002F-RA4-A1",
+          "evidencia": "Ficha de convenciones verificadas para una candidatura",
+          "aceptacion": "Se documenta el contexto concreto sin atribuir a todas las personas de un país la misma preferencia"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar normas de relación social y protocolos de comunicación",
+          "actividad": "CMO-002F-RA4-A1",
+          "evidencia": "Carta y mensaje de envío con tratamiento y cierre",
+          "aceptacion": "El documento mantiene coherencia de registro y respeta el canal solicitado por la oferta"
+        },
+        {
+          "letra": "c",
+          "resumen": "Responder a una oferta con CV y carta pertinentes",
+          "actividad": "CMO-002F-RA4-A1",
+          "evidencia": "Candidatura ficticia, CV y tabla oferta-evidencia",
+          "aceptacion": "Cada afirmación sobre competencias se vincula a una evidencia o se identifica como objetivo de aprendizaje"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002F-RA4-A1",
+          "titulo": "Responder a una oferta con evidencias de aprendizaje",
+          "guia": "optativas/CMO-002F-ampliacion-frances/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Ficha de convenciones verificadas para una candidatura",
+            "Carta y mensaje de envío con tratamiento y cierre",
+            "Candidatura ficticia, CV y tabla oferta-evidencia"
+          ],
+          "comprobaciones": [
+            "Se documenta el contexto concreto sin atribuir a todas las personas de un país la misma preferencia",
+            "El documento mantiene coherencia de registro y respeta el canal solicitado por la oferta",
+            "Cada afirmación sobre competencias se vincula a una evidencia o se identifica como objetivo de aprendizaje"
+          ]
+        }
+      ]
+    }
+  ]
+}

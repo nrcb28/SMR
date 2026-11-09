@@ -14,6 +14,10 @@ Esta asignatura explica cómo viajan los datos desde una aplicación hasta otro 
 6. [Conmutación y diseño segmentado](06-conmutacion-y-diseno-segmentado.md): puertos, trunks, STP/RSTP, LACP, QoS y prueba de fallo controlado.
 7. [Ingeniería Wi-Fi y capacidad](07-ingenieria-wifi-y-capacidad.md): radiofrecuencia, dBm/SNR, tiempo de aire, canales, movilidad y estudio reproducible.
 8. [Análisis de protocolos y laboratorios](08-analisis-de-protocolos-y-laboratorios.md): secuencias sintéticas explicadas, TCP, ARP/ND, MTU, DNS/TLS e investigación por hipótesis.
+9. [Alineación con los RA y criterios oficiales](09-alineacion-ra.md): los seis resultados y sus 51 criterios, con materiales, evidencias y condiciones de aceptación propuestas.
+10. [Retos completos por RA](10-retos-por-ra.md): reconocimiento, despliegue físico, conectores de cobre/fibra, Wi-Fi/VLAN, mantenimiento y prevención.
+
+Los [datos de alineación](alineacion-ra.json) conservan el enunciado de cada RA y vinculan cada letra de criterio con una actividad desarrollada. Los resúmenes de criterios y las condiciones de aceptación son propuestas didácticas; la programación del centro determina la evaluación oficial.
 
 Consulta antes el [laboratorio común](../../docs/laboratorio.md). Continúa después con [Servicios en red](../../segundo/servicios-en-red/README.md) y vuelve al [índice general](../../README.md) para relacionar las asignaturas.
 
@@ -49,3 +53,9 @@ No memorices únicamente salidas de comandos. Una captura y una tabla sólo sirv
 ## Profundización de la edición ampliada
 
 Los capítulos 5–8 desarrollan decisiones de diseño y operación que requieren relacionar varias capas. Realiza primero los cálculos sin configurar equipos, después el diseño de conmutación en una topología expresamente compatible, luego el estudio de radio y por último el análisis de evidencias. Cada bloque incluye una práctica adicional, problemas razonados y criterios propios de aceptación. Las secuencias de paquetes rotuladas sintéticas enseñan el mecanismo; no se presentan como capturas ejecutadas.
+
+## Ruta de trabajo por resultados de aprendizaje
+
+Utiliza la matriz del capítulo 9 para decidir qué evidencia necesitas, y el reto del capítulo 10 para prepararla y ejecutarla. RA1 construye el dossier de reconocimiento; RA2 despliega la maqueta de cableado; RA3 añade adaptadores y terminaciones de cobre y fibra; RA4 instala la red mixta y las VLAN; RA5 mantiene y repara; RA6 prepara y observa prevención y gestión ambiental durante las operaciones.
+
+La VM permite practicar una parte lógica, pero no evidencia canalizaciones, armarios, conectores o cobertura de radio. Si falta equipo, conserva el diseño y registra la ejecución física como pendiente. Las fotografías y pruebas deben corresponder a tu bancada y a su identificación, y las operaciones se realizan bajo las condiciones de supervisión del centro.

@@ -12,6 +12,10 @@
 6. [Veinte decisiones profesionales resueltas](06-casos-profesionales-resueltos.md): candidatura, operaciones, métricas y decisiones económicas.
 7. [Plantilla de plan profesional y proyecto](plantilla-plan-profesional.md).
 8. [Datos económicos del caso inicial](modelo-economico.csv), [mezcla de servicios](mezcla-servicios.csv) y [tesorería trimestral](tesoreria-trimestral.csv), en CSV con punto y coma y coma decimal.
+9. [Alineación con los cinco RA y 41 CE de Madrid](07-alineacion-ra.md).
+10. [Cinco retos por RA de selección, colaboración, innovación y proyecto](08-retos-por-ra.md).
+
+Los [datos de trazabilidad](alineacion-ra.json) relacionan cada criterio del anexo VIII de la Orden 3537/2025 con materiales, actividad, evidencia y aceptación. El RA5 mantiene los quince criterios de **a a n y ñ**; no se elimina la última letra al tratar los identificadores como datos.
 
 La secuencia enlaza con [IPE I](../../primero/itinerario-personal-para-la-empleabilidad-i/README.md), el [proyecto intermodular](../proyecto-intermodular/README.md) y el [índice de SMR](../../README.md). El enlace al proyecto sigue la organización de esta edición; utiliza el índice general si el centro adopta otra secuencia.
 
@@ -26,3 +30,5 @@ Las cifras son ficticias y sirven para comprender relaciones matemáticas. Las r
 Primero identifica un puesto concreto y selecciona pruebas de tus competencias. Después practica comunicación y trabajo en equipo. Por último diseña un servicio pequeño, valida sus supuestos y analiza si los números y la capacidad de ejecución son compatibles. No completes trámites mercantiles, presentes impuestos ni contrates productos de pago para realizar los ejercicios.
 
 Para profundizar, utiliza el caso de dos líneas de servicio y reconstruye sus tres meses de caja. Comprueba por qué una mezcla con beneficio positivo puede necesitar financiación, y somete las decisiones a las variantes del banco de veinte casos. Las tablas indican qué incluyen y excluyen para que no se mezclen explotación, impuestos, inversión y financiación.
+
+Para preparar evidencias por RA, sigue la matriz y realiza el reto del mismo número. Los primeros resultados trabajan selección y colaboración; después se observa una mejora, se valida una necesidad y se desarrolla un expediente de proyecto. La hoja de viabilidad no sustituye entrevistas o pruebas de prototipo no realizadas. Registra las actividades pendientes y el papel individual de cada participante, sin convertir la cobertura documental en acreditación.

@@ -1,0 +1,842 @@
+{
+  "modulo": "0227",
+  "nombre": "Servicios en red",
+  "carpeta": "segundo/servicios-en-red",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional 0227, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/servicios-en-red/10-alineacion-ra.md",
+  "guia_retos": "segundo/servicios-en-red/11-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Instala servicios de configuración dinámica, describiendo sus características y aplicaciones.",
+      "materiales": [
+        "segundo/servicios-en-red/02-guia-tecnica.md",
+        "segundo/servicios-en-red/07-dhcp-dual-stack-y-operacion.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer la configuración automatizada de red",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Diagrama temporal de solicitud, oferta, selección y concesión",
+          "aceptacion": "Relaciona mensajes, clientes y servidor sin confundir concesión con DNS."
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar ventajas de la automatización",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Comparativa manual/dinámica para el aula",
+          "aceptacion": "Justifica coherencia, renovación y gestión, incluyendo dependencia del servicio."
+        },
+        {
+          "letra": "c",
+          "resumen": "Ilustrar el procedimiento de solicitud",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Secuencia anotada y registro correlacionado del cliente",
+          "aceptacion": "Explica quién solicita y responde y qué parámetros se negocian."
+        },
+        {
+          "letra": "d",
+          "resumen": "Instalar el servicio dinámico",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Versiones, validación y estado de Kea",
+          "aceptacion": "Servicio y listener corresponden a la NIC LAB y al diseño aislado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Asignar parámetros básicos de la LAN",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Pool y tabla de dirección, prefijo y opciones del cliente",
+          "aceptacion": "Los parámetros efectivos coinciden y no hay gateway ficticio en LAB."
+        },
+        {
+          "letra": "f",
+          "resumen": "Realizar asignación dinámica y estática",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Dos clientes con identidades distintas y reserva .50",
+          "aceptacion": "Cada concesión procede del servidor previsto y respeta la reserva."
+        },
+        {
+          "letra": "g",
+          "resumen": "Incorporar opciones adicionales",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Opción pertinente configurada y comprobada en el cliente",
+          "aceptacion": "Explica soporte del cliente y diferencia declaración y aplicación efectiva."
+        },
+        {
+          "letra": "h",
+          "resumen": "Verificar la configuración asignada",
+          "actividad": "0227-RA1-A1",
+          "evidencia": "Matriz cliente–identificador del servidor–parámetros–tiempo",
+          "aceptacion": "Detecta valores inesperados y distingue un segundo DHCP o una NIC distinta."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA1-A1",
+          "titulo": "Expediente DHCP: dinámica, reserva y opciones efectivas",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Diagrama temporal de solicitud, oferta, selección y concesión",
+            "Comparativa manual/dinámica para el aula",
+            "Secuencia anotada y registro correlacionado del cliente",
+            "Versiones, validación y estado de Kea",
+            "Pool y tabla de dirección, prefijo y opciones del cliente",
+            "Dos clientes con identidades distintas y reserva .50",
+            "Opción pertinente configurada y comprobada en el cliente",
+            "Matriz cliente–identificador del servidor–parámetros–tiempo"
+          ],
+          "comprobaciones": [
+            "Relaciona mensajes, clientes y servidor sin confundir concesión con DNS.",
+            "Justifica coherencia, renovación y gestión, incluyendo dependencia del servicio.",
+            "Explica quién solicita y responde y qué parámetros se negocian.",
+            "Servicio y listener corresponden a la NIC LAB y al diseño aislado.",
+            "Los parámetros efectivos coinciden y no hay gateway ficticio en LAB.",
+            "Cada concesión procede del servidor previsto y respeta la reserva.",
+            "Explica soporte del cliente y diferencia declaración y aplicación efectiva.",
+            "Detecta valores inesperados y distingue un segundo DHCP o una NIC distinta."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Instala servicios de resolución de nombres, describiendo sus características y aplicaciones.",
+      "materiales": [
+        "segundo/servicios-en-red/02-guia-tecnica.md",
+        "segundo/servicios-en-red/06-dns-replicacion-y-ciclo-de-cambio.md",
+        "segundo/servicios-en-red/12-complementos-curriculares-ra.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar necesidades de resolución",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Tres casos: nombre interno, nombre externo permitido y segunda autoridad",
+          "aceptacion": "Distingue necesidad y función de servidor antes de configurar."
+        },
+        {
+          "letra": "b",
+          "resumen": "Clasificar mecanismos de resolución",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Tabla de hosts, DNS autoritativo y resolver/caché",
+          "aceptacion": "Explica qué mecanismo responde en cada prueba normal o dirigida."
+        },
+        {
+          "letra": "c",
+          "resumen": "Describir jerarquía y nomenclatura",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Esquema de etiquetas, zonas, delegación y registros",
+          "aceptacion": "No confunde alias, redirección HTTP, delegación y réplica."
+        },
+        {
+          "letra": "d",
+          "resumen": "Instalar el servicio jerárquico",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Configuración BIND validada y consulta a zona propia",
+          "aceptacion": "Responde la instancia prevista y se conoce su función autoritativa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Almacenar y servir respuestas externas",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Entrada de caché de una consulta permitida y ACL de recursión",
+          "aceptacion": "Prueba almacenamiento real y rechazo fuera del alcance, no sólo menor latencia."
+        },
+        {
+          "letra": "f",
+          "resumen": "Añadir zona, correo y alias",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Archivos de zona y consultas A/PTR/MX/CNAME",
+          "aceptacion": "Los destinos y nombres son válidos y las respuestas corresponden a la zona."
+        },
+        {
+          "letra": "g",
+          "resumen": "Realizar transferencias en grupo",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Primaria .10, secundaria .30 y registro de contribuciones",
+          "aceptacion": "Ambas responden al serial nuevo y se acredita colaboración; un trabajo individual se declara así."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar funcionamiento del servidor",
+          "actividad": "0227-RA2-A1",
+          "evidencia": "Consultas positivas/negativas de autoridad, recursión y réplica",
+          "aceptacion": "Interpreta estados, TTL y participantes, sin publicar TSIG ni consultas ajenas."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA2-A1",
+          "titulo": "DNS: autoridad, caché restringida y réplica colaborativa",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Tres casos: nombre interno, nombre externo permitido y segunda autoridad",
+            "Tabla de hosts, DNS autoritativo y resolver/caché",
+            "Esquema de etiquetas, zonas, delegación y registros",
+            "Configuración BIND validada y consulta a zona propia",
+            "Entrada de caché de una consulta permitida y ACL de recursión",
+            "Archivos de zona y consultas A/PTR/MX/CNAME",
+            "Primaria .10, secundaria .30 y registro de contribuciones",
+            "Consultas positivas/negativas de autoridad, recursión y réplica"
+          ],
+          "comprobaciones": [
+            "Distingue necesidad y función de servidor antes de configurar.",
+            "Explica qué mecanismo responde en cada prueba normal o dirigida.",
+            "No confunde alias, redirección HTTP, delegación y réplica.",
+            "Responde la instancia prevista y se conoce su función autoritativa.",
+            "Prueba almacenamiento real y rechazo fuera del alcance, no sólo menor latencia.",
+            "Los destinos y nombres son válidos y las respuestas corresponden a la zona.",
+            "Ambas responden al serial nuevo y se acredita colaboración; un trabajo individual se declara así.",
+            "Interpreta estados, TTL y participantes, sin publicar TSIG ni consultas ajenas."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Instala servicios de transferencia de ficheros, describiendo sus características y aplicaciones.",
+      "materiales": [
+        "segundo/servicios-en-red/01-fundamentos.md",
+        "segundo/servicios-en-red/12-complementos-curriculares-ra.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar utilidad y operación de FTP",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Diagrama de control y datos, activo y pasivo",
+          "aceptacion": "Identifica iniciador y destino de cada conexión y compara con SFTP sin equipararlos."
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar un servicio de transferencia",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Configuración y listener de vsftpd en ftplab .40",
+          "aceptacion": "La VM dedicada carece de conexión externa al ejecutar el ejercicio."
+        },
+        {
+          "letra": "c",
+          "resumen": "Crear usuarios y grupos remotos",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Inventario saneado de cuenta temporal, grupo y permisos",
+          "aceptacion": "La identidad autenticada sólo accede al árbol autorizado del laboratorio."
+        },
+        {
+          "letra": "d",
+          "resumen": "Configurar acceso anónimo",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Descarga del archivo público y comparación de árbol visible",
+          "aceptacion": "El anónimo obtiene únicamente lectura del árbol público previsto."
+        },
+        {
+          "letra": "e",
+          "resumen": "Establecer límites de acceso",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Política de escritura y concurrencia con prueba negativa",
+          "aceptacion": "La subida de lectura se deniega y los límites corresponden a cada modo."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar FTP activo y pasivo",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Matriz de transferencias y canales con hashes",
+          "aceptacion": "Los datos se transfieren en ambos modos y se explica su regla de firewall."
+        },
+        {
+          "letra": "g",
+          "resumen": "Probar clientes CLI y gráficos",
+          "actividad": "0227-RA3-A1",
+          "evidencia": "Registro de descarga autenticada/anónima en ambos tipos de cliente",
+          "aceptacion": "Identifica cliente, modo y contenido; iniciar sesión sin transferir no basta."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA3-A1",
+          "titulo": "FTP aislado: identidades, límites y dos modos de datos",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Diagrama de control y datos, activo y pasivo",
+            "Configuración y listener de vsftpd en ftplab .40",
+            "Inventario saneado de cuenta temporal, grupo y permisos",
+            "Descarga del archivo público y comparación de árbol visible",
+            "Política de escritura y concurrencia con prueba negativa",
+            "Matriz de transferencias y canales con hashes",
+            "Registro de descarga autenticada/anónima en ambos tipos de cliente"
+          ],
+          "comprobaciones": [
+            "Identifica iniciador y destino de cada conexión y compara con SFTP sin equipararlos.",
+            "La VM dedicada carece de conexión externa al ejecutar el ejercicio.",
+            "La identidad autenticada sólo accede al árbol autorizado del laboratorio.",
+            "El anónimo obtiene únicamente lectura del árbol público previsto.",
+            "La subida de lectura se deniega y los límites corresponden a cada modo.",
+            "Los datos se transfieren en ambos modos y se explica su regla de firewall.",
+            "Identifica cliente, modo y contenido; iniciar sesión sin transferir no basta."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Gestiona servidores de correo electrónico identificando requerimientos de utilización y aplicando criterios de configuración.",
+      "materiales": [
+        "segundo/servicios-en-red/05-correo-local.md",
+        "segundo/servicios-en-red/09-correo-observabilidad-y-continuidad.md",
+        "segundo/servicios-en-red/12-complementos-curriculares-ra.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Describir envío y recogida de mensajes",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Recorrido SMTP–cola–entrega–buzón–IMAP",
+          "aceptacion": "Explica la función de cada protocolo y distingue entrega local y recepción remota."
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar servidor de correo",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Configuración Postfix y listener restringido",
+          "aceptacion": "Conserva el alcance loopback y la política de destinos locales del ejercicio."
+        },
+        {
+          "letra": "c",
+          "resumen": "Crear cuentas y comprobar acceso",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Buzones temporales y autenticación con identidades de laboratorio",
+          "aceptacion": "Cada usuario accede a su buzón y una identidad ajena se rechaza."
+        },
+        {
+          "letra": "d",
+          "resumen": "Definir alias de cuentas",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Alias creado, base reconstruida y mensaje identificable",
+          "aceptacion": "La dirección alias entrega al buzón previsto y no se confunde con una cuenta nueva."
+        },
+        {
+          "letra": "e",
+          "resumen": "Impedir usos indebidos",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Prueba de destinatario externo y revisión de listeners",
+          "aceptacion": "Se rechaza el destino no autorizado antes de DATA y no existe relay abierto."
+        },
+        {
+          "letra": "f",
+          "resumen": "Instalar recogida remota",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Dovecot compatible con versión, IMAPS y CA/nombre comprobados",
+          "aceptacion": "Un cliente LAB recupera el mensaje conocido; Maildir local por sí solo no basta."
+        },
+        {
+          "letra": "g",
+          "resumen": "Enviar y recibir con cliente",
+          "actividad": "0227-RA4-A1",
+          "evidencia": "Mensajes al usuario y alias enviados por túnel y recibidos por IMAPS",
+          "aceptacion": "Coinciden identificador, asunto y cuerpo sin ampliar SMTP ni publicar contraseñas."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA4-A1",
+          "titulo": "Correo: entrega local, alias y recogida IMAPS remota",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Recorrido SMTP–cola–entrega–buzón–IMAP",
+            "Configuración Postfix y listener restringido",
+            "Buzones temporales y autenticación con identidades de laboratorio",
+            "Alias creado, base reconstruida y mensaje identificable",
+            "Prueba de destinatario externo y revisión de listeners",
+            "Dovecot compatible con versión, IMAPS y CA/nombre comprobados",
+            "Mensajes al usuario y alias enviados por túnel y recibidos por IMAPS"
+          ],
+          "comprobaciones": [
+            "Explica la función de cada protocolo y distingue entrega local y recepción remota.",
+            "Conserva el alcance loopback y la política de destinos locales del ejercicio.",
+            "Cada usuario accede a su buzón y una identidad ajena se rechaza.",
+            "La dirección alias entrega al buzón previsto y no se confunde con una cuenta nueva.",
+            "Se rechaza el destino no autorizado antes de DATA y no existe relay abierto.",
+            "Un cliente LAB recupera el mensaje conocido; Maildir local por sí solo no basta.",
+            "Coinciden identificador, asunto y cuerpo sin ampliar SMTP ni publicar contraseñas."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Gestiona servidores web identificando requerimientos de utilización y aplicando criterios de configuración.",
+      "materiales": [
+        "segundo/servicios-en-red/02-guia-tecnica.md",
+        "segundo/servicios-en-red/08-ssh-pki-y-publicacion-web.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar fundamentos y protocolos web",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Recorrido de petición, transporte, TLS y respuesta HTTP",
+          "aceptacion": "Distingue conexión, negociación, código y contenido sin saltar directamente al CMS."
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar servidor web",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Versiones, configuración efectiva y estado del servidor",
+          "aceptacion": "El listener está limitado a LAB y la sintaxis se valida antes de recargar."
+        },
+        {
+          "letra": "c",
+          "resumen": "Crear sitios virtuales",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Dos nombres y raíces con contenido diferente",
+          "aceptacion": "Ambas URLs sirven su sitio y se conserva una configuración saneada."
+        },
+        {
+          "letra": "d",
+          "resumen": "Discriminar el sitio de destino",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Matriz por IP/puerto, Host y SNI",
+          "aceptacion": "Explica la selección y el comportamiento de un nombre no previsto."
+        },
+        {
+          "letra": "e",
+          "resumen": "Configurar seguridad",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Política de permisos, directorios, listeners y acceso de administración",
+          "aceptacion": "Sólo se permiten operaciones y orígenes del diseño y se prueba una denegación."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar acceso de usuarios",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Solicitudes desde cliente con identidades cuando proceda",
+          "aceptacion": "Se obtiene contenido esperado y se interpreta correctamente un error o rechazo."
+        },
+        {
+          "letra": "g",
+          "resumen": "Probar código del servidor y cliente",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Página JavaScript y backend PHP con respuesta sintética",
+          "aceptacion": "Identifica dónde se ejecuta cada código y no entrega el fuente PHP al cliente."
+        },
+        {
+          "letra": "h",
+          "resumen": "Instalar un módulo del servidor",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Paquete compatible, carga efectiva y cabecera de prueba",
+          "aceptacion": "Demuestra un módulo realmente instalado; una directiva incorporada no suple la prueba."
+        },
+        {
+          "letra": "i",
+          "resumen": "Proteger la comunicación",
+          "actividad": "0227-RA5-A1",
+          "evidencia": "Nombre y certificado válidos, CA confiada y prueba HTTPS",
+          "aceptacion": "TLS valida sin omitir confianza ni nombre; acceder por IP no sustituye la URL prevista."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA5-A1",
+          "titulo": "Dos sitios web, ejecución cliente/servidor y módulo instalado",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Recorrido de petición, transporte, TLS y respuesta HTTP",
+            "Versiones, configuración efectiva y estado del servidor",
+            "Dos nombres y raíces con contenido diferente",
+            "Matriz por IP/puerto, Host y SNI",
+            "Política de permisos, directorios, listeners y acceso de administración",
+            "Solicitudes desde cliente con identidades cuando proceda",
+            "Página JavaScript y backend PHP con respuesta sintética",
+            "Paquete compatible, carga efectiva y cabecera de prueba",
+            "Nombre y certificado válidos, CA confiada y prueba HTTPS"
+          ],
+          "comprobaciones": [
+            "Distingue conexión, negociación, código y contenido sin saltar directamente al CMS.",
+            "El listener está limitado a LAB y la sintaxis se valida antes de recargar.",
+            "Ambas URLs sirven su sitio y se conserva una configuración saneada.",
+            "Explica la selección y el comportamiento de un nombre no previsto.",
+            "Sólo se permiten operaciones y orígenes del diseño y se prueba una denegación.",
+            "Se obtiene contenido esperado y se interpreta correctamente un error o rechazo.",
+            "Identifica dónde se ejecuta cada código y no entrega el fuente PHP al cliente.",
+            "Demuestra un módulo realmente instalado; una directiva incorporada no suple la prueba.",
+            "TLS valida sin omitir confianza ni nombre; acceder por IP no sustituye la URL prevista."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Gestiona métodos de acceso remoto describiendo sus características e instalando los servicios correspondientes.",
+      "materiales": [
+        "segundo/servicios-en-red/02-guia-tecnica.md",
+        "segundo/servicios-en-red/08-ssh-pki-y-publicacion-web.md",
+        "segundo/servicios-en-red/12-complementos-curriculares-ra.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Describir métodos de acceso y administración",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Comparativa SSH/RDP con propósito y controles",
+          "aceptacion": "Distingue conectarse, consultar y efectuar un cambio autorizado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar acceso remoto CLI",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Servicio SSH y cliente Windows hacia Linux",
+          "aceptacion": "Se contrasta la identidad del host y la cuenta posee el permiso necesario."
+        },
+        {
+          "letra": "c",
+          "resumen": "Instalar acceso remoto gráfico",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Windows Pro como host RDP y cliente Linux",
+          "aceptacion": "La edición, cuenta, NLA, firewall y certificado se comprueban en LAB."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar ambos métodos",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Registro de sesión, host, usuario y operación de cada método",
+          "aceptacion": "La sesión tiene destino e identidad verificables y se prueba su tarea."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comparar ventajas y limitaciones",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Tabla de recursos, automatización, latencia, auditoría y redirecciones",
+          "aceptacion": "Justifica un método para un caso y limita funciones no necesarias."
+        },
+        {
+          "letra": "f",
+          "resumen": "Probar acceso entre sistemas diferentes",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Sesiones Windows–Linux y Linux–Windows",
+          "aceptacion": "Identifica ambos extremos y no presenta un escritorio local como acceso remoto."
+        },
+        {
+          "letra": "g",
+          "resumen": "Probar administración heterogénea",
+          "actividad": "0227-RA6-A1",
+          "evidencia": "Consulta/cambio autorizado, elevación y retorno documentados",
+          "aceptacion": "Se demuestra la tarea administrativa prevista sin conceder privilegios universales."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA6-A1",
+          "titulo": "Acceso y administración remota por SSH y escritorio gráfico",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Comparativa SSH/RDP con propósito y controles",
+            "Servicio SSH y cliente Windows hacia Linux",
+            "Windows Pro como host RDP y cliente Linux",
+            "Registro de sesión, host, usuario y operación de cada método",
+            "Tabla de recursos, automatización, latencia, auditoría y redirecciones",
+            "Sesiones Windows–Linux y Linux–Windows",
+            "Consulta/cambio autorizado, elevación y retorno documentados"
+          ],
+          "comprobaciones": [
+            "Distingue conectarse, consultar y efectuar un cambio autorizado.",
+            "Se contrasta la identidad del host y la cuenta posee el permiso necesario.",
+            "La edición, cuenta, NLA, firewall y certificado se comprueban en LAB.",
+            "La sesión tiene destino e identidad verificables y se prueba su tarea.",
+            "Justifica un método para un caso y limita funciones no necesarias.",
+            "Identifica ambos extremos y no presenta un escritorio local como acceso remoto.",
+            "Se demuestra la tarea administrativa prevista sin conceder privilegios universales."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "enunciado_oficial": "Despliega redes inalámbricas seguras justificando la configuración elegida y describiendo los procedimientos de implantación.",
+      "materiales": [
+        "segundo/servicios-en-red/07-dhcp-dual-stack-y-operacion.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Instalar un AP en una LAN",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Montaje y conexión del AP con su plano y puerto",
+          "aceptacion": "El AP integra la LAN de formación y se registra qué funciones no realiza."
+        },
+        {
+          "letra": "b",
+          "resumen": "Reconocer protocolos, modos y parámetros",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Inventario de capacidades y configuración del AP",
+          "aceptacion": "Distingue modo AP/router, banda, canal, seguridad y responsabilidades de red."
+        },
+        {
+          "letra": "c",
+          "resumen": "Seleccionar configuración por escenario",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Comparación de al menos dos escenarios y decisiones",
+          "aceptacion": "Los parámetros satisfacen requisitos y capacidades de los equipos utilizados."
+        },
+        {
+          "letra": "d",
+          "resumen": "Aplicar seguridad inalámbrica",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Política y pruebas de asociación/gestión autorizadas y denegadas",
+          "aceptacion": "El mecanismo es compatible y no se publica la clave del ejercicio."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar cobertura con varios dispositivos",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Matriz de clientes, posiciones y condiciones de radio",
+          "aceptacion": "Registra mediciones reales y no equipara una VM a un adaptador inalámbrico físico."
+        },
+        {
+          "letra": "f",
+          "resumen": "Instalar router con LAN y enlace público",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Plano WAN/LAN, configuración y evidencia del alcance real o simulado",
+          "aceptacion": "Separa el mecanismo simulado de una conexión de operador no realizada."
+        },
+        {
+          "letra": "g",
+          "resumen": "Configurar y probar router desde LAN",
+          "actividad": "0227-RA7-A1",
+          "evidencia": "Acceso de gestión, salida permitida y denegación desde el lado exterior",
+          "aceptacion": "Los prefijos son distintos y la administración permanece en los orígenes previstos."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA7-A1",
+          "titulo": "AP y router inalámbrico con clientes y escenarios comparados",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra7",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Montaje y conexión del AP con su plano y puerto",
+            "Inventario de capacidades y configuración del AP",
+            "Comparación de al menos dos escenarios y decisiones",
+            "Política y pruebas de asociación/gestión autorizadas y denegadas",
+            "Matriz de clientes, posiciones y condiciones de radio",
+            "Plano WAN/LAN, configuración y evidencia del alcance real o simulado",
+            "Acceso de gestión, salida permitida y denegación desde el lado exterior"
+          ],
+          "comprobaciones": [
+            "El AP integra la LAN de formación y se registra qué funciones no realiza.",
+            "Distingue modo AP/router, banda, canal, seguridad y responsabilidades de red.",
+            "Los parámetros satisfacen requisitos y capacidades de los equipos utilizados.",
+            "El mecanismo es compatible y no se publica la clave del ejercicio.",
+            "Registra mediciones reales y no equipara una VM a un adaptador inalámbrico físico.",
+            "Separa el mecanismo simulado de una conexión de operador no realizada.",
+            "Los prefijos son distintos y la administración permanece en los orígenes previstos."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado_oficial": "Establece el acceso desde redes locales a redes públicas identificando posibles escenarios y aplicando software específico.",
+      "materiales": [
+        "segundo/servicios-en-red/01-fundamentos.md",
+        "segundo/servicios-en-red/09-correo-observabilidad-y-continuidad.md",
+        "segundo/servicios-en-red/12-complementos-curriculares-ra.md",
+        "segundo/servicios-en-red/11-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Configurar hardware con lado privado y exterior",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Dos interfaces y tabla de rutas de la pasarela dedicada",
+          "aceptacion": "Cada interfaz y prefijo corresponde al plano, sin alterar la LAB base."
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar aplicación de pasarela",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Proxy instalado, versión y listener limitado a LAN",
+          "aceptacion": "La aplicación está operativa y no funciona como proxy abierto."
+        },
+        {
+          "letra": "c",
+          "resumen": "Reconocer funciones de la aplicación",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Comparación de proxy, routing, NAT, filtrado y caché",
+          "aceptacion": "Explica qué componente realiza cada función y qué no intercepta automáticamente."
+        },
+        {
+          "letra": "d",
+          "resumen": "Configurar clientes de la red privada",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Gateway y proxy explícito aplicados donde corresponde",
+          "aceptacion": "El cliente utiliza el trayecto previsto y se conserva ruta de retorno."
+        },
+        {
+          "letra": "e",
+          "resumen": "Controlar tráfico a través de la pasarela",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Reglas efectivas y petición permitida/denegada",
+          "aceptacion": "Sólo atraviesan protocolos, destinos y sentidos definidos por la práctica."
+        },
+        {
+          "letra": "f",
+          "resumen": "Implementar aceleración",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Objeto cacheable y evidencia HIT/MISS o revalidación en logs",
+          "aceptacion": "La política permite almacenar y no se deduce caché sólo de una petición rápida."
+        },
+        {
+          "letra": "g",
+          "resumen": "Identificar escenarios de aceleración",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Comparativa de contenido público cacheable y privado/no-store",
+          "aceptacion": "Justifica dónde aporta valor y reconoce límites de CONNECT y contenido cifrado."
+        },
+        {
+          "letra": "h",
+          "resumen": "Reenviar entre interfaces",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Reenvío IPv4 y reglas de forwarding documentados",
+          "aceptacion": "Distingue routing y NAT, observa ambos sentidos y dispone de retorno por consola."
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar acceso entre redes",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "Petición privada a servidor exterior simulado",
+          "aceptacion": "La prueba parte de otra red y explica dirección observada antes/después de NAT."
+        },
+        {
+          "letra": "j",
+          "resumen": "Publicar servicio privado hacia exterior",
+          "actividad": "0227-RA8-A1",
+          "evidencia": "DNAT y acceso desde cliente exterior al contenido privado esperado",
+          "aceptacion": "Verifica puerto, reglas y retorno; la red simulada no acredita acceso de operador real."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0227-RA8-A1",
+          "titulo": "Pasarela entre redes, proxy, caché y publicación controlada",
+          "guia": "segundo/servicios-en-red/11-retos-por-ra.md#ra8",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Dos interfaces y tabla de rutas de la pasarela dedicada",
+            "Proxy instalado, versión y listener limitado a LAN",
+            "Comparación de proxy, routing, NAT, filtrado y caché",
+            "Gateway y proxy explícito aplicados donde corresponde",
+            "Reglas efectivas y petición permitida/denegada",
+            "Objeto cacheable y evidencia HIT/MISS o revalidación en logs",
+            "Comparativa de contenido público cacheable y privado/no-store",
+            "Reenvío IPv4 y reglas de forwarding documentados",
+            "Petición privada a servidor exterior simulado",
+            "DNAT y acceso desde cliente exterior al contenido privado esperado"
+          ],
+          "comprobaciones": [
+            "Cada interfaz y prefijo corresponde al plano, sin alterar la LAB base.",
+            "La aplicación está operativa y no funciona como proxy abierto.",
+            "Explica qué componente realiza cada función y qué no intercepta automáticamente.",
+            "El cliente utiliza el trayecto previsto y se conserva ruta de retorno.",
+            "Sólo atraviesan protocolos, destinos y sentidos definidos por la práctica.",
+            "La política permite almacenar y no se deduce caché sólo de una petición rápida.",
+            "Justifica dónde aporta valor y reconoce límites de CONNECT y contenido cifrado.",
+            "Distingue routing y NAT, observa ambos sentidos y dispone de retorno por consola.",
+            "La prueba parte de otra red y explica dirección observada antes/después de NAT.",
+            "Verifica puerto, reglas y retorno; la red simulada no acredita acceso de operador real."
+          ]
+        }
+      ]
+    }
+  ]
+}

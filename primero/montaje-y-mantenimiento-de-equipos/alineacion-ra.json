@@ -1,0 +1,827 @@
+{
+  "modulo": "0221",
+  "nombre": "Montaje y mantenimiento de equipos",
+  "carpeta": "primero/montaje-y-mantenimiento-de-equipos",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional 0221; resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: sustitución de módulos antiguos e incorporación de módulos transversales; no renumera los RA técnicos de este mapa",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "primero/montaje-y-mantenimiento-de-equipos/09-alineacion-ra.md",
+  "guia_retos": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Selecciona los componentes de integración de un equipo microinformático estándar, describiendo sus funciones y comparando prestaciones de distintos fabricantes.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/01-fundamentos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/02-guia-tecnica.md",
+        "primero/montaje-y-mantenimiento-de-equipos/05-medicion-y-rendimiento.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar bloques funcionales y su relación",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Diagrama CPU–memoria–E/S con flujos",
+          "aceptacion": "Cada bloque tiene función y una dependencia explicada"
+        },
+        {
+          "letra": "b",
+          "resumen": "Reconocer buses e interconexiones",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Tabla de interfaces y enlace de cada componente",
+          "aceptacion": "Distingue formato físico, protocolo y capacidad del trayecto"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comparar propiedades de microprocesadores",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Fichas de dos CPU con socket y requisitos",
+          "aceptacion": "No usa frecuencia como único criterio y verifica soporte de placa"
+        },
+        {
+          "letra": "d",
+          "resumen": "Relacionar refrigeración y carga",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Plan térmico con disipador y ventilación",
+          "aceptacion": "Respeta límites y montaje del fabricante sin inventar ensayos"
+        },
+        {
+          "letra": "e",
+          "resumen": "Interpretar la configuración de placa",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Ficha firmware, conectores y opciones",
+          "aceptacion": "Explica efecto y compatibilidad de cada opción elegida"
+        },
+        {
+          "letra": "f",
+          "resumen": "Seleccionar chasis compatible",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Plano de espacio, formato y fijaciones",
+          "aceptacion": "Encaja placa, refrigerador, fuente y unidades sin supuestos ocultos"
+        },
+        {
+          "letra": "g",
+          "resumen": "Identificar y manipular componentes básicos",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Inventario y registro de manipulación supervisada",
+          "aceptacion": "Identificación exacta y manipulación segura; una VM no suple evidencia física"
+        },
+        {
+          "letra": "h",
+          "resumen": "Justificar adaptador gráfico y monitor",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Comparativa de salidas, resolución y uso",
+          "aceptacion": "CPU/GPU/salida/cable/pantalla admiten el modo requerido"
+        },
+        {
+          "letra": "i",
+          "resumen": "Seleccionar adaptadores de expansión",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Tabla de adaptadores y ranuras disponibles",
+          "aceptacion": "Comprueba carriles, conectores y controladores necesarios"
+        },
+        {
+          "letra": "j",
+          "resumen": "Reconocer documentación y accesorios",
+          "actividad": "0221-RA1-A1",
+          "evidencia": "Lista de documentación, cables y controladores",
+          "aceptacion": "Separa lo incluido de lo que debe adquirirse y cita procedencia"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA1-A1",
+          "titulo": "Configuración justificada para tres usos",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Diagrama CPU–memoria–E/S con flujos",
+            "Tabla de interfaces y enlace de cada componente",
+            "Fichas de dos CPU con socket y requisitos",
+            "Plan térmico con disipador y ventilación",
+            "Ficha firmware, conectores y opciones",
+            "Plano de espacio, formato y fijaciones",
+            "Inventario y registro de manipulación supervisada",
+            "Comparativa de salidas, resolución y uso",
+            "Tabla de adaptadores y ranuras disponibles",
+            "Lista de documentación, cables y controladores"
+          ],
+          "comprobaciones": [
+            "Cada bloque tiene función y una dependencia explicada",
+            "Distingue formato físico, protocolo y capacidad del trayecto",
+            "No usa frecuencia como único criterio y verifica soporte de placa",
+            "Respeta límites y montaje del fabricante sin inventar ensayos",
+            "Explica efecto y compatibilidad de cada opción elegida",
+            "Encaja placa, refrigerador, fuente y unidades sin supuestos ocultos",
+            "Identificación exacta y manipulación segura; una VM no suple evidencia física",
+            "CPU/GPU/salida/cable/pantalla admiten el modo requerido",
+            "Comprueba carriles, conectores y controladores necesarios",
+            "Separa lo incluido de lo que debe adquirirse y cita procedencia"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Ensambla un equipo microinformático, interpretando planos e instrucciones del fabricante aplicando técnicas de montaje.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/02-guia-tecnica.md",
+        "primero/montaje-y-mantenimiento-de-equipos/03-practicas.md",
+        "primero/montaje-y-mantenimiento-de-equipos/06-diagnostico-por-subsistemas.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Preparar herramientas y útiles",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Checklist de banco y herramientas",
+          "aceptacion": "Herramienta adecuada, protección ESD y recuento previo"
+        },
+        {
+          "letra": "b",
+          "resumen": "Interpretar manuales de componentes",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Secuencia anotada con referencias del fabricante",
+          "aceptacion": "Cada decisión de montaje está respaldada por el manual exacto"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar apertura y sistemas de fijación",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Plano o fotos saneadas del chasis",
+          "aceptacion": "Describe orden de apertura/cierre y evita tornillos o separadores sobrantes"
+        },
+        {
+          "letra": "d",
+          "resumen": "Ensamblar placa, CPU y refrigeración",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Registro de dos configuraciones autorizadas",
+          "aceptacion": "Montaje real supervisado y conforme a cada conjunto; no simulado como hecho"
+        },
+        {
+          "letra": "e",
+          "resumen": "Ensamblar memoria, unidades y expansión",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Hoja de conexiones y posiciones",
+          "aceptacion": "Comprueba canal, ranura, conector y fijación antes de energizar"
+        },
+        {
+          "letra": "f",
+          "resumen": "Configurar firmware básico",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Registro antes/después de parámetros mínimos",
+          "aceptacion": "Cambia sólo opciones justificadas y conserva retorno"
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar prestaciones tras montar",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Acta de POST, memoria, disco y estabilidad",
+          "aceptacion": "Pruebas adecuadas y resultados reales; no basta un único arranque"
+        },
+        {
+          "letra": "h",
+          "resumen": "Documentar el montaje",
+          "actividad": "0221-RA2-A1",
+          "evidencia": "Informe con inventario, incidencias y aceptación",
+          "aceptacion": "Otra persona puede reconstruir la configuración y sus límites"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA2-A1",
+          "titulo": "Montaje con aceptación por subsistemas",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Checklist de banco y herramientas",
+            "Secuencia anotada con referencias del fabricante",
+            "Plano o fotos saneadas del chasis",
+            "Registro de dos configuraciones autorizadas",
+            "Hoja de conexiones y posiciones",
+            "Registro antes/después de parámetros mínimos",
+            "Acta de POST, memoria, disco y estabilidad",
+            "Informe con inventario, incidencias y aceptación"
+          ],
+          "comprobaciones": [
+            "Herramienta adecuada, protección ESD y recuento previo",
+            "Cada decisión de montaje está respaldada por el manual exacto",
+            "Describe orden de apertura/cierre y evita tornillos o separadores sobrantes",
+            "Montaje real supervisado y conforme a cada conjunto; no simulado como hecho",
+            "Comprueba canal, ranura, conector y fijación antes de energizar",
+            "Cambia sólo opciones justificadas y conserva retorno",
+            "Pruebas adecuadas y resultados reales; no basta un único arranque",
+            "Otra persona puede reconstruir la configuración y sus límites"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Mide parámetros eléctricos, identificando el tipo de señal y relacionándola con sus unidades características.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/01-fundamentos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/05-medicion-y-rendimiento.md",
+        "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Elegir instrumento según la señal",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Ficha de señal, instrumento y manual",
+          "aceptacion": "Distingue continua/alterna y magnitud sin improvisar puntos de contacto"
+        },
+        {
+          "letra": "b",
+          "resumen": "Seleccionar función, rango y conexión",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Plan de medida revisado por docente",
+          "aceptacion": "Sondas, entrada y rango adecuados; continuidad/resistencia sólo sin energía"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comparar medida y referencia",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Tabla de nominal, tolerancia y observación",
+          "aceptacion": "Unidades, rango y criterio proceden del fabricante; no confunde error con avería"
+        },
+        {
+          "letra": "d",
+          "resumen": "Reconocer bloques de fuente de PC",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Diagrama funcional de fuente cerrada",
+          "aceptacion": "Identifica funciones sin abrir ni intervenir el primario"
+        },
+        {
+          "letra": "e",
+          "resumen": "Enumerar salidas de una fuente típica",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Tabla de raíles según modelo y documentación",
+          "aceptacion": "No extrapola colores/pines entre conectores modulares de fabricantes"
+        },
+        {
+          "letra": "f",
+          "resumen": "Medir salidas de fuente mediante puesto protegido",
+          "actividad": "0221-RA3-A2",
+          "evidencia": "Registro real de medidas supervisadas",
+          "aceptacion": "Sólo comprobador o puntos preparados y protegidos; datos simulados quedan pendientes"
+        },
+        {
+          "letra": "g",
+          "resumen": "Reconocer bloques y función de SAI",
+          "actividad": "0221-RA3-A1",
+          "evidencia": "Esquema rectificador, batería, inversor y bypass cuando exista",
+          "aceptacion": "Describe topología concreta y distingue potencia, autonomía y VA/W"
+        },
+        {
+          "letra": "h",
+          "resumen": "Medir señales del SAI en banco autorizado",
+          "actividad": "0221-RA3-A2",
+          "evidencia": "Acta real de prueba y supervisión",
+          "aceptacion": "Sólo puntos y procedimiento autorizados; no abrir batería/SAI ni medir red improvisadamente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA3-A1",
+          "titulo": "Banco de instrumentación y alimentación supervisada",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "g"
+          ],
+          "entregables": [
+            "Ficha de señal, instrumento y manual",
+            "Plan de medida revisado por docente",
+            "Tabla de nominal, tolerancia y observación",
+            "Diagrama funcional de fuente cerrada",
+            "Tabla de raíles según modelo y documentación",
+            "Esquema rectificador, batería, inversor y bypass cuando exista"
+          ],
+          "comprobaciones": [
+            "Distingue continua/alterna y magnitud sin improvisar puntos de contacto",
+            "Sondas, entrada y rango adecuados; continuidad/resistencia sólo sin energía",
+            "Unidades, rango y criterio proceden del fabricante; no confunde error con avería",
+            "Identifica funciones sin abrir ni intervenir el primario",
+            "No extrapola colores/pines entre conectores modulares de fabricantes",
+            "Describe topología concreta y distingue potencia, autonomía y VA/W"
+          ]
+        },
+        {
+          "id": "0221-RA3-A2",
+          "titulo": "Mediciones reales supervisadas con banco protegido",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "f",
+            "h"
+          ],
+          "entregables": [
+            "Registro real de medidas supervisadas",
+            "Acta real de prueba y supervisión"
+          ],
+          "comprobaciones": [
+            "Sólo comprobador o puntos preparados y protegidos; datos simulados quedan pendientes",
+            "Sólo puntos y procedimiento autorizados; no abrir batería/SAI ni medir red improvisadamente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Mantiene equipos informáticos interpretando las recomendaciones de los fabricantes y relacionando las disfunciones con sus causas.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/03-practicas.md",
+        "primero/montaje-y-mantenimiento-de-equipos/04-diagnostico-y-evaluacion.md",
+        "primero/montaje-y-mantenimiento-de-equipos/06-diagnostico-por-subsistemas.md",
+        "primero/montaje-y-mantenimiento-de-equipos/07-almacenamiento-integridad-y-vida-util.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Interpretar avisos acústicos y visuales",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Código observado y manual del modelo",
+          "aceptacion": "No atribuye significado universal a pitidos o LED"
+        },
+        {
+          "letra": "b",
+          "resumen": "Diagnosticar y corregir sobrecalentamiento",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Serie de datos y mantenimiento autorizado",
+          "aceptacion": "No provoca calor deliberadamente y revalida bajo carga controlada"
+        },
+        {
+          "letra": "c",
+          "resumen": "Resolver averías habituales",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Árbol con al menos tres hipótesis y pruebas",
+          "aceptacion": "Cada cambio responde a una evidencia y una causa verificable"
+        },
+        {
+          "letra": "d",
+          "resumen": "Sustituir una pieza deteriorada",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Acta de retirada y sustitución",
+          "aceptacion": "Equipo seguro y pieza identificada; no se repara físicamente una pieza peligrosa"
+        },
+        {
+          "letra": "e",
+          "resumen": "Verificar compatibilidad del repuesto",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Matriz original–repuesto–firmware",
+          "aceptacion": "Incluye restricciones eléctricas, físicas y de soporte"
+        },
+        {
+          "letra": "f",
+          "resumen": "Actualizar o ampliar componentes",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Plan de cambio y ensayo antes/después",
+          "aceptacion": "Conserva copia, retorno y pruebas de funcionamiento relevante"
+        },
+        {
+          "letra": "g",
+          "resumen": "Redactar informe de avería o ampliación",
+          "actividad": "0221-RA4-A1",
+          "evidencia": "Parte técnico y explicación para usuario",
+          "aceptacion": "Distingue causa confirmada, contención e hipótesis pendiente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA4-A1",
+          "titulo": "Parte de reparación y ampliación con causa demostrada",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Código observado y manual del modelo",
+            "Serie de datos y mantenimiento autorizado",
+            "Árbol con al menos tres hipótesis y pruebas",
+            "Acta de retirada y sustitución",
+            "Matriz original–repuesto–firmware",
+            "Plan de cambio y ensayo antes/después",
+            "Parte técnico y explicación para usuario"
+          ],
+          "comprobaciones": [
+            "No atribuye significado universal a pitidos o LED",
+            "No provoca calor deliberadamente y revalida bajo carga controlada",
+            "Cada cambio responde a una evidencia y una causa verificable",
+            "Equipo seguro y pieza identificada; no se repara físicamente una pieza peligrosa",
+            "Incluye restricciones eléctricas, físicas y de soporte",
+            "Conserva copia, retorno y pruebas de funcionamiento relevante",
+            "Distingue causa confirmada, contención e hipótesis pendiente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Instala software en un equipo informático utilizando una imagen almacenada en un soporte de memoria y justificando el procedimiento a seguir.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/03-practicas.md",
+        "primero/montaje-y-mantenimiento-de-equipos/07-almacenamiento-integridad-y-vida-util.md",
+        "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir instalación estándar y preinstalación",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Comparativa de procesos y responsabilidades",
+          "aceptacion": "Explica personalización, generalización, licencia e identidad"
+        },
+        {
+          "letra": "b",
+          "resumen": "Probar secuencias de arranque del firmware",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Registro de orden anterior y pruebas",
+          "aceptacion": "Verifica UEFI/medio/arquitectura sin cambiar modos de disco a ciegas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Arrancar desde medios diferentes",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Acta de dos medios legítimos de recuperación",
+          "aceptacion": "Documenta firma/origen y estado de Secure Boot sin desactivar controles por rutina"
+        },
+        {
+          "letra": "d",
+          "resumen": "Crear imagen de preinstalación",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Manifiesto de imagen y procedimiento de captura",
+          "aceptacion": "Fuente consistente, identificación exacta y copia protegida"
+        },
+        {
+          "letra": "e",
+          "resumen": "Restaurar imagen sobre destino de laboratorio",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Acta con identidad de disco y pruebas posteriores",
+          "aceptacion": "Destino desechable inequívoco y verificación de arranque, datos e identidad"
+        },
+        {
+          "letra": "f",
+          "resumen": "Comparar herramientas de imagen",
+          "actividad": "0221-RA5-A1",
+          "evidencia": "Matriz de funciones y limitaciones",
+          "aceptacion": "Distingue imagen de archivo, clon, snapshot y copia independiente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA5-A1",
+          "titulo": "Preinstalación, imagen y restauración controlada",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Comparativa de procesos y responsabilidades",
+            "Registro de orden anterior y pruebas",
+            "Acta de dos medios legítimos de recuperación",
+            "Manifiesto de imagen y procedimiento de captura",
+            "Acta con identidad de disco y pruebas posteriores",
+            "Matriz de funciones y limitaciones"
+          ],
+          "comprobaciones": [
+            "Explica personalización, generalización, licencia e identidad",
+            "Verifica UEFI/medio/arquitectura sin cambiar modos de disco a ciegas",
+            "Documenta firma/origen y estado de Secure Boot sin desactivar controles por rutina",
+            "Fuente consistente, identificación exacta y copia protegida",
+            "Destino desechable inequívoco y verificación de arranque, datos e identidad",
+            "Distingue imagen de archivo, clon, snapshot y copia independiente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Reconoce nuevas tendencias en el ensamblaje de equipos microinformáticos describiendo sus ventajas y adaptándolas a las características de uso de los equipos.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/01-fundamentos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/05-medicion-y-rendimiento.md",
+        "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comparar formas de integración placa/chasis",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Matriz ATX, SFF y SoC/equipo integrado",
+          "aceptacion": "Relaciona formato con expansión, reparación y refrigeración"
+        },
+        {
+          "letra": "b",
+          "resumen": "Evaluar plataformas semiensambladas",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Dos fichas de barebones vigentes al consultar",
+          "aceptacion": "Aclara componentes incluidos, RAM/almacenamiento admitidos y soporte"
+        },
+        {
+          "letra": "c",
+          "resumen": "Diseñar un HTPC",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Ficha de vídeo, audio, red, ruido y control",
+          "aceptacion": "Comprueba códecs/salidas/pantalla y no sólo potencia de CPU"
+        },
+        {
+          "letra": "d",
+          "resumen": "Diferenciar equipos por aplicación",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Comparativa aula, quiosco y captura multimedia",
+          "aceptacion": "Vincula cada requisito a una decisión técnica medible"
+        },
+        {
+          "letra": "e",
+          "resumen": "Valorar informática móvil y su evolución",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Informe de movilidad, reparación y soporte",
+          "aceptacion": "Contextualiza PDA/navegadores del texto histórico frente a dispositivos actuales"
+        },
+        {
+          "letra": "f",
+          "resumen": "Evaluar modding con criterios técnicos",
+          "actividad": "0221-RA6-A1",
+          "evidencia": "Diseño reversible y análisis de efectos",
+          "aceptacion": "Mantiene seguridad, ventilación, garantía y accesibilidad; no modifica red eléctrica"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA6-A1",
+          "titulo": "Diseño de barebone, HTPC y equipo especializado",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Matriz ATX, SFF y SoC/equipo integrado",
+            "Dos fichas de barebones vigentes al consultar",
+            "Ficha de vídeo, audio, red, ruido y control",
+            "Comparativa aula, quiosco y captura multimedia",
+            "Informe de movilidad, reparación y soporte",
+            "Diseño reversible y análisis de efectos"
+          ],
+          "comprobaciones": [
+            "Relaciona formato con expansión, reparación y refrigeración",
+            "Aclara componentes incluidos, RAM/almacenamiento admitidos y soporte",
+            "Comprueba códecs/salidas/pantalla y no sólo potencia de CPU",
+            "Vincula cada requisito a una decisión técnica medible",
+            "Contextualiza PDA/navegadores del texto histórico frente a dispositivos actuales",
+            "Mantiene seguridad, ventilación, garantía y accesibilidad; no modifica red eléctrica"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "enunciado_oficial": "Mantiene periféricos, interpretando las recomendaciones de los fabricantes de equipos y relacionando disfunciones con sus causas.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/01-fundamentos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/08-perifericos-mantenimiento-y-casos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Resolver fallos mecánicos de impresión",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Parte de atasco o alimentación de papel",
+          "aceptacion": "Procedimiento del modelo, desconexión/enfriamiento y prueba física posterior"
+        },
+        {
+          "letra": "b",
+          "resumen": "Cambiar consumibles",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Registro de consumible y sustitución",
+          "aceptacion": "Pieza compatible, tratamiento de residuos y prueba de calidad"
+        },
+        {
+          "letra": "c",
+          "resumen": "Resolver fallo mecánico de entrada",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Acta de teclado/ratón/dispositivo autorizado",
+          "aceptacion": "Distingue suciedad/conexión/software y evita desmontaje no autorizado"
+        },
+        {
+          "letra": "d",
+          "resumen": "Relacionar captura de imagen fija y vídeo con usos",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Comparativa escáner/cámara y muestra sintética",
+          "aceptacion": "Resolución, frecuencia, interfaz y permisos satisfacen el uso"
+        },
+        {
+          "letra": "e",
+          "resumen": "Seleccionar otros periféricos multimedia",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Ficha de audio, videoconferencia o proyección",
+          "aceptacion": "Verifica compatibilidad, latencia y controles de acceso pertinentes"
+        },
+        {
+          "letra": "f",
+          "resumen": "Reconocer impresión profesional y filmado",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Diagrama de flujo y comparación de tecnologías",
+          "aceptacion": "Distingue impresión de oficina, producción, preimpresión y filmadora sin atribuir experiencia inexistente"
+        },
+        {
+          "letra": "g",
+          "resumen": "Planificar mantenimiento preventivo",
+          "actividad": "0221-RA7-A1",
+          "evidencia": "Calendario y desencadenantes por dispositivo",
+          "aceptacion": "Cada tarea tiene frecuencia razonada, responsable y comprobación"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA7-A1",
+          "titulo": "Taller de periféricos y captura multimedia",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra7",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Parte de atasco o alimentación de papel",
+            "Registro de consumible y sustitución",
+            "Acta de teclado/ratón/dispositivo autorizado",
+            "Comparativa escáner/cámara y muestra sintética",
+            "Ficha de audio, videoconferencia o proyección",
+            "Diagrama de flujo y comparación de tecnologías",
+            "Calendario y desencadenantes por dispositivo"
+          ],
+          "comprobaciones": [
+            "Procedimiento del modelo, desconexión/enfriamiento y prueba física posterior",
+            "Pieza compatible, tratamiento de residuos y prueba de calidad",
+            "Distingue suciedad/conexión/software y evita desmontaje no autorizado",
+            "Resolución, frecuencia, interfaz y permisos satisfacen el uso",
+            "Verifica compatibilidad, latencia y controles de acceso pertinentes",
+            "Distingue impresión de oficina, producción, preimpresión y filmadora sin atribuir experiencia inexistente",
+            "Cada tarea tiene frecuencia razonada, responsable y comprobación"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado_oficial": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+      "materiales": [
+        "primero/montaje-y-mantenimiento-de-equipos/02-guia-tecnica.md",
+        "primero/montaje-y-mantenimiento-de-equipos/08-perifericos-mantenimiento-y-casos.md",
+        "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar riesgos y peligrosidad",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Inventario de tareas/peligros y valoración didáctica",
+          "aceptacion": "Incluye herramientas, materiales, cargas y límites de competencia"
+        },
+        {
+          "letra": "b",
+          "resumen": "Operar equipos respetando seguridad",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Observación supervisada y checklist",
+          "aceptacion": "La ejecución real sigue procedimiento y se detiene ante condición insegura"
+        },
+        {
+          "letra": "c",
+          "resumen": "Analizar causas de accidentes",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Tres escenarios y cadena causal",
+          "aceptacion": "Distingue causa, exposición y medida; no culpa genéricamente al operador"
+        },
+        {
+          "letra": "d",
+          "resumen": "Seleccionar protecciones y EPI",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Matriz tarea–protección–manual",
+          "aceptacion": "Justifica protección y evita EPI incompatibles con la operación"
+        },
+        {
+          "letra": "e",
+          "resumen": "Relacionar manipulación y medidas preventivas",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Secuencia de trabajo y controles",
+          "aceptacion": "Aplica aislamiento, orden y ayuda de manipulación apropiados"
+        },
+        {
+          "letra": "f",
+          "resumen": "Identificar fuentes de contaminación",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Mapa de residuos y emisiones del taller",
+          "aceptacion": "Considera baterías, tóner, electrónicos y productos de limpieza"
+        },
+        {
+          "letra": "g",
+          "resumen": "Clasificar residuos para retirada selectiva",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Registro de segregación y canal autorizado",
+          "aceptacion": "No mezcla RAEE/baterías/tóner ni inventa certificación de tratamiento"
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar orden y limpieza",
+          "actividad": "0221-RA8-A1",
+          "evidencia": "Auditoría antes/después con lista objetiva",
+          "aceptacion": "Puesto sin obstrucciones, herramientas controladas y residuos retirados"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0221-RA8-A1",
+          "titulo": "Orden de trabajo preventiva y ambiental",
+          "guia": "primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md#ra8",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Inventario de tareas/peligros y valoración didáctica",
+            "Observación supervisada y checklist",
+            "Tres escenarios y cadena causal",
+            "Matriz tarea–protección–manual",
+            "Secuencia de trabajo y controles",
+            "Mapa de residuos y emisiones del taller",
+            "Registro de segregación y canal autorizado",
+            "Auditoría antes/después con lista objetiva"
+          ],
+          "comprobaciones": [
+            "Incluye herramientas, materiales, cargas y límites de competencia",
+            "La ejecución real sigue procedimiento y se detiene ante condición insegura",
+            "Distingue causa, exposición y medida; no culpa genéricamente al operador",
+            "Justifica protección y evita EPI incompatibles con la operación",
+            "Aplica aislamiento, orden y ayuda de manipulación apropiados",
+            "Considera baterías, tóner, electrónicos y productos de limpieza",
+            "No mezcla RAEE/baterías/tóner ni inventa certificación de tratamiento",
+            "Puesto sin obstrucciones, herramientas controladas y residuos retirados"
+          ]
+        }
+      ]
+    }
+  ]
+}

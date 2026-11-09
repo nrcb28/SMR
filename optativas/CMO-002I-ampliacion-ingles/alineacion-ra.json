@@ -1,0 +1,247 @@
+{
+  "modulo": "CMO-002I",
+  "nombre": "Ampliación de lengua extranjera profesional · Inglés",
+  "carpeta": "optativas/CMO-002I-ampliacion-ingles",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, currículo CMO-002; BOCM desde página 36, PDF páginas 19–20",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustituido, apartado A: optativas transversales a todos los ciclos de grado medio y superior, BOCM página 95",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-002I-ampliacion-ingles/README.md",
+  "guia_retos": "optativas/CMO-002I-ampliacion-ingles/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Identifica y comprende informaciones relativas al campo profesional objeto de estudio en diversas situaciones comunicativas orales planteadas (presencial, telefónica, videollamadas, etc.).",
+      "materiales": [
+        "optativas/CMO-002I-ampliacion-ingles/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar los elementos de la situación comunicativa",
+          "actividad": "CMO-002I-RA1-A1",
+          "evidencia": "Ficha de emisor, audiencia, canal y propósito",
+          "aceptacion": "Reconoce el contexto profesional y las condiciones de cada ronda"
+        },
+        {
+          "letra": "b",
+          "resumen": "Separar ideas principales y secundarias",
+          "actividad": "CMO-002I-RA1-A1",
+          "evidencia": "Resumen jerarquizado del informe oral",
+          "aceptacion": "Distingue síntoma, observación, recuperación y siguiente investigación"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprender globalmente con ruido de fondo",
+          "actividad": "CMO-002I-RA1-A1",
+          "evidencia": "Acta de escucha con condiciones y aclaraciones",
+          "aceptacion": "Mantiene sentido global y reconoce los datos no comprendidos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002I-RA1-A1",
+          "titulo": "Comprender un informe oral de una incidencia",
+          "guia": "optativas/CMO-002I-ampliacion-ingles/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Ficha de comprensión oral, notas por ronda y acta del observador"
+          ],
+          "comprobaciones": [
+            "El guion permanece oculto durante la actividad oral.",
+            "El ruido se controla y se informa de sus condiciones."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Analiza e interpreta información profesional contenida en mensajes orales y escritos de cierta longitud y complejidad.",
+      "materiales": [
+        "optativas/CMO-002I-ampliacion-ingles/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Leer con independencia ajustando estrategia",
+          "actividad": "CMO-002I-RA2-A1",
+          "evidencia": "Registro de lectura de informe y aviso",
+          "aceptacion": "Selecciona lectura global o detallada según finalidad"
+        },
+        {
+          "letra": "b",
+          "resumen": "Interpretar el mensaje esencial en distintos soportes",
+          "actividad": "CMO-002I-RA2-A1",
+          "evidencia": "Resumen y acción del aviso corto",
+          "aceptacion": "Conserva el sentido de informe y aviso sin confundir sus propósitos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Interpretar información oral y escrita relativamente compleja",
+          "actividad": "CMO-002I-RA2-A1",
+          "evidencia": "Comparación de resumen oral y texto",
+          "aceptacion": "Identifica coincidencias y diferencias de información"
+        },
+        {
+          "letra": "d",
+          "resumen": "Valorar importancia de un informe profesional",
+          "actividad": "CMO-002I-RA2-A1",
+          "evidencia": "Decisión de mantenimiento justificada",
+          "aceptacion": "Explica efecto operativo y límites de la evidencia"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002I-RA2-A1",
+          "titulo": "Interpretar un informe técnico y sus límites",
+          "guia": "optativas/CMO-002I-ampliacion-ingles/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Informe de lectura, comparación oral/escrita y decisión razonada"
+          ],
+          "comprobaciones": [
+            "No confunde integridad de contenido con autorización.",
+            "La decisión se apoya en datos del texto y reconoce lo pendiente."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Emite argumentaciones orales originales, claras y coherentes, sobre informaciones profesionales conforme a una situación de comunicación concreta, a las normas de cortesía y al registro lingüístico del interlocutor.",
+      "materiales": [
+        "optativas/CMO-002I-ampliacion-ingles/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar registro, actitud y punto de vista",
+          "actividad": "CMO-002I-RA3-A1",
+          "evidencia": "Comparación de mensajes para dos audiencias",
+          "aceptacion": "Reconoce necesidad técnica y prioridad de la sesión"
+        },
+        {
+          "letra": "b",
+          "resumen": "Argumentar espontáneamente con formalidad adecuada",
+          "actividad": "CMO-002I-RA3-A1",
+          "evidencia": "Acta de respuestas a objeciones imprevistas",
+          "aceptacion": "Responde con fluidez suficiente sin limitarse a leer"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar cortesía en presentación formal e informal",
+          "actividad": "CMO-002I-RA3-A1",
+          "evidencia": "Registro de apertura y desacuerdo respetuoso",
+          "aceptacion": "Adapta el tratamiento a la situación y preferencias acordadas"
+        },
+        {
+          "letra": "d",
+          "resumen": "Defender una opinión con terminología y argumentos",
+          "actividad": "CMO-002I-RA3-A1",
+          "evidencia": "Recomendación con datos, riesgo y alternativa",
+          "aceptacion": "Conecta elección con plazo y evidencia del caso"
+        },
+        {
+          "letra": "e",
+          "resumen": "Solicitar reformulación cuando procede",
+          "actividad": "CMO-002I-RA3-A1",
+          "evidencia": "Pregunta de aclaración y confirmación posterior",
+          "aceptacion": "La reformulación resuelve una ambigüedad concreta"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002I-RA3-A1",
+          "titulo": "Defender dos alternativas y pedir reformulación",
+          "guia": "optativas/CMO-002I-ampliacion-ingles/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Ficha de opciones y acta de defensa con objeciones y aclaración"
+          ],
+          "comprobaciones": [
+            "Existen intercambios no memorizados.",
+            "Se justifican límites y una siguiente acción comprobable."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora textos escritos adecuados a la profesión y al país de habla de la lengua extranjera, tales como cartas como cartas de presentación, CV, etc. Sirviéndose de un nivel de lengua adecuado a la situación de comunicación.",
+      "materiales": [
+        "optativas/CMO-002I-ampliacion-ingles/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar usos relevantes del contexto de destino",
+          "actividad": "CMO-002I-RA4-A1",
+          "evidencia": "Ficha de oferta y convenciones verificadas",
+          "aceptacion": "Distingue indicaciones de la organización de generalizaciones nacionales"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar protocolos y relación social adecuados",
+          "actividad": "CMO-002I-RA4-A1",
+          "evidencia": "Revisión de saludo, canal y cierre",
+          "aceptacion": "Respeta las instrucciones de la oferta y comunica con profesionalidad"
+        },
+        {
+          "letra": "c",
+          "resumen": "Elaborar CV y carta para una oferta",
+          "actividad": "CMO-002I-RA4-A1",
+          "evidencia": "CV ficticio y carta con proyectos verificables",
+          "aceptacion": "Cada competencia se respalda sin inventar empleo o identidad real"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-002I-RA4-A1",
+          "titulo": "Responder a una oferta sin inventar experiencia",
+          "guia": "optativas/CMO-002I-ampliacion-ingles/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Oferta analizada, CV y carta ficticios, revisión y versión final"
+          ],
+          "comprobaciones": [
+            "Los datos son sintéticos y pertinentes.",
+            "La candidatura responde a los requisitos concretos y conserva honestidad."
+          ]
+        }
+      ]
+    }
+  ]
+}

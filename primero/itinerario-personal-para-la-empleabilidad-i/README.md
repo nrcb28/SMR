@@ -10,6 +10,10 @@
 4. [Evaluación preventiva completa de una sala informática](04-evaluacion-preventiva-completa.md): tareas, exposición, controles, planificación y verificación de eficacia.
 5. [Relación laboral y nómina avanzada](05-relacion-laboral-y-nomina-avanzada.md): expediente documental, jornada, contratos formativos, bases, variables, anticipos y protección social.
 6. [Aprendizaje autónomo y portfolio técnico](06-aprendizaje-y-portfolio-tecnico.md): diagnóstico de competencias, plan de ocho semanas, métricas, evidencias y uso crítico de ayudas.
+7. [Alineación con los cinco RA y 43 CE de Madrid](07-alineacion-ra.md): fuente, numeración autonómica y matriz de evidencias.
+8. [Cinco retos desarrollados por RA](08-retos-por-ra.md): prevención, relación laboral, sector, autoorientación y aprendizaje.
+
+Los [datos de trazabilidad](alineacion-ra.json) relacionan cada criterio con una actividad, evidencia y comprobación. Se utiliza el orden oficial del anexo VII de la Orden 3537/2025 de Madrid: **RA1 prevención, RA2 relación laboral, RA3 sector, RA4 autoorientación y RA5 aprendizaje**. La guía de alineación explica su correspondencia con la norma básica sin mezclar los números.
 
 Consulta también el [mapa curricular de Madrid](../../docs/curriculo-madrid.md), el [laboratorio técnico](../../docs/laboratorio.md) y el [índice general](../../README.md).
 
@@ -30,6 +34,8 @@ Empieza por identificar el trabajo que se hace en un servicio de informática. A
 No es necesario memorizar importes de cotización o de salario mínimo que pueden cambiar. Es necesario saber **qué dato buscar, en qué fuente, de qué fecha y cómo afecta al cálculo**. La documentación no acredita por sí sola una formación preventiva habilitante ni un nivel de prevención: esa acreditación depende de la formación y evaluación oficiales correspondientes.
 
 La ampliación permite trabajar con expedientes completos después de las primeras prácticas. Empieza por la sala ficticia y revisa sus medidas; continúa con la nómina parametrizada y sus variaciones; termina seleccionando evidencias del laboratorio para un portfolio honesto. La actualización de contratos formativos incorpora como fuente el RD 1065/2025, sin convertir los porcentajes ficticios de nómina en valores legales.
+
+La ruta por RA añade una comprobación criterio a criterio: elige las filas de la matriz, realiza el reto y conserva el artefacto que permite observar cada letra. Un cálculo correcto no sustituye una actuación preventiva o una revisión de fuentes que no se haya realizado. Marca lo pendiente y prepara una nueva evidencia; estas condiciones de aceptación son propuestas didácticas, sin ponderación oficial.
 
 ## Material mínimo
 

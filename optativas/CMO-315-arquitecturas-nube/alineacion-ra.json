@@ -1,0 +1,599 @@
+{
+  "modulo": "CMO-315",
+  "nombre": "Arquitecturas en la nube",
+  "carpeta": "optativas/CMO-315-arquitecturas-nube",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-315; BOCM página 197 y siguientes; PDF páginas 180–183",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-315-arquitecturas-nube/README.md",
+  "guia_retos": "optativas/CMO-315-arquitecturas-nube/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Toma decisiones en materia de arquitectura a partir de los principios y buenas prácticas recomendadas.",
+      "materiales": [
+        "optativas/CMO-315-arquitecturas-nube/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha definido la arquitectura en la nube.",
+          "actividad": "CMO-315-RA1-A1",
+          "evidencia": "Registro de decisión, diagrama y revisión por pilares; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las decisiones tienen requisito, evidencia y consecuencia; se explican límites y condiciones de revisión. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha descrito cómo diseñar y evaluar arquitecturas utilizando marcos de la buena arquitectura.",
+          "actividad": "CMO-315-RA1-A1",
+          "evidencia": "Registro de decisión, diagrama y revisión por pilares; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las decisiones tienen requisito, evidencia y consecuencia; se explican límites y condiciones de revisión. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han explicado las mejores prácticas para diseño de soluciones arquitectónicas en la nube.",
+          "actividad": "CMO-315-RA1-A1",
+          "evidencia": "Registro de decisión, diagrama y revisión por pilares; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las decisiones tienen requisito, evidencia y consecuencia; se explican límites y condiciones de revisión. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han descrito cómo tomar decisiones sobre dónde desplegar recursos en la nube.",
+          "actividad": "CMO-315-RA1-A1",
+          "evidencia": "Registro de decisión, diagrama y revisión por pilares; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las decisiones tienen requisito, evidencia y consecuencia; se explican límites y condiciones de revisión. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-315-RA1-A1",
+          "titulo": "Defender una decisión arquitectónica",
+          "guia": "optativas/CMO-315-arquitecturas-nube/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Registro de decisión, diagrama y revisión por pilares",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las decisiones tienen requisito, evidencia y consecuencia; se explican límites y condiciones de revisión.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Utiliza los servicios de computación en la nube para lograr una infraestructura escalable, fiable y altamente disponible.",
+      "materiales": [
+        "optativas/CMO-315-arquitecturas-nube/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha identificado los diferentes servicios computacionales en la nube.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han implementado y configurado máquinas virtuales.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad»; criterio b.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han creado soluciones de almacenamiento en la nube para máquinas virtuales.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad»; criterio c.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han lanzado máquinas virtuales en clústeres.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad»; criterio d.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han descrito los diferentes modelos de precios para las máquinas virtuales en la nube.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han reconocido los problemas que los servicios de almacenamiento en la nube pueden resolver.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se ha descrito cómo utilizar eficientemente los servicios de almacenamiento en la nube y cómo migrar datos a la nube.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar que se ha creado un sitio web estático altamente disponible en la nube.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad; apartado h con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar que se han implementado y conectado discos EBS a instancias.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad»; criterio i.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "j",
+          "resumen": "Comprobar que se han implementado y conectado de forma persistente unidades EFS a instancias.",
+          "actividad": "CMO-315-RA2-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad»; criterio j.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-315-RA2-A1",
+          "titulo": "Construir cómputo y almacenamiento recuperables",
+          "guia": "optativas/CMO-315-arquitecturas-nube/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Inventario de instancias/almacenamiento y pruebas de persistencia/disponibilidad",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Los recursos reales del sandbox funcionan conforme al diseño y sus datos/retirada se gestionan de forma controlada.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Utiliza los servicios administrados para lograr una mayor flexibilidad y resiliencia de una infraestructura.",
+      "materiales": [
+        "optativas/CMO-315-arquitecturas-nube/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han utilizado servicios administrados para el despliegue automatizado de la infraestructura.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio a.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han utilizado servicios administrados para el despliegue de aplicaciones sencillas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio b.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han comparado los diferentes tipos de bases de datos administradas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han desplegado servicios administrados de bases de datos relacionales en la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio d.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha explicado cómo utilizar bases de datos NoSQL administradas en la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han descrito los controles de seguridad de las bases de datos administradas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han realizado migraciones de bases de datos en las instalaciones a la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar que se han comparado los diferentes tipos de bases de datos administradas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado h con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar que se han desplegado servicios administrados de bases de datos relacionales en la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio i.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "j",
+          "resumen": "Comprobar que se ha explicado cómo utilizar bases de datos NoSQL administradas en la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado j con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "k",
+          "resumen": "Comprobar que se han descrito los controles de seguridad de las bases de datos administradas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado k con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "l",
+          "resumen": "Comprobar que se han realizado migraciones de bases de datos en las instalaciones a la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado l con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "m",
+          "resumen": "Comprobar que se ha explicado cómo gestionar la autenticación y autorización del acceso a los recursos de la nube.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado m con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "n",
+          "resumen": "Comprobar que se ha descrito cómo puede utilizarse la identidad federada para incrementar la seguridad de la infraestructura.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado n con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "ñ",
+          "resumen": "Comprobar que se han utilizado servicios administrados de bases de datos en memoria (Memchached, Redis, etc.)",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio ñ.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "o",
+          "resumen": "Comprobar que se han utilizado servicios administrados de colas de mensajes para el diseño de arquitecturas débilmente acopladas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio o.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "p",
+          "resumen": "Comprobar que se han utilizado servicios administrados de notificaciones para el diseño de arquitecturas débilmente acopladas.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Dossier de despliegue, migración, identidad y mensajería/caché»; criterio p.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "q",
+          "resumen": "Comprobar que se ha identificado como las técnicas de caché pueden mejorar el rendimiento y reducir la latencia de una infraestructura.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado q con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "r",
+          "resumen": "Comprobar que se ha identificado cómo la computación en el borde (Edge Computing) puede utilizarse para la distribución de contenidos y como protección de ataques DDoS.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado r con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "s",
+          "resumen": "Comprobar que se ha reconocido cómo la administración de datos de sesión está relacionada con las técnicas de caché.",
+          "actividad": "CMO-315-RA3-A1",
+          "evidencia": "Dossier de despliegue, migración, identidad y mensajería/caché; apartado s con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-315-RA3-A1",
+          "titulo": "Integrar servicios administrados sin acoplamiento innecesario",
+          "guia": "optativas/CMO-315-arquitecturas-nube/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "ñ",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s"
+          ],
+          "entregables": [
+            "Dossier de despliegue, migración, identidad y mensajería/caché",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada servicio declarado tiene evidencia de uso en la plataforma autorizada; el diseño local pendiente no se presenta como despliegue administrado.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Potencia el rendimiento y reduce los costes de una infraestructura creada en la nube.",
+      "materiales": [
+        "optativas/CMO-315-arquitecturas-nube/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han desplegado balanceadores de carga para crear entornos altamente disponibles.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plantilla IaC, plan de recuperación y comparación de métricas/costes»; criterio a.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha utilizado los servicios de autoescalado para brindar elasticidad a un clúster de máquinas virtuales.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han utilizado servidores DNS administrados para conmutar por error automáticamente en caso de fallo en una infraestructura.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han diseñado arquitecturas con servicios de monitorización para dar respuestas reactivas a un evento o fallo en la infraestructura.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha explicado el rol de las redes virtuales en la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han identificado los servicios que permiten establecer una conexión de red híbrida entre las instalaciones y la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han implementado VPC y subredes.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plantilla IaC, plan de recuperación y comparación de métricas/costes»; criterio g.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar que se han configurado grupos de seguridad y ALC de red.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plantilla IaC, plan de recuperación y comparación de métricas/costes»; criterio h.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar que se ha descrito cómo conectar diferentes redes virtuales en la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado i con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "j",
+          "resumen": "Comprobar que se ha descrito cómo escalar una infraestructura de red en la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado j con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "k",
+          "resumen": "Comprobar que se han creado redes virtuales en la nube, gateways de Internet, tablas de encaminamiento y cortafuegos.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plantilla IaC, plan de recuperación y comparación de métricas/costes»; criterio k.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "l",
+          "resumen": "Comprobar que se ha definido el despliegue de Infraestructura como Código (IaC).",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado l con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "m",
+          "resumen": "Comprobar que se ha modelado una infraestructura como código mediante una plantilla.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado m con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "n",
+          "resumen": "Comprobar que se ha explicado qué es el acoplamiento de infraestructuras en la nube y el por qué deben diseñarse arquitecturas débilmente acopladas.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado n con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "ñ",
+          "resumen": "Comprobar que se han identificado las diferentes estrategias de planificación ante desastres.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado ñ con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "o",
+          "resumen": "Comprobar que se han definido los conceptos de RPO (Recovery Point Objective) y RTO (Recovery Time Objective).",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado o con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "p",
+          "resumen": "Comprobar que se han descrito patrones comunes para el respaldo y recuperación de desastres y cómo implementarlos.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado p con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "q",
+          "resumen": "Comprobar que se han aplicado las buenas prácticas para lograr una infraestructura en la nube escalable, segura y altamente disponible.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado q con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "r",
+          "resumen": "Comprobar que se han utilizado servicios administrados de almacenamiento híbrido como soluciones de respaldo de datos.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Inventario y registro de la operación en el sandbox autorizado, dentro de «Plantilla IaC, plan de recuperación y comparación de métricas/costes»; criterio r.",
+          "aceptacion": "El recurso o servicio exigido se ha creado o utilizado realmente y se verifica su estado y función. Si sólo existe diseño o simulación local, se registra pendiente."
+        },
+        {
+          "letra": "s",
+          "resumen": "Comprobar que se han aplicado las buenas prácticas para lograr mayor flexibilidad y resiliencia de una infraestructura en la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado s con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "t",
+          "resumen": "Comprobar que se han indicado las características de las arquitecturas basadas en microservicios y cómo éstas pueden reducir los costes de la infraestructura y potenciar el rendimiento.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado t con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "u",
+          "resumen": "Comprobar que se ha explicado qué es una arquitectura sin servidor (serverless).",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado u con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "v",
+          "resumen": "Comprobar que se ha desplegado una infraestructura sin servidor utilizando funciones serverless, API Gateway.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado v con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "w",
+          "resumen": "Comprobar que se ha explicado qué es la orquestación de flujos sin servidor y cómo puede reducir los costes.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado w con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "x",
+          "resumen": "Comprobar que se han aplicado las buenas prácticas para para potenciar el rendimiento y reducir los costes de la infraestructura en la nube.",
+          "actividad": "CMO-315-RA4-A1",
+          "evidencia": "Plantilla IaC, plan de recuperación y comparación de métricas/costes; apartado x con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-315-RA4-A1",
+          "titulo": "Medir resiliencia, elasticidad y coste",
+          "guia": "optativas/CMO-315-arquitecturas-nube/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "ñ",
+            "o",
+            "p",
+            "q",
+            "r",
+            "s",
+            "t",
+            "u",
+            "v",
+            "w",
+            "x"
+          ],
+          "entregables": [
+            "Plantilla IaC, plan de recuperación y comparación de métricas/costes",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "La entrega verifica cada capacidad que declara y distingue pruebas ejecutadas, simulaciones y acciones pendientes.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

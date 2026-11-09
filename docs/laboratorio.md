@@ -29,6 +29,9 @@ flowchart LR
 | `srv01` | 2 vCPU, 2–4 GiB RAM, 30 GiB disco | `192.168.56.10/24` | Debian, DNS BIND, Kea DHCP, SSH, web o Samba independiente según práctica |
 | `cli01` | Linux: 2 vCPU y 2–4 GiB; Windows: recursos compatibles, preferiblemente 8 GiB RAM y 80 GiB de disco | `192.168.56.20/24` en pruebas estáticas | Cliente que verifica acceso y resolución |
 | `dc01` opcional | Windows Server: 2–4 vCPU, 4–8 GiB RAM, 60 GiB o más | `192.168.56.11/24` | AD DS y su DNS; alternativa independiente Samba AD DC |
+| `dc02` opcional | Según la extensión de directorio y requisitos del SO | `192.168.56.12/24` | Escenario separado de confianza entre bosques con `colab.test`; sólo cuando el reto lo requiera |
+| `fs01` opcional | Según el escenario de perfiles y archivos del módulo SOR | `192.168.56.13/24` | Servidor de archivos de la extensión de perfiles; no ocupa las IP de DNS o DHCP |
+| `cli02` opcional | Windows compatible con el dominio y la práctica | `192.168.56.21/24` | Segundo cliente para comprobar perfiles móviles y cambios de equipo |
 | Cliente DHCP temporal | Según SO cliente | Rango propuesto `192.168.56.100–150` | Comprobar concesiones; sustituye o clona el cliente, con identidad propia |
 | `ns2` opcional | Debian ligero, según la práctica | `192.168.56.30/24` | DNS secundario en la ampliación de Servicios en red; dirección fuera del pool DHCP |
 | Reserva DHCP opcional | Dispositivo o cliente sintético del ejercicio | `192.168.56.50/24` | Reserva por identificador/MAC de laboratorio; no utiliza la dirección de `ns2` |

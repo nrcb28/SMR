@@ -8,6 +8,10 @@ Módulo transversal de segundo de SMR en Madrid. Esta guía aplica criterios amb
 2. [Prácticas de auditoría, cálculos y evaluación](02-practicas-y-evaluacion.md).
 3. [Medición, ciclo de vida y trazabilidad: alcance e incertidumbre](03-medicion-ciclo-de-vida-y-trazabilidad.md).
 4. [Tres casos completos de energía, reparación y retirada](04-casos-de-decision-y-evaluacion.md).
+5. [Alineación de los seis RA y los 34 criterios de evaluación](05-alineacion-ra.md).
+6. [Retos por RA: ASG, ODS, diseño circular, actividad e informe de sostenibilidad](06-retos-por-ra.md).
+
+Consulta [alineacion-ra.json](alineacion-ra.json) para la relación entre cada criterio, actividad, evidencia y aceptación. El enunciado del RA6 conserva la repetición editorial presente en la publicación madrileña, explicada en el mapa; no se convierte en un RA o criterio adicional. Las matrices son herramientas de estudio y revisión, mientras la adquisición de un resultado requiere evidencia y valoración docente.
 
 Al terminar deberías poder delimitar una medición, calcular consumos con unidades correctas, diferenciar ahorro operativo y efecto de fabricación, justificar una reparación y documentar la trazabilidad de un equipo retirado. Son útiles los conocimientos de montaje, ofimática y seguridad; no se requiere instrumentación industrial.
 

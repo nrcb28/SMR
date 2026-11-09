@@ -8,6 +8,10 @@ Módulo transversal de segundo de SMR en Madrid. Esta carpeta estudia cómo tran
 2. [Prácticas, caso de empresa y evaluación](02-practicas-y-evaluacion.md).
 3. [Datos, integraciones y gobierno: CSV, JSON, API y responsabilidades](03-datos-integraciones-y-gobierno.md).
 4. [Casos completos de transformación, TCO y evaluación de IA](04-casos-de-transformacion-y-costes.md).
+5. [Alineación de los cinco RA y los 33 criterios de evaluación](05-alineacion-ra.md).
+6. [Retos desarrollados por RA: circularidad, sistemas ciberfísicos, nube y transformación](06-retos-por-ra.md).
+
+La ruta por RA conserva la numeración del anexo IV de la Orden 3537/2025 de Madrid. Cada criterio se relaciona con una actividad, un entregable observable y una condición de aceptación en [alineacion-ra.json](alineacion-ra.json). Los retos distinguen el taller ficticio de los procesos reales que algunos criterios exigen identificar; la documentación del ejemplo no acredita por sí sola esa observación.
 
 **Prerrequisitos:** fundamentos de redes, sistemas operativos y hojas de cálculo. **Resultado esperado:** proponer una mejora medible para una pequeña organización, explicar su arquitectura, identificar riesgos y verificar si realmente reduce errores o tiempo.
 

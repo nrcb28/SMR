@@ -1,0 +1,683 @@
+{
+  "modulo": "0224",
+  "nombre": "Sistemas operativos en red",
+  "carpeta": "segundo/sistemas-operativos-en-red",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional 0224; resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: sustitución de módulos antiguos e incorporación de módulos transversales; no renumera los RA técnicos de este mapa",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/sistemas-operativos-en-red/09-alineacion-ra.md",
+  "guia_retos": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Instala sistemas operativos en red describiendo sus características e interpretando la documentación técnica.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/02-guia-tecnica.md",
+        "segundo/sistemas-operativos-en-red/07-operacion-automatizacion-y-recuperacion.md",
+        "segundo/sistemas-operativos-en-red/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Estudiar compatibilidad del servidor",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Matriz de recursos, arquitectura y soporte",
+          "aceptacion": "Requisitos oficiales y funciones previstas satisfechos"
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir modos de instalación",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Comparativa interactiva, desatendida y actualización",
+          "aceptacion": "Explica cuándo se usa cada modo y sus riesgos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Planificar y realizar particionado del servidor",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Plano y acta sobre disco virtual nuevo",
+          "aceptacion": "Destino inequívoco y separación justificada; sin comandos genéricos de borrado"
+        },
+        {
+          "letra": "d",
+          "resumen": "Seleccionar y aplicar sistemas de archivos",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Decisión y estado posterior",
+          "aceptacion": "Compatibilidad con roles, permisos y recuperación"
+        },
+        {
+          "letra": "e",
+          "resumen": "Elegir componentes a instalar",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Inventario de roles y paquetes",
+          "aceptacion": "Sólo lo necesario y conflictos de puertos identificados"
+        },
+        {
+          "letra": "f",
+          "resumen": "Automatizar instalaciones",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Plan de respuestas o preseed saneado y ensayo",
+          "aceptacion": "Datos sintéticos, ningún secreto y ejecución sólo en destino desechable"
+        },
+        {
+          "letra": "g",
+          "resumen": "Aplicar preferencias de entorno",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Acta de perfil administrativo de laboratorio",
+          "aceptacion": "Configuración personal sin debilitar controles del servidor"
+        },
+        {
+          "letra": "h",
+          "resumen": "Actualizar el sistema de red",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Registro de versión, cambio y validación",
+          "aceptacion": "Copia/retorno y prueba de dependencias tras reinicio si procede"
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar conectividad servidor–clientes",
+          "actividad": "0224-RA1-A1",
+          "evidencia": "Matriz IP, DNS y servicio desde cliente",
+          "aceptacion": "No confunde proceso activo con operación remota aceptada"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA1-A1",
+          "titulo": "Servidor instalado y documentado mediante plan repetible",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Matriz de recursos, arquitectura y soporte",
+            "Comparativa interactiva, desatendida y actualización",
+            "Plano y acta sobre disco virtual nuevo",
+            "Decisión y estado posterior",
+            "Inventario de roles y paquetes",
+            "Plan de respuestas o preseed saneado y ensayo",
+            "Acta de perfil administrativo de laboratorio",
+            "Registro de versión, cambio y validación",
+            "Matriz IP, DNS y servicio desde cliente"
+          ],
+          "comprobaciones": [
+            "Requisitos oficiales y funciones previstas satisfechos",
+            "Explica cuándo se usa cada modo y sus riesgos",
+            "Destino inequívoco y separación justificada; sin comandos genéricos de borrado",
+            "Compatibilidad con roles, permisos y recuperación",
+            "Sólo lo necesario y conflictos de puertos identificados",
+            "Datos sintéticos, ningún secreto y ejecución sólo en destino desechable",
+            "Configuración personal sin debilitar controles del servidor",
+            "Copia/retorno y prueba de dependencias tras reinicio si procede",
+            "No confunde proceso activo con operación remota aceptada"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Gestiona usuarios y grupos de sistemas operativos en red, interpretando especificaciones y aplicando herramientas del sistema.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/02-guia-tecnica.md",
+        "segundo/sistemas-operativos-en-red/05-directorio-identidades-y-gpo.md",
+        "segundo/sistemas-operativos-en-red/07-operacion-automatizacion-y-recuperacion.md",
+        "segundo/sistemas-operativos-en-red/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Administrar cuentas de usuario",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Altas/cambios/baja de cuentas sintéticas",
+          "aceptacion": "Propiedades verificadas y ninguna cuenta real afectada"
+        },
+        {
+          "letra": "b",
+          "resumen": "Administrar perfiles de usuario",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Ficha de perfil y prueba de preferencias",
+          "aceptacion": "Distingue cuenta, perfil, carpeta personal y redirección"
+        },
+        {
+          "letra": "c",
+          "resumen": "Administrar cuentas de equipo",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Inventario de objetos y cliente unido",
+          "aceptacion": "Objeto corresponde al equipo y se comprueba canal del dominio"
+        },
+        {
+          "letra": "d",
+          "resumen": "Distinguir tipos y ámbitos de grupos",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Matriz local/global/universal/local de dominio",
+          "aceptacion": "Ámbito compatible con función y pertenencias del diseño"
+        },
+        {
+          "letra": "e",
+          "resumen": "Administrar grupos",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Acta de grupos funcionales y de permiso",
+          "aceptacion": "Nombres y finalidad definidos; sin privilegios excesivos"
+        },
+        {
+          "letra": "f",
+          "resumen": "Gestionar membresía",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Matriz antes/después y sesión efectiva",
+          "aceptacion": "Acceso cambia conforme al grupo tras renovar contexto"
+        },
+        {
+          "letra": "g",
+          "resumen": "Reconocer cuentas y grupos especiales",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Inventario crítico con función",
+          "aceptacion": "No modifica o elimina cuentas integradas sin motivo autorizado"
+        },
+        {
+          "letra": "h",
+          "resumen": "Planificar perfiles móviles",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Diseño de versiones, almacenamiento, permisos y conflicto",
+          "aceptacion": "Incluye soporte, capacidad y prueba; no confunde sincronizar documentos con perfil móvil"
+        },
+        {
+          "letra": "i",
+          "resumen": "Usar herramientas de administración",
+          "actividad": "0224-RA2-A1",
+          "evidencia": "Registro GUI/PowerShell o herramientas Linux",
+          "aceptacion": "Explica objeto y ámbito de cada herramienta"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA2-A1",
+          "titulo": "Ciclo de vida de identidades y planificación de perfiles",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Altas/cambios/baja de cuentas sintéticas",
+            "Ficha de perfil y prueba de preferencias",
+            "Inventario de objetos y cliente unido",
+            "Matriz local/global/universal/local de dominio",
+            "Acta de grupos funcionales y de permiso",
+            "Matriz antes/después y sesión efectiva",
+            "Inventario crítico con función",
+            "Diseño de versiones, almacenamiento, permisos y conflicto",
+            "Registro GUI/PowerShell o herramientas Linux"
+          ],
+          "comprobaciones": [
+            "Propiedades verificadas y ninguna cuenta real afectada",
+            "Distingue cuenta, perfil, carpeta personal y redirección",
+            "Objeto corresponde al equipo y se comprueba canal del dominio",
+            "Ámbito compatible con función y pertenencias del diseño",
+            "Nombres y finalidad definidos; sin privilegios excesivos",
+            "Acceso cambia conforme al grupo tras renovar contexto",
+            "No modifica o elimina cuentas integradas sin motivo autorizado",
+            "Incluye soporte, capacidad y prueba; no confunde sincronizar documentos con perfil móvil",
+            "Explica objeto y ámbito de cada herramienta"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Realiza tareas de gestión sobre dominios identificando necesidades y aplicando herramientas de administración de dominios.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/01-fundamentos.md",
+        "segundo/sistemas-operativos-en-red/02-guia-tecnica.md",
+        "segundo/sistemas-operativos-en-red/05-directorio-identidades-y-gpo.md",
+        "segundo/sistemas-operativos-en-red/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar servicio de directorio y nomenclatura",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Mapa de DN, objetos, OU y atributos",
+          "aceptacion": "Distingue nombre DNS, DN, UPN y grupo"
+        },
+        {
+          "letra": "b",
+          "resumen": "Reconocer dominio y funciones",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Diagrama de límites de autenticación y administración",
+          "aceptacion": "Distingue dominio, bosque y grupo de trabajo"
+        },
+        {
+          "letra": "c",
+          "resumen": "Establecer confianza entre dominios",
+          "actividad": "0224-RA3-A2",
+          "evidencia": "Acta de relación real en extensión aislada",
+          "aceptacion": "Dirección y alcance comprobados; confianza no concede permisos automáticamente"
+        },
+        {
+          "letra": "d",
+          "resumen": "Instalar directorio",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Acta de instalación de DC dedicado",
+          "aceptacion": "DNS/hora/red correctos y credenciales fuera del repositorio"
+        },
+        {
+          "letra": "e",
+          "resumen": "Configurar directorio básico",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Pruebas de descubrimiento y salud",
+          "aceptacion": "Cliente localiza servicios y autentica con DNS de dominio"
+        },
+        {
+          "letra": "f",
+          "resumen": "Crear agrupaciones administrativas",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Modelo OU y delegación limitada",
+          "aceptacion": "OU para administración/GPO y grupos para autorización"
+        },
+        {
+          "letra": "g",
+          "resumen": "Analizar estructura del directorio",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Inventario jerárquico y dependencias",
+          "aceptacion": "Justifica árbol/bosque/OU y consecuencias de cambios"
+        },
+        {
+          "letra": "h",
+          "resumen": "Administrar dominios con herramientas",
+          "actividad": "0224-RA3-A1",
+          "evidencia": "Registro de consultas y cambios controlados",
+          "aceptacion": "Herramientas oficiales y privilegio mínimo según operación"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA3-A1",
+          "titulo": "Directorio, modelo administrativo y confianza aislada",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Mapa de DN, objetos, OU y atributos",
+            "Diagrama de límites de autenticación y administración",
+            "Acta de instalación de DC dedicado",
+            "Pruebas de descubrimiento y salud",
+            "Modelo OU y delegación limitada",
+            "Inventario jerárquico y dependencias",
+            "Registro de consultas y cambios controlados"
+          ],
+          "comprobaciones": [
+            "Distingue nombre DNS, DN, UPN y grupo",
+            "Distingue dominio, bosque y grupo de trabajo",
+            "DNS/hora/red correctos y credenciales fuera del repositorio",
+            "Cliente localiza servicios y autentica con DNS de dominio",
+            "OU para administración/GPO y grupos para autorización",
+            "Justifica árbol/bosque/OU y consecuencias de cambios",
+            "Herramientas oficiales y privilegio mínimo según operación"
+          ]
+        },
+        {
+          "id": "0224-RA3-A2",
+          "titulo": "Establecer confianza en extensión de dos dominios",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "c"
+          ],
+          "entregables": [
+            "Acta de relación real en extensión aislada"
+          ],
+          "comprobaciones": [
+            "Dirección y alcance comprobados; confianza no concede permisos automáticamente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Gestiona los recursos compartidos del sistema, interpretando especificaciones y determinando niveles de seguridad.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/02-guia-tecnica.md",
+        "segundo/sistemas-operativos-en-red/06-linux-permisos-y-capacidad.md",
+        "segundo/sistemas-operativos-en-red/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir permiso y derecho",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Caso de acceso a archivo frente a privilegio del sistema",
+          "aceptacion": "Explica por qué iniciar sesión y leer un recurso son decisiones distintas"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar recursos y condiciones de compartición",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Inventario de carpetas/colas y usuarios",
+          "aceptacion": "Cada recurso tiene propósito, alcance y responsable"
+        },
+        {
+          "letra": "c",
+          "resumen": "Asignar permisos a recursos",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Matriz de grupos y ACL",
+          "aceptacion": "Pruebas de lectura/escritura/denegación coinciden con requisito"
+        },
+        {
+          "letra": "d",
+          "resumen": "Compartir impresoras en red",
+          "actividad": "0224-RA4-A2",
+          "evidencia": "Cola y prueba desde cliente autorizado",
+          "aceptacion": "Controlador/IPP compatibles y salida comprobada; sin bajar seguridad de drivers"
+        },
+        {
+          "letra": "e",
+          "resumen": "Usar GUI para compartir recursos",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Acta del asistente y configuración efectiva",
+          "aceptacion": "No confunde casilla visible con permisos realmente aplicados"
+        },
+        {
+          "letra": "f",
+          "resumen": "Controlar acceso de clientes",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Pruebas desde identidades permitidas y ajenas",
+          "aceptacion": "No usa invitado universal, SMB1 o permisos amplios como solución"
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar recursos en equipo",
+          "actividad": "0224-RA4-A1",
+          "evidencia": "Revisión cruzada y pruebas entre participantes",
+          "aceptacion": "Roles y contribuciones registrados; ensayo individual no acredita trabajo grupal"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA4-A1",
+          "titulo": "Recursos e impresión con seguridad efectiva",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Caso de acceso a archivo frente a privilegio del sistema",
+            "Inventario de carpetas/colas y usuarios",
+            "Matriz de grupos y ACL",
+            "Acta del asistente y configuración efectiva",
+            "Pruebas desde identidades permitidas y ajenas",
+            "Revisión cruzada y pruebas entre participantes"
+          ],
+          "comprobaciones": [
+            "Explica por qué iniciar sesión y leer un recurso son decisiones distintas",
+            "Cada recurso tiene propósito, alcance y responsable",
+            "Pruebas de lectura/escritura/denegación coinciden con requisito",
+            "No confunde casilla visible con permisos realmente aplicados",
+            "No usa invitado universal, SMB1 o permisos amplios como solución",
+            "Roles y contribuciones registrados; ensayo individual no acredita trabajo grupal"
+          ]
+        },
+        {
+          "id": "0224-RA4-A2",
+          "titulo": "Impresora compartida y prueba de cliente",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "d"
+          ],
+          "entregables": [
+            "Cola y prueba desde cliente autorizado"
+          ],
+          "comprobaciones": [
+            "Controlador/IPP compatibles y salida comprobada; sin bajar seguridad de drivers"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Realiza tareas de monitorización y uso del sistema operativo en red, describiendo las herramientas utilizadas e identificando las principales incidencias.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/04-diagnostico-y-evaluacion.md",
+        "segundo/sistemas-operativos-en-red/06-linux-permisos-y-capacidad.md",
+        "segundo/sistemas-operativos-en-red/07-operacion-automatizacion-y-recuperacion.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Describir herramientas de monitorización",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Catálogo de señales, herramientas y límites",
+          "aceptacion": "Cada herramienta se vincula a una pregunta concreta"
+        },
+        {
+          "letra": "b",
+          "resumen": "Detectar problemas de rendimiento de almacenamiento",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Serie temporal y prueba discriminante",
+          "aceptacion": "Separa capacidad, latencia, IOPS y carga de red"
+        },
+        {
+          "letra": "c",
+          "resumen": "Observar actividad mediante trazas",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Cronología correlacionada cliente/servidor",
+          "aceptacion": "Fecha/zona y servicio identificados sin inferir causa sólo por proximidad"
+        },
+        {
+          "letra": "d",
+          "resumen": "Mantener software del servidor",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Plan de actualización y comprobaciones",
+          "aceptacion": "Canal soportado, copia, retorno y validación del servicio"
+        },
+        {
+          "letra": "e",
+          "resumen": "Automatizar tareas operativas",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Tarea de laboratorio con registro y error previsto",
+          "aceptacion": "No oculta fallos y comprueba destino/privilegios antes de actuar"
+        },
+        {
+          "letra": "f",
+          "resumen": "Interpretar configuración de red del SO",
+          "actividad": "0224-RA5-A1",
+          "evidencia": "Informe de configuración efectiva y persistencia",
+          "aceptacion": "Relaciona NIC, DNS, rutas, roles y gestores activos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA5-A1",
+          "titulo": "Observabilidad, mantenimiento y automatización operativa",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Catálogo de señales, herramientas y límites",
+            "Serie temporal y prueba discriminante",
+            "Cronología correlacionada cliente/servidor",
+            "Plan de actualización y comprobaciones",
+            "Tarea de laboratorio con registro y error previsto",
+            "Informe de configuración efectiva y persistencia"
+          ],
+          "comprobaciones": [
+            "Cada herramienta se vincula a una pregunta concreta",
+            "Separa capacidad, latencia, IOPS y carga de red",
+            "Fecha/zona y servicio identificados sin inferir causa sólo por proximidad",
+            "Canal soportado, copia, retorno y validación del servicio",
+            "No oculta fallos y comprueba destino/privilegios antes de actuar",
+            "Relaciona NIC, DNS, rutas, roles y gestores activos"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Realiza tareas de integración de sistemas operativos libres y propietarios, describiendo las ventajas de compartir recursos e instalando software específico.",
+      "materiales": [
+        "segundo/sistemas-operativos-en-red/02-guia-tecnica.md",
+        "segundo/sistemas-operativos-en-red/06-linux-permisos-y-capacidad.md",
+        "segundo/sistemas-operativos-en-red/08-laboratorios-y-casos-resueltos.md",
+        "segundo/sistemas-operativos-en-red/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Justificar recursos entre sistemas diferentes",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Caso de uso y requisitos de interoperabilidad",
+          "aceptacion": "No presupone que compartir nombre implique identidad común"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar conectividad heterogénea",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Matriz Linux/Windows con ruta y servicio",
+          "aceptacion": "Prueba ambas direcciones pertinentes y no sólo ping"
+        },
+        {
+          "letra": "c",
+          "resumen": "Describir servicio de compartición",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Diagrama SMB/IPP, identidades y datos",
+          "aceptacion": "Distingue protocolo, proceso, puerto y autorización"
+        },
+        {
+          "letra": "d",
+          "resumen": "Instalar/configurar servicio de recursos",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Acta del servidor y configuración validada",
+          "aceptacion": "Sólo LAB, versiones soportadas y sin roles incompatibles"
+        },
+        {
+          "letra": "e",
+          "resumen": "Acceder a archivos entre SO distintos",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Pruebas Linux→servidor y Windows→servidor",
+          "aceptacion": "Lectura/escritura y metadatos interpretados correctamente"
+        },
+        {
+          "letra": "f",
+          "resumen": "Acceder a impresoras desde diferentes SO",
+          "actividad": "0224-RA6-A2",
+          "evidencia": "Pruebas de cola y salida desde Linux y Windows",
+          "aceptacion": "Identifica driver/protocolo y distingue cola virtual de impresión física"
+        },
+        {
+          "letra": "g",
+          "resumen": "Trabajar colaborativamente",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Bitácora de roles, revisión y relevo",
+          "aceptacion": "Otro participante puede repetir y revisar las pruebas"
+        },
+        {
+          "letra": "h",
+          "resumen": "Aplicar seguridad a recursos heterogéneos",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Matriz de accesos efectivos por identidad",
+          "aceptacion": "Caso positivo y negativo sin desactivar protecciones"
+        },
+        {
+          "letra": "i",
+          "resumen": "Verificar funcionamiento final",
+          "actividad": "0224-RA6-A1",
+          "evidencia": "Acta desde clientes y plan de recuperación",
+          "aceptacion": "Cubre operación útil, persistencia y límites pendientes"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0224-RA6-A1",
+          "titulo": "Integración heterogénea de archivos e impresión",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Caso de uso y requisitos de interoperabilidad",
+            "Matriz Linux/Windows con ruta y servicio",
+            "Diagrama SMB/IPP, identidades y datos",
+            "Acta del servidor y configuración validada",
+            "Pruebas Linux→servidor y Windows→servidor",
+            "Bitácora de roles, revisión y relevo",
+            "Matriz de accesos efectivos por identidad",
+            "Acta desde clientes y plan de recuperación"
+          ],
+          "comprobaciones": [
+            "No presupone que compartir nombre implique identidad común",
+            "Prueba ambas direcciones pertinentes y no sólo ping",
+            "Distingue protocolo, proceso, puerto y autorización",
+            "Sólo LAB, versiones soportadas y sin roles incompatibles",
+            "Lectura/escritura y metadatos interpretados correctamente",
+            "Otro participante puede repetir y revisar las pruebas",
+            "Caso positivo y negativo sin desactivar protecciones",
+            "Cubre operación útil, persistencia y límites pendientes"
+          ]
+        },
+        {
+          "id": "0224-RA6-A2",
+          "titulo": "Impresión desde Linux y Windows",
+          "guia": "segundo/sistemas-operativos-en-red/10-retos-por-ra.md#ra6",
+          "criterios": [
+            "f"
+          ],
+          "entregables": [
+            "Pruebas de cola y salida desde Linux y Windows"
+          ],
+          "comprobaciones": [
+            "Identifica driver/protocolo y distingue cola virtual de impresión física"
+          ]
+        }
+      ]
+    }
+  ]
+}

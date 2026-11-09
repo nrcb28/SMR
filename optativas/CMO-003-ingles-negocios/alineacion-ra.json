@@ -1,0 +1,255 @@
+{
+  "modulo": "CMO-003",
+  "nombre": "Inglés para los negocios",
+  "carpeta": "optativas/CMO-003-ingles-negocios",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, currículo CMO-003; BOCM desde página 38, PDF páginas 21–22",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustituido, apartado A: optativas transversales a todos los ciclos de grado medio y superior, BOCM página 95",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-003-ingles-negocios/README.md",
+  "guia_retos": "optativas/CMO-003-ingles-negocios/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Identifica y comprende informaciones relativas al campo profesional objeto de estudio en diversas situaciones comunicativas orales planteadas (presencial, telefónica, videollamadas, etc.).",
+      "materiales": [
+        "optativas/CMO-003-ingles-negocios/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar elementos de comunicación entre empresas",
+          "actividad": "CMO-003-RA1-A1",
+          "evidencia": "Ficha de participantes, canal y finalidad",
+          "aceptacion": "Reconoce quién ofrece y quién necesita confirmar la compra"
+        },
+        {
+          "letra": "b",
+          "resumen": "Extraer ideas de una negociación",
+          "actividad": "CMO-003-RA1-A1",
+          "evidencia": "Notas de oferta, condición y petición",
+          "aceptacion": "Distingue propuesta de confirmación y conserva cifras"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprender el sentido global comercial",
+          "actividad": "CMO-003-RA1-A1",
+          "evidencia": "Resumen oral para responsable de compra",
+          "aceptacion": "Explica utilidad y límite principal de la oferta"
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprender detalles de presentación profesional compleja",
+          "actividad": "CMO-003-RA1-A1",
+          "evidencia": "Tabla de cantidades, plazos y exclusiones",
+          "aceptacion": "No confunde entrega parcial con entrega completa"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-003-RA1-A1",
+          "titulo": "Escuchar una propuesta comercial y detectar condiciones",
+          "guia": "optativas/CMO-003-ingles-negocios/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Hoja de escucha y resumen con condiciones pendientes"
+          ],
+          "comprobaciones": [
+            "El guion permanece oculto mientras se escucha.",
+            "Las cantidades, plazos y exclusiones son coherentes con el mensaje."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Analiza e interpreta información administrativa y comercial contenida en mensajes orales y escritos de cierta longitud y complejidad.",
+      "materiales": [
+        "optativas/CMO-003-ingles-negocios/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Leer de forma independiente con estrategia adecuada",
+          "actividad": "CMO-003-RA2-A1",
+          "evidencia": "Tabla de lectura de brief, oferta y nota",
+          "aceptacion": "Distingue requisito, propuesta e instrucción interna"
+        },
+        {
+          "letra": "b",
+          "resumen": "Interpretar significado esencial de mensajes físicos/digitales",
+          "actividad": "CMO-003-RA2-A1",
+          "evidencia": "Resumen de cada documento",
+          "aceptacion": "Mantiene el alcance y las restricciones de la compra"
+        },
+        {
+          "letra": "c",
+          "resumen": "Relacionar información comercial oral y escrita",
+          "actividad": "CMO-003-RA2-A1",
+          "evidencia": "Comparación con el cambio presentado oralmente",
+          "aceptacion": "Actualiza la decisión sin perder la versión anterior"
+        },
+        {
+          "letra": "d",
+          "resumen": "Valorar importancia de documentación administrativa",
+          "actividad": "CMO-003-RA2-A1",
+          "evidencia": "Recomendación y lista de confirmaciones",
+          "aceptacion": "Conecta plazo, compatibilidad y condiciones con la decisión"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-003-RA2-A1",
+          "titulo": "Comparar cotizaciones con criterios administrativos",
+          "guia": "optativas/CMO-003-ingles-negocios/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Cuadro comparativo y recomendación provisional documentada"
+          ],
+          "comprobaciones": [
+            "Los totales y el alcance son reproducibles.",
+            "La orden sigue pendiente de las confirmaciones exigidas."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Emite argumentaciones orales originales, claras y coherentes, sobre informaciones profesionales conforme a una situación de comunicación concreta, a las normas de cortesía y al registro lingüístico del interlocutor.",
+      "materiales": [
+        "optativas/CMO-003-ingles-negocios/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer registro, actitud y punto de vista",
+          "actividad": "CMO-003-RA3-A1",
+          "evidencia": "Acta de intereses de comprador y proveedor",
+          "aceptacion": "Distingue prioridades y condiciones de ambas partes"
+        },
+        {
+          "letra": "b",
+          "resumen": "Responder espontáneamente con formalidad profesional",
+          "actividad": "CMO-003-RA3-A1",
+          "evidencia": "Registro de turnos y objeciones nuevas",
+          "aceptacion": "Mantiene negociación sin limitarse a un texto memorizado"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar cortesía en presentación y desacuerdo",
+          "actividad": "CMO-003-RA3-A1",
+          "evidencia": "Observación de peticiones y negativas",
+          "aceptacion": "Expresa límites con respeto y tratamiento acordado"
+        },
+        {
+          "letra": "d",
+          "resumen": "Defender una decisión con terminología económica",
+          "actividad": "CMO-003-RA3-A1",
+          "evidencia": "Argumentación con precio, alcance y margen",
+          "aceptacion": "Los argumentos responden al caso y las cifras son correctas"
+        },
+        {
+          "letra": "e",
+          "resumen": "Pedir reformulación cuando una condición no es clara",
+          "actividad": "CMO-003-RA3-A1",
+          "evidencia": "Pregunta y confirmación de entrega",
+          "aceptacion": "La aclaración resuelve ambigüedad en vez de fingir comprensión"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-003-RA3-A1",
+          "titulo": "Negociar alcance y defender una decisión",
+          "guia": "optativas/CMO-003-ingles-negocios/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Ficha de negociación, acta de interacción y resumen provisional"
+          ],
+          "comprobaciones": [
+            "Se conservan límites de autoridad y presupuesto.",
+            "Las condiciones pendientes no se presentan como contrato confirmado."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora textos adecuados al contexto de una empresa globalizada. Sirviéndose de un nivel de competencia en inglés adecuado a la situación de comunicación.",
+      "materiales": [
+        "optativas/CMO-003-ingles-negocios/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar usos del contexto de destino",
+          "actividad": "CMO-003-RA4-A1",
+          "evidencia": "Ficha de organización y convenciones comprobadas",
+          "aceptacion": "Elige moneda, fecha y tratamiento sin estereotipos"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar protocolos de relación en negociación",
+          "actividad": "CMO-003-RA4-A1",
+          "evidencia": "Revisión de correo y alcance provisional",
+          "aceptacion": "La forma es profesional y respeta el estado real de la negociación"
+        },
+        {
+          "letra": "c",
+          "resumen": "Elaborar documentación requerida por el puesto",
+          "actividad": "CMO-003-RA4-A1",
+          "evidencia": "Correo y nota interna con versiones",
+          "aceptacion": "Incluye confirmaciones, aprobación y referencias necesarias sin fingir una orden"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-003-RA4-A1",
+          "titulo": "Redactar documentación de una empresa globalizada",
+          "guia": "optativas/CMO-003-ingles-negocios/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Borrador de correo, nota interna y lista de revisión"
+          ],
+          "comprobaciones": [
+            "Cifras y exclusiones coinciden con el caso.",
+            "Los documentos se presentan como ejemplos y no se envían."
+          ]
+        }
+      ]
+    }
+  ]
+}

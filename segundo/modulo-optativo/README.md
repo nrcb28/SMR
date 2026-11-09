@@ -1,5 +1,9 @@
 # Módulo profesional optativo · segundo
 
+## Catálogo oficial aplicable a SMR
+
+Ya puedes consultar el [catálogo completo de optativas aplicables a SMR en Madrid](../../optativas/README.md), con las16 variantes, RA, criterios, condiciones y actividades. La oferta real y matrícula se concretan en el centro. Los talleres propios que siguen debajo son material complementario y no se atribuyen a una optativa oficial.
+
 La organización madrileña de SMR incluye en segundo una optativa de 90 horas de currículo y tres horas semanales de referencia. Su nombre concreto y programación deben obtenerse del centro: esta carpeta no atribuye una materia a una oferta que no se ha identificado. El catálogo de referencia es la [Orden 3536/2025](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF), modificada por la [Orden 3822/2026](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF).
 
 ## Propuesta propia: operación y soporte documentados

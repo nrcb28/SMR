@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "fecha_revision": "2026-11-09",
+  "ambito": "Optativas del catálogo de la Comunidad de Madrid aplicables a SMR (IFCM01)",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Artículo2 y anexoII: currículos"
+    },
+    {
+      "norma": "Orden 3822/2026",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "AnexoI sustitutorio: catálogo vigente"
+    }
+  ],
+  "criterio_inclusion": "Módulos transversales a GM/GS y módulos específicos de la familia IFC sin restricción al grado superior en la relación vigente. Los nuevos módulos o la oferta concreta de un centro deben revisarse en su programación.",
+  "nota_recuento": "16 códigos o variantes; 12 currículos distintos. Las tres variantes lingüísticas de CMO-001 y CMO-002 comparten currículo. El recuento RA/CE por código conserva esa repetición y no implica cursarlas todas.",
+  "modulos": [
+    {
+      "codigo": "CMO-001A",
+      "codigo_curriculo": "CMO-001",
+      "nombre": "Habilidades comunicativas en lengua extranjera profesional · Alemán",
+      "carpeta": "optativas/CMO-001A-aleman-profesional",
+      "categoria": "transversal",
+      "idioma": "Alemán",
+      "cursos": [
+        1,
+        2
+      ],
+      "horas_por_curso": {
+        "1": 50,
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-001; BOCM p.34 y siguientes; PDF pp.17–18",
+      "notas": "El catálogo permite este módulo en cualquiera de los dos cursos. En SMR el encaje horario es 50 horas en primero o 90 en segundo, según la optativa que oferte el centro.",
+      "numero_ra": 4,
+      "numero_ce": 16
+    },
+    {
+      "codigo": "CMO-001F",
+      "codigo_curriculo": "CMO-001",
+      "nombre": "Habilidades comunicativas en lengua extranjera profesional · Francés",
+      "carpeta": "optativas/CMO-001F-frances-profesional",
+      "categoria": "transversal",
+      "idioma": "Francés",
+      "cursos": [
+        1,
+        2
+      ],
+      "horas_por_curso": {
+        "1": 50,
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-001; BOCM p.34 y siguientes; PDF pp.17–18",
+      "notas": "El catálogo permite este módulo en cualquiera de los dos cursos. En SMR el encaje horario es 50 horas en primero o 90 en segundo, según la optativa que oferte el centro.",
+      "numero_ra": 4,
+      "numero_ce": 16
+    },
+    {
+      "codigo": "CMO-001I",
+      "codigo_curriculo": "CMO-001",
+      "nombre": "Habilidades comunicativas en lengua extranjera profesional · Inglés",
+      "carpeta": "optativas/CMO-001I-ingles-profesional",
+      "categoria": "transversal",
+      "idioma": "Inglés",
+      "cursos": [
+        1,
+        2
+      ],
+      "horas_por_curso": {
+        "1": 50,
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-001; BOCM p.34 y siguientes; PDF pp.17–18",
+      "notas": "El catálogo permite este módulo en cualquiera de los dos cursos. En SMR el encaje horario es 50 horas en primero o 90 en segundo, según la optativa que oferte el centro.",
+      "numero_ra": 4,
+      "numero_ce": 16
+    },
+    {
+      "codigo": "CMO-002A",
+      "codigo_curriculo": "CMO-002",
+      "nombre": "Ampliación de lengua extranjera profesional · Alemán",
+      "carpeta": "optativas/CMO-002A-ampliacion-aleman",
+      "categoria": "transversal",
+      "idioma": "Alemán",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-002; BOCM p.36 y siguientes; PDF pp.19–20",
+      "notas": "El catálogo sitúa esta ampliación de lengua en segundo. Su encaje en SMR es la optativa de 90 horas, sujeto a la oferta y programación del centro.",
+      "numero_ra": 4,
+      "numero_ce": 15
+    },
+    {
+      "codigo": "CMO-002F",
+      "codigo_curriculo": "CMO-002",
+      "nombre": "Ampliación de lengua extranjera profesional · Francés",
+      "carpeta": "optativas/CMO-002F-ampliacion-frances",
+      "categoria": "transversal",
+      "idioma": "Francés",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-002; BOCM p.36 y siguientes; PDF pp.19–20",
+      "notas": "El catálogo sitúa esta ampliación de lengua en segundo. Su encaje en SMR es la optativa de 90 horas, sujeto a la oferta y programación del centro.",
+      "numero_ra": 4,
+      "numero_ce": 15
+    },
+    {
+      "codigo": "CMO-002I",
+      "codigo_curriculo": "CMO-002",
+      "nombre": "Ampliación de lengua extranjera profesional · Inglés",
+      "carpeta": "optativas/CMO-002I-ampliacion-ingles",
+      "categoria": "transversal",
+      "idioma": "Inglés",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-002; BOCM p.36 y siguientes; PDF pp.19–20",
+      "notas": "El catálogo sitúa esta ampliación de lengua en segundo. Su encaje en SMR es la optativa de 90 horas, sujeto a la oferta y programación del centro.",
+      "numero_ra": 4,
+      "numero_ce": 15
+    },
+    {
+      "codigo": "CMO-003",
+      "codigo_curriculo": "CMO-003",
+      "nombre": "Inglés para los negocios",
+      "carpeta": "optativas/CMO-003-ingles-negocios",
+      "categoria": "transversal",
+      "idioma": "Inglés",
+      "cursos": [
+        1,
+        2
+      ],
+      "horas_por_curso": {
+        "1": 50,
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-003; BOCM p.38 y siguientes; PDF pp.21–22",
+      "notas": "El catálogo permite este módulo en cualquiera de los dos cursos. En SMR el encaje horario es 50 horas en primero o 90 en segundo, según la optativa que oferte el centro.",
+      "numero_ra": 4,
+      "numero_ce": 16
+    },
+    {
+      "codigo": "CMO-310",
+      "codigo_curriculo": "CMO-310",
+      "nombre": "Fundamentos de bases de datos",
+      "carpeta": "optativas/CMO-310-fundamentos-bases-datos",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        1
+      ],
+      "horas_por_curso": {
+        "1": 50
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-310; BOCM p.183 y siguientes; PDF pp.166–167",
+      "notas": "La tabla del catálogo fija 50 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en primero se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 5,
+      "numero_ce": 24
+    },
+    {
+      "codigo": "CMO-311",
+      "codigo_curriculo": "CMO-311",
+      "nombre": "Informática aplicada a sistemas electrónicos (Robótica)",
+      "carpeta": "optativas/CMO-311-robotica",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        1
+      ],
+      "horas_por_curso": {
+        "1": 50
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-311; BOCM p.185 y siguientes; PDF pp.168–170",
+      "notas": "La tabla del catálogo fija 50 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en primero se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 5,
+      "numero_ce": 30
+    },
+    {
+      "codigo": "CMO-312",
+      "codigo_curriculo": "CMO-312",
+      "nombre": "Fundamentos de computación en la nube",
+      "carpeta": "optativas/CMO-312-fundamentos-computacion-nube",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        1
+      ],
+      "horas_por_curso": {
+        "1": 50
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-312; BOCM p.187 y siguientes; PDF pp.170–172",
+      "notas": "La tabla del catálogo fija 50 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en primero se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 10,
+      "numero_ce": 49
+    },
+    {
+      "codigo": "CMO-313",
+      "codigo_curriculo": "CMO-313",
+      "nombre": "Fundamentos de programación",
+      "carpeta": "optativas/CMO-313-fundamentos-programacion",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        1
+      ],
+      "horas_por_curso": {
+        "1": 50
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-313; BOCM p.191 y siguientes; PDF pp.174–175",
+      "notas": "La tabla del catálogo fija 50 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en primero se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 6,
+      "numero_ce": 36
+    },
+    {
+      "codigo": "CMO-314",
+      "codigo_curriculo": "CMO-314",
+      "nombre": "Ciberseguridad",
+      "carpeta": "optativas/CMO-314-ciberseguridad",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-314; BOCM p.193 y siguientes; PDF pp.176–179",
+      "notas": "La tabla del catálogo fija 90 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en segundo se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 6,
+      "numero_ce": 46
+    },
+    {
+      "codigo": "CMO-315",
+      "codigo_curriculo": "CMO-315",
+      "nombre": "Arquitecturas en la nube",
+      "carpeta": "optativas/CMO-315-arquitecturas-nube",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-315; BOCM p.197 y siguientes; PDF pp.180–183",
+      "notas": "La tabla del catálogo fija 90 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en segundo se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro. El currículo conserva ñ en RA3 y RA4; total59 CE. La cabecera curricular usa singular Arquitectura y el catálogo2026 plural Arquitecturas.",
+      "numero_ra": 4,
+      "numero_ce": 59
+    },
+    {
+      "codigo": "CMO-316",
+      "codigo_curriculo": "CMO-316",
+      "nombre": "Programación en Python",
+      "carpeta": "optativas/CMO-316-programacion-python",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-316; BOCM p.203 y siguientes; PDF pp.186–187",
+      "notas": "La tabla del catálogo fija 90 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en segundo se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro. La cabecera curricular de2025 imprime Phyton; el catálogo2026 denomina Python.",
+      "numero_ra": 6,
+      "numero_ce": 27
+    },
+    {
+      "codigo": "CMO-317",
+      "codigo_curriculo": "CMO-317",
+      "nombre": "Posicionamiento y optimización web",
+      "carpeta": "optativas/CMO-317-posicionamiento-optimizacion-web",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        1
+      ],
+      "horas_por_curso": {
+        "1": 50
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-317; BOCM p.205 y siguientes; PDF pp.188–189",
+      "notas": "La tabla del catálogo fija 50 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en primero se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 4,
+      "numero_ce": 5
+    },
+    {
+      "codigo": "CMO-318",
+      "codigo_curriculo": "CMO-318",
+      "nombre": "Programación de videojuegos",
+      "carpeta": "optativas/CMO-318-programacion-videojuegos",
+      "categoria": "especifica",
+      "idioma": "",
+      "cursos": [
+        2
+      ],
+      "horas_por_curso": {
+        "2": 90
+      },
+      "fuente_catalogo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "fuente_curriculo": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador_catalogo": "Anexo I sustitutorio: transversales, BOCM p.95; específicos IFC, BOCM pp.107–108",
+      "localizador_curriculo": "Anexo II, CMO-318; BOCM p.206 y siguientes; PDF pp.189–190",
+      "notas": "La tabla del catálogo fija 90 horas para este módulo específico de Informática y Comunicaciones. Su ubicación en segundo se deduce del encaje con las optativas de SMR (50/90 horas); no se presenta como una columna de curso expresamente asignada a IFC en el catálogo. Deben confirmarse la oferta y las condiciones del centro.",
+      "numero_ra": 4,
+      "numero_ce": 22
+    }
+  ]
+}

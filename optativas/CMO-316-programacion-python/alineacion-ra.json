@@ -1,0 +1,397 @@
+{
+  "modulo": "CMO-316",
+  "nombre": "Programación en Python",
+  "carpeta": "optativas/CMO-316-programacion-python",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-316; BOCM página 203 y siguientes; PDF páginas 186–187",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-316-programacion-python/README.md",
+  "guia_retos": "optativas/CMO-316-programacion-python/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado los bloques que componen la estructura de un programa informático.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Proyecto Python y tabla de expresiones/tipos; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se predicen resultados y tipos, y se detectan entradas que violan el contrato. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han creado proyectos de desarrollo de aplicaciones.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Proyecto Python y tabla de expresiones/tipos; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se predicen resultados y tipos, y se detectan entradas que violan el contrato. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han utilizado entornos integrados de desarrollo.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Proyecto Python y tabla de expresiones/tipos; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se predicen resultados y tipos, y se detectan entradas que violan el contrato. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han identificado los distintos tipos de variables y la utilidad específica de cada uno.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Proyecto Python y tabla de expresiones/tipos».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha modificado el código de un programa para crear y utilizar variables.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Proyecto Python y tabla de expresiones/tipos».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han creado y utilizado constantes y literales. Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Proyecto Python y tabla de expresiones/tipos; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se predicen resultados y tipos, y se detectan entradas que violan el contrato. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Proyecto Python y tabla de expresiones/tipos; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se predicen resultados y tipos, y se detectan entradas que violan el contrato. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar que se han introducido comentarios en el código.",
+          "actividad": "CMO-316-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio h, incorporados a «Proyecto Python y tabla de expresiones/tipos».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA1-A1",
+          "titulo": "Dominar nombres, valores y tipos en Python",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Proyecto Python y tabla de expresiones/tipos",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se predicen resultados y tipos, y se detectan entradas que violan el contrato.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha escrito y probado código que haga uso de estructuras de selección.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio a, incorporados a «Tabla de casos, código y registro de depuración».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han utilizado estructuras de repetición.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Tabla de casos, código y registro de depuración; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los límites y errores tienen respuesta definida y la ejecución no queda bloqueada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido las posibilidades de las sentencias de salto.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Tabla de casos, código y registro de depuración; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los límites y errores tienen respuesta definida y la ejecución no queda bloqueada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha escrito código utilizando control de excepciones.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Tabla de casos, código y registro de depuración».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han creado programas ejecutables utilizando diferentes estructuras de control.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Tabla de casos, código y registro de depuración».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han probado y depurado los programas. Se ha comentado y documentado el código.",
+          "actividad": "CMO-316-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio f, incorporados a «Tabla de casos, código y registro de depuración».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA2-A1",
+          "titulo": "Elegir y depurar estructuras de control",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Tabla de casos, código y registro de depuración",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Los límites y errores tienen respuesta definida y la ejecución no queda bloqueada.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Escribe código utilizando programación modular. Conoce la diferencia entre el paso de parámetros por valor y por referencia.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han codificado funciones para resolver problemas de matemática elemental.",
+          "actividad": "CMO-316-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio a, incorporados a «Módulo de funciones y tabla de identidad/mutación».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha utilizado el concepto de iteración y recursividad.",
+          "actividad": "CMO-316-RA3-A1",
+          "evidencia": "Módulo de funciones y tabla de identidad/mutación; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se explica cada efecto con un ejemplo y el caso base evita recursión indefinida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA3-A1",
+          "titulo": "Modularizar y comprender los argumentos",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra3",
+          "criterios": [
+            "a",
+            "b"
+          ],
+          "entregables": [
+            "Módulo de funciones y tabla de identidad/mutación",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se explica cada efecto con un ejemplo y el caso base evita recursión indefinida.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Escribe programas que manipulen información, seleccionando y utilizando tipos avanzados de datos.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han escrito programas que utilizan cadenas, listas y diccionarios.",
+          "actividad": "CMO-316-RA4-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio a, incorporados a «Modelo de datos y función de validación/resumen».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA4-A1",
+          "titulo": "Elegir cadenas, listas y diccionarios",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra4",
+          "criterios": [
+            "a"
+          ],
+          "entregables": [
+            "Modelo de datos y función de validación/resumen",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se conservan códigos y orden cuando corresponde, y los duplicados no se sobrescriben silenciosamente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha utilizado la consola para realizar operaciones de entrada y salida de información.",
+          "actividad": "CMO-316-RA5-A1",
+          "evidencia": "Lector, exportador y tabla de errores de E/S; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La exportación conserva datos válidos y los errores producen una salida clara y un estado coherente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han aplicado formatos en la visualización de la información.",
+          "actividad": "CMO-316-RA5-A1",
+          "evidencia": "Lector, exportador y tabla de errores de E/S; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La exportación conserva datos válidos y los errores producen una salida clara y un estado coherente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas.",
+          "actividad": "CMO-316-RA5-A1",
+          "evidencia": "Lector, exportador y tabla de errores de E/S; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La exportación conserva datos válidos y los errores producen una salida clara y un estado coherente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han utilizado ficheros para almacenar y recuperar información.",
+          "actividad": "CMO-316-RA5-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Lector, exportador y tabla de errores de E/S».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han creado programas que utilicen diversos métodos de acceso al contenido de los ficheros.",
+          "actividad": "CMO-316-RA5-A1",
+          "evidencia": "Código de lectura secuencial y acceso directo con seek sobre archivo temporal de registros fijos, salidas equivalentes y ensayos de índice/formato inválido.",
+          "aceptacion": "Se ejecutan ambos métodos, el índice 1 devuelve el segundo registro y se rechazan índice fuera de rango y bloque incompleto. Una explicación sin programas ejecutados deja CE5.e pendiente."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA5-A1",
+          "titulo": "Leer y escribir archivos con contrato",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Lector, exportador y tabla de errores de E/S",
+            "Registro de resultados esperados/obtenidos y limitaciones",
+            "Programas y salidas de lectura secuencial y acceso directo con seek"
+          ],
+          "comprobaciones": [
+            "La exportación conserva datos válidos y los errores producen una salida clara y un estado coherente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada.",
+            "Se ejecutan ambos métodos, el índice 1 devuelve el segundo registro y se rechazan índice fuera de rango y bloque incompleto. Una explicación sin programas ejecutados deja CE5.e pendiente."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos.",
+      "materiales": [
+        "optativas/CMO-316-programacion-python/README.md#ra6"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha reconocido la sintaxis, estructura y componentes típicos de una clase.",
+          "actividad": "CMO-316-RA6-A1",
+          "evidencia": "Clases, instancias y ensayos de invariantes/herencia; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El estado es consistente y los objetos independientes no se contaminan por atributos compartidos involuntariamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han definido clases.",
+          "actividad": "CMO-316-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio b, incorporados a «Clases, instancias y ensayos de invariantes/herencia».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han definido propiedades y métodos. Se han creado constructores.",
+          "actividad": "CMO-316-RA6-A1",
+          "evidencia": "Clases, instancias y ensayos de invariantes/herencia; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El estado es consistente y los objetos independientes no se contaminan por atributos compartidos involuntariamente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han desarrollado programas que instancien y utilicen objetos de las clases creadas anteriormente. Se han utilizado mecanismos para controlar la visibilidad de las clases y de sus miembros.",
+          "actividad": "CMO-316-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Clases, instancias y ensayos de invariantes/herencia».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han definido y utilizado clases heredadas.",
+          "actividad": "CMO-316-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Clases, instancias y ensayos de invariantes/herencia».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-316-RA6-A1",
+          "titulo": "Crear objetos que mantengan invariantes",
+          "guia": "optativas/CMO-316-programacion-python/README.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Clases, instancias y ensayos de invariantes/herencia",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El estado es consistente y los objetos independientes no se contaminan por atributos compartidos involuntariamente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

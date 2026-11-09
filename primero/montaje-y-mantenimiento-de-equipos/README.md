@@ -16,6 +16,8 @@ Esta documentación desarrolla contenidos de estudio y prácticas propias; las p
 | [06 · Diagnóstico por subsistemas](06-diagnostico-por-subsistemas.md) | POST, ausencia de imagen, reinicios, memoria y detección de discos | Hipótesis separadas mediante pruebas y casos de taller |
 | [07 · Almacenamiento e integridad](07-almacenamiento-integridad-y-vida-util.md) | HDD, SSD, resistencia, telemetría NVMe, hashes y preservación | Informe de estado y decisión de recuperación o sustitución |
 | [08 · Periféricos y mantenimiento](08-perifericos-mantenimiento-y-casos.md) | USB, docks, pantallas, impresión, repuestos y planificación | Tres nuevas prácticas y plan documentado de mantenimiento |
+| [09 · Alineación por RA](09-alineacion-ra.md) | Los 8 resultados y 60 criterios oficiales, con fuentes y correspondencias | Dossier con criterio, artefacto y comprobación |
+| [10 · Retos por RA](10-retos-por-ra.md) | Selección, montaje, medición, mantenimiento, imágenes, tendencias, periféricos y prevención | Actuaciones y resultados reales separados de expectativas |
 
 Los capítulos 05–08 amplían el itinerario con análisis de medidas, decisiones de taller y casos completos. Léelos después de dominar la instalación básica: su objetivo es explicar por qué una prueba aporta información y qué límites tiene, además de indicar el procedimiento. Incluyen ejercicios de cálculo, interpretación de telemetría y prácticas de USB, impresión y planificación de una flota.
 
@@ -36,6 +38,8 @@ Para desmontar equipos reales utiliza un puesto autorizado, herramientas adecuad
 | Gestionar periféricos y consumibles | Configurar una impresora, identificar fallos y tratar residuos por el canal correspondiente |
 
 La tabla organiza el estudio; no asigna numeraciones oficiales a resultados curriculares.
+
+La numeración normativa se desarrolla en el [mapa de alineación](09-alineacion-ra.md), con los ocho RA del módulo y las letras de sus 60 CE. Sigue después los [retos](10-retos-por-ra.md) y utiliza los [datos JSON](alineacion-ra.json) para localizar qué evidencia responde a cada criterio. Las mediciones eléctricas, el montaje físico o una actuación grupal requieren medios y supervisión adecuados; su diseño en una VM o una memoria no acredita por sí solo esas actuaciones.
 
 ## Método de trabajo
 

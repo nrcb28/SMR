@@ -1,0 +1,167 @@
+{
+  "modulo": "CMO-317",
+  "nombre": "Posicionamiento y optimización web",
+  "carpeta": "optativas/CMO-317-posicionamiento-optimizacion-web",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-317; BOCM página 205 y siguientes; PDF páginas 188–189",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md",
+  "guia_retos": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Comprende los fundamentos del SEO.",
+      "materiales": [
+        "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han entendido los conceptos básicos de SEO y el marco en el que actúa.",
+          "actividad": "CMO-317-RA1-A1",
+          "evidencia": "Mapa de proceso de búsqueda y auditoría inicial; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se distinguen las fases y se vinculan mejoras con la intención y contenido real de la página. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-317-RA1-A1",
+          "titulo": "Relacionar búsqueda y contenido útil",
+          "guia": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra1",
+          "criterios": [
+            "a"
+          ],
+          "entregables": [
+            "Mapa de proceso de búsqueda y auditoría inicial",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se distinguen las fases y se vinculan mejoras con la intención y contenido real de la página.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Identifica palabras claves y desarrolla estrategias de construcción de sitios webs.",
+      "materiales": [
+        "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han investigado, identificado y seleccionado las palabras clave y términos de búsqueda que generan tráfico orgánico hacia el sitio web corporativo, utilizando herramientas específicas de analítica digital para el SEO.",
+          "actividad": "CMO-317-RA2-A1",
+          "evidencia": "Mapa de intención, consultas y arquitectura de contenidos; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada grupo tiene necesidad, página y medición coherentes; no se presentan estimaciones como visitas observadas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-317-RA2-A1",
+          "titulo": "Investigar intención y organizar un sitio",
+          "guia": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra2",
+          "criterios": [
+            "a"
+          ],
+          "entregables": [
+            "Mapa de intención, consultas y arquitectura de contenidos",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada grupo tiene necesidad, página y medición coherentes; no se presentan estimaciones como visitas observadas.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Implementa las estrategias de optimización de contenido técnico para mejorar la visibilidad en los resultados de búsqueda informáticos.",
+      "materiales": [
+        "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha optimizado el contenido del sitio web para mejorar su visibilidad en los motores de búsqueda, incluyendo la redacción de títulos y descripciones META, la optimización de encabezados e imágenes y la estructuración de contenidos.",
+          "actividad": "CMO-317-RA3-A1",
+          "evidencia": "Página antes/después y lista de comprobaciones técnicas; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La página representa su contenido, conserva navegación y accesibilidad, y las mejoras se verifican localmente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-317-RA3-A1",
+          "titulo": "Optimizar una página y comprobar su estructura",
+          "guia": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra3",
+          "criterios": [
+            "a"
+          ],
+          "entregables": [
+            "Página antes/después y lista de comprobaciones técnicas",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "La página representa su contenido, conserva navegación y accesibilidad, y las mejoras se verifican localmente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Se mantiene al día en las nuevas tendencias y actualizaciones de SEO. Ética y buenas prácticas en SEO.",
+      "materiales": [
+        "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha comprendido la naturaleza en constante evolución del SEO y se ha preparado para adaptarse a las actualizaciones del algoritmo de los motores de búsqueda y a las tendencias emergentes en la industria.",
+          "actividad": "CMO-317-RA4-A1",
+          "evidencia": "Bitácora de cambios y análisis de prácticas admitidas/no admitidas; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las recomendaciones enlazan fuente vigente, objetivo medible y límites de la interpretación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha comprendido la importancia de practicar SEO ético y de seguir las directrices establecidas por los motores de búsqueda para evitar sanciones y mantener la integridad de su sitio web.",
+          "actividad": "CMO-317-RA4-A1",
+          "evidencia": "Bitácora de cambios y análisis de prácticas admitidas/no admitidas; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las recomendaciones enlazan fuente vigente, objetivo medible y límites de la interpretación. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-317-RA4-A1",
+          "titulo": "Mantener prácticas éticas y revisar cambios",
+          "guia": "optativas/CMO-317-posicionamiento-optimizacion-web/README.md#ra4",
+          "criterios": [
+            "a",
+            "b"
+          ],
+          "entregables": [
+            "Bitácora de cambios y análisis de prácticas admitidas/no admitidas",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las recomendaciones enlazan fuente vigente, objetivo medible y límites de la interpretación.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Módulo profesional optativo · primero
 
+## Catálogo oficial aplicable a SMR
+
+Ya puedes consultar el [catálogo completo de optativas aplicables a SMR en Madrid](../../optativas/README.md), con las16 variantes, RA, criterios, condiciones y actividades. La oferta real y matrícula se concretan en el centro. Los talleres propios que siguen debajo son material complementario y no se atribuyen a una optativa oficial.
+
 En la distribución madrileña de SMR, primero incluye un módulo optativo de 50 horas de currículo y dos horas semanales de referencia. **Su denominación concreta, código, currículo y oferta dependen de la selección y autorización aplicables al centro.** No se asigna aquí un nombre oficial sin conocer esa información.
 
 El catálogo autonómico se regula mediante la [Orden 3536/2025](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF), con la modificación publicada en la [Orden 3822/2026](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF). Consulta el [marco curricular](../../docs/curriculo-madrid.md) y la programación del centro antes de identificar una optativa o sus criterios de evaluación.

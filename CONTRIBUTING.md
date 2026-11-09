@@ -24,3 +24,5 @@ Si se modifica una dirección, nombre DNS, rol de servidor o versión base, revi
 ## Cambios curriculares
 
 Incluye norma, fecha, enlace oficial y tabla o apartado aplicable. Actualiza [currículo](docs/curriculo-madrid.md), [inventario JSON](recursos/plan-estudios-madrid.json), índices de curso y enlaces afectados. La oferta de optativas requiere conocer el centro; no asignes una optativa concreta a todo Madrid a partir de un único ejemplo.
+
+Para cambios de RA o criterios, conserva su identificación normativa y actualiza `alineacion-ra.json`, el referente revisado y la actividad desarrollada. Ejecuta `python3 scripts/validar_ra.py`, regenera con `python3 scripts/generar_mapa_ra.py` y comprueba `--check`. Explica cualquier incidencia de transcripción y mantén separadas las claves editoriales de las letras oficiales.

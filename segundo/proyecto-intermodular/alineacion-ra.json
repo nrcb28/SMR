@@ -1,0 +1,529 @@
+{
+  "modulo": "1713",
+  "nombre": "Proyecto intermodular",
+  "carpeta": "segundo/proyecto-intermodular",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Anexo II, Currículo básico módulo de Proyecto intermodular de grado medio, código 1713",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/proyecto-intermodular/05-alineacion-ra.md",
+  "guia_retos": "segundo/proyecto-intermodular/06-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Caracteriza las empresas del sector atendiendo a su organización y al tipo de producto o servicio que ofrecen.",
+      "materiales": [
+        "segundo/proyecto-intermodular/01-guia.md",
+        "segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md",
+        "segundo/proyecto-intermodular/06-retos-por-ra.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar empresas representativas",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Fichas comparativas de empresas y fuentes",
+          "aceptacion": "Se distingue evidencia real publicada del caso ficticio de entrenamiento"
+        },
+        {
+          "letra": "b",
+          "resumen": "Describir organización empresarial",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Organigrama funcional del caso",
+          "aceptacion": "Explica relaciones y no sólo dibuja cajas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Caracterizar departamentos principales",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Fichas de funciones por departamento",
+          "aceptacion": "Incluye operaciones, comercial, administración y soporte según tamaño"
+        },
+        {
+          "letra": "d",
+          "resumen": "Determinar funciones departamentales",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Matriz función, entrada y salida",
+          "aceptacion": "Cada función tiene responsabilidad y destinatario"
+        },
+        {
+          "letra": "e",
+          "resumen": "Estimar volumen de negocio según demanda",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Hipótesis de clientes, servicio y facturación",
+          "aceptacion": "Las operaciones y unidades del cálculo son reproducibles"
+        },
+        {
+          "letra": "f",
+          "resumen": "Definir estrategia de respuesta",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Propuesta de valor y prioridades de servicio",
+          "aceptacion": "La estrategia responde a una necesidad identificada"
+        },
+        {
+          "letra": "g",
+          "resumen": "Valorar recursos humanos y materiales",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Tabla de capacidad, roles y equipamiento",
+          "aceptacion": "Cada recurso se vincula a carga o requisito"
+        },
+        {
+          "letra": "h",
+          "resumen": "Seguir resultados de la estrategia",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Cuadro de indicadores y revisión sintética",
+          "aceptacion": "Compara objetivos y observaciones sin fingir una empresa implantada"
+        },
+        {
+          "letra": "i",
+          "resumen": "Relacionar servicio y ODS",
+          "actividad": "1713-RA1-A1",
+          "evidencia": "Matriz servicio, contribución, indicador y límite",
+          "aceptacion": "La contribución se explica y no se declara por añadir un icono"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1713-RA1-A1",
+          "titulo": "Caracterizar una empresa y su estrategia de servicio",
+          "guia": "segundo/proyecto-intermodular/06-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Fichas comparativas de empresas y fuentes",
+            "Organigrama funcional del caso",
+            "Fichas de funciones por departamento",
+            "Matriz función, entrada y salida",
+            "Hipótesis de clientes, servicio y facturación",
+            "Propuesta de valor y prioridades de servicio",
+            "Tabla de capacidad, roles y equipamiento",
+            "Cuadro de indicadores y revisión sintética",
+            "Matriz servicio, contribución, indicador y límite"
+          ],
+          "comprobaciones": [
+            "Se distingue evidencia real publicada del caso ficticio de entrenamiento",
+            "Explica relaciones y no sólo dibuja cajas",
+            "Incluye operaciones, comercial, administración y soporte según tamaño",
+            "Cada función tiene responsabilidad y destinatario",
+            "Las operaciones y unidades del cálculo son reproducibles",
+            "La estrategia responde a una necesidad identificada",
+            "Cada recurso se vincula a carga o requisito",
+            "Compara objetivos y observaciones sin fingir una empresa implantada",
+            "La contribución se explica y no se declara por añadir un icono"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Plantea soluciones a las necesidades del sector teniendo en cuenta la viabilidad de las mismas, los costes asociados y elaborando un pequeño proyecto.",
+      "materiales": [
+        "segundo/proyecto-intermodular/01-guia.md",
+        "segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md",
+        "segundo/proyecto-intermodular/06-retos-por-ra.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar necesidades del sector",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Lista de necesidades con fuente y prioridad",
+          "aceptacion": "Distingue demanda del usuario, supuesto y requisito obligatorio"
+        },
+        {
+          "letra": "b",
+          "resumen": "Plantear alternativas en grupo",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Acta de propuestas y argumentos",
+          "aceptacion": "Registra aportaciones y una alternativa descartada"
+        },
+        {
+          "letra": "c",
+          "resumen": "Recabar información de las soluciones",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Dossier de documentación primaria y versiones",
+          "aceptacion": "Las comparaciones usan requisitos equivalentes"
+        },
+        {
+          "letra": "d",
+          "resumen": "Identificar innovación aplicable",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Ficha de mejora e impacto esperado",
+          "aceptacion": "Explica valor práctico y riesgo, no sólo novedad de herramienta"
+        },
+        {
+          "letra": "e",
+          "resumen": "Estudiar viabilidad técnica",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Ensayo o revisión de compatibilidad y dependencias",
+          "aceptacion": "Separa comprobado, simulado y pendiente"
+        },
+        {
+          "letra": "f",
+          "resumen": "Definir partes del proyecto",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Estructura de diseño, despliegue, prueba y entrega",
+          "aceptacion": "No omite datos, permisos, recuperación o documentación"
+        },
+        {
+          "letra": "g",
+          "resumen": "Prever recursos del proyecto",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Inventario de roles, equipos y tiempo",
+          "aceptacion": "Se justifican cantidades y disponibilidad"
+        },
+        {
+          "letra": "h",
+          "resumen": "Presupuestar el proyecto",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Hoja con cantidades, costes y supuestos",
+          "aceptacion": "Total y reservas se calculan sin duplicar conceptos"
+        },
+        {
+          "letra": "i",
+          "resumen": "Documentar el diseño",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Memoria con requisitos, diagramas y decisiones",
+          "aceptacion": "Una segunda persona puede localizar cada dependencia"
+        },
+        {
+          "letra": "j",
+          "resumen": "Identificar calidad del proyecto",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Plan de aceptación por requisito",
+          "aceptacion": "Cada condición tiene prueba positiva y negativa cuando procede"
+        },
+        {
+          "letra": "k",
+          "resumen": "Presentar públicamente la propuesta",
+          "actividad": "1713-RA2-A1",
+          "evidencia": "Presentación y acta de preguntas",
+          "aceptacion": "La explicación muestra decisiones y límites sin datos sensibles"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1713-RA2-A1",
+          "titulo": "Comparar soluciones y elaborar un pequeño proyecto",
+          "guia": "segundo/proyecto-intermodular/06-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k"
+          ],
+          "entregables": [
+            "Lista de necesidades con fuente y prioridad",
+            "Acta de propuestas y argumentos",
+            "Dossier de documentación primaria y versiones",
+            "Ficha de mejora e impacto esperado",
+            "Ensayo o revisión de compatibilidad y dependencias",
+            "Estructura de diseño, despliegue, prueba y entrega",
+            "Inventario de roles, equipos y tiempo",
+            "Hoja con cantidades, costes y supuestos",
+            "Memoria con requisitos, diagramas y decisiones",
+            "Plan de aceptación por requisito",
+            "Presentación y acta de preguntas"
+          ],
+          "comprobaciones": [
+            "Distingue demanda del usuario, supuesto y requisito obligatorio",
+            "Registra aportaciones y una alternativa descartada",
+            "Las comparaciones usan requisitos equivalentes",
+            "Explica valor práctico y riesgo, no sólo novedad de herramienta",
+            "Separa comprobado, simulado y pendiente",
+            "No omite datos, permisos, recuperación o documentación",
+            "Se justifican cantidades y disponibilidad",
+            "Total y reservas se calculan sin duplicar conceptos",
+            "Una segunda persona puede localizar cada dependencia",
+            "Cada condición tiene prueba positiva y negativa cuando procede",
+            "La explicación muestra decisiones y límites sin datos sensibles"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Planifica la ejecución de las actividades propuestas a la solución planteada, determinando el plan de intervención y elaborando la documentación correspondiente.",
+      "materiales": [
+        "segundo/proyecto-intermodular/01-guia.md",
+        "segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md",
+        "segundo/proyecto-intermodular/06-retos-por-ra.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Secuenciar y temporalizar actividades",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Calendario con precedencias e hitos",
+          "aceptacion": "No se programa un servicio antes de sus dependencias sin justificación"
+        },
+        {
+          "letra": "b",
+          "resumen": "Determinar recursos y logística",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Ficha de recursos por actividad",
+          "aceptacion": "Identifica acceso, ubicación, material y disponibilidad"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar permisos y autorizaciones",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Registro de autorizaciones y alcance",
+          "aceptacion": "No confunde acceso técnico con permiso de intervención"
+        },
+        {
+          "letra": "d",
+          "resumen": "Identificar actividades con riesgo",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Inventario de riesgos por tarea",
+          "aceptacion": "Relaciona peligro, posible daño y control"
+        },
+        {
+          "letra": "e",
+          "resumen": "Integrar prevención y medios",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Checklist preventivo previo a la intervención",
+          "aceptacion": "Las tareas que requieren competencia se detienen o supervisan"
+        },
+        {
+          "letra": "f",
+          "resumen": "Asignar personas y materiales",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Matriz de responsabilidades y recursos",
+          "aceptacion": "No asigna simultáneamente un recurso exclusivo a tareas incompatibles"
+        },
+        {
+          "letra": "g",
+          "resumen": "Prever imprevistos",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Registro de escenarios y señales de detección",
+          "aceptacion": "Cada imprevisto tiene impacto y responsable de decisión"
+        },
+        {
+          "letra": "h",
+          "resumen": "Planificar respuestas a imprevistos",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Plan de contingencia y retorno",
+          "aceptacion": "Define disparador, acción y criterio para continuar"
+        },
+        {
+          "letra": "i",
+          "resumen": "Preparar documentación de ejecución",
+          "actividad": "1713-RA3-A1",
+          "evidencia": "Dossier versionado de instrucciones",
+          "aceptacion": "Los pasos indican contexto, validación y recuperación"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1713-RA3-A1",
+          "titulo": "Planificar ejecución, prevención y contingencias",
+          "guia": "segundo/proyecto-intermodular/06-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Calendario con precedencias e hitos",
+            "Ficha de recursos por actividad",
+            "Registro de autorizaciones y alcance",
+            "Inventario de riesgos por tarea",
+            "Checklist preventivo previo a la intervención",
+            "Matriz de responsabilidades y recursos",
+            "Registro de escenarios y señales de detección",
+            "Plan de contingencia y retorno",
+            "Dossier versionado de instrucciones"
+          ],
+          "comprobaciones": [
+            "No se programa un servicio antes de sus dependencias sin justificación",
+            "Identifica acceso, ubicación, material y disponibilidad",
+            "No confunde acceso técnico con permiso de intervención",
+            "Relaciona peligro, posible daño y control",
+            "Las tareas que requieren competencia se detienen o supervisan",
+            "No asigna simultáneamente un recurso exclusivo a tareas incompatibles",
+            "Cada imprevisto tiene impacto y responsable de decisión",
+            "Define disparador, acción y criterio para continuar",
+            "Los pasos indican contexto, validación y recuperación"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Realiza el seguimiento de la ejecución de las actividades planteadas, verificando que se cumple con la planificación.",
+      "materiales": [
+        "segundo/proyecto-intermodular/01-guia.md",
+        "segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md",
+        "segundo/proyecto-intermodular/06-retos-por-ra.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Definir seguimiento de actividades",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Procedimiento de revisión y registro",
+          "aceptacion": "Establece frecuencia, responsable y datos mínimos"
+        },
+        {
+          "letra": "b",
+          "resumen": "Verificar calidad de resultados",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Matriz requisito, prueba y evidencia obtenida",
+          "aceptacion": "Un servicio activo no sustituye operación correcta desde cliente"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar desviaciones",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Registro previsto-real con impacto",
+          "aceptacion": "La desviación se detecta mediante un criterio definido"
+        },
+        {
+          "letra": "d",
+          "resumen": "Informar de desviaciones",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Comunicación con alcance, estado y siguiente paso",
+          "aceptacion": "No presenta hipótesis como causa confirmada"
+        },
+        {
+          "letra": "e",
+          "resumen": "Resolver y documentar intervenciones",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Plan de cambio, corrección y comprobación",
+          "aceptacion": "Conserva copia, retorno y evidencia antes-después"
+        },
+        {
+          "letra": "f",
+          "resumen": "Documentar evaluación de actividades y proyecto",
+          "actividad": "1713-RA4-A1",
+          "evidencia": "Informe de aceptación y pendientes",
+          "aceptacion": "Integra resultados y límites con trazabilidad a requisitos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1713-RA4-A1",
+          "titulo": "Seguir ejecución y gestionar una desviación",
+          "guia": "segundo/proyecto-intermodular/06-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Procedimiento de revisión y registro",
+            "Matriz requisito, prueba y evidencia obtenida",
+            "Registro previsto-real con impacto",
+            "Comunicación con alcance, estado y siguiente paso",
+            "Plan de cambio, corrección y comprobación",
+            "Informe de aceptación y pendientes"
+          ],
+          "comprobaciones": [
+            "Establece frecuencia, responsable y datos mínimos",
+            "Un servicio activo no sustituye operación correcta desde cliente",
+            "La desviación se detecta mediante un criterio definido",
+            "No presenta hipótesis como causa confirmada",
+            "Conserva copia, retorno y evidencia antes-después",
+            "Integra resultados y límites con trazabilidad a requisitos"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Transmite información con claridad, de manera ordenada y estructurada.",
+      "materiales": [
+        "segundo/proyecto-intermodular/01-guia.md",
+        "segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md",
+        "segundo/proyecto-intermodular/06-retos-por-ra.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Transmitir con orden y método",
+          "actividad": "1713-RA5-A1",
+          "evidencia": "Guion de defensa y estructura de memoria",
+          "aceptacion": "La exposición sigue problema, decisión, prueba y límite",
+          "clave": "a.1"
+        },
+        {
+          "letra": "a",
+          "resumen": "Comunicar verbalmente entre roles",
+          "actividad": "1713-RA5-A1",
+          "evidencia": "Registro de reunión y preguntas de seguimiento",
+          "aceptacion": "Explica un mismo cambio a compañero y responsable con detalle apropiado",
+          "clave": "a.2"
+        },
+        {
+          "letra": "b",
+          "resumen": "Intercambiar información con herramientas digitales",
+          "actividad": "1713-RA5-A1",
+          "evidencia": "Documento compartido, control de versiones y ticket",
+          "aceptacion": "Usa identificadores y evita secretos o datos personales innecesarios"
+        },
+        {
+          "letra": "c",
+          "resumen": "Usar términos técnicos de otras lenguas",
+          "actividad": "1713-RA5-A1",
+          "evidencia": "Glosario aplicado y fragmento de explicación técnica",
+          "aceptacion": "Los términos se utilizan con significado correcto dentro de un caso"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1713-RA5-A1",
+          "titulo": "Defender el proyecto y transferir información",
+          "guia": "segundo/proyecto-intermodular/06-retos-por-ra.md#ra5",
+          "criterios": [
+            "a.1",
+            "a.2",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Guion de defensa y estructura de memoria",
+            "Registro de reunión y preguntas de seguimiento",
+            "Documento compartido, control de versiones y ticket",
+            "Glosario aplicado y fragmento de explicación técnica"
+          ],
+          "comprobaciones": [
+            "La exposición sigue problema, decisión, prueba y límite",
+            "Explica un mismo cambio a compañero y responsable con detalle apropiado",
+            "Usa identificadores y evita secretos o datos personales innecesarios",
+            "Los términos se utilizan con significado correcto dentro de un caso"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,849 @@
+{
+  "modulo": "0223",
+  "nombre": "Aplicaciones ofimáticas",
+  "carpeta": "primero/aplicaciones-ofimaticas",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional Aplicaciones ofimáticas, código 0223, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: adaptación del anexo I y sustitución de módulos; los RA técnicos aquí utilizados proceden del anexo I del RD 1691/2007",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "primero/aplicaciones-ofimaticas/09-alineacion-ra.md",
+  "guia_retos": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Instala y actualiza aplicaciones ofimáticas, interpretando especificaciones y describiendo los pasos a seguir en el proceso.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/02-guia-tecnica.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Planificar las fases de instalación",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Plan previo ordenado",
+          "aceptacion": "Cada fase tiene entrada, acción y prueba"
+        },
+        {
+          "letra": "b",
+          "resumen": "Respetar requisitos técnicos",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Ficha de equipo y suite",
+          "aceptacion": "Arquitectura, dependencias y espacio son compatibles"
+        },
+        {
+          "letra": "c",
+          "resumen": "Configurar según el encargo",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Perfil y opciones anotadas",
+          "aceptacion": "Idioma, rutas y formatos coinciden con el requisito"
+        },
+        {
+          "letra": "d",
+          "resumen": "Documentar incidencias",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Parte de instalación",
+          "aceptacion": "Incluye síntoma, contexto, cambio y resultado real"
+        },
+        {
+          "letra": "e",
+          "resumen": "Resolver integración o instalación",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Diagnóstico reproducible",
+          "aceptacion": "La prueba posterior confirma la causa tratada"
+        },
+        {
+          "letra": "f",
+          "resumen": "Añadir y retirar componentes",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Inventario antes y después",
+          "aceptacion": "Se demuestra un cambio reversible sin pérdida documental"
+        },
+        {
+          "letra": "g",
+          "resumen": "Actualizar la aplicación",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Versiones y prueba de archivos",
+          "aceptacion": "El paquete actualizado conserva las funciones comprobadas"
+        },
+        {
+          "letra": "h",
+          "resumen": "Respetar la licencia",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Ficha de origen y condiciones",
+          "aceptacion": "Se distinguen suite, extensiones y recursos sujetos a otras condiciones"
+        },
+        {
+          "letra": "i",
+          "resumen": "Elegir software para un entorno",
+          "actividad": "0223-RA1-A1",
+          "evidencia": "Comparación de alternativas",
+          "aceptacion": "La elección satisface requisitos y explicita límites"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA1-A1",
+          "titulo": "Instalación y mantenimiento de la suite",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Plan previo ordenado",
+            "Ficha de equipo y suite",
+            "Perfil y opciones anotadas",
+            "Parte de instalación",
+            "Diagnóstico reproducible",
+            "Inventario antes y después",
+            "Versiones y prueba de archivos",
+            "Ficha de origen y condiciones",
+            "Comparación de alternativas"
+          ],
+          "comprobaciones": [
+            "Cada fase tiene entrada, acción y prueba",
+            "Arquitectura, dependencias y espacio son compatibles",
+            "Idioma, rutas y formatos coinciden con el requisito",
+            "Incluye síntoma, contexto, cambio y resultado real",
+            "La prueba posterior confirma la causa tratada",
+            "Se demuestra un cambio reversible sin pérdida documental",
+            "El paquete actualizado conserva las funciones comprobadas",
+            "Se distinguen suite, extensiones y recursos sujetos a otras condiciones",
+            "La elección satisface requisitos y explicita límites"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Elabora documentos y plantillas, describiendo y aplicando las opciones avanzadas de procesadores de textos.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/05-documentos-largos-y-publicacion.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Personalizar opciones y herramientas",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Perfil y acceso personalizado",
+          "aceptacion": "La acción elegida se localiza y se puede revertir"
+        },
+        {
+          "letra": "b",
+          "resumen": "Diseñar una plantilla",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Plantilla y dos documentos derivados",
+          "aceptacion": "Los documentos conservan estilos sin alterar la plantilla"
+        },
+        {
+          "letra": "c",
+          "resumen": "Introducir texto e imagen con recursos de entrada",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Documento y registro del periférico",
+          "aceptacion": "Se identifica cómo se adquirió y corrigió la entrada"
+        },
+        {
+          "letra": "d",
+          "resumen": "Intercambiar formatos de documento",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Archivos reabiertos y comparación",
+          "aceptacion": "Se documentan pérdidas de formato o funcionalidad"
+        },
+        {
+          "letra": "e",
+          "resumen": "Crear y usar una macro de documento",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Código y ejecución en copia",
+          "aceptacion": "La marca se inserta sólo en Writer y puede deshacerse"
+        },
+        {
+          "letra": "f",
+          "resumen": "Elaborar un manual específico",
+          "actividad": "0223-RA2-A1",
+          "evidencia": "Manual reutilizable",
+          "aceptacion": "Otra persona sigue instrucciones y obtiene el producto previsto"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA2-A1",
+          "titulo": "Plantilla y macro de Writer",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Perfil y acceso personalizado",
+            "Plantilla y dos documentos derivados",
+            "Documento y registro del periférico",
+            "Archivos reabiertos y comparación",
+            "Código y ejecución en copia",
+            "Manual reutilizable"
+          ],
+          "comprobaciones": [
+            "La acción elegida se localiza y se puede revertir",
+            "Los documentos conservan estilos sin alterar la plantilla",
+            "Se identifica cómo se adquirió y corrigió la entrada",
+            "Se documentan pérdidas de formato o funcionalidad",
+            "La marca se inserta sólo en Writer y puede deshacerse",
+            "Otra persona sigue instrucciones y obtiene el producto previsto"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Elabora documentos y plantillas de cálculo, describiendo y aplicando opciones avanzadas de hojas de cálculo.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/06-modelos-calc-y-calidad-de-datos.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Ajustar herramientas de hoja de cálculo",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Perfil y configuración",
+          "aceptacion": "Las opciones responden al uso y se registra retorno"
+        },
+        {
+          "letra": "b",
+          "resumen": "Trabajar tipos y referencias de varios ámbitos",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Hoja con referencias comentadas",
+          "aceptacion": "Se justifican relativas, absolutas y enlaces entre hojas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar funciones y fórmulas",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Cálculos y contraste manual",
+          "aceptacion": "Entradas, operaciones y errores se interpretan correctamente"
+        },
+        {
+          "letra": "d",
+          "resumen": "Crear y modificar gráficos",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Gráfico y dato cambiado",
+          "aceptacion": "Categorías, unidades y actualización son correctas"
+        },
+        {
+          "letra": "e",
+          "resumen": "Crear y usar macros de hoja",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Macro y celda reservada de control",
+          "aceptacion": "Recalcula y registra estado sin sobrescribir datos fuera del diseño"
+        },
+        {
+          "letra": "f",
+          "resumen": "Importar y exportar hojas",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Dos formatos reabiertos",
+          "aceptacion": "Se comparan tipos, fórmulas y elementos que no viajan en CSV"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar listas y formularios como tabla de datos",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Tabla validada, ordenada y filtrada",
+          "aceptacion": "Las filas mantienen su relación y las fórmulas protegidas"
+        },
+        {
+          "letra": "h",
+          "resumen": "Introducir datos con aplicaciones o periféricos",
+          "actividad": "0223-RA3-A1",
+          "evidencia": "Registro de captura de datos",
+          "aceptacion": "Se comprueba tipo y valor del dato introducido"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA3-A1",
+          "titulo": "Modelo de Calc controlado",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Perfil y configuración",
+            "Hoja con referencias comentadas",
+            "Cálculos y contraste manual",
+            "Gráfico y dato cambiado",
+            "Macro y celda reservada de control",
+            "Dos formatos reabiertos",
+            "Tabla validada, ordenada y filtrada",
+            "Registro de captura de datos"
+          ],
+          "comprobaciones": [
+            "Las opciones responden al uso y se registra retorno",
+            "Se justifican relativas, absolutas y enlaces entre hojas",
+            "Entradas, operaciones y errores se interpretan correctamente",
+            "Categorías, unidades y actualización son correctas",
+            "Recalcula y registra estado sin sobrescribir datos fuera del diseño",
+            "Se comparan tipos, fórmulas y elementos que no viajan en CSV",
+            "Las filas mantienen su relación y las fórmulas protegidas",
+            "Se comprueba tipo y valor del dato introducido"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora documentos con bases de datos ofimáticas describiendo y aplicando operaciones de manipulación de datos.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/07-base-modelado-consultas-y-transacciones.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer elementos relacionales",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Modelo de entidades y claves",
+          "aceptacion": "Las relaciones y cardinalidades justifican el diseño"
+        },
+        {
+          "letra": "b",
+          "resumen": "Crear una base ofimática",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Base nueva y ficha de motor",
+          "aceptacion": "Se abre y conserva tablas y objetos definidos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Insertar, modificar y eliminar registros",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Registro de tres operaciones",
+          "aceptacion": "Se respeta integridad y sólo cambian datos de prueba"
+        },
+        {
+          "letra": "d",
+          "resumen": "Usar asistente de consultas",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Consulta del asistente y SQL comparado",
+          "aceptacion": "Campos, condiciones y filas coinciden con el encargo"
+        },
+        {
+          "letra": "e",
+          "resumen": "Usar asistente de formularios",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Formulario guardado",
+          "aceptacion": "Permite registrar una incidencia válida y rechaza errores definidos"
+        },
+        {
+          "letra": "f",
+          "resumen": "Usar asistente de informes",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Informe por aula",
+          "aceptacion": "Agrupaciones y recuentos proceden de datos comprobados"
+        },
+        {
+          "letra": "g",
+          "resumen": "Buscar y filtrar información",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Consulta y filtro observado",
+          "aceptacion": "Se incluyen y excluyen casos conocidos correctamente"
+        },
+        {
+          "letra": "h",
+          "resumen": "Crear y utilizar macros en la base",
+          "actividad": "0223-RA4-A1",
+          "evidencia": "Macro de ayuda y botón asociado",
+          "aceptacion": "Se ejecuta desde el formulario sin modificar tablas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA4-A1",
+          "titulo": "Base con asistentes y macro",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Modelo de entidades y claves",
+            "Base nueva y ficha de motor",
+            "Registro de tres operaciones",
+            "Consulta del asistente y SQL comparado",
+            "Formulario guardado",
+            "Informe por aula",
+            "Consulta y filtro observado",
+            "Macro de ayuda y botón asociado"
+          ],
+          "comprobaciones": [
+            "Las relaciones y cardinalidades justifican el diseño",
+            "Se abre y conserva tablas y objetos definidos",
+            "Se respeta integridad y sólo cambian datos de prueba",
+            "Campos, condiciones y filas coinciden con el encargo",
+            "Permite registrar una incidencia válida y rechaza errores definidos",
+            "Agrupaciones y recuentos proceden de datos comprobados",
+            "Se incluyen y excluyen casos conocidos correctamente",
+            "Se ejecuta desde el formulario sin modificar tablas"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Manipula imágenes digitales analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/08-taller-integrado-y-ejercicios-resueltos.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comparar formatos de imagen",
+          "actividad": "0223-RA5-A1",
+          "evidencia": "Tabla PNG/JPEG y originales",
+          "aceptacion": "Se explican compresión, transparencia y finalidad pertinentes"
+        },
+        {
+          "letra": "b",
+          "resumen": "Adquirir imágenes con periféricos",
+          "actividad": "0223-RA5-A1",
+          "evidencia": "Captura propia y ficha de dispositivo",
+          "aceptacion": "Existe evidencia real de adquisición, o queda pendiente explícita"
+        },
+        {
+          "letra": "c",
+          "resumen": "Ajustar resolución a la finalidad",
+          "actividad": "0223-RA5-A1",
+          "evidencia": "Dimensiones y cálculo de impresión",
+          "aceptacion": "Se distinguen píxeles, ppp y tamaño físico"
+        },
+        {
+          "letra": "d",
+          "resumen": "Editar una imagen digital",
+          "actividad": "0223-RA5-A1",
+          "evidencia": "Proyecto o historial de edición",
+          "aceptacion": "Recorte y ajuste se justifican conservando original"
+        },
+        {
+          "letra": "e",
+          "resumen": "Intercambiar formatos de imagen",
+          "actividad": "0223-RA5-A1",
+          "evidencia": "Exportaciones reabiertas",
+          "aceptacion": "Dimensiones, color y legibilidad se revisan tras exportar"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA5-A1",
+          "titulo": "Adquisición y edición de imagen",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Tabla PNG/JPEG y originales",
+            "Captura propia y ficha de dispositivo",
+            "Dimensiones y cálculo de impresión",
+            "Proyecto o historial de edición",
+            "Exportaciones reabiertas"
+          ],
+          "comprobaciones": [
+            "Se explican compresión, transparencia y finalidad pertinentes",
+            "Existe evidencia real de adquisición, o queda pendiente explícita",
+            "Se distinguen píxeles, ppp y tamaño físico",
+            "Recorte y ajuste se justifican conservando original",
+            "Dimensiones, color y legibilidad se revisan tras exportar"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Manipula secuencias de vídeo analizando las posibilidades de distintos programas y aplicando técnicas de captura y edición básicas.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/08-taller-integrado-y-ejercicios-resueltos.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer componentes de la secuencia",
+          "actividad": "0223-RA6-A1",
+          "evidencia": "Guion y línea de tiempo",
+          "aceptacion": "Se identifican clips, audio, títulos y orden"
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir formatos y códecs",
+          "actividad": "0223-RA6-A1",
+          "evidencia": "Ficha de exportación",
+          "aceptacion": "No se confunde contenedor con compresión de vídeo o audio"
+        },
+        {
+          "letra": "c",
+          "resumen": "Importar y exportar secuencias",
+          "actividad": "0223-RA6-A1",
+          "evidencia": "Proyecto y vídeo reproducido",
+          "aceptacion": "La exportación conserva duración y medios necesarios"
+        },
+        {
+          "letra": "d",
+          "resumen": "Capturar una secuencia propia",
+          "actividad": "0223-RA6-A1",
+          "evidencia": "Archivo de captura y contexto",
+          "aceptacion": "Se demuestra captura del escritorio sintético autorizado"
+        },
+        {
+          "letra": "e",
+          "resumen": "Crear un videotutorial",
+          "actividad": "0223-RA6-A1",
+          "evidencia": "Tutorial y prueba por compañero",
+          "aceptacion": "La operación se comprende, se repite y conserva legibilidad"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA6-A1",
+          "titulo": "Videotutorial con captura propia",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Guion y línea de tiempo",
+            "Ficha de exportación",
+            "Proyecto y vídeo reproducido",
+            "Archivo de captura y contexto",
+            "Tutorial y prueba por compañero"
+          ],
+          "comprobaciones": [
+            "Se identifican clips, audio, títulos y orden",
+            "No se confunde contenedor con compresión de vídeo o audio",
+            "La exportación conserva duración y medios necesarios",
+            "Se demuestra captura del escritorio sintético autorizado",
+            "La operación se comprende, se repite y conserva legibilidad"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "enunciado_oficial": "Elabora presentaciones multimedia describiendo y aplicando normas básicas de composición y diseño.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/02-guia-tecnica.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Usar opciones básicas de presentación",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Archivo editable",
+          "aceptacion": "Se identifican controles usados con finalidad concreta"
+        },
+        {
+          "letra": "b",
+          "resumen": "Trabajar varias vistas",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Esquema, notas y clasificador",
+          "aceptacion": "Se explica qué revisión se realiza en cada vista"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar tipografía, composición y color",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Diapositivas revisadas",
+          "aceptacion": "Legibilidad y significado no dependen sólo del color"
+        },
+        {
+          "letra": "d",
+          "resumen": "Diseñar una plantilla de presentación",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Patrón y diapositivas derivadas",
+          "aceptacion": "Los elementos comunes se modifican coherentemente"
+        },
+        {
+          "letra": "e",
+          "resumen": "Crear la presentación final",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Relato de seis diapositivas",
+          "aceptacion": "Problema, decisión, prueba y recuperación quedan conectados"
+        },
+        {
+          "letra": "f",
+          "resumen": "Ejecutar con periféricos",
+          "actividad": "0223-RA7-A1",
+          "evidencia": "Registro de pantalla externa o proyector",
+          "aceptacion": "El medio funciona en el equipo de exposición, o la prueba queda pendiente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA7-A1",
+          "titulo": "Presentación y periféricos",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra7",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Archivo editable",
+            "Esquema, notas y clasificador",
+            "Diapositivas revisadas",
+            "Patrón y diapositivas derivadas",
+            "Relato de seis diapositivas",
+            "Registro de pantalla externa o proyector"
+          ],
+          "comprobaciones": [
+            "Se identifican controles usados con finalidad concreta",
+            "Se explica qué revisión se realiza en cada vista",
+            "Legibilidad y significado no dependen sólo del color",
+            "Los elementos comunes se modifican coherentemente",
+            "Problema, decisión, prueba y recuperación quedan conectados",
+            "El medio funciona en el equipo de exposición, o la prueba queda pendiente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado_oficial": "Realiza operaciones de gestión del correo y la agenda electrónica, relacionando necesidades de uso con su configuración.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer partes de un mensaje",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Mensaje sintético explicado",
+          "aceptacion": "Se distinguen cabeceras, destinatarios, cuerpo y adjuntos"
+        },
+        {
+          "letra": "b",
+          "resumen": "Analizar necesidades de correo y agenda",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Ficha de uso",
+          "aceptacion": "Se justifican almacenamiento, acceso, contactos y colaboración"
+        },
+        {
+          "letra": "c",
+          "resumen": "Configurar varios tipos de cuenta",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Cuentas IMAP/POP de prueba",
+          "aceptacion": "Recepción y envío se comprueban con parámetros y TLS adecuados"
+        },
+        {
+          "letra": "d",
+          "resumen": "Sincronizar agenda entre equipo y móvil",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Secuencia bidireccional",
+          "aceptacion": "Una modificación en cada extremo aparece en el otro"
+        },
+        {
+          "letra": "e",
+          "resumen": "Gestionar libreta de direcciones",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Contactos y lista exportada",
+          "aceptacion": "Los campos se conservan después de importar una copia"
+        },
+        {
+          "letra": "f",
+          "resumen": "Gestionar mensajes con varias funciones",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Carpetas, etiquetas, búsquedas y filtro",
+          "aceptacion": "Los mensajes de prueba se clasifican según la regla prevista"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar funciones de agenda",
+          "actividad": "0223-RA8-A1",
+          "evidencia": "Cita, recurrencia, recordatorio y tarea",
+          "aceptacion": "Zona horaria, permisos y cambios se interpretan correctamente"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA8-A1",
+          "titulo": "Correo, contactos y agenda sincronizada",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra8",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Mensaje sintético explicado",
+            "Ficha de uso",
+            "Cuentas IMAP/POP de prueba",
+            "Secuencia bidireccional",
+            "Contactos y lista exportada",
+            "Carpetas, etiquetas, búsquedas y filtro",
+            "Cita, recurrencia, recordatorio y tarea"
+          ],
+          "comprobaciones": [
+            "Se distinguen cabeceras, destinatarios, cuerpo y adjuntos",
+            "Se justifican almacenamiento, acceso, contactos y colaboración",
+            "Recepción y envío se comprueban con parámetros y TLS adecuados",
+            "Una modificación en cada extremo aparece en el otro",
+            "Los campos se conservan después de importar una copia",
+            "Los mensajes de prueba se clasifican según la regla prevista",
+            "Zona horaria, permisos y cambios se interpretan correctamente"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "enunciado_oficial": "Aplica técnicas de soporte en el uso de aplicaciones, identificando y resolviendo incidencias.",
+      "materiales": [
+        "primero/aplicaciones-ofimaticas/04-diagnostico-y-evaluacion.md",
+        "primero/aplicaciones-ofimaticas/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Crear una guía visual de uso",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Guía con pasos y capturas saneadas",
+          "aceptacion": "Otra persona puede completar la acción sin explicación adicional"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar una incidencia ofimática",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Ticket reproducible",
+          "aceptacion": "Versión, síntoma y alcance distinguen el problema"
+        },
+        {
+          "letra": "c",
+          "resumen": "Usar manuales para formar al usuario",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Fuente y explicación adaptada",
+          "aceptacion": "La instrucción está respaldada por la versión consultada"
+        },
+        {
+          "letra": "d",
+          "resumen": "Asesorar en el uso de aplicaciones",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Registro de atención",
+          "aceptacion": "Se explica una solución comprensible y se comprueba comprensión"
+        },
+        {
+          "letra": "e",
+          "resumen": "Redactar informe de incidencia",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Parte con causa y cierre",
+          "aceptacion": "Se separan hipótesis, cambio y resultado confirmado"
+        },
+        {
+          "letra": "f",
+          "resumen": "Salvaguardar y recuperar información",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Copia y restauración a otra ruta",
+          "aceptacion": "El original permanece y se contrasta el contenido recuperado"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar fuentes de soporte disponibles",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Referencias con consulta",
+          "aceptacion": "Se justifica qué recurso resolvió la duda técnica"
+        },
+        {
+          "letra": "h",
+          "resumen": "Resolver con tiempo y calidad acordados",
+          "actividad": "0223-RA9-A1",
+          "evidencia": "Cronología y aceptación",
+          "aceptacion": "Se documenta duración real, resultado y desviaciones del objetivo"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0223-RA9-A1",
+          "titulo": "Soporte y recuperación",
+          "guia": "primero/aplicaciones-ofimaticas/10-retos-por-ra.md#ra9",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Guía con pasos y capturas saneadas",
+            "Ticket reproducible",
+            "Fuente y explicación adaptada",
+            "Registro de atención",
+            "Parte con causa y cierre",
+            "Copia y restauración a otra ruta",
+            "Referencias con consulta",
+            "Cronología y aceptación"
+          ],
+          "comprobaciones": [
+            "Otra persona puede completar la acción sin explicación adicional",
+            "Versión, síntoma y alcance distinguen el problema",
+            "La instrucción está respaldada por la versión consultada",
+            "Se explica una solución comprensible y se comprueba comprensión",
+            "Se separan hipótesis, cambio y resultado confirmado",
+            "El original permanece y se contrasta el contenido recuperado",
+            "Se justifica qué recurso resolvió la duda técnica",
+            "Se documenta duración real, resultado y desviaciones del objetivo"
+          ]
+        }
+      ]
+    }
+  ]
+}

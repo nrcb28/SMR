@@ -1,0 +1,347 @@
+{
+  "modulo": "CMO-310",
+  "nombre": "Fundamentos de bases de datos",
+  "carpeta": "optativas/CMO-310-fundamentos-bases-datos",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-310; BOCM página 183 y siguientes; PDF páginas 166–167",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-310-fundamentos-bases-datos/README.md",
+  "guia_retos": "optativas/CMO-310-fundamentos-bases-datos/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.",
+      "materiales": [
+        "optativas/CMO-310-fundamentos-bases-datos/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han analizado los sistemas lógicos de almacenamiento y sus características.",
+          "actividad": "CMO-310-RA1-A1",
+          "evidencia": "Ficha comparativa y diagrama de componentes del SGBD; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La comparación identifica al menos un límite operativo de cada opción y explica la función de motor, esquema y cliente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha evaluado la utilidad de un sistema gestor de bases de datos.",
+          "actividad": "CMO-310-RA1-A1",
+          "evidencia": "Ficha comparativa y diagrama de componentes del SGBD; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La comparación identifica al menos un límite operativo de cada opción y explica la función de motor, esquema y cliente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.",
+          "actividad": "CMO-310-RA1-A1",
+          "evidencia": "Ficha comparativa y diagrama de componentes del SGBD; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La comparación identifica al menos un límite operativo de cada opción y explica la función de motor, esquema y cliente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han clasificado los sistemas gestores de bases de datos.",
+          "actividad": "CMO-310-RA1-A1",
+          "evidencia": "Ficha comparativa y diagrama de componentes del SGBD; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La comparación identifica al menos un límite operativo de cada opción y explica la función de motor, esquema y cliente. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-310-RA1-A1",
+          "titulo": "Elegir un gestor para el inventario del aula",
+          "guia": "optativas/CMO-310-fundamentos-bases-datos/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Ficha comparativa y diagrama de componentes del SGBD",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "La comparación identifica al menos un límite operativo de cada opción y explica la función de motor, esquema y cliente.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.",
+      "materiales": [
+        "optativas/CMO-310-fundamentos-bases-datos/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha analizado el formato de almacenamiento de la información.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "DDL, diagrama de tablas y registro de tres rechazos esperados; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las inserciones válidas funcionan y las tres violaciones se rechazan sin alterar el conjunto correcto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han creado las tablas y las relaciones entre ellas.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio b; DDL, diagrama de tablas y registro de tres rechazos esperados.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han seleccionado los tipos de datos adecuados.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "DDL, diagrama de tablas y registro de tres rechazos esperados; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las inserciones válidas funcionan y las tres violaciones se rechazan sin alterar el conjunto correcto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han definido los campos clave en las tablas.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "DDL, diagrama de tablas y registro de tres rechazos esperados; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las inserciones válidas funcionan y las tres violaciones se rechazan sin alterar el conjunto correcto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han implantado las restricciones reflejadas en el diseño lógico.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio e; DDL, diagrama de tablas y registro de tres rechazos esperados.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han utilizado asistentes, herramientas gráficas y el lenguaje de definición de datos.",
+          "actividad": "CMO-310-RA2-A1",
+          "evidencia": "Recorrido real de asistente, editor gráfico de tablas y relaciones, más DDL ejecutado y comparación entre ambas bases de ensayo.",
+          "aceptacion": "Se comprueban las tres formas de trabajo (asistente, herramienta gráfica y DDL), tablas/relación y pruebas de integridad. Sin actuación gráfica, CE2.f queda pendiente."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-310-RA2-A1",
+          "titulo": "Crear tablas con reglas verificables",
+          "guia": "optativas/CMO-310-fundamentos-bases-datos/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "DDL, diagrama de tablas y registro de tres rechazos esperados",
+            "Registro de resultados esperados/obtenidos y limitaciones",
+            "Registro del asistente/editor/relaciones y tabla de equivalencia con DDL"
+          ],
+          "comprobaciones": [
+            "Las inserciones válidas funcionan y las tres violaciones se rechazan sin alterar el conjunto correcto.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada.",
+            "Se comprueban las tres formas de trabajo (asistente, herramienta gráfica y DDL), tablas/relación y pruebas de integridad. Sin actuación gráfica, CE2.f queda pendiente."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+      "materiales": [
+        "optativas/CMO-310-fundamentos-bases-datos/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado las herramientas y sentencias para realizar consultas.",
+          "actividad": "CMO-310-RA3-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio a; Consultas SQL y tabla de resultados esperados/obtenidos.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han realizado consultas simples sobre una tabla.",
+          "actividad": "CMO-310-RA3-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio b; Consultas SQL y tabla de resultados esperados/obtenidos.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas.",
+          "actividad": "CMO-310-RA3-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio c; Consultas SQL y tabla de resultados esperados/obtenidos.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas",
+          "actividad": "CMO-310-RA3-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio d; Consultas SQL y tabla de resultados esperados/obtenidos.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-310-RA3-A1",
+          "titulo": "Consultar incluyendo equipos sin incidencias",
+          "guia": "optativas/CMO-310-fundamentos-bases-datos/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Consultas SQL y tabla de resultados esperados/obtenidos",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se mantienen los equipos sin incidencias y se distinguen los resultados de unión interna y externa.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.",
+      "materiales": [
+        "optativas/CMO-310-fundamentos-bases-datos/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado las herramientas y sentencias para modificar el contenido de la base de datos.",
+          "actividad": "CMO-310-RA4-A1",
+          "evidencia": "Guion de operaciones, conteos y evidencia de rollback; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El ensayo restaura el estado inicial y la modificación definitiva sólo afecta a las filas previstas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han insertado, borrado y actualizado datos en las tablas.",
+          "actividad": "CMO-310-RA4-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio b; Guion de operaciones, conteos y evidencia de rollback.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha incluido en una tabla la información resultante de la ejecución de una consulta.",
+          "actividad": "CMO-310-RA4-A1",
+          "evidencia": "Guion de operaciones, conteos y evidencia de rollback; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El ensayo restaura el estado inicial y la modificación definitiva sólo afecta a las filas previstas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han adoptado medidas para mantener la integridad y consistencia de la información.",
+          "actividad": "CMO-310-RA4-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio d; Guion de operaciones, conteos y evidencia de rollback.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-310-RA4-A1",
+          "titulo": "Actualizar con transacción y vuelta atrás",
+          "guia": "optativas/CMO-310-fundamentos-bases-datos/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Guion de operaciones, conteos y evidencia de rollback",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "El ensayo restaura el estado inicial y la modificación definitiva sólo afecta a las filas previstas.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Diseña modelos relacionales interpretando diagramas entidad/relación.",
+      "materiales": [
+        "optativas/CMO-310-fundamentos-bases-datos/README.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han utilizado herramientas gráficas para representar el diseño lógico.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Diagrama ER, esquema relacional y dos pruebas de integridad; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado las tablas del diseño lógico.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Diagrama ER, esquema relacional y dos pruebas de integridad; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han identificado los campos que forman parte de las tablas del diseño lógico.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Diagrama ER, esquema relacional y dos pruebas de integridad; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han analizado las relaciones entre las tablas del diseño lógico.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Diagrama ER, esquema relacional y dos pruebas de integridad; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han identificado los campos clave.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Diagrama ER, esquema relacional y dos pruebas de integridad; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han aplicado reglas de integridad.",
+          "actividad": "CMO-310-RA5-A1",
+          "evidencia": "Sentencia o acción de la herramienta y su resultado real para el criterio f; Diagrama ER, esquema relacional y dos pruebas de integridad.",
+          "aceptacion": "La consulta o cambio produce las filas previstas y conserva las restricciones declaradas; la prueba de rechazo/rollback se registra cuando corresponde."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-310-RA5-A1",
+          "titulo": "Transformar requisitos en modelo relacional",
+          "guia": "optativas/CMO-310-fundamentos-bases-datos/README.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Diagrama ER, esquema relacional y dos pruebas de integridad",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada relación del diagrama tiene una representación y las restricciones implementan las reglas declaradas.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,8 @@ Administrar un sistema en red exige coordinar identidad, nombres, hora, almacena
 | [06 · Linux, permisos y capacidad](06-linux-permisos-y-capacidad.md) | NSS/PAM, identidades numéricas, recorrido de rutas, ACL, Samba, crecimiento y control de recursos. |
 | [07 · Operación, automatización y recuperación](07-operacion-automatizacion-y-recuperacion.md) | Gestión de cambios, plan de altas sin modificaciones, errores parciales, backup, AD y migración. |
 | [08 · Laboratorios avanzados y casos resueltos](08-laboratorios-y-casos-resueltos.md) | Tres laboratorios nuevos de identidades, GPO y recuperación; ocho problemas adicionales explicados. |
+| [09 · Alineación por RA](09-alineacion-ra.md) | Los 6 resultados y 48 criterios oficiales, con fuente, actividad, artefacto y comprobación por letra. |
+| [10 · Retos por RA](10-retos-por-ra.md) | Instalación repetible, perfiles, confianza entre dominios, impresión, monitorización e integración heterogénea. |
 
 Lee primero los [requisitos del laboratorio común](../../docs/laboratorio.md). Conviene dominar instalación de sistemas, IPv4, resolución DNS, servicios y permisos de primero. No hace falta un servidor físico: pueden utilizarse máquinas virtuales, siempre que el equipo anfitrión tenga memoria y almacenamiento suficientes.
 
@@ -49,5 +51,7 @@ Los bloques de código se ejecutan en las VM indicadas y con privilegios sólo c
 Tras completar la base, estudia los capítulos 05–07 y realiza los laboratorios del 08. Relaciona cada permiso con identidad y sesión, cada GPO con su ámbito y cada copia con una recuperación completa. Los capítulos avanzados añaden procedimientos de operación y decisiones, sin exigir infraestructura de producción.
 
 El [generador PowerShell de plan de altas](ejemplos/plan-altas-lab.ps1) utiliza un [CSV sintético](ejemplos/altas-lab.csv). Por defecto sólo valida datos y devuelve propuestas; nunca crea ni modifica objetos. La consulta opcional del directorio ficticio requiere RSAT y un laboratorio configurado, según el capítulo 07. Su revisión estática no equivale a una prueba ejecutada en Windows.
+
+La ruta por [resultados de aprendizaje](09-alineacion-ra.md) permite comprobar los seis RA y 48 CE contra el referente normativo. Los [retos nuevos](10-retos-por-ra.md) desarrollan todas las actividades de la [trazabilidad JSON](alineacion-ra.json), incluyendo perfiles móviles, confianza real e impresión desde clientes heterogéneos. Las extensiones con un segundo bosque, servidor de perfiles o segundo cliente tienen direcciones y medios explícitos; si no se ejecutan, se conserva el plan y se marca la evidencia pendiente.
 
 [Volver al repositorio](../../README.md)

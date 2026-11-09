@@ -64,3 +64,29 @@ Las referencias de protocolos se han contrastado con RFC Editor, incluyendo las 
 Se añade un índice completo regenerable y se actualizan las rutas de estudio de los módulos. Las pruebas de estructura comprueban los enlaces locales, anclas, cercas, inventario curricular y acceso a documentos desde el README. Los archivos de configuración y las explicaciones administrativas requieren sus pruebas de servicio en el entorno indicado; una validación editorial no equivale a desplegar todas las combinaciones de versiones y topologías.
 
 En el cierre de la ampliación, el inventario contiene 189 archivos y 156 documentos Markdown; el validador comprueba 809 enlaces locales sin errores. El [mapa de ampliación](novedades-ampliacion.md) compara la primera edición con la actual y el [índice completo](../INDICE.md) permite localizar los nuevos capítulos.
+
+## Edición orientada a RA y optativas del 09/11/2026
+
+La [ampliación por resultados de aprendizaje](novedades-ra-y-optativas.md) añade un referente normativo local, alineaciones por módulo, retos y un catálogo optativo. La parte común tiene 14 módulos, 83 RA y 640 CE. Los 16 códigos o variantes optativos suman 78 RA y 407 CE al contar cada variante de idioma por separado; varias comparten currículo.
+
+### Contraste normativo y trazabilidad
+
+Los números, enunciados y letras se han contrastado con las fuentes identificadas en cada módulo y con los documentos registrados en [fuentes-verificadas.json](../recursos/ra/fuentes-verificadas.json). La numeración de los transversales sigue Madrid. El mapa conserva las dos letras a) de Proyecto RA5 como claves a.1/a.2 y las letras ñ de IPE II y Arquitecturas en la nube.
+
+Se corrigieron incidencias de extracción antes de cerrar el referente: un encabezado de criterios unido al enunciado de un RA y dos criterios ñ fusionados con los n anteriores en CMO-315. Se mantienen las peculiaridades literales de la publicación y se documenta su interpretación editorial; no se inventan criterios para regularizar la norma.
+
+El validador RA comprueba la coincidencia con ese referente, el conjunto de códigos, las secuencias, las actividades, los entregables y las rutas. Se han probado con datos temporales casos válidos con ñ y a.1/a.2, y rechazos por enunciado alterado, criterio omitido, actividad desconocida, ruta fuera del repositorio y ancla inexistente. Son pruebas del validador documental, sin calificar a estudiantes.
+
+### Revisión semántica y ejemplos
+
+La revisión cruzada ha comprobado muestras donde una equivalencia superficial podía ocultar una actuación pendiente: sistema transaccional frente a journaling, confianza entre dominios frente a un diseño, FTP activo/pasivo frente a SFTP, acceso gráfico frente a consola, aplicación instalada frente a un servicio externo y evidencia oral frente a un guion leído.
+
+Se precisó el laboratorio de correo para preparar una credencial IMAPS temporal, impedir que la cuenta de buzón obtenga acceso SSH y separar autenticación IMAPS de SMTP sin SASL por el túnel local. Los procedimientos conservan consola, copia, validación y recuperación. La configuración de esos servicios se ha revisado estáticamente, sin desplegarlos en esta entrega.
+
+Los ejemplos locales de bases de datos y Python se han ejecutado con datos sintéticos: integridad referencial, rechazos, recuentos, rollback, tipos, entradas inválidas, diferencias entre reasignación y mutación, lectura secuencial y acceso directo con seek a registros de un archivo temporal. Se reforzaron los procedimientos de asistentes gráficos de bases de datos y de iluminación ON/OFF en el motor de videojuegos. Los criterios que requieren esos medios, equipamiento físico o una plataforma administrada señalan la evidencia que debe recogerse al ejecutarlos; no se presenta esa ejecución como ya realizada en esta entrega.
+
+### Plantilla y alcance de la entrega
+
+La plantilla generada tiene una fila por criterio y distingue letra oficial y clave editorial. Las claves compuestas son únicas y todas las filas empiezan en `sin_realizar`, sin evidencia obtenida ni fecha personal. Su contenido permite planificar y registrar trabajo; no presenta resultados esperados como si fueran observaciones reales.
+
+Las comprobaciones generales de Markdown y de RA se complementan. La primera revisa navegación, archivos, anclas y bloques; la segunda revisa consistencia curricular y relaciones. La ejecución de los retos y su valoración académica se realizan con los recursos, supervisión e instrumentos del entorno de aprendizaje.

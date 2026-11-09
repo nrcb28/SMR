@@ -14,6 +14,8 @@
 | [Plan de cambio](plantillas/plan-de-cambio.md) | Preparar ejecución, aceptación y vuelta atrás de una intervención |
 | [Procedimiento operativo](plantillas/procedimiento-operacion.md) | Redactar un runbook con precondiciones, resultados y condiciones de parada |
 | [Inventario sintético CSV](inventario-ejemplo.csv) | Practicar importación y documentación sin usar datos de personas |
+| [Plantilla de seguimiento de criterios](ra/plantilla-seguimiento-ce.csv) | Relacionar RA/CE, actividad y evidencia real; copia el archivo antes de rellenarlo |
+| [Datos curriculares RA/CE](ra/README.md) | Referentes normativos, alineaciones por módulo y trazabilidad documental |
 
 Copia la plantilla a tu espacio de trabajo y sustituye sus campos por datos observados. Los campos entre corchetes identifican lo que debes completar; no son respuestas a entregar. Conserva las evidencias sensibles fuera de Git.
 
@@ -30,6 +32,8 @@ Los scripts Python requieren **Python 3.9 o posterior**. Utilizan únicamente su
 | [Inventario del plan](plan-estudios-madrid.json) | Lectura directa o desde el validador | Relaciona códigos, carga horaria y carpetas |
 | [Generador del índice](../scripts/generar_indice.py) | `python3 scripts/generar_indice.py` | Actualiza únicamente el índice de navegación; `--check` compara sin escribir |
 | [Analizador de mediciones](../scripts/analizar_mediciones.py) | `python3 scripts/analizar_mediciones.py cuaderno-integrador/datos/mediciones-transferencia.csv` | Valida un CSV y calcula estadísticas y caudal; no genera tráfico |
+| [Validador RA/CE](../scripts/validar_ra.py) | `python3 scripts/validar_ra.py` | Contrasta RA, letras de CE, actividades y enlaces contra los referentes locales |
+| [Generador del mapa RA](../scripts/generar_mapa_ra.py) | `python3 scripts/generar_mapa_ra.py` | Actualiza mapa y plantilla base; `--check` comprueba sin escribir |
 
 Los inventarios omiten deliberadamente números de serie, nombres de usuario, direcciones MAC y claves. Aun así revisa la salida antes de compartirla: el modelo del equipo, los volúmenes y su tamaño pueden revelar detalles de tu entorno. Si Windows bloquea la ejecución según la política de tu organización, revisa el archivo y utiliza el procedimiento autorizado de tu centro; no cambies la política global para una práctica.
 

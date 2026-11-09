@@ -1,0 +1,538 @@
+{
+  "modulo": "0228",
+  "nombre": "Aplicaciones web",
+  "carpeta": "segundo/aplicaciones-web",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional Aplicaciones web, código 0228, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: adaptación del anexo I y sustitución de módulos; los RA técnicos aquí utilizados proceden del anexo I del RD 1691/2007",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/aplicaciones-web/09-alineacion-ra.md",
+  "guia_retos": "segundo/aplicaciones-web/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Instala gestores de contenidos, identificando sus aplicaciones y configurándolos según requerimientos.",
+      "materiales": [
+        "segundo/aplicaciones-web/02-guia-tecnica.md",
+        "segundo/aplicaciones-web/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Determinar requisitos del CMS",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Ficha de compatibilidad",
+          "aceptacion": "SO, PHP, base de datos y recursos encajan con la versión"
+        },
+        {
+          "letra": "b",
+          "resumen": "Gestionar roles de usuarios",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Matriz de cuentas y operaciones",
+          "aceptacion": "Cada rol ejerce sólo las funciones previstas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Personalizar la interfaz",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Tema o configuración documentada",
+          "aceptacion": "La navegación y aspecto responden al encargo"
+        },
+        {
+          "letra": "d",
+          "resumen": "Probar funcionamiento del CMS",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Plan de pruebas inicial",
+          "aceptacion": "El visitante consulta y el editor publica contenido esperado"
+        },
+        {
+          "letra": "e",
+          "resumen": "Actualizar con atención a seguridad",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Registro de actualización y retorno",
+          "aceptacion": "Se valida compatibilidad, copia y resultado después del cambio"
+        },
+        {
+          "letra": "f",
+          "resumen": "Configurar módulos y menús",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Inventario de extensiones y menú",
+          "aceptacion": "Sólo se habilitan componentes necesarios y mantenidos"
+        },
+        {
+          "letra": "g",
+          "resumen": "Activar mecanismos de protección del gestor",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Ajustes y pruebas negativas",
+          "aceptacion": "Registro, roles y controles de edición limitan acciones indebidas"
+        },
+        {
+          "letra": "h",
+          "resumen": "Habilitar un foro con reglas de acceso",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Foro y matriz de moderación",
+          "aceptacion": "Usuario autorizado participa y el ajeno es rechazado"
+        },
+        {
+          "letra": "i",
+          "resumen": "Repetir pruebas tras cambios",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Pruebas de regresión",
+          "aceptacion": "Menú, foro y publicación siguen funcionando"
+        },
+        {
+          "letra": "j",
+          "resumen": "Respaldar contenidos del CMS",
+          "actividad": "0228-RA1-A1",
+          "evidencia": "Copia de datos y configuración",
+          "aceptacion": "Una restauración separada conserva contenido y roles"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0228-RA1-A1",
+          "titulo": "CMS con foro y mantenimiento",
+          "guia": "segundo/aplicaciones-web/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Ficha de compatibilidad",
+            "Matriz de cuentas y operaciones",
+            "Tema o configuración documentada",
+            "Plan de pruebas inicial",
+            "Registro de actualización y retorno",
+            "Inventario de extensiones y menú",
+            "Ajustes y pruebas negativas",
+            "Foro y matriz de moderación",
+            "Pruebas de regresión",
+            "Copia de datos y configuración"
+          ],
+          "comprobaciones": [
+            "SO, PHP, base de datos y recursos encajan con la versión",
+            "Cada rol ejerce sólo las funciones previstas",
+            "La navegación y aspecto responden al encargo",
+            "El visitante consulta y el editor publica contenido esperado",
+            "Se valida compatibilidad, copia y resultado después del cambio",
+            "Sólo se habilitan componentes necesarios y mantenidos",
+            "Registro, roles y controles de edición limitan acciones indebidas",
+            "Usuario autorizado participa y el ajeno es rechazado",
+            "Menú, foro y publicación siguen funcionando",
+            "Una restauración separada conserva contenido y roles"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Instala sistemas de gestión de aprendizaje a distancia, describiendo la estructura del sitio y la jerarquía de directorios generada.",
+      "materiales": [
+        "segundo/aplicaciones-web/11-complementos-curriculares.md",
+        "segundo/aplicaciones-web/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer estructura del LMS",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Mapa de código, datos y base",
+          "aceptacion": "Se distingue document root de almacenamiento privado"
+        },
+        {
+          "letra": "b",
+          "resumen": "Cambiar aspecto del sitio",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Tema y portada",
+          "aceptacion": "La apariencia varía sin romper navegación ni permisos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Crear perfiles personalizados",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Cuentas y matrículas",
+          "aceptacion": "Cada perfil accede al curso y funciones previstos"
+        },
+        {
+          "letra": "d",
+          "resumen": "Probar comunicaciones del curso",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Foro y consulta sintética",
+          "aceptacion": "Docente y estudiante intercambian mensajes según sus roles"
+        },
+        {
+          "letra": "e",
+          "resumen": "Importar y exportar contenidos",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Paquete y copia importada",
+          "aceptacion": "El contenido conserva estructura y no se confunde con copia completa"
+        },
+        {
+          "letra": "f",
+          "resumen": "Respaldar y restaurar",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Copia del curso y restauración",
+          "aceptacion": "Se recupera en curso o instancia separada con comprobaciones"
+        },
+        {
+          "letra": "g",
+          "resumen": "Obtener informes de uso",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Informe saneado",
+          "aceptacion": "Se interpretan eventos y límites sin atribuir actividad inexistente"
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar seguridad del LMS",
+          "actividad": "0228-RA2-A1",
+          "evidencia": "Matriz de acceso y almacenamiento",
+          "aceptacion": "No se accede al curso o a datos privados sin permiso"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0228-RA2-A1",
+          "titulo": "LMS instalado y curso restaurado",
+          "guia": "segundo/aplicaciones-web/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Mapa de código, datos y base",
+            "Tema y portada",
+            "Cuentas y matrículas",
+            "Foro y consulta sintética",
+            "Paquete y copia importada",
+            "Copia del curso y restauración",
+            "Informe saneado",
+            "Matriz de acceso y almacenamiento"
+          ],
+          "comprobaciones": [
+            "Se distingue document root de almacenamiento privado",
+            "La apariencia varía sin romper navegación ni permisos",
+            "Cada perfil accede al curso y funciones previstos",
+            "Docente y estudiante intercambian mensajes según sus roles",
+            "El contenido conserva estructura y no se confunde con copia completa",
+            "Se recupera en curso o instancia separada con comprobaciones",
+            "Se interpretan eventos y límites sin atribuir actividad inexistente",
+            "No se accede al curso o a datos privados sin permiso"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Instala servicios de gestión de archivos web, identificando sus aplicaciones y verificando su integridad.",
+      "materiales": [
+        "segundo/aplicaciones-web/11-complementos-curriculares.md",
+        "segundo/aplicaciones-web/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Justificar gestión web de archivos",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Caso de uso",
+          "aceptacion": "Se distingue del acceso local y del simple listado público"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar aplicaciones de archivos",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Tabla de alternativas",
+          "aceptacion": "Funciones, mantenimiento y control de acceso están contrastados"
+        },
+        {
+          "letra": "c",
+          "resumen": "Instalar y adaptar el gestor",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Instancia y configuración",
+          "aceptacion": "La instalación se completa con datos privados fuera del área pública"
+        },
+        {
+          "letra": "d",
+          "resumen": "Clasificar cuentas por permisos",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Usuarios y grupos",
+          "aceptacion": "La cuenta ajena no recibe acceso por defecto"
+        },
+        {
+          "letra": "e",
+          "resumen": "Gestionar archivos y directorios",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Árbol y operaciones de prueba",
+          "aceptacion": "Crear, mover, renombrar y recuperar conservan integridad"
+        },
+        {
+          "letra": "f",
+          "resumen": "Añadir información complementaria",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Descripción o archivo README sintético",
+          "aceptacion": "El contexto de cada conjunto es comprensible"
+        },
+        {
+          "letra": "g",
+          "resumen": "Aplicar indexación",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Búsquedas y estructura",
+          "aceptacion": "Se encuentra un archivo permitido sin revelar el privado"
+        },
+        {
+          "letra": "h",
+          "resumen": "Probar seguridad del gestor",
+          "actividad": "0228-RA3-A1",
+          "evidencia": "Pruebas directas y por usuario",
+          "aceptacion": "URL y búsqueda no eluden los permisos del recurso"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0228-RA3-A1",
+          "titulo": "Gestión web de archivos",
+          "guia": "segundo/aplicaciones-web/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Caso de uso",
+            "Tabla de alternativas",
+            "Instancia y configuración",
+            "Usuarios y grupos",
+            "Árbol y operaciones de prueba",
+            "Descripción o archivo README sintético",
+            "Búsquedas y estructura",
+            "Pruebas directas y por usuario"
+          ],
+          "comprobaciones": [
+            "Se distingue del acceso local y del simple listado público",
+            "Funciones, mantenimiento y control de acceso están contrastados",
+            "La instalación se completa con datos privados fuera del área pública",
+            "La cuenta ajena no recibe acceso por defecto",
+            "Crear, mover, renombrar y recuperar conservan integridad",
+            "El contexto de cada conjunto es comprensible",
+            "Se encuentra un archivo permitido sin revelar el privado",
+            "URL y búsqueda no eluden los permisos del recurso"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Instala aplicaciones de ofimática web, describiendo sus características y entornos de uso.",
+      "materiales": [
+        "segundo/aplicaciones-web/11-complementos-curriculares.md",
+        "segundo/aplicaciones-web/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Justificar ofimática web",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Necesidades de colaboración",
+          "aceptacion": "Se explican conectividad, privacidad y recuperación"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar tipos de aplicaciones",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Documento, hoja y presentación evaluados",
+          "aceptacion": "La selección responde a funciones requeridas"
+        },
+        {
+          "letra": "c",
+          "resumen": "Instalar la aplicación ofimática",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Editor integrado y backend registrado",
+          "aceptacion": "Se demuestra despliegue propio, no sólo uso de un SaaS"
+        },
+        {
+          "letra": "d",
+          "resumen": "Gestionar cuentas",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Dos usuarios y un lector",
+          "aceptacion": "Roles y bajas se reflejan en la aplicación"
+        },
+        {
+          "letra": "e",
+          "resumen": "Controlar acceso de usuarios",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Matriz y enlaces compartidos",
+          "aceptacion": "Una identidad sin permiso no abre ni edita el documento"
+        },
+        {
+          "letra": "f",
+          "resumen": "Reconocer prestaciones específicas",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Documento y hoja creados",
+          "aceptacion": "Se prueban funciones reales y límites de interoperabilidad"
+        },
+        {
+          "letra": "g",
+          "resumen": "Trabajar colaborativamente",
+          "actividad": "0228-RA4-A1",
+          "evidencia": "Historial de edición concurrente",
+          "aceptacion": "Dos usuarios modifican y observan cambios con sus identidades"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0228-RA4-A1",
+          "titulo": "Ofimática web instalada y colaborativa",
+          "guia": "segundo/aplicaciones-web/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Necesidades de colaboración",
+            "Documento, hoja y presentación evaluados",
+            "Editor integrado y backend registrado",
+            "Dos usuarios y un lector",
+            "Matriz y enlaces compartidos",
+            "Documento y hoja creados",
+            "Historial de edición concurrente"
+          ],
+          "comprobaciones": [
+            "Se explican conectividad, privacidad y recuperación",
+            "La selección responde a funciones requeridas",
+            "Se demuestra despliegue propio, no sólo uso de un SaaS",
+            "Roles y bajas se reflejan en la aplicación",
+            "Una identidad sin permiso no abre ni edita el documento",
+            "Se prueban funciones reales y límites de interoperabilidad",
+            "Dos usuarios modifican y observan cambios con sus identidades"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Instala aplicaciones web de escritorio, describiendo sus características y entornos de uso.",
+      "materiales": [
+        "segundo/aplicaciones-web/11-complementos-curriculares.md",
+        "segundo/aplicaciones-web/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comparar aplicaciones web de escritorio",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Tabla webmail y calendario",
+          "aceptacion": "Se distingue cliente web de servidor de correo o CalDAV"
+        },
+        {
+          "letra": "b",
+          "resumen": "Instalar un cliente de correo web",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Instancia de Roundcube u otra mantenida",
+          "aceptacion": "El frontend se sirve mediante HTTPS de laboratorio"
+        },
+        {
+          "letra": "c",
+          "resumen": "Integrar con servidor de correo",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Configuración saneada de IMAP y SMTP",
+          "aceptacion": "Se verifican ambos trayectos sin publicar secretos"
+        },
+        {
+          "letra": "d",
+          "resumen": "Gestionar cuentas del servicio",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Identidades y permisos",
+          "aceptacion": "Se explica qué componente administra realmente la cuenta"
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar acceso al correo",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Mensajes sintéticos enviados y recibidos",
+          "aceptacion": "El cliente web muestra el buzón y confirma el envío"
+        },
+        {
+          "letra": "f",
+          "resumen": "Instalar calendario web",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Frontend de calendario y CalDAV",
+          "aceptacion": "Existe aplicación desplegada, no sólo archivo ICS descargable"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar citas y tareas",
+          "actividad": "0228-RA5-A1",
+          "evidencia": "Eventos, tareas y prueba de zona horaria",
+          "aceptacion": "Las funciones disponibles se verifican entre sesiones autorizadas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0228-RA5-A1",
+          "titulo": "Webmail y calendario web",
+          "guia": "segundo/aplicaciones-web/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Tabla webmail y calendario",
+            "Instancia de Roundcube u otra mantenida",
+            "Configuración saneada de IMAP y SMTP",
+            "Identidades y permisos",
+            "Mensajes sintéticos enviados y recibidos",
+            "Frontend de calendario y CalDAV",
+            "Eventos, tareas y prueba de zona horaria"
+          ],
+          "comprobaciones": [
+            "Se distingue cliente web de servidor de correo o CalDAV",
+            "El frontend se sirve mediante HTTPS de laboratorio",
+            "Se verifican ambos trayectos sin publicar secretos",
+            "Se explica qué componente administra realmente la cuenta",
+            "El cliente web muestra el buzón y confirma el envío",
+            "Existe aplicación desplegada, no sólo archivo ICS descargable",
+            "Las funciones disponibles se verifican entre sesiones autorizadas"
+          ]
+        }
+      ]
+    }
+  ]
+}

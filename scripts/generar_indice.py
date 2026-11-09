@@ -25,6 +25,11 @@ def titulo(ruta: Path) -> str:
 def generar() -> str:
     plan = json.loads((RAIZ / 'recursos/plan-estudios-madrid.json').read_text(encoding='utf-8'))
     nombres = {m['carpeta']: m['nombre'] for m in plan['modulos'] + plan['historicos']}
+    catalogo = RAIZ / 'optativas/catalogo.json'
+    if catalogo.is_file():
+        optativas = json.loads(catalogo.read_text(encoding='utf-8'))
+        nombres.update({m['carpeta']: m['codigo'] + ' · ' + m['nombre']
+                        for m in optativas['modulos']})
     grupos = defaultdict(list)
     for archivo in RAIZ.rglob('*.md'):
         relativo = archivo.relative_to(RAIZ)
@@ -32,7 +37,8 @@ def generar() -> str:
             continue
         grupos[relativo.parent.as_posix()].append(archivo)
     orden_area = {'.': 0, 'docs': 1, 'cuaderno-integrador': 2,
-                  'primero': 3, 'segundo': 4, 'plan-anterior': 5, 'recursos': 6}
+                  'primero': 3, 'segundo': 4, 'optativas': 5,
+                  'plan-anterior': 6, 'recursos': 7}
     def ordenar_grupo(nombre: str) -> tuple:
         area = nombre.split('/')[0]
         return (orden_area.get(area, 99), nombre)

@@ -14,6 +14,9 @@ La guía recorre dos casos complementarios: un sitio estático que se puede insp
 6. [HTTP en operación: cachés, sesiones y controles](06-http-caches-sesiones-y-seguridad.md).
 7. [Operación del CMS: migración, copias y recuperación](07-operacion-migracion-y-recuperacion-cms.md).
 8. [Cuatro prácticas avanzadas y dieciséis casos resueltos](08-practicas-avanzadas-y-casos-resueltos.md).
+9. [Alineación de los cinco RA y sus criterios oficiales](09-alineacion-ra.md).
+10. [Retos completos por RA: CMS, LMS, archivos, ofimática y escritorio web](10-retos-por-ra.md).
+11. [Complementos de despliegue: Moodle, Nextcloud, Office, webmail y CalDAV](11-complementos-curriculares.md).
 
 ## Ejemplos inspeccionables
 
@@ -45,3 +48,7 @@ Estas evidencias y las rúbricas de las prácticas son propuestas educativas pro
 ## Ruta de profundización
 
 Tras completar el sitio estático y las prácticas base, estudia el capítulo 5 para relacionar HTML, reglas de entrada y DOM. Continúa con el 6 para interpretar HTTP y controles de aplicación, y utiliza el 7 sólo sobre un clon identificado del CMS. El capítulo 8 integra pruebas de frontend, caché, restauración y comunicación. Las comprobaciones de código y datos no sustituyen ensayar foco, anuncios, accesibilidad o continuidad en tu laboratorio; registra navegador, versiones y resultados realmente observados.
+
+## Itinerario por resultados de aprendizaje
+
+El [mapa de RA y criterios oficiales](09-alineacion-ra.md) identifica los 5 RA y sus 40 criterios, con paráfrasis didácticas, materiales, actividades y evidencias. Los [retos por RA](10-retos-por-ra.md) desarrollan las operaciones que debe poder demostrar el estudiante. Los [datos JSON](alineacion-ra.json) permiten revisar su trazabilidad. Una cobertura documental no acredita por sí sola la adquisición del RA.

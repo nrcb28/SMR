@@ -1,0 +1,555 @@
+{
+  "modulo": "0222",
+  "nombre": "Sistemas operativos monopuesto",
+  "carpeta": "primero/sistemas-operativos-monopuesto",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional 0222; resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: sustitución de módulos antiguos e incorporación de módulos transversales; no renumera los RA técnicos de este mapa",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "primero/sistemas-operativos-monopuesto/09-alineacion-ra.md",
+  "guia_retos": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce las características de los sistemas de archivo, describiendo sus tipos y aplicaciones.",
+      "materiales": [
+        "primero/sistemas-operativos-monopuesto/01-fundamentos.md",
+        "primero/sistemas-operativos-monopuesto/07-archivos-permisos-y-consistencia.md",
+        "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Describir elementos funcionales del sistema",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Mapa hardware–SO–aplicación–datos",
+          "aceptacion": "Relaciona cada elemento con una operación del caso"
+        },
+        {
+          "letra": "b",
+          "resumen": "Codificar y relacionar representaciones",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Cuaderno binario/hexadecimal/Unicode y bytes reales",
+          "aceptacion": "Conversión comprobada; diferencia carácter, punto de código y byte"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar procesos y estados",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Listado temporal con PID y estado",
+          "aceptacion": "Distingue proceso, hilo y estado sin confundir reposo con fallo"
+        },
+        {
+          "letra": "d",
+          "resumen": "Describir organización del sistema de archivos",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Árbol y esquema de metadatos",
+          "aceptacion": "Distingue ruta, entrada, contenido, partición y volumen"
+        },
+        {
+          "letra": "e",
+          "resumen": "Diferenciar atributos de archivo y directorio",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Tabla de propiedades Linux/Windows",
+          "aceptacion": "Explica significado y límites de cada atributo"
+        },
+        {
+          "letra": "f",
+          "resumen": "Reconocer permisos en archivos y directorios",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Pruebas con identidades y ACL",
+          "aceptacion": "Distingue lectura/listado/recorrido/escritura y acceso efectivo"
+        },
+        {
+          "letra": "g",
+          "resumen": "Valorar sistemas transaccionales para elegir FS",
+          "actividad": "0222-RA1-A1",
+          "evidencia": "Decisión ext4/NTFS y análisis de consistencia",
+          "aceptacion": "No confunde journal con copia, versionado o transacción de base de datos"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0222-RA1-A1",
+          "titulo": "Representación, procesos y elección del sistema de archivos",
+          "guia": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Mapa hardware–SO–aplicación–datos",
+            "Cuaderno binario/hexadecimal/Unicode y bytes reales",
+            "Listado temporal con PID y estado",
+            "Árbol y esquema de metadatos",
+            "Tabla de propiedades Linux/Windows",
+            "Pruebas con identidades y ACL",
+            "Decisión ext4/NTFS y análisis de consistencia"
+          ],
+          "comprobaciones": [
+            "Relaciona cada elemento con una operación del caso",
+            "Conversión comprobada; diferencia carácter, punto de código y byte",
+            "Distingue proceso, hilo y estado sin confundir reposo con fallo",
+            "Distingue ruta, entrada, contenido, partición y volumen",
+            "Explica significado y límites de cada atributo",
+            "Distingue lectura/listado/recorrido/escritura y acceso efectivo",
+            "No confunde journal con copia, versionado o transacción de base de datos"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Instala sistemas operativos, relacionando sus características con el hardware del equipo y el software de aplicación.",
+      "materiales": [
+        "primero/sistemas-operativos-monopuesto/02-guia-tecnica.md",
+        "primero/sistemas-operativos-monopuesto/03-practicas.md",
+        "primero/sistemas-operativos-monopuesto/05-arranque-y-recuperacion.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Analizar funciones del sistema operativo",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Mapa de necesidades y funciones",
+          "aceptacion": "Relaciona gestión de recursos, protección e interfaz con el uso"
+        },
+        {
+          "letra": "b",
+          "resumen": "Describir arquitectura del SO",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Diagrama kernel/servicios/controladores/aplicaciones",
+          "aceptacion": "Explica privilegios y un trayecto de E/S"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar adecuación del hardware",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Checklist de requisitos oficiales",
+          "aceptacion": "Verifica arquitectura, memoria, espacio, firmware y requisitos de edición"
+        },
+        {
+          "letra": "d",
+          "resumen": "Elegir SO justificado",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Matriz de compatibilidad y soporte",
+          "aceptacion": "La elección satisface aplicaciones y condiciones de licencia"
+        },
+        {
+          "letra": "e",
+          "resumen": "Preparar plan de instalación",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Documento de particiones/cuentas/actualización/retorno",
+          "aceptacion": "Identifica disco destino y recuperación antes de ejecutar"
+        },
+        {
+          "letra": "f",
+          "resumen": "Configurar parámetros iniciales",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Acta de zona, idioma, cuenta y red",
+          "aceptacion": "Sin datos reales y con valores coherentes con LAB"
+        },
+        {
+          "letra": "g",
+          "resumen": "Configurar gestor de arranque",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Registro de modo UEFI y entradas",
+          "aceptacion": "Prueba arranque y rescate sin reparar discos ajenos"
+        },
+        {
+          "letra": "h",
+          "resumen": "Registrar incidencias de instalación",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Bitácora con error, hipótesis y solución",
+          "aceptacion": "Incluye resultado real y límites de lo no ejecutado"
+        },
+        {
+          "letra": "i",
+          "resumen": "Respetar condiciones del software",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Inventario de licencias y procedencia",
+          "aceptacion": "No publica claves ni elude activación/requisitos"
+        },
+        {
+          "letra": "j",
+          "resumen": "Actualizar el SO",
+          "actividad": "0222-RA2-A1",
+          "evidencia": "Registro de versión antes/después y reinicio si procede",
+          "aceptacion": "Canal oficial y comprobación de servicios tras actualizar"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0222-RA2-A1",
+          "titulo": "Instalación comparada con plan y licencia",
+          "guia": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Mapa de necesidades y funciones",
+            "Diagrama kernel/servicios/controladores/aplicaciones",
+            "Checklist de requisitos oficiales",
+            "Matriz de compatibilidad y soporte",
+            "Documento de particiones/cuentas/actualización/retorno",
+            "Acta de zona, idioma, cuenta y red",
+            "Registro de modo UEFI y entradas",
+            "Bitácora con error, hipótesis y solución",
+            "Inventario de licencias y procedencia",
+            "Registro de versión antes/después y reinicio si procede"
+          ],
+          "comprobaciones": [
+            "Relaciona gestión de recursos, protección e interfaz con el uso",
+            "Explica privilegios y un trayecto de E/S",
+            "Verifica arquitectura, memoria, espacio, firmware y requisitos de edición",
+            "La elección satisface aplicaciones y condiciones de licencia",
+            "Identifica disco destino y recuperación antes de ejecutar",
+            "Sin datos reales y con valores coherentes con LAB",
+            "Prueba arranque y rescate sin reparar discos ajenos",
+            "Incluye resultado real y límites de lo no ejecutado",
+            "No publica claves ni elude activación/requisitos",
+            "Canal oficial y comprobación de servicios tras actualizar"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Realiza tareas básicas de configuración de sistemas operativos, interpretando requerimientos y describiendo los procedimientos seguidos.",
+      "materiales": [
+        "primero/sistemas-operativos-monopuesto/02-guia-tecnica.md",
+        "primero/sistemas-operativos-monopuesto/05-arranque-y-recuperacion.md",
+        "primero/sistemas-operativos-monopuesto/08-automatizacion-y-taller-resuelto.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir interfaces y sus propiedades",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Comparativa GUI/CLI y accesibilidad",
+          "aceptacion": "Selecciona interfaz según tarea y contexto"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar preferencias personales",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Acta de ajustes y reversión",
+          "aceptacion": "Cambia sólo el perfil de prueba y justifica accesibilidad/usabilidad"
+        },
+        {
+          "letra": "c",
+          "resumen": "Gestionar sistemas de archivos propios del SO",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Registro de operaciones sobre volumen sintético",
+          "aceptacion": "Identifica objeto y evita confundir disco/partición/carpeta"
+        },
+        {
+          "letra": "d",
+          "resumen": "Aplicar recuperación del sistema",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Ensayo en copia o VM desechable",
+          "aceptacion": "Estado recuperado y datos preservados según objetivo"
+        },
+        {
+          "letra": "e",
+          "resumen": "Configurar actualización",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Política de canal, comprobación y horario",
+          "aceptacion": "Distingue buscar actualizaciones de instalarlas y documenta reinicio"
+        },
+        {
+          "letra": "f",
+          "resumen": "Instalar y desinstalar utilidades",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Registro de una utilidad de prueba",
+          "aceptacion": "Origen legítimo y retirada sin eliminar dependencias ajenas"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar asistentes de red y dispositivos",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Acta de NIC/dispositivo y prueba funcional",
+          "aceptacion": "Verifica objeto real y no añade gateway ficticio a LAB"
+        },
+        {
+          "letra": "h",
+          "resumen": "Automatizar una tarea del sistema",
+          "actividad": "0222-RA3-A1",
+          "evidencia": "Tarea programada sobre datos sintéticos",
+          "aceptacion": "Registra ejecución, fallo y retirada sin ocultar errores"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0222-RA3-A1",
+          "titulo": "Puesto configurable y recuperable",
+          "guia": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Comparativa GUI/CLI y accesibilidad",
+            "Acta de ajustes y reversión",
+            "Registro de operaciones sobre volumen sintético",
+            "Ensayo en copia o VM desechable",
+            "Política de canal, comprobación y horario",
+            "Registro de una utilidad de prueba",
+            "Acta de NIC/dispositivo y prueba funcional",
+            "Tarea programada sobre datos sintéticos"
+          ],
+          "comprobaciones": [
+            "Selecciona interfaz según tarea y contexto",
+            "Cambia sólo el perfil de prueba y justifica accesibilidad/usabilidad",
+            "Identifica objeto y evita confundir disco/partición/carpeta",
+            "Estado recuperado y datos preservados según objetivo",
+            "Distingue buscar actualizaciones de instalarlas y documenta reinicio",
+            "Origen legítimo y retirada sin eliminar dependencias ajenas",
+            "Verifica objeto real y no añade gateway ficticio a LAB",
+            "Registra ejecución, fallo y retirada sin ocultar errores"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Realiza operaciones básicas de administración de sistemas operativos, interpretando requerimientos y optimizando el sistema para su uso.",
+      "materiales": [
+        "primero/sistemas-operativos-monopuesto/02-guia-tecnica.md",
+        "primero/sistemas-operativos-monopuesto/06-procesos-memoria-y-observabilidad.md",
+        "primero/sistemas-operativos-monopuesto/07-archivos-permisos-y-consistencia.md",
+        "primero/sistemas-operativos-monopuesto/08-automatizacion-y-taller-resuelto.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Configurar perfiles, usuarios y grupos",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Matriz de identidades locales y operaciones",
+          "aceptacion": "Cuenta ordinaria, privilegio mínimo y pruebas de acceso"
+        },
+        {
+          "letra": "b",
+          "resumen": "Usar herramientas gráficas para explorar archivos del sistema",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Capturas explicadas del gestor autorizado",
+          "aceptacion": "Identifica organización sin alterar archivos protegidos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Actuar sobre procesos propios",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Registro de proceso de laboratorio y señal",
+          "aceptacion": "Sólo PID propio identificado y efecto verificado"
+        },
+        {
+          "letra": "d",
+          "resumen": "Actuar sobre servicios según necesidad",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Unidad o servicio exclusivo y estado antes/después",
+          "aceptacion": "Inicio/parada/reinicio justificados con retorno"
+        },
+        {
+          "letra": "e",
+          "resumen": "Optimizar memoria disponible",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Comparativa de carga y métricas",
+          "aceptacion": "Actúa sobre causa y no confunde caché con memoria desperdiciada"
+        },
+        {
+          "letra": "f",
+          "resumen": "Analizar trazas del sistema",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Línea temporal con eventos pertinentes",
+          "aceptacion": "Correlaciona hora, contexto y síntoma sin exponer datos personales"
+        },
+        {
+          "letra": "g",
+          "resumen": "Optimizar almacenamiento",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Plan y ensayo controlado de espacio/actividad",
+          "aceptacion": "Usa medidas apropiadas al dispositivo y no desfragmenta SSD por rutina"
+        },
+        {
+          "letra": "h",
+          "resumen": "Configurar recursos compartibles",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Prueba de recurso local o compartido acotado",
+          "aceptacion": "Identidad y permisos definidos; no acceso universal"
+        },
+        {
+          "letra": "i",
+          "resumen": "Interpretar configuración del SO",
+          "actividad": "0222-RA4-A1",
+          "evidencia": "Informe de estado efectivo y persistente",
+          "aceptacion": "Distingue parámetro guardado de estado realmente cargado"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0222-RA4-A1",
+          "titulo": "Administración local mediante hipótesis y métricas",
+          "guia": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Matriz de identidades locales y operaciones",
+            "Capturas explicadas del gestor autorizado",
+            "Registro de proceso de laboratorio y señal",
+            "Unidad o servicio exclusivo y estado antes/después",
+            "Comparativa de carga y métricas",
+            "Línea temporal con eventos pertinentes",
+            "Plan y ensayo controlado de espacio/actividad",
+            "Prueba de recurso local o compartido acotado",
+            "Informe de estado efectivo y persistente"
+          ],
+          "comprobaciones": [
+            "Cuenta ordinaria, privilegio mínimo y pruebas de acceso",
+            "Identifica organización sin alterar archivos protegidos",
+            "Sólo PID propio identificado y efecto verificado",
+            "Inicio/parada/reinicio justificados con retorno",
+            "Actúa sobre causa y no confunde caché con memoria desperdiciada",
+            "Correlaciona hora, contexto y síntoma sin exponer datos personales",
+            "Usa medidas apropiadas al dispositivo y no desfragmenta SSD por rutina",
+            "Identidad y permisos definidos; no acceso universal",
+            "Distingue parámetro guardado de estado realmente cargado"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Crea máquinas virtuales identificando su campo de aplicación e instalando software específico.",
+      "materiales": [
+        "primero/sistemas-operativos-monopuesto/01-fundamentos.md",
+        "primero/sistemas-operativos-monopuesto/03-practicas.md",
+        "primero/sistemas-operativos-monopuesto/06-procesos-memoria-y-observabilidad.md",
+        "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Distinguir máquina física y VM",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Diagrama de capas y dispositivos expuestos",
+          "aceptacion": "Explica qué evidencia física no puede aportar la VM"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar ventajas y límites de virtualización",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Matriz de aislamiento, recursos y recuperación",
+          "aceptacion": "No presenta snapshot como copia independiente ni aislamiento absoluto"
+        },
+        {
+          "letra": "c",
+          "resumen": "Instalar software libre y propietario de virtualización",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Actas de instalación en anfitriones compatibles",
+          "aceptacion": "Licencias y versiones admitidas; estudiar uno no demuestra instalar ambos"
+        },
+        {
+          "letra": "d",
+          "resumen": "Crear invitados libres y propietarios",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Inventario de dos invitados legítimos",
+          "aceptacion": "Medios oficiales y edición/arquitectura compatibles"
+        },
+        {
+          "letra": "e",
+          "resumen": "Configurar VMs",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Ficha de CPU/RAM/disco/NIC/firmware",
+          "aceptacion": "Dimensiona sin sobreasignación injustificada y aísla LAB"
+        },
+        {
+          "letra": "f",
+          "resumen": "Relacionar invitado y anfitrión",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Tabla de integración y límites",
+          "aceptacion": "Distingue carpetas compartidas, dispositivos y rutas de red"
+        },
+        {
+          "letra": "g",
+          "resumen": "Realizar pruebas de rendimiento",
+          "actividad": "0222-RA5-A1",
+          "evidencia": "Serie comparable con método y carga",
+          "aceptacion": "Controla caché/concurrencia y evita atribuir al hardware físico lo visto en VM"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0222-RA5-A1",
+          "titulo": "Virtualización libre y propietaria contrastada",
+          "guia": "primero/sistemas-operativos-monopuesto/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Diagrama de capas y dispositivos expuestos",
+            "Matriz de aislamiento, recursos y recuperación",
+            "Actas de instalación en anfitriones compatibles",
+            "Inventario de dos invitados legítimos",
+            "Ficha de CPU/RAM/disco/NIC/firmware",
+            "Tabla de integración y límites",
+            "Serie comparable con método y carga"
+          ],
+          "comprobaciones": [
+            "Explica qué evidencia física no puede aportar la VM",
+            "No presenta snapshot como copia independiente ni aislamiento absoluto",
+            "Licencias y versiones admitidas; estudiar uno no demuestra instalar ambos",
+            "Medios oficiales y edición/arquitectura compatibles",
+            "Dimensiona sin sobreasignación injustificada y aísla LAB",
+            "Distingue carpetas compartidas, dispositivos y rutas de red",
+            "Controla caché/concurrencia y evita atribuir al hardware físico lo visto en VM"
+          ]
+        }
+      ]
+    }
+  ]
+}

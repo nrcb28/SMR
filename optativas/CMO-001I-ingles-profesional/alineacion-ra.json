@@ -1,0 +1,255 @@
+{
+  "modulo": "CMO-001I",
+  "nombre": "Habilidades comunicativas en lengua extranjera profesional · Inglés",
+  "carpeta": "optativas/CMO-001I-ingles-profesional",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, currículo CMO-001; BOCM desde página 34, PDF páginas 17–18",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustituido, apartado A: optativas transversales a todos los ciclos de grado medio y superior, BOCM página 95",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-001I-ingles-profesional/README.md",
+  "guia_retos": "optativas/CMO-001I-ingles-profesional/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce y entiende el significado general de textos escritos sencillos relacionados con situaciones específicas de comunicación.",
+      "materiales": [
+        "optativas/CMO-001I-ingles-profesional/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Extraer la idea principal",
+          "actividad": "CMO-001I-RA1-A1",
+          "evidencia": "Resumen del aviso en una frase",
+          "aceptacion": "Identifica indisponibilidad y alternativa sin inventar reparación"
+        },
+        {
+          "letra": "b",
+          "resumen": "Reconocer propósito y formato",
+          "actividad": "CMO-001I-RA1-A1",
+          "evidencia": "Tabla email/nota/cartel",
+          "aceptacion": "Distingue avisar, registrar una observación e indicar un procedimiento"
+        },
+        {
+          "letra": "c",
+          "resumen": "Seleccionar información relevante",
+          "actividad": "CMO-001I-RA1-A1",
+          "evidencia": "Ficha de ubicación, acción, prohibición y hora",
+          "aceptacion": "Conserva los cuatro datos y marca la causa como no confirmada"
+        },
+        {
+          "letra": "d",
+          "resumen": "Interpretar de manera autónoma",
+          "actividad": "CMO-001I-RA1-A1",
+          "evidencia": "Respuesta individual y registro de estrategia",
+          "aceptacion": "Responde sin copiar la solución y explica las consultas realizadas"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001I-RA1-A1",
+          "titulo": "Comprender un ticket y elegir la acción adecuada",
+          "guia": "optativas/CMO-001I-ingles-profesional/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Ficha de lectura con resumen, propósito de cada formato y datos extraídos"
+          ],
+          "comprobaciones": [
+            "La respuesta conserva ubicación y hora con su zona.",
+            "No convierte una hipótesis o fecha de actualización en promesa de solución."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Entiende y deduce el sentido esencial de mensajes orales de extensión media y expresados en lengua estándar sobre temas cotidianos relacionados con el país de habla de la lengua extranjera y sus usos profesionales.",
+      "materiales": [
+        "optativas/CMO-001I-ingles-profesional/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar propósito del mensaje oral",
+          "actividad": "CMO-001I-RA2-A1",
+          "evidencia": "Ficha de primera escucha",
+          "aceptacion": "Reconoce mantenimiento y audiencia sin leer la transcripción"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar estrategias de comprensión global",
+          "actividad": "CMO-001I-RA2-A1",
+          "evidencia": "Notas de dos escuchas y pregunta de aclaración",
+          "aceptacion": "Distingue sentido global de datos y usa una estrategia explicada"
+        },
+        {
+          "letra": "c",
+          "resumen": "Valorar la comprensión oral en el trabajo",
+          "actividad": "CMO-001I-RA2-A1",
+          "evidencia": "Reflexión sobre una confusión concreta",
+          "aceptacion": "Relaciona un error de escucha con su efecto operativo"
+        },
+        {
+          "letra": "d",
+          "resumen": "Seguir indicaciones y responder apropiadamente",
+          "actividad": "CMO-001I-RA2-A1",
+          "evidencia": "Secuencia de acciones y respuesta oral",
+          "aceptacion": "Mantiene orden, hora y prohibición de compartir contraseña"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001I-RA2-A1",
+          "titulo": "Escuchar una instrucción de mantenimiento",
+          "guia": "optativas/CMO-001I-ingles-profesional/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Hoja de escucha y acta del observador con condiciones y respuesta real"
+          ],
+          "comprobaciones": [
+            "La transcripción permanece oculta durante la escucha.",
+            "Se identifica qué se comprendió y qué necesitó repetición."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Produce textos escritos sencillos en lengua estándar relacionados con situaciones cotidianas y usando recursos lingüísticos que se adecuan a situaciones de comunicación concretas.",
+      "materiales": [
+        "optativas/CMO-001I-ingles-profesional/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Organizar el mensaje escrito",
+          "actividad": "CMO-001I-RA3-A1",
+          "evidencia": "Borrador y versión final",
+          "aceptacion": "Incluye contexto, estado, siguiente paso y cierre coherentes"
+        },
+        {
+          "letra": "b",
+          "resumen": "Usar vocabulario y estructuras apropiadas",
+          "actividad": "CMO-001I-RA3-A1",
+          "evidencia": "Revisión de términos y verbos de estado",
+          "aceptacion": "Distingue read/save y evita afirmar una causa sin evidencia"
+        },
+        {
+          "letra": "c",
+          "resumen": "Tomar notas profesionales sencillas",
+          "actividad": "CMO-001I-RA3-A1",
+          "evidencia": "Notas previas por categorías",
+          "aceptacion": "Conserva identificador, hechos, pendiente y hora"
+        },
+        {
+          "letra": "d",
+          "resumen": "Elegir registro según contexto e intención",
+          "actividad": "CMO-001I-RA3-A1",
+          "evidencia": "Justificación de saludo, instrucción y cierre",
+          "aceptacion": "El texto se adapta a soporte y a una persona no especialista"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001I-RA3-A1",
+          "titulo": "Escribir una actualización breve a una persona usuaria",
+          "guia": "optativas/CMO-001I-ingles-profesional/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Notas, borrador, revisión y respuesta final en inglés"
+          ],
+          "comprobaciones": [
+            "La hora y los hechos coinciden con el caso.",
+            "La revisión muestra al menos una mejora justificada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Elabora mensajes orales expresando ideas de forma clara y organizada, y es capaz de participar activamente en conversaciones cotidianas en un puesto de trabajo.",
+      "materiales": [
+        "optativas/CMO-001I-ingles-profesional/README.md",
+        "segundo/ingles-profesional/01-guia.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Usar estrategias de interacción",
+          "actividad": "CMO-001I-RA4-A1",
+          "evidencia": "Acta de turnos, aclaración y reformulación",
+          "aceptacion": "Mantiene la conversación y reacciona a los dos datos nuevos"
+        },
+        {
+          "letra": "b",
+          "resumen": "Adecuar forma y estructura del mensaje",
+          "actividad": "CMO-001I-RA4-A1",
+          "evidencia": "Observación de apertura, preguntas y cierre",
+          "aceptacion": "El mensaje es claro y mantiene una secuencia comprensible"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar cortesía según situación",
+          "actividad": "CMO-001I-RA4-A1",
+          "evidencia": "Registro de peticiones y tratamiento acordado",
+          "aceptacion": "Pregunta y confirma de forma respetuosa sin asumir preferencias"
+        },
+        {
+          "letra": "d",
+          "resumen": "Usar terminología profesional",
+          "actividad": "CMO-001I-RA4-A1",
+          "evidencia": "Lista de términos usados en contexto",
+          "aceptacion": "Printer, network y shared folder se emplean con significado correcto"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-001I-RA4-A1",
+          "titulo": "Atender una conversación cotidiana de soporte",
+          "guia": "optativas/CMO-001I-ingles-profesional/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Ficha de roles, acta de conversación y autoevaluación posterior"
+          ],
+          "comprobaciones": [
+            "Se observa una conversación, no sólo lectura de un guion.",
+            "Se evalúa inteligibilidad y adecuación al contexto."
+          ]
+        }
+      ]
+    }
+  ]
+}

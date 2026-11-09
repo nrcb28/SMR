@@ -10,6 +10,10 @@ La referencia de 50 horas corresponde al trabajo autónomo del alumnado en el ma
 2. [Despliegue por fases, pruebas de aceptación, defensa y rúbrica](02-practicas-y-evaluacion.md).
 3. [Cuaderno de requisitos, trazabilidad, WBS, riesgos y coste de operación](03-cuaderno-de-requisitos-y-planificacion.md).
 4. [Memoria modelo, doce pruebas, recuperación y defensa razonada](04-memoria-modelo-y-defensa-tecnica.md).
+5. [Alineación de los cinco RA y los 39 criterios de evaluación](05-alineacion-ra.md).
+6. [Retos por RA: empresa, viabilidad, planificación, seguimiento y comunicación](06-retos-por-ra.md).
+
+Los RA y CE del Proyecto se contrastan con el anexo II del [Real Decreto 499/2024](https://www.boe.es/eli/es/rd/2024/05/21/499). El archivo [alineacion-ra.json](alineacion-ra.json) conserva enunciados, letras oficiales y trazabilidad a los retos. El RA5 imprime dos letras a): se distinguen mediante claves editoriales `a.1` y `a.2`, sin inventar una renumeración normativa. La ruta permite identificar qué evidencia falta y no declara ejecutado el caso modelo.
 
 **Prerrequisitos:** montaje y mantenimiento, sistemas monopuesto y en red, redes locales, servicios, seguridad, ofimática y aplicaciones web. Los módulos transversales aportan comunicación, sostenibilidad, organización del trabajo y evaluación de la transformación digital.
 

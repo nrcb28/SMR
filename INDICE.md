@@ -19,12 +19,15 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | --- | --- |
 | [Currículo y organización de SMR en la Comunidad de Madrid](docs/curriculo-madrid.md) | `curriculo-madrid.md` |
 | [Formación en empresa: casos, evidencias y progreso profesional](docs/empresa-casos-avanzados.md) | `empresa-casos-avanzados.md` |
+| [Estudiar, practicar y recoger evidencias por resultados de aprendizaje](docs/evaluacion-por-ra.md) | `evaluacion-por-ra.md` |
 | [Formación en empresa u organismo equiparado](docs/formacion-en-empresa.md) | `formacion-en-empresa.md` |
 | [Fuentes, versiones y mantenimiento](docs/fuentes-y-mantenimiento.md) | `fuentes-y-mantenimiento.md` |
 | [Glosario técnico de SMR](docs/glosario.md) | `glosario.md` |
 | [Laboratorio común de SMR](docs/laboratorio.md) | `laboratorio.md` |
+| [Mapa de resultados de aprendizaje y criterios de evaluación](docs/mapa-ra.md) | `mapa-ra.md` |
 | [Método técnico de diagnóstico](docs/metodo-de-diagnostico.md) | `metodo-de-diagnostico.md` |
 | [Ampliación de contenidos · 9 de noviembre de 2026](docs/novedades-ampliacion.md) | `novedades-ampliacion.md` |
+| [Ampliación por RA y catálogo de optativas · 9 de noviembre de 2026](docs/novedades-ra-y-optativas.md) | `novedades-ra-y-optativas.md` |
 | [Ruta de estudio y dependencias](docs/ruta-de-estudio.md) | `ruta-de-estudio.md` |
 | [Revisión de las entregas](docs/validacion.md) | `validacion.md` |
 
@@ -58,6 +61,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [6. Calc avanzado: modelos trazables y calidad de datos](primero/aplicaciones-ofimaticas/06-modelos-calc-y-calidad-de-datos.md) | `06-modelos-calc-y-calidad-de-datos.md` |
 | [7. Base avanzado: modelo relacional, consultas e integridad](primero/aplicaciones-ofimaticas/07-base-modelado-consultas-y-transacciones.md) | `07-base-modelado-consultas-y-transacciones.md` |
 | [8. Taller integrado: comunicación, multimedia y problemas resueltos](primero/aplicaciones-ofimaticas/08-taller-integrado-y-ejercicios-resueltos.md) | `08-taller-integrado-y-ejercicios-resueltos.md` |
+| [Alineación de Aplicaciones ofimáticas con RA y criterios oficiales](primero/aplicaciones-ofimaticas/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos de Aplicaciones ofimáticas organizados por RA](primero/aplicaciones-ofimaticas/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## Itinerario personal para la empleabilidad I
 
@@ -70,6 +75,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Evaluación preventiva completa de una sala informática](primero/itinerario-personal-para-la-empleabilidad-i/04-evaluacion-preventiva-completa.md) | `04-evaluacion-preventiva-completa.md` |
 | [Relación laboral y nómina: análisis documental y casos avanzados](primero/itinerario-personal-para-la-empleabilidad-i/05-relacion-laboral-y-nomina-avanzada.md) | `05-relacion-laboral-y-nomina-avanzada.md` |
 | [Aprendizaje autónomo, evidencias y portfolio técnico](primero/itinerario-personal-para-la-empleabilidad-i/06-aprendizaje-y-portfolio-tecnico.md) | `06-aprendizaje-y-portfolio-tecnico.md` |
+| [Itinerario personal para la empleabilidad I · alineación con los RA de Madrid](primero/itinerario-personal-para-la-empleabilidad-i/07-alineacion-ra.md) | `07-alineacion-ra.md` |
+| [IPE I · cinco retos para demostrar los RA de Madrid](primero/itinerario-personal-para-la-empleabilidad-i/08-retos-por-ra.md) | `08-retos-por-ra.md` |
 
 ## Módulo profesional optativo de primero
 
@@ -92,6 +99,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [06 · Diagnóstico por subsistemas y casos de taller](primero/montaje-y-mantenimiento-de-equipos/06-diagnostico-por-subsistemas.md) | `06-diagnostico-por-subsistemas.md` |
 | [07 · Almacenamiento, integridad y vida útil](primero/montaje-y-mantenimiento-de-equipos/07-almacenamiento-integridad-y-vida-util.md) | `07-almacenamiento-integridad-y-vida-util.md` |
 | [08 · Periféricos, impresión y mantenimiento organizado](primero/montaje-y-mantenimiento-de-equipos/08-perifericos-mantenimiento-y-casos.md) | `08-perifericos-mantenimiento-y-casos.md` |
+| [Alineación con resultados de aprendizaje · 0221](primero/montaje-y-mantenimiento-de-equipos/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos prácticos por resultado de aprendizaje · 0221](primero/montaje-y-mantenimiento-de-equipos/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## Redes locales
 
@@ -106,6 +115,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Conmutación avanzada y diseño de una red segmentada](primero/redes-locales/06-conmutacion-y-diseno-segmentado.md) | `06-conmutacion-y-diseno-segmentado.md` |
 | [Ingeniería Wi-Fi: cobertura, capacidad y pruebas](primero/redes-locales/07-ingenieria-wifi-y-capacidad.md) | `07-ingenieria-wifi-y-capacidad.md` |
 | [Análisis de protocolos y laboratorio de evidencias](primero/redes-locales/08-analisis-de-protocolos-y-laboratorios.md) | `08-analisis-de-protocolos-y-laboratorios.md` |
+| [Redes locales · alineación con resultados de aprendizaje](primero/redes-locales/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos de Redes locales por resultados de aprendizaje](primero/redes-locales/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## Sistemas operativos monopuesto
 
@@ -120,6 +131,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [06 · Procesos, memoria y observabilidad del puesto](primero/sistemas-operativos-monopuesto/06-procesos-memoria-y-observabilidad.md) | `06-procesos-memoria-y-observabilidad.md` |
 | [07 · Archivos, permisos efectivos y consistencia](primero/sistemas-operativos-monopuesto/07-archivos-permisos-y-consistencia.md) | `07-archivos-permisos-y-consistencia.md` |
 | [08 · Automatización mantenible y taller resuelto](primero/sistemas-operativos-monopuesto/08-automatizacion-y-taller-resuelto.md) | `08-automatizacion-y-taller-resuelto.md` |
+| [Alineación con resultados de aprendizaje · 0222](primero/sistemas-operativos-monopuesto/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos prácticos por resultado de aprendizaje · 0222](primero/sistemas-operativos-monopuesto/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## segundo
 
@@ -140,6 +153,9 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [6. HTTP en operación: cachés, sesiones y controles de aplicación](segundo/aplicaciones-web/06-http-caches-sesiones-y-seguridad.md) | `06-http-caches-sesiones-y-seguridad.md` |
 | [7. Operación de un CMS: cambios, migración y recuperación comprobada](segundo/aplicaciones-web/07-operacion-migracion-y-recuperacion-cms.md) | `07-operacion-migracion-y-recuperacion-cms.md` |
 | [8. Laboratorio avanzado y casos resueltos de aplicaciones web](segundo/aplicaciones-web/08-practicas-avanzadas-y-casos-resueltos.md) | `08-practicas-avanzadas-y-casos-resueltos.md` |
+| [Alineación de Aplicaciones web con RA y criterios oficiales](segundo/aplicaciones-web/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos completos por RA · Aplicaciones web](segundo/aplicaciones-web/10-retos-por-ra.md) | `10-retos-por-ra.md` |
+| [Complementos de despliegue: LMS, archivos, ofimática y escritorio web](segundo/aplicaciones-web/11-complementos-curriculares.md) | `11-complementos-curriculares.md` |
 
 ## Digitalización aplicada a los sectores productivos (GM)
 
@@ -150,6 +166,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Prácticas y evaluación de Digitalización](segundo/digitalizacion-aplicada-a-los-sectores-productivos/02-practicas-y-evaluacion.md) | `02-practicas-y-evaluacion.md` |
 | [Datos, integraciones y gobierno de una mejora digital](segundo/digitalizacion-aplicada-a-los-sectores-productivos/03-datos-integraciones-y-gobierno.md) | `03-datos-integraciones-y-gobierno.md` |
 | [Casos completos: transformación, costes y evaluación de IA](segundo/digitalizacion-aplicada-a-los-sectores-productivos/04-casos-de-transformacion-y-costes.md) | `04-casos-de-transformacion-y-costes.md` |
+| [Alineación por resultados de aprendizaje · Digitalización aplicada a los sectores productivos (GM) · 1664](segundo/digitalizacion-aplicada-a-los-sectores-productivos/05-alineacion-ra.md) | `05-alineacion-ra.md` |
+| [Retos de Digitalización por resultados de aprendizaje](segundo/digitalizacion-aplicada-a-los-sectores-productivos/06-retos-por-ra.md) | `06-retos-por-ra.md` |
 
 ## Inglés profesional (GM)
 
@@ -160,6 +178,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Prácticas de Inglés profesional](segundo/ingles-profesional/02-practicas-y-evaluacion.md) | `02-practicas-y-evaluacion.md` |
 | [Documentación operativa y cuarenta mensajes técnicos](segundo/ingles-profesional/03-documentacion-y-mensajes-tecnicos.md) | `03-documentacion-y-mensajes-tecnicos.md` |
 | [Seis simulaciones de comunicación y defensa técnica](segundo/ingles-profesional/04-simulaciones-y-defensa.md) | `04-simulaciones-y-defensa.md` |
+| [Inglés profesional (Grado Medio) · alineación con los RA de Madrid](segundo/ingles-profesional/05-alineacion-ra.md) | `05-alineacion-ra.md` |
+| [Inglés profesional · cinco retos con evidencias por RA](segundo/ingles-profesional/06-retos-por-ra.md) | `06-retos-por-ra.md` |
 
 ## Itinerario personal para la empleabilidad II
 
@@ -172,6 +192,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Selección profesional, comunicación y organización de equipos](segundo/itinerario-personal-para-la-empleabilidad-ii/04-seleccion-comunicacion-y-equipos.md) | `04-seleccion-comunicacion-y-equipos.md` |
 | [Viabilidad avanzada: mezcla de servicios, capacidad y tesorería](segundo/itinerario-personal-para-la-empleabilidad-ii/05-viabilidad-y-tesoreria-avanzada.md) | `05-viabilidad-y-tesoreria-avanzada.md` |
 | [Veinte decisiones profesionales resueltas](segundo/itinerario-personal-para-la-empleabilidad-ii/06-casos-profesionales-resueltos.md) | `06-casos-profesionales-resueltos.md` |
+| [Itinerario personal para la empleabilidad II · alineación con los RA de Madrid](segundo/itinerario-personal-para-la-empleabilidad-ii/07-alineacion-ra.md) | `07-alineacion-ra.md` |
+| [IPE II · cinco retos de selección, innovación y proyecto](segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md) | `08-retos-por-ra.md` |
 | [Plantilla de plan profesional y proyecto de servicio](segundo/itinerario-personal-para-la-empleabilidad-ii/plantilla-plan-profesional.md) | `plantilla-plan-profesional.md` |
 
 ## Módulo profesional optativo de segundo
@@ -191,6 +213,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Implantación, aceptación y defensa](segundo/proyecto-intermodular/02-practicas-y-evaluacion.md) | `02-practicas-y-evaluacion.md` |
 | [Cuaderno de requisitos, trazabilidad y planificación](segundo/proyecto-intermodular/03-cuaderno-de-requisitos-y-planificacion.md) | `03-cuaderno-de-requisitos-y-planificacion.md` |
 | [Memoria modelo, aceptación, recuperación y defensa](segundo/proyecto-intermodular/04-memoria-modelo-y-defensa-tecnica.md) | `04-memoria-modelo-y-defensa-tecnica.md` |
+| [Alineación por resultados de aprendizaje · Proyecto intermodular · 1713](segundo/proyecto-intermodular/05-alineacion-ra.md) | `05-alineacion-ra.md` |
+| [Retos de Proyecto intermodular por resultados de aprendizaje](segundo/proyecto-intermodular/06-retos-por-ra.md) | `06-retos-por-ra.md` |
 
 ## Seguridad informática
 
@@ -205,6 +229,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [6. Endurecimiento y cambios de seguridad verificables](segundo/seguridad-informatica/06-hardening-y-cambios-seguros.md) | `06-hardening-y-cambios-seguros.md` |
 | [7. Criptografía aplicada, copias y continuidad comprobable](segundo/seguridad-informatica/07-criptografia-copias-y-continuidad.md) | `07-criptografia-copias-y-continuidad.md` |
 | [8. Incidentes, privacidad y casos resueltos](segundo/seguridad-informatica/08-incidentes-privacidad-y-casos-resueltos.md) | `08-incidentes-privacidad-y-casos-resueltos.md` |
+| [Alineación de Seguridad informática con RA y criterios oficiales](segundo/seguridad-informatica/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos completos por RA · Seguridad informática](segundo/seguridad-informatica/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## Servicios en red
 
@@ -220,6 +246,9 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [DHCP, doble pila y operación de direcciones](segundo/servicios-en-red/07-dhcp-dual-stack-y-operacion.md) | `07-dhcp-dual-stack-y-operacion.md` |
 | [Acceso remoto, PKI y publicación web mantenible](segundo/servicios-en-red/08-ssh-pki-y-publicacion-web.md) | `08-ssh-pki-y-publicacion-web.md` |
 | [Correo, observabilidad y continuidad de los servicios](segundo/servicios-en-red/09-correo-observabilidad-y-continuidad.md) | `09-correo-observabilidad-y-continuidad.md` |
+| [Servicios en red · alineación con resultados de aprendizaje](segundo/servicios-en-red/10-alineacion-ra.md) | `10-alineacion-ra.md` |
+| [Retos de Servicios en red por resultados de aprendizaje](segundo/servicios-en-red/11-retos-por-ra.md) | `11-retos-por-ra.md` |
+| [Complementos de servicios exigidos por los RA](segundo/servicios-en-red/12-complementos-curriculares-ra.md) | `12-complementos-curriculares-ra.md` |
 
 ## Sistemas operativos en red
 
@@ -234,6 +263,8 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [6. Linux en red: resolución de identidades, permisos y capacidad](segundo/sistemas-operativos-en-red/06-linux-permisos-y-capacidad.md) | `06-linux-permisos-y-capacidad.md` |
 | [7. Operación, automatización y recuperación de sistemas en red](segundo/sistemas-operativos-en-red/07-operacion-automatizacion-y-recuperacion.md) | `07-operacion-automatizacion-y-recuperacion.md` |
 | [8. Laboratorios avanzados y casos resueltos de administración](segundo/sistemas-operativos-en-red/08-laboratorios-y-casos-resueltos.md) | `08-laboratorios-y-casos-resueltos.md` |
+| [Alineación con resultados de aprendizaje · 0224](segundo/sistemas-operativos-en-red/09-alineacion-ra.md) | `09-alineacion-ra.md` |
+| [Retos prácticos por resultado de aprendizaje · 0224](segundo/sistemas-operativos-en-red/10-retos-por-ra.md) | `10-retos-por-ra.md` |
 
 ## Sostenibilidad aplicada al sistema productivo
 
@@ -244,6 +275,110 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Auditoría de un aula y propuesta de mejora](segundo/sostenibilidad-aplicada-al-sistema-productivo/02-practicas-y-evaluacion.md) | `02-practicas-y-evaluacion.md` |
 | [Medición, ciclo de vida y trazabilidad de equipos](segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md) | `03-medicion-ciclo-de-vida-y-trazabilidad.md` |
 | [Tres casos de decisión con cálculos y evaluación](segundo/sostenibilidad-aplicada-al-sistema-productivo/04-casos-de-decision-y-evaluacion.md) | `04-casos-de-decision-y-evaluacion.md` |
+| [Alineación por resultados de aprendizaje · Sostenibilidad aplicada al sistema productivo · 1708](segundo/sostenibilidad-aplicada-al-sistema-productivo/05-alineacion-ra.md) | `05-alineacion-ra.md` |
+| [Retos de Sostenibilidad por resultados de aprendizaje](segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md) | `06-retos-por-ra.md` |
+
+## optativas
+
+| Documento | Archivo |
+| --- | --- |
+| [Catálogo de optativas aplicables a SMR · Madrid](optativas/README.md) | `README.md` |
+
+## CMO-001A · Habilidades comunicativas en lengua extranjera profesional · Alemán
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-001A · Habilidades comunicativas en lengua extranjera profesional · Alemán](optativas/CMO-001A-aleman-profesional/README.md) | `README.md` |
+
+## CMO-001F · Habilidades comunicativas en lengua extranjera profesional · Francés
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-001F · Habilidades comunicativas en lengua extranjera profesional · Francés](optativas/CMO-001F-frances-profesional/README.md) | `README.md` |
+
+## CMO-001I · Habilidades comunicativas en lengua extranjera profesional · Inglés
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-001I · Habilidades comunicativas en lengua extranjera profesional · Inglés](optativas/CMO-001I-ingles-profesional/README.md) | `README.md` |
+
+## CMO-002A · Ampliación de lengua extranjera profesional · Alemán
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-002A · Ampliación de lengua extranjera profesional · Alemán](optativas/CMO-002A-ampliacion-aleman/README.md) | `README.md` |
+
+## CMO-002F · Ampliación de lengua extranjera profesional · Francés
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-002F · Ampliación de lengua extranjera profesional · Francés](optativas/CMO-002F-ampliacion-frances/README.md) | `README.md` |
+
+## CMO-002I · Ampliación de lengua extranjera profesional · Inglés
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-002I · Ampliación de lengua extranjera profesional · Inglés](optativas/CMO-002I-ampliacion-ingles/README.md) | `README.md` |
+
+## CMO-003 · Inglés para los negocios
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-003 · Inglés para los negocios](optativas/CMO-003-ingles-negocios/README.md) | `README.md` |
+
+## CMO-310 · Fundamentos de bases de datos
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-310 · Fundamentos de bases de datos](optativas/CMO-310-fundamentos-bases-datos/README.md) | `README.md` |
+
+## CMO-311 · Informática aplicada a sistemas electrónicos (Robótica)
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-311 · Informática aplicada a sistemas electrónicos (Robótica)](optativas/CMO-311-robotica/README.md) | `README.md` |
+
+## CMO-312 · Fundamentos de computación en la nube
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-312 · Fundamentos de computación en la nube](optativas/CMO-312-fundamentos-computacion-nube/README.md) | `README.md` |
+
+## CMO-313 · Fundamentos de programación
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-313 · Fundamentos de programación](optativas/CMO-313-fundamentos-programacion/README.md) | `README.md` |
+
+## CMO-314 · Ciberseguridad
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-314 · Ciberseguridad](optativas/CMO-314-ciberseguridad/README.md) | `README.md` |
+
+## CMO-315 · Arquitecturas en la nube
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-315 · Arquitecturas en la nube](optativas/CMO-315-arquitecturas-nube/README.md) | `README.md` |
+
+## CMO-316 · Programación en Python
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-316 · Programación en Python](optativas/CMO-316-programacion-python/README.md) | `README.md` |
+
+## CMO-317 · Posicionamiento y optimización web
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-317 · Posicionamiento y optimización web](optativas/CMO-317-posicionamiento-optimizacion-web/README.md) | `README.md` |
+
+## CMO-318 · Programación de videojuegos
+
+| Documento | Archivo |
+| --- | --- |
+| [CMO-318 · Programación de videojuegos](optativas/CMO-318-programacion-videojuegos/README.md) | `README.md` |
 
 ## plan-anterior
 
@@ -295,3 +430,9 @@ Este archivo se genera con `python3 scripts/generar_indice.py`. Para comprobar q
 | [Plan de cambio · ID](recursos/plantillas/plan-de-cambio.md) | `plan-de-cambio.md` |
 | [Plan de copias y restauración](recursos/plantillas/plan-de-copias.md) | `plan-de-copias.md` |
 | [Procedimiento operativo · Título e ID](recursos/plantillas/procedimiento-operacion.md) | `procedimiento-operacion.md` |
+
+## recursos · ra
+
+| Documento | Archivo |
+| --- | --- |
+| [Datos y seguimiento de resultados de aprendizaje](recursos/ra/README.md) | `README.md` |

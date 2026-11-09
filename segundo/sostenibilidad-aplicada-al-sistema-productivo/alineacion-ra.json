@@ -1,0 +1,501 @@
+{
+  "modulo": "1708",
+  "nombre": "Sostenibilidad aplicada al sistema productivo",
+  "carpeta": "segundo/sostenibilidad-aplicada-al-sistema-productivo",
+  "fuentes": [
+    {
+      "norma": "Orden 3537/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF#page=28",
+      "localizador": "Anexo VI, módulo 1708, BOCM páginas 284–286, PDF páginas 28–30",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/sostenibilidad-aplicada-al-sistema-productivo/05-alineacion-ra.md",
+  "guia_retos": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Identifica los aspectos ambientales, sociales y de gobernanza (ASG) relativos a la sostenibilidad teniendo en cuenta el concepto de desarrollo sostenible y los marcos internacionales que contribuyen a su consecución.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Definir sostenibilidad y marcos internacionales",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Nota de desarrollo sostenible y marcos con fuente",
+          "aceptacion": "Diferencia objetivos, políticas y obligaciones aplicables"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar asuntos ASG empresariales",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Inventario de nueve asuntos del taller",
+          "aceptacion": "Incluye ambiente, sociedad y gobernanza con interesados afectados"
+        },
+        {
+          "letra": "c",
+          "resumen": "Relacionar ODS y Agenda 2030",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Matriz acción, meta pertinente e indicador",
+          "aceptacion": "Cada asociación explica una contribución concreta y su alcance"
+        },
+        {
+          "letra": "d",
+          "resumen": "Priorizar ASG para interesados",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Matriz de expectativas, riesgos y oportunidades",
+          "aceptacion": "La prioridad se justifica y no se supone idéntica para todos"
+        },
+        {
+          "letra": "e",
+          "resumen": "Identificar estándares y métricas de desempeño",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Ficha de estándar, indicador y rendición de cuentas",
+          "aceptacion": "Identifica versión y alcance sin declarar conformidad por usar una métrica"
+        },
+        {
+          "letra": "f",
+          "resumen": "Explicar inversión responsable y actores",
+          "actividad": "1708-RA1-A1",
+          "evidencia": "Ficha de analistas, inversores, agencias e índices",
+          "aceptacion": "Describe su función y límites sin recomendar inversiones"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA1-A1",
+          "titulo": "Leer ASG, marcos y métricas con alcance",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Nota de desarrollo sostenible y marcos con fuente",
+            "Inventario de nueve asuntos del taller",
+            "Matriz acción, meta pertinente e indicador",
+            "Matriz de expectativas, riesgos y oportunidades",
+            "Ficha de estándar, indicador y rendición de cuentas",
+            "Ficha de analistas, inversores, agencias e índices"
+          ],
+          "comprobaciones": [
+            "Diferencia objetivos, políticas y obligaciones aplicables",
+            "Incluye ambiente, sociedad y gobernanza con interesados afectados",
+            "Cada asociación explica una contribución concreta y su alcance",
+            "La prioridad se justifica y no se supone idéntica para todos",
+            "Identifica versión y alcance sin declarar conformidad por usar una métrica",
+            "Describe su función y límites sin recomendar inversiones"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Caracteriza los retos ambientales y sociales a los que se enfrenta la sociedad, describiendo los impactos sobre las personas y los sectores productivos y proponiendo acciones para minimizarlos.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar retos ambientales y sociales",
+          "actividad": "1708-RA2-A1",
+          "evidencia": "Inventario de retos y fuentes del contexto",
+          "aceptacion": "Incluye efectos sociales y ambientales diferenciados"
+        },
+        {
+          "letra": "b",
+          "resumen": "Relacionar retos con actividad económica",
+          "actividad": "1708-RA2-A1",
+          "evidencia": "Cadena causa-actividad-impacto del soporte IT",
+          "aceptacion": "Relaciona consumo, compra y servicio con efectos concretos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Analizar impactos sobre personas y sectores",
+          "actividad": "1708-RA2-A1",
+          "evidencia": "Mapa de afectados y mecanismos de impacto",
+          "aceptacion": "Distingue una consecuencia observada de una hipótesis"
+        },
+        {
+          "letra": "d",
+          "resumen": "Proponer medidas de reducción",
+          "actividad": "1708-RA2-A1",
+          "evidencia": "Plan de medidas con responsable y comprobación",
+          "aceptacion": "Cada medida responde a una causa y admite verificar su resultado"
+        },
+        {
+          "letra": "e",
+          "resumen": "Justificar alianzas y trabajo transversal",
+          "actividad": "1708-RA2-A1",
+          "evidencia": "Mapa de centro, proveedor, gestor y usuarios",
+          "aceptacion": "Explica qué aporta cada actor y cómo se coordina el intercambio"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA2-A1",
+          "titulo": "Analizar retos e interesados y proponer alianzas",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Inventario de retos y fuentes del contexto",
+            "Cadena causa-actividad-impacto del soporte IT",
+            "Mapa de afectados y mecanismos de impacto",
+            "Plan de medidas con responsable y comprobación",
+            "Mapa de centro, proveedor, gestor y usuarios"
+          ],
+          "comprobaciones": [
+            "Incluye efectos sociales y ambientales diferenciados",
+            "Relaciona consumo, compra y servicio con efectos concretos",
+            "Distingue una consecuencia observada de una hipótesis",
+            "Cada medida responde a una causa y admite verificar su resultado",
+            "Explica qué aporta cada actor y cómo se coordina el intercambio"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Establece la aplicación de criterios de sostenibilidad en el desempeño profesional y personal, identificando los elementos necesarios.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Seleccionar ODS relevantes para la profesión",
+          "actividad": "1708-RA3-A1",
+          "evidencia": "Fichas ODS de actividades de soporte",
+          "aceptacion": "La relación deriva de una tarea y no de un lema genérico"
+        },
+        {
+          "letra": "b",
+          "resumen": "Analizar riesgos y oportunidades de los ODS",
+          "actividad": "1708-RA3-A1",
+          "evidencia": "Matriz de decisión profesional con restricciones",
+          "aceptacion": "Incluye compensaciones y datos que faltan por confirmar"
+        },
+        {
+          "letra": "c",
+          "resumen": "Definir acciones profesionales y personales",
+          "actividad": "1708-RA3-A1",
+          "evidencia": "Plan breve de hábitos y operaciones con indicadores",
+          "aceptacion": "Cada acción tiene ámbito, responsable, fecha y revisión"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA3-A1",
+          "titulo": "Aplicar ODS a una actividad profesional",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Fichas ODS de actividades de soporte",
+            "Matriz de decisión profesional con restricciones",
+            "Plan breve de hábitos y operaciones con indicadores"
+          ],
+          "comprobaciones": [
+            "La relación deriva de una tarea y no de un lema genérico",
+            "Incluye compensaciones y datos que faltan por confirmar",
+            "Cada acción tiene ámbito, responsable, fecha y revisión"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Propone productos y servicios responsables teniendo en cuenta los principios de la economía circular.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Caracterizar el consumo actual",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Flujo de compra, uso y retirada del servicio inicial",
+          "aceptacion": "Se identifica unidad funcional y límites del caso"
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar economía verde y circular",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Mapa de principios aplicado a productos y servicio",
+          "aceptacion": "Distingue reparación, reutilización, reciclaje y prevención"
+        },
+        {
+          "letra": "c",
+          "resumen": "Contrastar beneficios frente al modelo clásico",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Comparación con las mismas funciones y periodo",
+          "aceptacion": "Incluye beneficios y condiciones que podrían invertir la decisión"
+        },
+        {
+          "letra": "d",
+          "resumen": "Aplicar ecodiseño",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Propuesta de reparabilidad, modularidad y accesibilidad",
+          "aceptacion": "Cada cambio de diseño conserva requisitos y aporta prueba"
+        },
+        {
+          "letra": "e",
+          "resumen": "Analizar ciclo de vida",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Inventario por fabricación, uso, transporte y fin de vida",
+          "aceptacion": "Expresa fuentes, ausencias e incertidumbre sin fingir un ACV completo"
+        },
+        {
+          "letra": "f",
+          "resumen": "Identificar procesos y criterios sostenibles",
+          "actividad": "1708-RA4-A1",
+          "evidencia": "Ficha de compra, reparación y salida responsable",
+          "aceptacion": "Los criterios son observables y se relacionan con cada proceso"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA4-A1",
+          "titulo": "Diseñar un servicio circular y reparable",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Flujo de compra, uso y retirada del servicio inicial",
+            "Mapa de principios aplicado a productos y servicio",
+            "Comparación con las mismas funciones y periodo",
+            "Propuesta de reparabilidad, modularidad y accesibilidad",
+            "Inventario por fabricación, uso, transporte y fin de vida",
+            "Ficha de compra, reparación y salida responsable"
+          ],
+          "comprobaciones": [
+            "Se identifica unidad funcional y límites del caso",
+            "Distingue reparación, reutilización, reciclaje y prevención",
+            "Incluye beneficios y condiciones que podrían invertir la decisión",
+            "Cada cambio de diseño conserva requisitos y aporta prueba",
+            "Expresa fuentes, ausencias e incertidumbre sin fingir un ACV completo",
+            "Los criterios son observables y se relacionan con cada proceso"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Realiza actividades sostenibles minimizando el impacto de las mismas en el medio ambiente.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer el modelo de consumo de una actividad",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Descripción de una operación antes del cambio",
+          "aceptacion": "Conserva volumen y calidad del servicio para comparar"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar principios verdes y circulares",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Tabla de principios y decisiones operativas",
+          "aceptacion": "Los principios se traducen en acciones verificables"
+        },
+        {
+          "letra": "c",
+          "resumen": "Comparar beneficios de los modelos",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Datos comparables y análisis de compensaciones",
+          "aceptacion": "No oculta costes de reparación, transporte o soporte"
+        },
+        {
+          "letra": "d",
+          "resumen": "Evaluar impactos personales y profesionales",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Registro de actividad, energía y materiales",
+          "aceptacion": "Identifica límites de medición y diferencia datos de supuestos"
+        },
+        {
+          "letra": "e",
+          "resumen": "Aplicar ecodiseño en la actividad",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Procedimiento de reutilización o configuración eficiente",
+          "aceptacion": "Mantiene seguridad, compatibilidad y accesibilidad necesarias"
+        },
+        {
+          "letra": "f",
+          "resumen": "Ejecutar estrategias sostenibles",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Bitácora de una acción autorizada y su revisión",
+          "aceptacion": "Registra lo realmente realizado y la comprobación antes-después"
+        },
+        {
+          "letra": "g",
+          "resumen": "Analizar vida útil y ciclo de vida",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Ficha de decisión conservar, reparar o retirar",
+          "aceptacion": "Considera soporte, función y fases externas al consumo eléctrico"
+        },
+        {
+          "letra": "h",
+          "resumen": "Identificar procesos y criterios aplicados",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Checklist de recepción, reparación y entrega",
+          "aceptacion": "Cada criterio tiene evidencia y condición de parada"
+        },
+        {
+          "letra": "i",
+          "resumen": "Aplicar normativa ambiental pertinente",
+          "actividad": "1708-RA5-A1",
+          "evidencia": "Ficha de norma, ámbito, obligación y evidencia",
+          "aceptacion": "Cita fuente oficial vigente y no simula autorizaciones de gestor"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA5-A1",
+          "titulo": "Realizar y revisar una actividad sostenible",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Descripción de una operación antes del cambio",
+            "Tabla de principios y decisiones operativas",
+            "Datos comparables y análisis de compensaciones",
+            "Registro de actividad, energía y materiales",
+            "Procedimiento de reutilización o configuración eficiente",
+            "Bitácora de una acción autorizada y su revisión",
+            "Ficha de decisión conservar, reparar o retirar",
+            "Checklist de recepción, reparación y entrega",
+            "Ficha de norma, ámbito, obligación y evidencia"
+          ],
+          "comprobaciones": [
+            "Conserva volumen y calidad del servicio para comparar",
+            "Los principios se traducen en acciones verificables",
+            "No oculta costes de reparación, transporte o soporte",
+            "Identifica límites de medición y diferencia datos de supuestos",
+            "Mantiene seguridad, compatibilidad y accesibilidad necesarias",
+            "Registra lo realmente realizado y la comprobación antes-después",
+            "Considera soporte, función y fases externas al consumo eléctrico",
+            "Cada criterio tiene evidencia y condición de parada",
+            "Cita fuente oficial vigente y no simula autorizaciones de gestor"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Analiza un plan de sostenibilidad de una empresa del sector, identificando sus grupos de interés, los aspectos ASG materiales y justificando acciones para su gestión y medición. Se han identificado los principales grupos de interés de la empresa.",
+      "materiales": [
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/01-guia.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/03-medicion-ciclo-de-vida-y-trazabilidad.md",
+        "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra6"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar grupos de interés",
+          "actividad": "1708-RA6-A1",
+          "evidencia": "Mapa de interesados de la empresa elegida",
+          "aceptacion": "Incluye relación con el servicio y forma de recoger expectativas"
+        },
+        {
+          "letra": "b",
+          "resumen": "Analizar materialidad, expectativas y objetivos",
+          "actividad": "1708-RA6-A1",
+          "evidencia": "Matriz ASG priorizada con justificación",
+          "aceptacion": "Relaciona importancia para interesados y para la organización"
+        },
+        {
+          "letra": "c",
+          "resumen": "Definir acciones sobre impactos y oportunidades",
+          "actividad": "1708-RA6-A1",
+          "evidencia": "Plan con responsables, recursos e hitos",
+          "aceptacion": "Cada acción deriva de un asunto priorizado y tiene revisión"
+        },
+        {
+          "letra": "d",
+          "resumen": "Elegir métricas y estándares",
+          "actividad": "1708-RA6-A1",
+          "evidencia": "Diccionario de indicadores con unidad, fuente y periodo",
+          "aceptacion": "Permite reproducir la medida y declara el alcance del estándar"
+        },
+        {
+          "letra": "e",
+          "resumen": "Elaborar informe del plan de sostenibilidad",
+          "actividad": "1708-RA6-A1",
+          "evidencia": "Informe con decisiones, indicadores y límites",
+          "aceptacion": "Presenta datos trazables, pendientes y seguimiento sin atribuir certificación"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1708-RA6-A1",
+          "titulo": "Evaluar un plan de sostenibilidad del sector",
+          "guia": "segundo/sostenibilidad-aplicada-al-sistema-productivo/06-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Mapa de interesados de la empresa elegida",
+            "Matriz ASG priorizada con justificación",
+            "Plan con responsables, recursos e hitos",
+            "Diccionario de indicadores con unidad, fuente y periodo",
+            "Informe con decisiones, indicadores y límites"
+          ],
+          "comprobaciones": [
+            "Incluye relación con el servicio y forma de recoger expectativas",
+            "Relaciona importancia para interesados y para la organización",
+            "Cada acción deriva de un asunto priorizado y tiene revisión",
+            "Permite reproducir la medida y declara el alcance del estándar",
+            "Presenta datos trazables, pendientes y seguimiento sin atribuir certificación"
+          ]
+        }
+      ]
+    }
+  ]
+}

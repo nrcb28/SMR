@@ -1,0 +1,528 @@
+{
+  "modulo": "0226",
+  "nombre": "Seguridad informática",
+  "carpeta": "segundo/seguridad-informatica",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional Seguridad informática, código 0226, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Real Decreto 499/2024, de 21 de mayo",
+      "url": "https://www.boe.es/eli/es/rd/2024/05/21/499",
+      "localizador": "Artículo séptimo.Uno: adaptación del anexo I y sustitución de módulos; los RA técnicos aquí utilizados proceden del anexo I del RD 1691/2007",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/seguridad-informatica/09-alineacion-ra.md",
+  "guia_retos": "segundo/seguridad-informatica/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Aplica medidas de seguridad pasiva en sistemas informáticos describiendo características de entornos y relacionándolas con sus necesidades.",
+      "materiales": [
+        "segundo/seguridad-informatica/05-riesgos-bia-y-diseno-de-controles.md",
+        "segundo/seguridad-informatica/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Justificar protección de información",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Inventario e impacto",
+          "aceptacion": "Se relaciona un dato con pérdida, alteración o exposición"
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir seguridad física y lógica",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Mapa de amenazas y controles",
+          "aceptacion": "No se atribuye a un control una función distinta"
+        },
+        {
+          "letra": "c",
+          "resumen": "Definir ubicación y ambiente",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Plano y ficha de condiciones",
+          "aceptacion": "Acceso, ventilación y riesgos se justifican con el entorno"
+        },
+        {
+          "letra": "d",
+          "resumen": "Proteger físicamente equipos",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Plan de acceso y anclaje",
+          "aceptacion": "Se comprueban las medidas sin obstruir operación segura"
+        },
+        {
+          "letra": "e",
+          "resumen": "Verificar funcionamiento del SAI",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Ensayo supervisado y registro",
+          "aceptacion": "El fabricante y la supervisión permiten la prueba sin improvisar cortes"
+        },
+        {
+          "letra": "f",
+          "resumen": "Seleccionar puntos protegidos por SAI",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Lista de cargas y cálculo",
+          "aceptacion": "Se justifican capacidad, autonomía y dependencias de red"
+        },
+        {
+          "letra": "g",
+          "resumen": "Diseñar política mediante ACL",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Matriz de identidades y operaciones",
+          "aceptacion": "Los permisos coinciden con la función y se prueba denegación"
+        },
+        {
+          "letra": "h",
+          "resumen": "Justificar política de contraseñas",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Política y proceso de recuperación",
+          "aceptacion": "Se consideran fortaleza, MFA y custodia sin exponer claves"
+        },
+        {
+          "letra": "i",
+          "resumen": "Valorar biometría",
+          "actividad": "0226-RA1-A1",
+          "evidencia": "Comparación y necesidad",
+          "aceptacion": "Se analizan límites, alternativas y datos implicados"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0226-RA1-A1",
+          "titulo": "Seguridad pasiva y SAI",
+          "guia": "segundo/seguridad-informatica/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Inventario e impacto",
+            "Mapa de amenazas y controles",
+            "Plano y ficha de condiciones",
+            "Plan de acceso y anclaje",
+            "Ensayo supervisado y registro",
+            "Lista de cargas y cálculo",
+            "Matriz de identidades y operaciones",
+            "Política y proceso de recuperación",
+            "Comparación y necesidad"
+          ],
+          "comprobaciones": [
+            "Se relaciona un dato con pérdida, alteración o exposición",
+            "No se atribuye a un control una función distinta",
+            "Acceso, ventilación y riesgos se justifican con el entorno",
+            "Se comprueban las medidas sin obstruir operación segura",
+            "El fabricante y la supervisión permiten la prueba sin improvisar cortes",
+            "Se justifican capacidad, autonomía y dependencias de red",
+            "Los permisos coinciden con la función y se prueba denegación",
+            "Se consideran fortaleza, MFA y custodia sin exponer claves",
+            "Se analizan límites, alternativas y datos implicados"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Gestiona dispositivos de almacenamiento describiendo los procedimientos efectuados y aplicando técnicas para asegurar la integridad de la información.",
+      "materiales": [
+        "segundo/seguridad-informatica/07-criptografia-copias-y-continuidad.md",
+        "segundo/seguridad-informatica/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Interpretar una política de almacenamiento",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Requisitos y retención",
+          "aceptacion": "Se identifican datos, responsable, RPO y conservación"
+        },
+        {
+          "letra": "b",
+          "resumen": "Considerar rendimiento y acceso",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Tabla de factores y carga",
+          "aceptacion": "Se relacionan capacidad, latencia, disponibilidad y permisos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Clasificar métodos de almacenamiento",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Inventario local y de red",
+          "aceptacion": "Se distingue dispositivo, volumen, protocolo y servicio"
+        },
+        {
+          "letra": "d",
+          "resumen": "Explicar redundancia y distribución",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Esquema y modos de fallo",
+          "aceptacion": "Se distingue continuidad de respaldo independiente"
+        },
+        {
+          "letra": "e",
+          "resumen": "Elegir estrategias de backup",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Plan justificado",
+          "aceptacion": "Datos y objetivos determinan el tipo de copia"
+        },
+        {
+          "letra": "f",
+          "resumen": "Definir frecuencia y rotación",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Calendario y puntos recuperables",
+          "aceptacion": "El peor intervalo y retención están calculados"
+        },
+        {
+          "letra": "g",
+          "resumen": "Ejecutar estrategias distintas",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Registros de dos métodos",
+          "aceptacion": "Se verifica qué contiene cada copia y cómo restaurarla"
+        },
+        {
+          "letra": "h",
+          "resumen": "Identificar medios remotos y extraíbles",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Ficha de soporte y custodia",
+          "aceptacion": "Se explican riesgos y compatibilidad del medio"
+        },
+        {
+          "letra": "i",
+          "resumen": "Utilizar medios remotos y extraíbles",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Copia y prueba desde destino",
+          "aceptacion": "Se comprueba identidad del almacenamiento y acceso"
+        },
+        {
+          "letra": "j",
+          "resumen": "Crear y restaurar imagen de sistema operativo",
+          "actividad": "0226-RA2-A1",
+          "evidencia": "Imagen coherente y VM recuperada",
+          "aceptacion": "Se demuestra estado del sistema y arranque restaurado, no sólo un archivo"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0226-RA2-A1",
+          "titulo": "Almacenamiento y recuperación verificable",
+          "guia": "segundo/seguridad-informatica/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Requisitos y retención",
+            "Tabla de factores y carga",
+            "Inventario local y de red",
+            "Esquema y modos de fallo",
+            "Plan justificado",
+            "Calendario y puntos recuperables",
+            "Registros de dos métodos",
+            "Ficha de soporte y custodia",
+            "Copia y prueba desde destino",
+            "Imagen coherente y VM recuperada"
+          ],
+          "comprobaciones": [
+            "Se identifican datos, responsable, RPO y conservación",
+            "Se relacionan capacidad, latencia, disponibilidad y permisos",
+            "Se distingue dispositivo, volumen, protocolo y servicio",
+            "Se distingue continuidad de respaldo independiente",
+            "Datos y objetivos determinan el tipo de copia",
+            "El peor intervalo y retención están calculados",
+            "Se verifica qué contiene cada copia y cómo restaurarla",
+            "Se explican riesgos y compatibilidad del medio",
+            "Se comprueba identidad del almacenamiento y acceso",
+            "Se demuestra estado del sistema y arranque restaurado, no sólo un archivo"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Aplica mecanismos de seguridad activa describiendo sus características y relacionándolas con las necesidades de uso del sistema informático.",
+      "materiales": [
+        "segundo/seguridad-informatica/06-hardening-y-cambios-seguros.md",
+        "segundo/seguridad-informatica/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Seguir contingencia ante un fallo",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Cronología y decisiones",
+          "aceptacion": "La contención y retorno siguen un procedimiento conocido"
+        },
+        {
+          "letra": "b",
+          "resumen": "Clasificar malware",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Matriz de comportamiento",
+          "aceptacion": "Se distingue tipo, vía y efecto sin ejecutar muestras reales"
+        },
+        {
+          "letra": "c",
+          "resumen": "Actualizar para corregir vulnerabilidades",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Versiones y comprobación",
+          "aceptacion": "Se revisan avisos, dependencias y regresión después de actualizar"
+        },
+        {
+          "letra": "d",
+          "resumen": "Verificar procedencia de aplicaciones",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Firma o repositorio validado",
+          "aceptacion": "El origen se contrasta por un mecanismo de confianza"
+        },
+        {
+          "letra": "e",
+          "resumen": "Instalar y comprobar antimalware",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Motor, firmas y prueba inocua",
+          "aceptacion": "Se registra detección controlada y recuperación, sin malware real"
+        },
+        {
+          "letra": "f",
+          "resumen": "Recuperar datos",
+          "actividad": "0226-RA3-A1",
+          "evidencia": "Ensayo sobre copia de un medio sintético",
+          "aceptacion": "Se conserva origen y se verifica contenido recuperado"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0226-RA3-A1",
+          "titulo": "Protección activa y recuperación de datos",
+          "guia": "segundo/seguridad-informatica/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Cronología y decisiones",
+            "Matriz de comportamiento",
+            "Versiones y comprobación",
+            "Firma o repositorio validado",
+            "Motor, firmas y prueba inocua",
+            "Ensayo sobre copia de un medio sintético"
+          ],
+          "comprobaciones": [
+            "La contención y retorno siguen un procedimiento conocido",
+            "Se distingue tipo, vía y efecto sin ejecutar muestras reales",
+            "Se revisan avisos, dependencias y regresión después de actualizar",
+            "El origen se contrasta por un mecanismo de confianza",
+            "Se registra detección controlada y recuperación, sin malware real",
+            "Se conserva origen y se verifica contenido recuperado"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Asegura la privacidad de la información transmitida en redes informáticas describiendo vulnerabilidades e instalando software especifico.",
+      "materiales": [
+        "segundo/seguridad-informatica/02-guia-tecnica.md",
+        "segundo/seguridad-informatica/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Inventariar y controlar servicios",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Puertos y responsables",
+          "aceptacion": "Cada listener tiene necesidad y alcance justificados"
+        },
+        {
+          "letra": "b",
+          "resumen": "Analizar fraude por ingeniería social",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Caso y señales",
+          "aceptacion": "Se propone verificación independiente sin interacción con atacantes"
+        },
+        {
+          "letra": "c",
+          "resumen": "Reducir tráfico no deseado",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Reglas y resultados sintéticos",
+          "aceptacion": "Filtros distinguen mensajes válidos y descartados sin pérdida no justificada"
+        },
+        {
+          "letra": "d",
+          "resumen": "Evitar observación de red cableada",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Diseño y comprobación de cifrado",
+          "aceptacion": "Se explica qué protege el canal y qué metadatos siguen visibles"
+        },
+        {
+          "letra": "e",
+          "resumen": "Comparar seguridad Wi-Fi",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Matriz de protocolos",
+          "aceptacion": "La elección se fundamenta en autenticación, cifrado y compatibilidad"
+        },
+        {
+          "letra": "f",
+          "resumen": "Describir firma y certificado",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Modelo de confianza",
+          "aceptacion": "Se distinguen identidad, firma, hash y cifrado"
+        },
+        {
+          "letra": "g",
+          "resumen": "Usar identificación digital",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Archivo firmado y verificación",
+          "aceptacion": "Original valida y una modificación de copia invalida la firma"
+        },
+        {
+          "letra": "h",
+          "resumen": "Configurar un cortafuegos",
+          "actividad": "0226-RA4-A1",
+          "evidencia": "Reglas y matriz de flujos",
+          "aceptacion": "Accesos permitidos y denegados coinciden, con retorno desde consola"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0226-RA4-A1",
+          "titulo": "Privacidad de las comunicaciones e identidad",
+          "guia": "segundo/seguridad-informatica/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Puertos y responsables",
+            "Caso y señales",
+            "Reglas y resultados sintéticos",
+            "Diseño y comprobación de cifrado",
+            "Matriz de protocolos",
+            "Modelo de confianza",
+            "Archivo firmado y verificación",
+            "Reglas y matriz de flujos"
+          ],
+          "comprobaciones": [
+            "Cada listener tiene necesidad y alcance justificados",
+            "Se propone verificación independiente sin interacción con atacantes",
+            "Filtros distinguen mensajes válidos y descartados sin pérdida no justificada",
+            "Se explica qué protege el canal y qué metadatos siguen visibles",
+            "La elección se fundamenta en autenticación, cifrado y compatibilidad",
+            "Se distinguen identidad, firma, hash y cifrado",
+            "Original valida y una modificación de copia invalida la firma",
+            "Accesos permitidos y denegados coinciden, con retorno desde consola"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Reconoce la legislación y normativa sobre seguridad y protección de datos analizando las repercusiones de su incumplimiento.",
+      "materiales": [
+        "segundo/seguridad-informatica/08-incidentes-privacidad-y-casos-resueltos.md",
+        "segundo/seguridad-informatica/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar legislación de datos personales",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Ficha de normas y contexto",
+          "aceptacion": "Se distingue texto histórico del marco actual aplicable"
+        },
+        {
+          "letra": "b",
+          "resumen": "Controlar acceso a información personal",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Matriz y minimización",
+          "aceptacion": "Sólo roles necesarios acceden y queda trazabilidad definida"
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar intervinientes legales",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Mapa de roles del caso",
+          "aceptacion": "Responsable y encargado se asignan según decisiones y funciones reales"
+        },
+        {
+          "letra": "d",
+          "resumen": "Atender derechos de las personas",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Procedimiento y caso sintético",
+          "aceptacion": "Se verifica identidad proporcional y canal autorizado sin revelar terceros"
+        },
+        {
+          "letra": "e",
+          "resumen": "Explicar normativa de servicios digitales",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Ficha del servicio y obligaciones",
+          "aceptacion": "Se diferencia web interna, publicación y actividad comercial del supuesto"
+        },
+        {
+          "letra": "f",
+          "resumen": "Comparar marcos de gestión de seguridad",
+          "actividad": "0226-RA5-A1",
+          "evidencia": "Mapa de alcance",
+          "aceptacion": "No se afirma certificación o ENS aplicable sin analizar la entidad"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0226-RA5-A1",
+          "titulo": "Expediente normativo de un servicio",
+          "guia": "segundo/seguridad-informatica/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Ficha de normas y contexto",
+            "Matriz y minimización",
+            "Mapa de roles del caso",
+            "Procedimiento y caso sintético",
+            "Ficha del servicio y obligaciones",
+            "Mapa de alcance"
+          ],
+          "comprobaciones": [
+            "Se distingue texto histórico del marco actual aplicable",
+            "Sólo roles necesarios acceden y queda trazabilidad definida",
+            "Responsable y encargado se asignan según decisiones y funciones reales",
+            "Se verifica identidad proporcional y canal autorizado sin revelar terceros",
+            "Se diferencia web interna, publicación y actividad comercial del supuesto",
+            "No se afirma certificación o ENS aplicable sin analizar la entidad"
+          ]
+        }
+      ]
+    }
+  ]
+}

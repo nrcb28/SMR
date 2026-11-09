@@ -1,0 +1,467 @@
+{
+  "modulo": "CMO-313",
+  "nombre": "Fundamentos de programación",
+  "carpeta": "optativas/CMO-313-fundamentos-programacion",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-313; BOCM página 191 y siguientes; PDF páginas 174–175",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-313-fundamentos-programacion/README.md",
+  "guia_retos": "optativas/CMO-313-fundamentos-programacion/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado los bloques que componen la estructura de un programa informático.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han creado proyectos de desarrollo de aplicaciones.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han utilizado entornos integrados de desarrollo.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han identificado los distintos tipos de variables y la utilidad específica de cada uno.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Proyecto, tabla de tipos y traza del depurador».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se ha modificado el código de un programa para crear y utilizar variables.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Proyecto, tabla de tipos y traza del depurador».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han creado y utilizado constantes y literales.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "h",
+          "resumen": "Comprobar que se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Proyecto, tabla de tipos y traza del depurador; apartado h con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "i",
+          "resumen": "Comprobar que se han introducido comentarios en el código.",
+          "actividad": "CMO-313-RA1-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio i, incorporados a «Proyecto, tabla de tipos y traza del depurador».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA1-A1",
+          "titulo": "Leer la estructura de una aplicación de inventario",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Proyecto, tabla de tipos y traza del depurador",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "La persona explica estructura, valor y tipo de cada expresión y reproduce el caso de conversión inválida.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado los fundamentos de la programación.",
+          "actividad": "CMO-313-RA2-A1",
+          "evidencia": "Código de funciones, contrato y casos de entrada/salida; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se diferencian parámetros, argumentos y retorno, y los casos válidos e inválidos tienen resultado previsto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han escrito programas simples.",
+          "actividad": "CMO-313-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio b, incorporados a «Código de funciones, contrato y casos de entrada/salida».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han utilizado métodos/ funciones.",
+          "actividad": "CMO-313-RA2-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio c, incorporados a «Código de funciones, contrato y casos de entrada/salida».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han utilizado parámetros en la llamada métodos.",
+          "actividad": "CMO-313-RA2-A1",
+          "evidencia": "Código de funciones, contrato y casos de entrada/salida; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se diferencian parámetros, argumentos y retorno, y los casos válidos e inválidos tienen resultado previsto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han incorporado y utilizado librerías.",
+          "actividad": "CMO-313-RA2-A1",
+          "evidencia": "Código de funciones, contrato y casos de entrada/salida; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se diferencian parámetros, argumentos y retorno, y los casos válidos e inválidos tienen resultado previsto. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA2-A1",
+          "titulo": "Descomponer una solución en funciones",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Código de funciones, contrato y casos de entrada/salida",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se diferencian parámetros, argumentos y retorno, y los casos válidos e inválidos tienen resultado previsto.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha escrito y probado código que haga uso de estructuras de selección.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio a, incorporados a «Tabla de ramas, programa y registro de corrección».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han utilizado estructuras de repetición.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Tabla de ramas, programa y registro de corrección; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las ramas relevantes se ejercitan y el bucle finaliza con listas vacías y entradas de frontera. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido las posibilidades de las sentencias de salto.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Tabla de ramas, programa y registro de corrección; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Todas las ramas relevantes se ejercitan y el bucle finaliza con listas vacías y entradas de frontera. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha escrito código utilizando control de excepciones.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Tabla de ramas, programa y registro de corrección».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han creado programas ejecutables utilizando diferentes estructuras de control.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Tabla de ramas, programa y registro de corrección».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han probado y depurado los programas.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio f, incorporados a «Tabla de ramas, programa y registro de corrección».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se ha comentado y documentado el código.",
+          "actividad": "CMO-313-RA3-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio g, incorporados a «Tabla de ramas, programa y registro de corrección».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA3-A1",
+          "titulo": "Controlar flujo y depurar decisiones",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Tabla de ramas, programa y registro de corrección",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Todas las ramas relevantes se ejercitan y el bucle finaliza con listas vacías y entradas de frontera.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Conoce los fundamentos de la programación orientada a objetos.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han definido y utilizado clases adecuadamente.",
+          "actividad": "CMO-313-RA4-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio a, incorporados a «Clases, diagrama breve y casos de invariantes».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se ha conocido el concepto de herencia y su utilización",
+          "actividad": "CMO-313-RA4-A1",
+          "evidencia": "Clases, diagrama breve y casos de invariantes; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los objetos válidos se crean, los estados imposibles se rechazan y la herencia no rompe el comportamiento esperado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han diferenciado las condiciones de acceso a los atributos y métodos que definen una clase.",
+          "actividad": "CMO-313-RA4-A1",
+          "evidencia": "Clases, diagrama breve y casos de invariantes; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Los objetos válidos se crean, los estados imposibles se rechazan y la herencia no rompe el comportamiento esperado. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA4-A1",
+          "titulo": "Modelar activos con clases",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c"
+          ],
+          "entregables": [
+            "Clases, diagrama breve y casos de invariantes",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Los objetos válidos se crean, los estados imposibles se rechazan y la herencia no rompe el comportamiento esperado.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Realiza operaciones de entrada y salida de información utilizando ficheros usando las librerías o clases que ofrece el lenguaje de programación.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra5"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha utilizado la consola para realizar operaciones de entrada y salida de información.",
+          "actividad": "CMO-313-RA5-A1",
+          "evidencia": "Archivos de intercambio, lector y reporte de errores; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se conservan tipos y códigos, y los errores de entrada no producen un informe aparentemente válido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han aplicado formatos en la visualización de la información.",
+          "actividad": "CMO-313-RA5-A1",
+          "evidencia": "Archivos de intercambio, lector y reporte de errores; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se conservan tipos y códigos, y los errores de entrada no producen un informe aparentemente válido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas.",
+          "actividad": "CMO-313-RA5-A1",
+          "evidencia": "Archivos de intercambio, lector y reporte de errores; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Se conservan tipos y códigos, y los errores de entrada no producen un informe aparentemente válido. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han utilizado ficheros para almacenar y recuperar información.",
+          "actividad": "CMO-313-RA5-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Archivos de intercambio, lector y reporte de errores».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han creado programas que utilicen ficheros distintos formatos.",
+          "actividad": "CMO-313-RA5-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio e, incorporados a «Archivos de intercambio, lector y reporte de errores».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA5-A1",
+          "titulo": "Intercambiar datos sin perder su significado",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Archivos de intercambio, lector y reporte de errores",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Se conservan tipos y códigos, y los errores de entrada no producen un informe aparentemente válido.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Gestiona información almacenada en bases de datos relacionales manteniendo la integridad y la consistencia de los datos.",
+      "materiales": [
+        "optativas/CMO-313-fundamentos-programacion/README.md#ra6"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han identificado las características y métodos de acceso a sistemas gestores de bases de datos relacionales.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Aplicación de gestión mínima, consultas y ensayo de rollback; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las operaciones válidas funcionan, las violaciones se rechazan y una transacción fallida no deja cambios parciales. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han programado conexiones con bases de datos.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio b, incorporados a «Aplicación de gestión mínima, consultas y ensayo de rollback».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha escrito código para almacenar información en bases de datos.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio c, incorporados a «Aplicación de gestión mínima, consultas y ensayo de rollback».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han creado programas para recuperar y mostrar información almacenada en bases de datos.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Código y caso de entrada/salida identificado para el criterio d, incorporados a «Aplicación de gestión mínima, consultas y ensayo de rollback».",
+          "aceptacion": "La operación de programación indicada se explica y se reproduce con un caso normal y uno de límite o error, según el contrato del programa."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han efectuado borrados y modificaciones sobre la información almacenada.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Aplicación de gestión mínima, consultas y ensayo de rollback; apartado e con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las operaciones válidas funcionan, las violaciones se rechazan y una transacción fallida no deja cambios parciales. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han creado aplicaciones que ejecuten consultas sobre bases de datos.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Aplicación de gestión mínima, consultas y ensayo de rollback; apartado f con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las operaciones válidas funcionan, las violaciones se rechazan y una transacción fallida no deja cambios parciales. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se han creado aplicaciones para posibilitar la gestión de información presente en bases de datos relacionales.",
+          "actividad": "CMO-313-RA6-A1",
+          "evidencia": "Aplicación de gestión mínima, consultas y ensayo de rollback; apartado g con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las operaciones válidas funcionan, las violaciones se rechazan y una transacción fallida no deja cambios parciales. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-313-RA6-A1",
+          "titulo": "Conectar código y base relacional con integridad",
+          "guia": "optativas/CMO-313-fundamentos-programacion/README.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Aplicación de gestión mínima, consultas y ensayo de rollback",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las operaciones válidas funcionan, las violaciones se rechazan y una transacción fallida no deja cambios parciales.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}

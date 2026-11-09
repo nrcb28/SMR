@@ -1,0 +1,542 @@
+{
+  "modulo": "1710",
+  "nombre": "Itinerario personal para la empleabilidad II",
+  "carpeta": "segundo/itinerario-personal-para-la-empleabilidad-ii",
+  "fuentes": [
+    {
+      "norma": "Orden 3537/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-6.PDF",
+      "localizador": "Anexo VIII, módulo 1710, páginas impresas 293–296, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "segundo/itinerario-personal-para-la-empleabilidad-ii/07-alineacion-ra.md",
+  "guia_retos": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Planifica y pone en marcha estrategias en los diferentes procesos selectivos de empleo que le permiten mejorar sus posibilidades de inserción laboral.",
+      "materiales": [
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/04-seleccion-comunicacion-y-equipos.md",
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/06-casos-profesionales-resueltos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Reconocer técnicas actuales de selección del sector",
+          "actividad": "1710-RA1-A1",
+          "evidencia": "Comparación de dos procesos de soporte IT",
+          "aceptacion": "Distingue cribado, prueba, entrevista y evidencia solicitada con fuente y fecha"
+        },
+        {
+          "letra": "b",
+          "resumen": "Ejecutar búsqueda adaptada al sector",
+          "actividad": "1710-RA1-A1",
+          "evidencia": "Plan de búsqueda y candidatura ensayada",
+          "aceptacion": "Selecciona canales y adapta evidencias a requisitos concretos"
+        },
+        {
+          "letra": "c",
+          "resumen": "Valorar actitudes y aptitudes en selección pública y privada",
+          "actividad": "1710-RA1-A1",
+          "evidencia": "Matriz de selección y autoevaluación",
+          "aceptacion": "Diferencia capacidad demostrada, actitud y requisito formal de acceso"
+        },
+        {
+          "letra": "d",
+          "resumen": "Construir una marca personal con valor para el mercado",
+          "actividad": "1710-RA1-A1",
+          "evidencia": "Presentación y portfolio saneado",
+          "aceptacion": "Cada afirmación de valor tiene evidencia atribuida sin datos personales innecesarios"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1710-RA1-A1",
+          "titulo": "Candidatura y proceso de selección contrastado",
+          "guia": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Comparación de dos procesos de soporte IT",
+            "Plan de búsqueda y candidatura ensayada",
+            "Matriz de selección y autoevaluación",
+            "Presentación y portfolio saneado"
+          ],
+          "comprobaciones": [
+            "Distingue cribado, prueba, entrevista y evidencia solicitada con fuente y fecha",
+            "Selecciona canales y adapta evidencias a requisitos concretos",
+            "Diferencia capacidad demostrada, actitud y requisito formal de acceso",
+            "Cada afirmación de valor tiene evidencia atribuida sin datos personales innecesarios"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Aplica estrategias relacionadas con las competencias personales, sociales y emocionales para el empleo en búsqueda de la mejora de su empleabilidad.",
+      "materiales": [
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/04-seleccion-comunicacion-y-equipos.md",
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/06-casos-profesionales-resueltos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Valorar competencias personales y sociales del soporte",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Ficha de comportamientos observables",
+          "aceptacion": "Conecta cada competencia con una situación y efecto en el servicio"
+        },
+        {
+          "letra": "b",
+          "resumen": "Participar en objetivos, decisiones y liderazgo compartido",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Acta y reparto rotativo de tareas",
+          "aceptacion": "Se identifica contribución individual, decisión y responsabilidad compartida"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar comunicación oral y escrita adecuada",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Relevo de incidencia y conversación ensayada",
+          "aceptacion": "Adapta canal y destinatario y distingue dato, hipótesis y petición"
+        },
+        {
+          "letra": "d",
+          "resumen": "Gestionar tiempo y objetivos individuales y colectivos",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Plan de capacidad y revisión de tiempos",
+          "aceptacion": "Estima carga, deja margen y contrasta plan con resultado observado"
+        },
+        {
+          "letra": "e",
+          "resumen": "Canalizar emociones y adaptarse en las relaciones",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Registro reflexivo de un desacuerdo simulado",
+          "aceptacion": "Expresa necesidades y límites sin etiquetar ni descalificar personas"
+        },
+        {
+          "letra": "f",
+          "resumen": "Programar actividades con eficiencia y contingencias",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Tablero con dependencias y alternativa",
+          "aceptacion": "La programación respeta capacidad y prevé al menos un bloqueo"
+        },
+        {
+          "letra": "g",
+          "resumen": "Responder de forma flexible a conflicto o cambio",
+          "actividad": "1710-RA2-A1",
+          "evidencia": "Segunda decisión tras una condición nueva",
+          "aceptacion": "Revisa la decisión con evidencia y explica la oportunidad y el riesgo"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1710-RA2-A1",
+          "titulo": "Equipo de soporte con incidencia y conflicto",
+          "guia": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Ficha de comportamientos observables",
+            "Acta y reparto rotativo de tareas",
+            "Relevo de incidencia y conversación ensayada",
+            "Plan de capacidad y revisión de tiempos",
+            "Registro reflexivo de un desacuerdo simulado",
+            "Tablero con dependencias y alternativa",
+            "Segunda decisión tras una condición nueva"
+          ],
+          "comprobaciones": [
+            "Conecta cada competencia con una situación y efecto en el servicio",
+            "Se identifica contribución individual, decisión y responsabilidad compartida",
+            "Adapta canal y destinatario y distingue dato, hipótesis y petición",
+            "Estima carga, deja margen y contrasta plan con resultado observado",
+            "Expresa necesidades y límites sin etiquetar ni descalificar personas",
+            "La programación respeta capacidad y prevé al menos un bloqueo",
+            "Revisa la decisión con evidencia y explica la oportunidad y el riesgo"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Pone en práctica las habilidades emprendedoras necesarias para el desarrollo de procesos de innovación e investigación aplicadas que promuevan la modernización del sector productivo hacia un modelo sostenible.",
+      "materiales": [
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/01-guia.md",
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/06-casos-profesionales-resueltos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Relacionar innovación con sostenibilidad y bienestar",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Problema y mejora propuesta",
+          "aceptacion": "Identifica beneficio y posible perjuicio para personas o entorno"
+        },
+        {
+          "letra": "b",
+          "resumen": "Comparar metodologías de emprendimiento",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Elección razonada de método de piloto",
+          "aceptacion": "Distingue explorar problema, prototipar y planificar ejecución"
+        },
+        {
+          "letra": "c",
+          "resumen": "Aplicar habilidades de emprendimiento e intraemprendimiento",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Iniciativa presentada a un equipo ficticio",
+          "aceptacion": "Formula alcance, recursos y decisión sin exigir crear una empresa"
+        },
+        {
+          "letra": "d",
+          "resumen": "Colaborar en la innovación",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Registro de aportaciones y revisión por pares",
+          "aceptacion": "El piloto incorpora aportaciones y muestra cómo se resolvieron discrepancias"
+        },
+        {
+          "letra": "e",
+          "resumen": "Usar competencia digital en investigación e innovación",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Datos y análisis reproducibles del piloto",
+          "aceptacion": "Conserva datos sintéticos, método y limitaciones de la muestra"
+        },
+        {
+          "letra": "f",
+          "resumen": "Incorporar objetivos de sostenibilidad a la estrategia",
+          "actividad": "1710-RA3-A1",
+          "evidencia": "Matriz objetivo-acción-indicador",
+          "aceptacion": "La acción es medible y evita desplazar el impacto a otra parte sin explicarlo"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1710-RA3-A1",
+          "titulo": "Piloto de innovación sostenible",
+          "guia": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Problema y mejora propuesta",
+            "Elección razonada de método de piloto",
+            "Iniciativa presentada a un equipo ficticio",
+            "Registro de aportaciones y revisión por pares",
+            "Datos y análisis reproducibles del piloto",
+            "Matriz objetivo-acción-indicador"
+          ],
+          "comprobaciones": [
+            "Identifica beneficio y posible perjuicio para personas o entorno",
+            "Distingue explorar problema, prototipar y planificar ejecución",
+            "Formula alcance, recursos y decisión sin exigir crear una empresa",
+            "El piloto incorpora aportaciones y muestra cómo se resolvieron discrepancias",
+            "Conserva datos sintéticos, método y limitaciones de la muestra",
+            "La acción es medible y evita desplazar el impacto a otra parte sin explicarlo"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Identifica, define y valida ideas de emprendimiento generadoras de nuevas oportunidades a partir de estrategias de análisis del entorno socio productivo utilizando metodologías ágiles para el emprendimiento.",
+      "materiales": [
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/01-guia.md",
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/02-casos-practicos.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar problemas de destinatarios antes de proponer",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Mapa de necesidades e hipótesis",
+          "aceptacion": "Separa necesidad observada y solución imaginada"
+        },
+        {
+          "letra": "b",
+          "resumen": "Aplicar creatividad para generar valor",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Alternativas y criterios de elección",
+          "aceptacion": "Explora varias opciones y justifica una por valor económico, social o cultural"
+        },
+        {
+          "letra": "c",
+          "resumen": "Diseñar un modelo de negocio o gestión",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Lienzo de propuesta y operación",
+          "aceptacion": "Relaciona destinatario, valor, recursos, costes e ingresos o financiación"
+        },
+        {
+          "letra": "d",
+          "resumen": "Incorporar valores éticos y balance social",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Revisión ética con posibles efectos",
+          "aceptacion": "Identifica un conflicto de valores y una medida verificable"
+        },
+        {
+          "letra": "e",
+          "resumen": "Analizar economía circular y bien común",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Decisión de reutilización y acceso al servicio",
+          "aceptacion": "Explica efecto material y social con límites de la comparación"
+        },
+        {
+          "letra": "f",
+          "resumen": "Analizar entorno general y específico",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Mapa de factores y actores",
+          "aceptacion": "Distingue factor de contexto, competencia y capacidad interna"
+        },
+        {
+          "letra": "g",
+          "resumen": "Realizar entrevistas de problema",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Guion, respuestas sintéticas y revisión",
+          "aceptacion": "Las preguntas no presuponen la solución y conservan discrepancias"
+        },
+        {
+          "letra": "h",
+          "resumen": "Validar solución con prototipo",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Prototipo y observación de una tarea",
+          "aceptacion": "El usuario ficticio intenta una tarea con criterio previo de éxito"
+        },
+        {
+          "letra": "i",
+          "resumen": "Experimentar comunicación y venta con ética",
+          "actividad": "1710-RA4-A1",
+          "evidencia": "Dos mensajes y comparación de interpretación",
+          "aceptacion": "No promete beneficios no demostrados y recoge reacción para revisar el mensaje"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1710-RA4-A1",
+          "titulo": "Validación de una necesidad y un prototipo",
+          "guia": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i"
+          ],
+          "entregables": [
+            "Mapa de necesidades e hipótesis",
+            "Alternativas y criterios de elección",
+            "Lienzo de propuesta y operación",
+            "Revisión ética con posibles efectos",
+            "Decisión de reutilización y acceso al servicio",
+            "Mapa de factores y actores",
+            "Guion, respuestas sintéticas y revisión",
+            "Prototipo y observación de una tarea",
+            "Dos mensajes y comparación de interpretación"
+          ],
+          "comprobaciones": [
+            "Separa necesidad observada y solución imaginada",
+            "Explora varias opciones y justifica una por valor económico, social o cultural",
+            "Relaciona destinatario, valor, recursos, costes e ingresos o financiación",
+            "Identifica un conflicto de valores y una medida verificable",
+            "Explica efecto material y social con límites de la comparación",
+            "Distingue factor de contexto, competencia y capacidad interna",
+            "Las preguntas no presuponen la solución y conservan discrepancias",
+            "El usuario ficticio intenta una tarea con criterio previo de éxito",
+            "No promete beneficios no demostrados y recoge reacción para revisar el mensaje"
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Desarrolla un proyecto emprendedor de innovación social y/o tecnológica aplicada en colaboración con el entorno.",
+      "materiales": [
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/05-viabilidad-y-tesoreria-avanzada.md",
+        "segundo/itinerario-personal-para-la-empleabilidad-ii/plantilla-plan-profesional.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprender emprendimiento e innovación social",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Finalidad del proyecto y problema social",
+          "aceptacion": "Explica a quién beneficia y qué cambio se pretende observar"
+        },
+        {
+          "letra": "b",
+          "resumen": "Valorar liderazgo ético y sostenible",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Acuerdo de gobierno del equipo",
+          "aceptacion": "Incluye rendición de cuentas y tratamiento de un dilema"
+        },
+        {
+          "letra": "c",
+          "resumen": "Interpretar tecnología como cambio productivo",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Diagrama antes/después del proceso",
+          "aceptacion": "Explica qué cambia, quién asume trabajo y qué dependencia aparece"
+        },
+        {
+          "letra": "d",
+          "resumen": "Aplicar pensamiento de diseño a necesidades sociales y ambientales",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Registro de descubrimiento y prototipo",
+          "aceptacion": "Conecta observación, alternativas, ensayo y revisión"
+        },
+        {
+          "letra": "e",
+          "resumen": "Analizar modelos ecosociales o tecnológicos",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Comparación de dos modelos",
+          "aceptacion": "Justifica elección frente a recursos, destinatarios y misión"
+        },
+        {
+          "letra": "f",
+          "resumen": "Alinear metas sostenibles y modelo de negocio",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Matriz de metas e indicadores",
+          "aceptacion": "Cada meta elegida tiene una acción y unidad de medida"
+        },
+        {
+          "letra": "g",
+          "resumen": "Analizar viabilidad económica y financiera",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Hoja de margen, equilibrio y caja",
+          "aceptacion": "Distingue beneficio y tesorería y declara hipótesis y sensibilidad"
+        },
+        {
+          "letra": "h",
+          "resumen": "Investigar financiación socialmente responsable",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Tabla de opciones y condiciones",
+          "aceptacion": "Compara coste, riesgo, requisitos y coherencia ética sin contratar"
+        },
+        {
+          "letra": "i",
+          "resumen": "Definir agentes y participación",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Mapa de interesados y acuerdos",
+          "aceptacion": "Cada participante tiene contribución, decisión o información definida"
+        },
+        {
+          "letra": "j",
+          "resumen": "Seleccionar forma jurídica adecuada",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Comparación de alternativas jurídicas",
+          "aceptacion": "Cita fuente oficial y justifica adecuación sin afirmar una elección universal"
+        },
+        {
+          "letra": "k",
+          "resumen": "Describir trámites de puesta en marcha",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Secuencia documental con dependencias",
+          "aceptacion": "Distingue administraciones y no presenta la simulación como trámite realizado"
+        },
+        {
+          "letra": "l",
+          "resumen": "Identificar obligaciones fiscales del modelo",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Calendario de obligaciones a verificar",
+          "aceptacion": "Relaciona actividad y obligación con fuente y periodo sin inventar tipos actuales"
+        },
+        {
+          "letra": "m",
+          "resumen": "Analizar ayudas y subvenciones posibles",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Ficha de convocatoria real o ausencia verificada",
+          "aceptacion": "Distingue convocatoria, requisitos, plazo y concesión no garantizada"
+        },
+        {
+          "letra": "n",
+          "resumen": "Cumplimentar documentación comercial y contable básica",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Presupuesto, registro y justificante sintéticos",
+          "aceptacion": "Los documentos son consistentes entre sí y están marcados como simulación"
+        },
+        {
+          "letra": "ñ",
+          "resumen": "Identificar asesoramiento y gestión externa",
+          "actividad": "1710-RA5-A1",
+          "evidencia": "Mapa de recursos profesionales y públicos",
+          "aceptacion": "Asocia necesidad y servicio, identificando límite y modo de consulta"
+        }
+      ],
+      "actividades": [
+        {
+          "id": "1710-RA5-A1",
+          "titulo": "Proyecto ecosocial con viabilidad y expediente",
+          "guia": "segundo/itinerario-personal-para-la-empleabilidad-ii/08-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j",
+            "k",
+            "l",
+            "m",
+            "n",
+            "ñ"
+          ],
+          "entregables": [
+            "Finalidad del proyecto y problema social",
+            "Acuerdo de gobierno del equipo",
+            "Diagrama antes/después del proceso",
+            "Registro de descubrimiento y prototipo",
+            "Comparación de dos modelos",
+            "Matriz de metas e indicadores",
+            "Hoja de margen, equilibrio y caja",
+            "Tabla de opciones y condiciones",
+            "Mapa de interesados y acuerdos",
+            "Comparación de alternativas jurídicas",
+            "Secuencia documental con dependencias",
+            "Calendario de obligaciones a verificar",
+            "Ficha de convocatoria real o ausencia verificada",
+            "Presupuesto, registro y justificante sintéticos",
+            "Mapa de recursos profesionales y públicos"
+          ],
+          "comprobaciones": [
+            "Explica a quién beneficia y qué cambio se pretende observar",
+            "Incluye rendición de cuentas y tratamiento de un dilema",
+            "Explica qué cambia, quién asume trabajo y qué dependencia aparece",
+            "Conecta observación, alternativas, ensayo y revisión",
+            "Justifica elección frente a recursos, destinatarios y misión",
+            "Cada meta elegida tiene una acción y unidad de medida",
+            "Distingue beneficio y tesorería y declara hipótesis y sensibilidad",
+            "Compara coste, riesgo, requisitos y coherencia ética sin contratar",
+            "Cada participante tiene contribución, decisión o información definida",
+            "Cita fuente oficial y justifica adecuación sin afirmar una elección universal",
+            "Distingue administraciones y no presenta la simulación como trámite realizado",
+            "Relaciona actividad y obligación con fuente y periodo sin inventar tipos actuales",
+            "Distingue convocatoria, requisitos, plazo y concesión no garantizada",
+            "Los documentos son consistentes entre sí y están marcados como simulación",
+            "Asocia necesidad y servicio, identificando límite y modo de consulta"
+          ]
+        }
+      ]
+    }
+  ]
+}

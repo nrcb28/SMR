@@ -1,0 +1,671 @@
+{
+  "modulo": "0225",
+  "nombre": "Redes locales",
+  "carpeta": "primero/redes-locales",
+  "fuentes": [
+    {
+      "norma": "Real Decreto 1691/2007, de 14 de diciembre",
+      "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691",
+      "localizador": "Anexo I, módulo profesional 0225, resultados de aprendizaje y criterios de evaluación",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "primero/redes-locales/09-alineacion-ra.md",
+  "guia_retos": "primero/redes-locales/10-retos-por-ra.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Reconoce la estructura de redes locales cableadas analizando las características de entornos de aplicación y describiendo la funcionalidad de sus componentes.",
+      "materiales": [
+        "primero/redes-locales/01-fundamentos.md",
+        "primero/redes-locales/06-conmutacion-y-diseno-segmentado.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Explicar el funcionamiento de una LAN",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Recorrido de una comunicación puesto–recurso, anotado por capas",
+          "aceptacion": "Relaciona trama, dirección, conmutación y servicio sin confundirlos."
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir tipos de redes por alcance y uso",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Comparación de LAN, enlace entre dependencias y salida exterior",
+          "aceptacion": "Clasifica cada escenario y explica qué necesidad satisface."
+        },
+        {
+          "letra": "c",
+          "resumen": "Identificar componentes y su función",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Inventario de tomas, paneles, adaptadores, switch, AP y servidor",
+          "aceptacion": "Cada componente tiene función, conexiones y dependencia identificadas."
+        },
+        {
+          "letra": "d",
+          "resumen": "Clasificar medios de transmisión",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Tabla de cobre, fibra y radio con conectores y limitaciones",
+          "aceptacion": "Justifica la elección con entorno y ficha técnica, sin mezclar formato y protocolo."
+        },
+        {
+          "letra": "e",
+          "resumen": "Reconocer el mapa físico",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Plano con puestos, armario, recorridos y extremos",
+          "aceptacion": "Permite localizar una conexión sin deducirla del direccionamiento IP."
+        },
+        {
+          "letra": "f",
+          "resumen": "Representar el mapa mediante una aplicación",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Diagrama editable con leyenda, cotas o escala y etiquetas",
+          "aceptacion": "El archivo se abre y conserva todos los extremos y cambios del diseño."
+        },
+        {
+          "letra": "g",
+          "resumen": "Distinguir topologías de red",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Comparativa de estrella y enlace entre switches",
+          "aceptacion": "Explica recorrido, dominio de fallo y capacidad compartida."
+        },
+        {
+          "letra": "h",
+          "resumen": "Proponer estructuras alternativas",
+          "actividad": "0225-RA1-A1",
+          "evidencia": "Dos diseños comparados frente a puertos, coste y crecimiento",
+          "aceptacion": "La alternativa satisface requisitos y contabiliza servicios y uplinks."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA1-A1",
+          "titulo": "Dossier físico y lógico de un aula de seis puestos",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Recorrido de una comunicación puesto–recurso, anotado por capas",
+            "Comparación de LAN, enlace entre dependencias y salida exterior",
+            "Inventario de tomas, paneles, adaptadores, switch, AP y servidor",
+            "Tabla de cobre, fibra y radio con conectores y limitaciones",
+            "Plano con puestos, armario, recorridos y extremos",
+            "Diagrama editable con leyenda, cotas o escala y etiquetas",
+            "Comparativa de estrella y enlace entre switches",
+            "Dos diseños comparados frente a puertos, coste y crecimiento"
+          ],
+          "comprobaciones": [
+            "Relaciona trama, dirección, conmutación y servicio sin confundirlos.",
+            "Clasifica cada escenario y explica qué necesidad satisface.",
+            "Cada componente tiene función, conexiones y dependencia identificadas.",
+            "Justifica la elección con entorno y ficha técnica, sin mezclar formato y protocolo.",
+            "Permite localizar una conexión sin deducirla del direccionamiento IP.",
+            "El archivo se abre y conserva todos los extremos y cambios del diseño.",
+            "Explica recorrido, dominio de fallo y capacidad compartida.",
+            "La alternativa satisface requisitos y contabiliza servicios y uplinks."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Despliega el cableado de una red local interpretando especificaciones y aplicando técnicas de montaje.",
+      "materiales": [
+        "primero/redes-locales/02-guia-tecnica.md",
+        "primero/redes-locales/03-practicas.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Relacionar funcionamiento de LAN y despliegue",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Esquema del trayecto que se va a instalar",
+          "aceptacion": "El plan de tendido responde al funcionamiento y necesidades del segmento."
+        },
+        {
+          "letra": "b",
+          "resumen": "Identificar la red del montaje",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Ficha del tipo de red y su alcance en la maqueta",
+          "aceptacion": "No atribuye routing o radio a componentes que no los implementan."
+        },
+        {
+          "letra": "c",
+          "resumen": "Diferenciar medios antes de instalar",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Selección de medio, producto y herramientas por enlace",
+          "aceptacion": "El medio elegido y sus terminaciones son compatibles con el entorno."
+        },
+        {
+          "letra": "d",
+          "resumen": "Interpretar categoría, recorrido y soporte",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Ficha de cableado con canalización, longitudes y restricciones del fabricante",
+          "aceptacion": "Las decisiones corresponden al producto y al espacio, con supuestos visibles."
+        },
+        {
+          "letra": "e",
+          "resumen": "Seleccionar y montar canalizaciones",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Registro de montaje supervisado y fijaciones de la bancada",
+          "aceptacion": "La canalización queda estable y mantenible, sin intervenir instalaciones ajenas."
+        },
+        {
+          "letra": "f",
+          "resumen": "Montar armario y accesorios",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Observación del bastidor, fijación, organización y ventilación",
+          "aceptacion": "Respeta montaje del fabricante y manipulación segura de cargas."
+        },
+        {
+          "letra": "g",
+          "resumen": "Terminar tomas y paneles",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Fichas de terminación y fotografías autorizadas con sus identificadores",
+          "aceptacion": "Los dos extremos mantienen el esquema y la técnica del producto."
+        },
+        {
+          "letra": "h",
+          "resumen": "Probar los enlaces toma–panel",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Resultado por enlace, instrumento, modalidad y límite de la prueba",
+          "aceptacion": "La prueba corresponde a ese enlace y no se presenta continuidad como certificación."
+        },
+        {
+          "letra": "i",
+          "resumen": "Etiquetar cables y tomas",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Tabla de etiquetas concordante con plano y bancada",
+          "aceptacion": "Cada identificador permite encontrar origen y destino sin ambigüedad."
+        },
+        {
+          "letra": "j",
+          "resumen": "Mantener calidad y seguridad",
+          "actividad": "0225-RA2-A1",
+          "evidencia": "Checklist de ejecución, revisión y desviaciones corregidas",
+          "aceptacion": "La instalación supera su aceptación y la observación preventiva del centro."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA2-A1",
+          "titulo": "Maqueta de cableado, dos tomas y panel de parcheo",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Esquema del trayecto que se va a instalar",
+            "Ficha del tipo de red y su alcance en la maqueta",
+            "Selección de medio, producto y herramientas por enlace",
+            "Ficha de cableado con canalización, longitudes y restricciones del fabricante",
+            "Registro de montaje supervisado y fijaciones de la bancada",
+            "Observación del bastidor, fijación, organización y ventilación",
+            "Fichas de terminación y fotografías autorizadas con sus identificadores",
+            "Resultado por enlace, instrumento, modalidad y límite de la prueba",
+            "Tabla de etiquetas concordante con plano y bancada",
+            "Checklist de ejecución, revisión y desviaciones corregidas"
+          ],
+          "comprobaciones": [
+            "El plan de tendido responde al funcionamiento y necesidades del segmento.",
+            "No atribuye routing o radio a componentes que no los implementan.",
+            "El medio elegido y sus terminaciones son compatibles con el entorno.",
+            "Las decisiones corresponden al producto y al espacio, con supuestos visibles.",
+            "La canalización queda estable y mantenible, sin intervenir instalaciones ajenas.",
+            "Respeta montaje del fabricante y manipulación segura de cargas.",
+            "Los dos extremos mantienen el esquema y la técnica del producto.",
+            "La prueba corresponde a ese enlace y no se presenta continuidad como certificación.",
+            "Cada identificador permite encontrar origen y destino sin ambigüedad.",
+            "La instalación supera su aceptación y la observación preventiva del centro."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Interconecta equipos en redes locales cableadas describiendo estándares de cableado y aplicando técnicas de montaje de conectores.",
+      "materiales": [
+        "primero/redes-locales/01-fundamentos.md",
+        "primero/redes-locales/02-guia-tecnica.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Interpretar el plan lógico de montaje",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Plan anotado con puertos, conexiones y segmentos",
+          "aceptacion": "Las conexiones ejecutadas corresponden al plan y a sus cambios autorizados."
+        },
+        {
+          "letra": "b",
+          "resumen": "Montar adaptadores de red",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Registro de instalación, controlador y reconocimiento del adaptador",
+          "aceptacion": "El equipo reconoce la interfaz correcta y su compatibilidad está documentada."
+        },
+        {
+          "letra": "c",
+          "resumen": "Montar conectores en cobre y fibra",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Ficha observada de terminación en ambos medios y prueba prevista",
+          "aceptacion": "La técnica y el resultado corresponden al kit; enchufar un latiguillo no se declara terminación."
+        },
+        {
+          "letra": "d",
+          "resumen": "Instalar conmutadores en el armario",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Registro de fijación, espacio y ventilación del switch",
+          "aceptacion": "La instalación respeta el procedimiento y no carga peso sobre conectores."
+        },
+        {
+          "letra": "e",
+          "resumen": "Conectar switch y paneles",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Tabla puerto–latiguillo–panel–toma",
+          "aceptacion": "El recorrido físico coincide con las etiquetas y el diagrama final."
+        },
+        {
+          "letra": "f",
+          "resumen": "Verificar conectividad de la instalación",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Matriz de enlace, dirección y comunicación entre los extremos",
+          "aceptacion": "Diferencia prueba física, IP y servicio y localiza la capa que falla."
+        },
+        {
+          "letra": "g",
+          "resumen": "Aplicar calidad al montaje",
+          "actividad": "0225-RA3-A1",
+          "evidencia": "Revisión de acabado, pruebas y correcciones",
+          "aceptacion": "La bancada queda ordenada y sus resultados son trazables al enlace probado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA3-A1",
+          "titulo": "Interconexión de equipos con terminaciones de cobre y fibra",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Plan anotado con puertos, conexiones y segmentos",
+            "Registro de instalación, controlador y reconocimiento del adaptador",
+            "Ficha observada de terminación en ambos medios y prueba prevista",
+            "Registro de fijación, espacio y ventilación del switch",
+            "Tabla puerto–latiguillo–panel–toma",
+            "Matriz de enlace, dirección y comunicación entre los extremos",
+            "Revisión de acabado, pruebas y correcciones"
+          ],
+          "comprobaciones": [
+            "Las conexiones ejecutadas corresponden al plan y a sus cambios autorizados.",
+            "El equipo reconoce la interfaz correcta y su compatibilidad está documentada.",
+            "La técnica y el resultado corresponden al kit; enchufar un latiguillo no se declara terminación.",
+            "La instalación respeta el procedimiento y no carga peso sobre conectores.",
+            "El recorrido físico coincide con las etiquetas y el diagrama final.",
+            "Diferencia prueba física, IP y servicio y localiza la capa que falla.",
+            "La bancada queda ordenada y sus resultados son trazables al enlace probado."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Instala equipos en red, describiendo sus prestaciones y aplicando técnicas de montaje.",
+      "materiales": [
+        "primero/redes-locales/02-guia-tecnica.md",
+        "primero/redes-locales/06-conmutacion-y-diseno-segmentado.md",
+        "primero/redes-locales/07-ingenieria-wifi-y-capacidad.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Caracterizar la red inalámbrica",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Ficha de bandas, capacidades, medio compartido y necesidades",
+          "aceptacion": "Relaciona prestaciones con equipo y entorno, no sólo con velocidad anunciada."
+        },
+        {
+          "letra": "b",
+          "resumen": "Distinguir modos de funcionamiento",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Comparativa AP, cliente y funciones de router disponibles",
+          "aceptacion": "Identifica qué equipo hace puente, routing, NAT o DHCP en el escenario."
+        },
+        {
+          "letra": "c",
+          "resumen": "Instalar adaptadores y AP",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Registro de montaje y reconocimiento de dos tipos de cliente",
+          "aceptacion": "Los equipos y controladores utilizados corresponden al diseño real."
+        },
+        {
+          "letra": "d",
+          "resumen": "Configurar modo y parámetros iniciales",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Configuración saneada de SSID, modo, banda y canal",
+          "aceptacion": "Los valores son compatibles con dispositivos y regulación aplicable."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar conectividad entre dispositivos",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Matriz de asociación, IP y acceso permitido con varios clientes",
+          "aceptacion": "Distingue asociación de acceso al recurso y registra fallos por dispositivo."
+        },
+        {
+          "letra": "f",
+          "resumen": "Instalar software de los equipos",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Versiones, procedencia y comprobación de controlador/utilidad",
+          "aceptacion": "El software soportado reconoce el equipo sin desactivar controles para ocultar fallos."
+        },
+        {
+          "letra": "g",
+          "resumen": "Identificar protocolos empleados",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Esquema de Wi-Fi, direccionamiento, autenticación y servicios",
+          "aceptacion": "Relaciona cada protocolo con la función que demuestra la prueba."
+        },
+        {
+          "letra": "h",
+          "resumen": "Configurar parámetros de red",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Tabla de IP, prefijos, VLAN, DNS y gestión efectivos",
+          "aceptacion": "No introduce gateways ficticios ni duplicados; cada parámetro responde al plan."
+        },
+        {
+          "letra": "i",
+          "resumen": "Aplicar seguridad básica",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Política de autenticación, aislamiento y acceso de gestión",
+          "aceptacion": "Identidades y orígenes no autorizados se rechazan con una prueba controlada."
+        },
+        {
+          "letra": "j",
+          "resumen": "Crear y configurar VLAN",
+          "actividad": "0225-RA4-A1",
+          "evidencia": "Configuración de puertos y prueba de pertenencia/aislamiento",
+          "aceptacion": "El equipo o simulador implementa VLAN y su comportamiento coincide con el diseño."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA4-A1",
+          "titulo": "Red mixta Wi-Fi y VLAN con política de acceso",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h",
+            "i",
+            "j"
+          ],
+          "entregables": [
+            "Ficha de bandas, capacidades, medio compartido y necesidades",
+            "Comparativa AP, cliente y funciones de router disponibles",
+            "Registro de montaje y reconocimiento de dos tipos de cliente",
+            "Configuración saneada de SSID, modo, banda y canal",
+            "Matriz de asociación, IP y acceso permitido con varios clientes",
+            "Versiones, procedencia y comprobación de controlador/utilidad",
+            "Esquema de Wi-Fi, direccionamiento, autenticación y servicios",
+            "Tabla de IP, prefijos, VLAN, DNS y gestión efectivos",
+            "Política de autenticación, aislamiento y acceso de gestión",
+            "Configuración de puertos y prueba de pertenencia/aislamiento"
+          ],
+          "comprobaciones": [
+            "Relaciona prestaciones con equipo y entorno, no sólo con velocidad anunciada.",
+            "Identifica qué equipo hace puente, routing, NAT o DHCP en el escenario.",
+            "Los equipos y controladores utilizados corresponden al diseño real.",
+            "Los valores son compatibles con dispositivos y regulación aplicable.",
+            "Distingue asociación de acceso al recurso y registra fallos por dispositivo.",
+            "El software soportado reconoce el equipo sin desactivar controles para ocultar fallos.",
+            "Relaciona cada protocolo con la función que demuestra la prueba.",
+            "No introduce gateways ficticios ni duplicados; cada parámetro responde al plan.",
+            "Identidades y orígenes no autorizados se rechazan con una prueba controlada.",
+            "El equipo o simulador implementa VLAN y su comportamiento coincide con el diseño."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "enunciado_oficial": "Mantiene una red local interpretando recomendaciones de los fabricantes de hardware o software y estableciendo la relación entre disfunciones y sus causas.",
+      "materiales": [
+        "primero/redes-locales/04-diagnostico-y-evaluacion.md",
+        "primero/redes-locales/08-analisis-de-protocolos-y-laboratorios.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar anomalías e incidencias",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Ticket con síntoma, alcance, momento y línea base",
+          "aceptacion": "Define un comportamiento reproducible y el servicio esperado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Separar hipótesis hardware/software",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Árbol de diagnóstico y pruebas discriminantes",
+          "aceptacion": "Cada prueba reduce alternativas y evita cambiar varias variables a la vez."
+        },
+        {
+          "letra": "c",
+          "resumen": "Observar indicadores visuales",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Registro del estado de puerto y LED con su significado documentado",
+          "aceptacion": "Interpreta el indicador del fabricante sin concluir salud completa por una luz."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar protocolos",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Consultas y capturas limitadas al tráfico propio",
+          "aceptacion": "Distingue solicitud, respuesta, error y límites de la observación."
+        },
+        {
+          "letra": "e",
+          "resumen": "Localizar la causa",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Evidencia antes/después y alternativas descartadas",
+          "aceptacion": "La causa explica el síntoma y se confirma con un cambio controlado."
+        },
+        {
+          "letra": "f",
+          "resumen": "Restituir mediante sustitución física",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Registro del elemento de formación cambiado y prueba repetida",
+          "aceptacion": "La sustitución identificada recupera su función sin ocultar otro fallo."
+        },
+        {
+          "letra": "g",
+          "resumen": "Corregir la disfunción de software",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Cambio de configuración o reinstalación justificada y recuperación",
+          "aceptacion": "Conserva datos y estado previo; el comportamiento vuelve a la línea base."
+        },
+        {
+          "letra": "h",
+          "resumen": "Elaborar informe de incidencia",
+          "actividad": "0225-RA5-A1",
+          "evidencia": "Expediente con causa, intervención, pruebas y prevención",
+          "aceptacion": "Otra persona puede reconstruir la reparación y sus límites."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA5-A1",
+          "titulo": "Expediente de mantenimiento con fallo físico y lógico",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra5",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Ticket con síntoma, alcance, momento y línea base",
+            "Árbol de diagnóstico y pruebas discriminantes",
+            "Registro del estado de puerto y LED con su significado documentado",
+            "Consultas y capturas limitadas al tráfico propio",
+            "Evidencia antes/después y alternativas descartadas",
+            "Registro del elemento de formación cambiado y prueba repetida",
+            "Cambio de configuración o reinstalación justificada y recuperación",
+            "Expediente con causa, intervención, pruebas y prevención"
+          ],
+          "comprobaciones": [
+            "Define un comportamiento reproducible y el servicio esperado.",
+            "Cada prueba reduce alternativas y evita cambiar varias variables a la vez.",
+            "Interpreta el indicador del fabricante sin concluir salud completa por una luz.",
+            "Distingue solicitud, respuesta, error y límites de la observación.",
+            "La causa explica el síntoma y se confirma con un cambio controlado.",
+            "La sustitución identificada recupera su función sin ocultar otro fallo.",
+            "Conserva datos y estado previo; el comportamiento vuelve a la línea base.",
+            "Otra persona puede reconstruir la reparación y sus límites."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "enunciado_oficial": "Cumple las normas de prevención de riesgos laborales y de protección ambiental, identificando los riesgos asociados, las medidas y equipos para prevenirlos.",
+      "materiales": [
+        "primero/redes-locales/03-practicas.md",
+        "primero/redes-locales/10-retos-por-ra.md"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Identificar riesgos y peligrosidad de tareas concretas",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Tabla tarea–material–peligro–daño–control",
+          "aceptacion": "Relaciona corte, fijación, carga, paso y fibra con el procedimiento autorizado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Operar respetando normas de seguridad",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Lista de observación supervisada de herramientas y equipo",
+          "aceptacion": "Se aplican instrucciones y condiciones de parada durante la operación real."
+        },
+        {
+          "letra": "c",
+          "resumen": "Reconocer causas frecuentes de accidente",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Análisis de situaciones de la bancada",
+          "aceptacion": "Explica causas y medidas sin provocar un accidente para demostrarlo."
+        },
+        {
+          "letra": "d",
+          "resumen": "Describir protecciones y EPI",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Selección razonada por herramienta y tarea",
+          "aceptacion": "Identifica resguardos, protecciones y EPI apropiados al riesgo previsto."
+        },
+        {
+          "letra": "e",
+          "resumen": "Relacionar manipulación y protección",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Secuencia de trabajo con controles y responsables",
+          "aceptacion": "El control se utiliza en el momento de riesgo y no sustituye otros medios necesarios."
+        },
+        {
+          "letra": "f",
+          "resumen": "Reconocer fuentes de contaminación",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Inventario de residuos y posibles impactos del montaje",
+          "aceptacion": "Identifica recortes, fibra, componentes y envases sin mezclarlos por conveniencia."
+        },
+        {
+          "letra": "g",
+          "resumen": "Clasificar residuos para retirada",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Registro de separación y circuito autorizado del centro",
+          "aceptacion": "Los residuos se depositan y retiran por el procedimiento correspondiente."
+        },
+        {
+          "letra": "h",
+          "resumen": "Valorar orden y limpieza como prevención",
+          "actividad": "0225-RA6-A1",
+          "evidencia": "Inspección inicial/final con incidencias corregidas",
+          "aceptacion": "No quedan fragmentos, herramientas o cables que generen peligro en la zona."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "0225-RA6-A1",
+          "titulo": "Plan preventivo aplicado y cierre ambiental de la bancada",
+          "guia": "primero/redes-locales/10-retos-por-ra.md#ra6",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ],
+          "entregables": [
+            "Tabla tarea–material–peligro–daño–control",
+            "Lista de observación supervisada de herramientas y equipo",
+            "Análisis de situaciones de la bancada",
+            "Selección razonada por herramienta y tarea",
+            "Secuencia de trabajo con controles y responsables",
+            "Inventario de residuos y posibles impactos del montaje",
+            "Registro de separación y circuito autorizado del centro",
+            "Inspección inicial/final con incidencias corregidas"
+          ],
+          "comprobaciones": [
+            "Relaciona corte, fijación, carga, paso y fibra con el procedimiento autorizado.",
+            "Se aplican instrucciones y condiciones de parada durante la operación real.",
+            "Explica causas y medidas sin provocar un accidente para demostrarlo.",
+            "Identifica resguardos, protecciones y EPI apropiados al riesgo previsto.",
+            "El control se utiliza en el momento de riesgo y no sustituye otros medios necesarios.",
+            "Identifica recortes, fibra, componentes y envases sin mezclarlos por conveniencia.",
+            "Los residuos se depositan y retiran por el procedimiento correspondiente.",
+            "No quedan fragmentos, herramientas o cables que generen peligro en la zona."
+          ]
+        }
+      ]
+    }
+  ]
+}

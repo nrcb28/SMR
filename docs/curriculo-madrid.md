@@ -67,3 +67,13 @@ Otros elementos que dependen de la programación son las aplicaciones concretas 
 El cambio de organización suprime FOL, Empresa e iniciativa emprendedora y FCT como módulos del plan adaptado. Sus guías están reunidas en [plan-anterior](../plan-anterior/README.md), con identificación histórica. La transición y las convalidaciones se resuelven según la norma y las instrucciones administrativas; tener contenidos similares no permite asumir una convalidación automática.
 
 Antes de utilizar el repositorio como programación docente, contrasta currículo, matrícula, posibles adaptaciones autorizadas e instrucciones del curso. Para comprobar la estructura automáticamente se incluye el [inventario de módulos en JSON](../recursos/plan-estudios-madrid.json), que reproduce los datos organizativos y enlaza las carpetas.
+
+## 7. Desarrollo por resultados de aprendizaje
+
+El [mapa de RA y CE](mapa-ra.md) desarrolla la relación entre resultados oficiales, criterios, guías y actividades. La parte común comprende los ocho módulos técnicos, Inglés profesional, IPE I y II, Digitalización, Sostenibilidad y Proyecto. La numeración de los transversales sigue el desarrollo de Madrid; las guías explican las diferencias que podrían aparecer al consultar una lista de otra administración.
+
+La [guía de evaluación y evidencias](evaluacion-por-ra.md) explica cómo utilizar esa relación sin confundir una actividad diseñada con una actuación ya demostrada. Las prácticas que necesitan montaje físico, instrumentación, aplicaciones instaladas o interacción oral indican esas condiciones. Los pesos de las rúbricas propias no se atribuyen a la normativa.
+
+El [catálogo optativo](../optativas/README.md) desarrolla las variantes transversales y los módulos de Informática y Comunicaciones aplicables a SMR según las órdenes consultadas. La relación de códigos posibles no sustituye la oferta del centro ni modifica las 2.000 horas del ciclo: la matrícula incorpora las opciones que correspondan a sus plazas de optatividad.
+
+Los enunciados y letras se conservan en [referentes-oficiales.json](../recursos/ra/referentes-oficiales.json), con fuente y localizador. Las claves editoriales resuelven identificaciones duplicadas en la publicación sin alterar el texto normativo; por ejemplo, las dos letras a) de Proyecto RA5 se distinguen como a.1 y a.2. Las incidencias de extracción se documentan para permitir el cotejo con BOE y BOCM.

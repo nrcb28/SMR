@@ -1,0 +1,305 @@
+{
+  "modulo": "CMO-318",
+  "nombre": "Programación de videojuegos",
+  "carpeta": "optativas/CMO-318-programacion-videojuegos",
+  "fuentes": [
+    {
+      "norma": "Orden 3536/2025, de 12 de agosto",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/08/27/BOCM-20250827-5.PDF",
+      "localizador": "Anexo II, CMO-318; BOCM página 206 y siguientes; PDF páginas 189–190",
+      "fecha_consulta": "2026-11-09"
+    },
+    {
+      "norma": "Orden 3822/2026, de 14 de septiembre",
+      "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2026/09/25/BOCM-20260925-20.PDF",
+      "localizador": "Anexo I sustitutorio, catálogo de optatividad; familia IFC en BOCM páginas107–108",
+      "fecha_consulta": "2026-11-09"
+    }
+  ],
+  "guia_ra": "optativas/CMO-318-programacion-videojuegos/README.md",
+  "guia_retos": "optativas/CMO-318-programacion-videojuegos/README.md",
+  "resultados": [
+    {
+      "numero": 1,
+      "enunciado_oficial": "Identifica los principales referentes de la historia y la cultura del videojuego valorando su incidencia en la sociedad actual y las tendencias de desarrollo.",
+      "materiales": [
+        "optativas/CMO-318-programacion-videojuegos/README.md#ra1"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha situado el videojuego en el contexto de la creación audiovisual, reconociendo su importancia y potencial.",
+          "actividad": "CMO-318-RA1-A1",
+          "evidencia": "Informe de referentes y propuesta de prototipo; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada referencia tiene contexto y la propuesta justifica alcance, recursos y licencias. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han conocido las características del mercado de videojuegos.",
+          "actividad": "CMO-318-RA1-A1",
+          "evidencia": "Informe de referentes y propuesta de prototipo; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada referencia tiene contexto y la propuesta justifica alcance, recursos y licencias. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han reconocido los principales elementos de desarrollo de videojuegos y el state of the art de las tecnologías implicadas.",
+          "actividad": "CMO-318-RA1-A1",
+          "evidencia": "Informe de referentes y propuesta de prototipo; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada referencia tiene contexto y la propuesta justifica alcance, recursos y licencias. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han valorado las principales tendencias en el mundo de los videojuegos en relación con las tecnologías emergentes.",
+          "actividad": "CMO-318-RA1-A1",
+          "evidencia": "Informe de referentes y propuesta de prototipo; apartado d con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Cada referencia tiene contexto y la propuesta justifica alcance, recursos y licencias. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-318-RA1-A1",
+          "titulo": "Situar un prototipo en su contexto",
+          "guia": "optativas/CMO-318-programacion-videojuegos/README.md#ra1",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "entregables": [
+            "Informe de referentes y propuesta de prototipo",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Cada referencia tiene contexto y la propuesta justifica alcance, recursos y licencias.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "enunciado_oficial": "Configura entornos de desarrollo, herramientas y motores de desarrollo de videojuegos, aplicando las técnicas necesarias y teniendo en cuenta los avances tecnológicos en el sector.",
+      "materiales": [
+        "optativas/CMO-318-programacion-videojuegos/README.md#ra2"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha instalado y configurado el motor de desarrollo de videojuegos.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio a; Proyecto mínimo del motor y registro de escenas/recursos/entrada.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han identificado y conectado todos los tipos de recursos disponibles y necesarios para la elaboración del videojuego.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Proyecto mínimo del motor y registro de escenas/recursos/entrada; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El proyecto abre en la versión indicada, ejecuta la escena y responde a la interacción diseñada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se ha definido la estructura de un proyecto de videojuego.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Proyecto mínimo del motor y registro de escenas/recursos/entrada; apartado c con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "El proyecto abre en la versión indicada, ejecuta la escena y responde a la interacción diseñada. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han creado diferentes objetos del videojuego y componentes.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio d; Proyecto mínimo del motor y registro de escenas/recursos/entrada.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han configurado las interacciones entre los diferentes elementos y los conceptos básicos de iluminación.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Proyecto Godot ejecutado con interacción de entrada que alterna PointLight2D, textura/máscaras/ambiente documentados y comparación ON/OFF.",
+          "aceptacion": "En la misma escena se observa el cambio de iluminación al alternar la luz y se explica textura, alcance y máscaras. Sin motor o ejecución, CE2.e queda pendiente."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han analizado y creado las diferentes interacciones del usuario con el videojuego.",
+          "actividad": "CMO-318-RA2-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio f; Proyecto mínimo del motor y registro de escenas/recursos/entrada.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-318-RA2-A1",
+          "titulo": "Preparar un proyecto en un motor",
+          "guia": "optativas/CMO-318-programacion-videojuegos/README.md#ra2",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "entregables": [
+            "Proyecto mínimo del motor y registro de escenas/recursos/entrada",
+            "Registro de resultados esperados/obtenidos y limitaciones",
+            "Escena, recursos, Input Map y evidencia real de iluminación ON/OFF"
+          ],
+          "comprobaciones": [
+            "El proyecto abre en la versión indicada, ejecuta la escena y responde a la interacción diseñada.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada.",
+            "En la misma escena se observa el cambio de iluminación al alternar la luz y se explica textura, alcance y máscaras. Sin motor o ejecución, CE2.e queda pendiente."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "enunciado_oficial": "Establece la arquitectura interna de videojuegos determinando la programación de scripts del motor de desarrollo.",
+      "materiales": [
+        "optativas/CMO-318-programacion-videojuegos/README.md#ra3"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se han manejado conceptos esenciales del lenguaje de programación, utilizado en el motor de desarrollo de videojuegos.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio a; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han analizado los diferentes elementos que intervienen en la mecánica del videojuego.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Scripts, diagrama de estados y traza de eventos; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Una entrada produce el evento esperado una sola vez y la lógica conserva coherencia en pausa y reinicio. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han creado y usado scripts para la programación de los objetos del videojuego.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio c; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se han creado funciones de eventos que ocurren durante el juego.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio d; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han administrado el tiempo de los eventos y acciones y el orden de ejecución.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio e; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "f",
+          "resumen": "Comprobar que se han verificado las herramientas de ayuda a la programación de scripts que permiten la depuración, testeo y desarrollo de los mismos.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio f; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "g",
+          "resumen": "Comprobar que se ha supervisado el sistema de eventos para comunicación entre los objetos de la aplicación basados en la entrada.",
+          "actividad": "CMO-318-RA3-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio g; Scripts, diagrama de estados y traza de eventos.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-318-RA3-A1",
+          "titulo": "Programar estados, eventos y tiempo",
+          "guia": "optativas/CMO-318-programacion-videojuegos/README.md#ra3",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g"
+          ],
+          "entregables": [
+            "Scripts, diagrama de estados y traza de eventos",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Una entrada produce el evento esperado una sola vez y la lógica conserva coherencia en pausa y reinicio.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "enunciado_oficial": "Define el interfaz de usuario del videojuego teniendo en cuenta su rapidez y la facilidad de utilización.",
+      "materiales": [
+        "optativas/CMO-318-programacion-videojuegos/README.md#ra4"
+      ],
+      "criterios": [
+        {
+          "letra": "a",
+          "resumen": "Comprobar que se ha determinado el orden de visualización de todos los objetos que contiene el juego.",
+          "actividad": "CMO-318-RA4-A1",
+          "evidencia": "Interfaz del proyecto y matriz de interacción/ventanas; apartado a con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las acciones son operables, el estado es legible y la interfaz conserva disposición y foco en los tamaños probados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "b",
+          "resumen": "Comprobar que se han ajustado los modos de renderizado de los objetos en la pantalla o contenedor del juego.",
+          "actividad": "CMO-318-RA4-A1",
+          "evidencia": "Interfaz del proyecto y matriz de interacción/ventanas; apartado b con datos, explicación o salida referida expresamente a ese criterio.",
+          "aceptacion": "Las acciones son operables, el estado es legible y la interfaz conserva disposición y foco en los tamaños probados. Se comprueba la operación o explicación concreta del criterio, sin atribuir resultados que no se han observado."
+        },
+        {
+          "letra": "c",
+          "resumen": "Comprobar que se han posicionado y establecido los tamaños y rotaciones de los elementos de la interfaz de usuario en la pantalla.",
+          "actividad": "CMO-318-RA4-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio c; Interfaz del proyecto y matriz de interacción/ventanas.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "d",
+          "resumen": "Comprobar que se ha proporcionado a los elementos del interfaz la interacción asociada a las acciones del videojuego.",
+          "actividad": "CMO-318-RA4-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio d; Interfaz del proyecto y matriz de interacción/ventanas.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        },
+        {
+          "letra": "e",
+          "resumen": "Comprobar que se han configurado las animaciones del interfaz de usuario.",
+          "actividad": "CMO-318-RA4-A1",
+          "evidencia": "Escena, recurso o script del proyecto y demostración de la acción del criterio e; Interfaz del proyecto y matriz de interacción/ventanas.",
+          "aceptacion": "El comportamiento se comprueba ejecutando el proyecto del motor en la versión indicada; una descripción sin ejecución queda como preparación."
+        }
+      ],
+      "actividades": [
+        {
+          "id": "CMO-318-RA4-A1",
+          "titulo": "Construir una interfaz legible y operable",
+          "guia": "optativas/CMO-318-programacion-videojuegos/README.md#ra4",
+          "criterios": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e"
+          ],
+          "entregables": [
+            "Interfaz del proyecto y matriz de interacción/ventanas",
+            "Registro de resultados esperados/obtenidos y limitaciones"
+          ],
+          "comprobaciones": [
+            "Las acciones son operables, el estado es legible y la interfaz conserva disposición y foco en los tamaños probados.",
+            "La evidencia corresponde a una ejecución o revisión identificada y no a una salida inventada."
+          ]
+        }
+      ]
+    }
+  ]
+}
